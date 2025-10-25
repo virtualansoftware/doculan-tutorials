@@ -1,62 +1,104 @@
-# Virtualan
+# Doculan — Document Management & E-Signature
 
-Virtualan Software is a Product development company that helps to solve customer problems in a cost-effective manner using a unique approach.   
+> Smart, secure document management with e-signing and AI-powered document tools.
+> 14-day free trial available for all plans. ([doculan.ai][1])
 
-## Products
+---
 
-- Service virtualization:
-    - **Simple Use case scenarios - Why use Service Virtualization:**
-    | Actor      | Usecase       |   |
-    | -----------|:--------------|:---------|
-    | As a Integration Developer | Build/Modify unit tests for Test Driven Development  ( i.e. prior to integrated code and checkin)| [More](Developer-usecase.md)|
-    | As a Test Engineer  | Build and execute a full test suite, or incrementally add to a test suite, prior to service changes being deployed  | [More] |
-    | As a API Partner/ProductOwner | Evaluate service contracts prior to publishing on your Developer Portal.  Generate sample payloads before service development is complete | [More] |
+## Hero
 
-    Virtualan employs [Service virtualization as code](https://www.linkedin.com/groups/13908063/) to maximize benefits and reduce your efforts. 
-    - Virtualan features:
-        - a cloud-ready solution
-        - Light-weight, simple setup and configuration
-        - test data creation using a Swagger based UI or a REST API 
-        - It’s not just mocking, there's more than mocking 
-        - simulate any software component by deploying a virtualized service
-        - perform service contract validation without any coding or configuration required
-        - deploy in any environment via CI/CD tooling in minimal time
-        - integrate with test automation tools
-    - [Virtualan-plugin](https://github.com/virtualansoftware/virtualan/tree/master/modules/virtualan-plugin)
-        - Virtualan-plugin is a Service virtualization tool, driven by  open-source software, specifically the Open API Interface spec.
-    - [Virtualization](https://github.com/virtualansoftware/virtualan/tree/master/modules/virtualization)
-        - Service virtualization is the simulation of the behavior of software components that are unavailable or otherwise restricted during the preproduction stage of the software development lifecycle. Supports Open API(Rest), Kafka, AMQ, Soap and IBM MQ.
-     - [API first strategy with spring boot application development](Api-first.md) 
-        - Build your contract 
-        - Generate your code as a Mock service
-        - Develop your service using the generated Mock service as your base (for Spring boot services)
-        - Build your application to use the Mock
-        - Virtualize the service in your contract (partially or entirely)
-- [Idaithalam - Lowcode automation](https://github.com/virtualansoftware/idaithalam)
-    - In Idaithalam, Idai means "Interface" and Thalam means "Platform".
-    - Low code Test automation framework using cucumber and supports Behavior Driven Development (BDD). Can build test cases using Excel and Virtualan collection. It allows to build and test api workflow in minutes.
-- [Cucumblan](https://github.com/virtualansoftware/cucumblan)
-    - Cucumblan is a test automation framework that supports Behavior Driven Development (BDD), allowing users to create feature using predefined step definition with low code. I t works based on the Gherkin Domain Specific Language (DSL). This simple but powerful api framework while keeping it comprehensible to even non-technical(product owner, business analyst and domain experts) users.
-- [Idaithalam-server](https://github.com/virtualansoftware/idaithalam-server)
-    - Idaiserver is a reference implementation of Idaithalam.It implements the API services to execute contract tests based on Excel.
-        Idaiserver provides APIs for 
-        - uploading a new contract
-        - run the test
-        - update the configuration
-        - re-run existing test configurations
-        - get the report
-        - get the feature file
-        - get the configuration properties file
-        - get a test summary.
-- [Mapson & Csvson](https://github.com/virtualansoftware/mapson)
-    - **Mapson**
-        - MAPson library represents JSON as MAP with key as Json-Path. MAPson provides options to work json as MAP. It removes technical dependency between gherkin and Json. This would help lot more for Product Owner/Business analysts(Non technical team members) can create a features without knowing the details and simply using JSON hierarchy
-    - **Csvson**
-        -  Mapson library represents JSON as comma separted values(CSV). CSVson provides options to work json as CSV. It removes technical dependency between gherkin and Json. This would help lot more for Product Owner/Business analysts(Non technical team members) can create a features without knowing the details and simply using JSON hierarchy
+**Doculan** — Streamline document workflows, search smarter with OCR and AI, and collect legally binding e-signatures — all in one secure platform.
 
-## Examples
-- [OpenAPI Service Virtualization](https://github.com/virtualansoftware/service-virtualization-openapi)
-- [AsyncAPI Service Virtualization](https://github.com/virtualansoftware/AsyncAPI-Virtualization) 
-- [Microservices-lowcode-testautomation Project](https://github.com/virtualansoftware/microservices-lowcode-testautomation) 
+* Fast document upload (PDF, DOCX, images)
+* Built-in e-signature flow for approvals and signatures
+* AI / OCR search and metadata auto-fill to find documents instantly
+* Role & access controls, versioning, secure cloud storage. ([doculan.ai][1])
 
-----
+**Get started** — 14-day free trial, no hidden fees. ([app.doculan.ai][2])
+
+---
+
+## Key Features
+
+### Document Management
+
+* Upload, organize, tag, and version documents.
+* Role-based access control and secure cloud storage. ([doculan.ai][1])
+
+### E-Signature
+
+* Create signable documents, route for signature, and audit trails for compliance. ([doculan.ai][1])
+
+### AI & OCR
+
+* OCR-enabled full-text search for scanned PDFs and images.
+* AI-assisted metadata extraction and smart tagging for fast retrieval. ([doculan.ai][1])
+
+### Workflow & Automation
+
+* Custom workflows for approvals and reviews.
+* Notifications and activity logs to track changes. ([doculan.ai][1])
+
+### Security & Compliance
+
+* Encrypted storage, access controls, and downloadable records.
+* Paper-copy request policy and hardware/software guidance in T&Cs. ([app.doculan.ai][3])
+
+---
+
+## How It Works
+
+1. **Sign up** — Create an account and choose a plan. ([app.doculan.ai][4])
+2. **Upload documents** — Drag & drop PDF, DOCX, and images. ([doculan.ai][1])
+3. **AI & OCR processing** — Documents are OCR’d and indexed so you can search inside scanned content. ([doculan.ai][1])
+4. **Setup workflow & signatures** — Add approvers, send for e-signature, and get audit logs. ([doculan.ai][1])
+5. **Manage & Export** — Version control, metadata, and export or request paper copies if needed. ([app.doculan.ai][3])
+
+---
+
+## Pricing (Summary)
+
+**Simple, transparent tiers — all plans include a 14-day free trial.** ([app.doculan.ai][2])
+
+* **Free** — Basic testing & limited usage. ([app.doculan.ai][2])
+* **Starter** — For small teams; more storage & features. ([app.doculan.ai][2])
+* **Professional** — Advanced features for growing orgs; automation & higher limits. ([app.doculan.ai][2])
+* **Enterprise** — Custom pricing, SLAs, dedicated support and integrations. ([app.doculan.ai][2])
+
+> Note: The site advertises “14-day free trial” and “simple, transparent pricing” on the subscription/plan page. Exact monthly / annual figures and limits are published on the plan page. ([app.doculan.ai][2])
+
+---
+
+## Frequently Asked Questions
+
+**Is there a free trial?**
+Yes — all plans include a 14-day free trial. ([app.doculan.ai][2])
+
+**What file types are supported?**
+PDF, DOCX, images (scannable formats) and common document types; OCR processes scanned documents. ([doculan.ai][1])
+
+**Can I request paper copies of electronic records?**
+Yes — you may request a paper copy at no additional cost within a reasonable timeframe; see Terms & Conditions for details. ([app.doculan.ai][3])
+
+**Where do I sign up?**
+Create an account on the signup page. ([app.doculan.ai][4])
+
+---
+
+## Legal & Links
+
+* **Terms & Conditions (PDF)** — Contains record access, paper-copy policy, and system requirements. ([app.doculan.ai][3])
+* **Sign in / App** — The application portal and login are at the app subdomain. ([app.doculan.ai][5])
+
+---
+
+## Footer
+
+**Doculan** • Secure Document Management & E-Signing
+Links: Home • Features • Pricing • Sign up • Login • Terms & Conditions • Privacy Policy. ([doculan.ai][1])
+
+[1]: https://www.doculan.ai/?utm_source=chatgpt.com "Doculan | Document Management & E-Signature Solution"
+[2]: https://app.doculan.ai/subscription-plans?utm_source=chatgpt.com "Choose Your Plan - Doculan"
+[3]: https://app.doculan.ai/docs/Terms_%26_Conditions.pdf?utm_source=chatgpt.com "Terms & Conditions - Doculan"
+[4]: https://app.doculan.ai/register?utm_source=chatgpt.com "Create an account - Doculan"
+[5]: https://app.doculan.ai/?utm_source=chatgpt.com "Doculan"
