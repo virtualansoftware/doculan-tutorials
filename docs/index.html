@@ -11,17 +11,17 @@
   <meta name="description" content="Idaithalam is a BDD style Cucumber based low code automation product. Virtualan is a Service virtualization Product and is the simulation of the behavior of Open API that are unavailable or otherwise restricted during the preproduction stage of the software development lifecycle. Virtualan has RESTAPI and user-friendly interface (UI) to set up the test data for your specific type of Rest APIs. This UI would help Developer, Functional Tester or Automation Tester to set up the test data for their specific use cases and test scenarios. Simplified way to setup Service virtualization using Docker Image. It supports #OpenAPI, #AsyncAPI(Kafka and AMQ)."/>
   <meta name="twitter:card" content="summary_image">
   <meta name="twitter:site" content="@virtualans">
-  <meta name="twitter:image" content="https://www.virtualan.io/images/logo.png">
+  <meta name="twitter:image" content="Docu-logo.png">
 
   <meta property="og:type" content="article">
-  <meta property="og:image" content="https://www.virtualan.io/images/logo.png">
+  <meta property="og:image" content="Docu-logo.png">
   <meta property="og:title" content="Service Virtualization, Lowcode Test Automation, API testing"><meta property="og:url" content="https://tutorials.virtualan.io/#/Virtualan">
   <meta property="og:description" content="Virtualan Software is a Product development company that helps to solve customer problems in a cost-effective manner using a unique approach.">
   <meta property="og:site_name" content="virtualan.io">
 
   <meta property="sb:date_published" content="2020-09-09T01:37:23">
   <meta property="sb:date_modified" content="2021-09-09T01:37:23">
-  <meta property="sb:meta_image" content="https://www.virtualan.io/images/logo.png">
+  <meta property="sb:meta_image" content="Docu-logo.png">
   
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -162,8 +162,9 @@
       // Docsify configuration
       window.$docsify = {
         alias: {
-          '/.*/_navbar.md': '/_navbar.md',
-        },
+  '/.*/_navbar.md': '/docs/_navbar.md',  // change path if file lives in /docs
+},
+
         ga: 'G-Z5582BJD5N',
         noCompileLinks: ['/api/.*','/kafka/.*'],
         auto2top: true,
@@ -174,19 +175,19 @@
         mergeNavbar: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        logo: './_media/doculan.png',
+        logo: './_media/Docu-logo.png',
         name: 'virtualan',
         plugins: [
           function (hook, vm) {
             hook.afterEach(function (html) {
-              return (
-                html + '&copy;Virtualan (<a href="https://www.virtualan.io">https://www.virtualan.io</a>) '
-                +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'     
-                +' <a href="mailto:info@virtualan.io" target="_NEW"  class="fa fa-google"></a>   '
-                +' <a href="https://www.linkedin.com/company/virtualan-software" target="_NEW"  class="fa fa-linkedin"></a> '
-                +' <a href="https://www.youtube.com/channel/UCny1F1GiYoo2pARDaSDIzYw" target="_NEW" class="fa fa-youtube"></a> </span> '
+            //   return (
+            //     html + '&copy;Virtualan (<a href="https://www.virtualan.io">https://www.virtualan.io</a>) '
+            //     +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'     
+            //     +' <a href="mailto:info@virtualan.io" target="_NEW"  class="fa fa-google"></a>   '
+            //     +' <a href="https://www.linkedin.com/company/virtualan-software" target="_NEW"  class="fa fa-linkedin"></a> '
+            //     +' <a href="https://www.youtube.com/channel/UCny1F1GiYoo2pARDaSDIzYw" target="_NEW" class="fa fa-youtube"></a> </span> '
                
-              )
+            //   )
             })
           },
         ],
