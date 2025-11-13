@@ -1,10 +1,10 @@
-<!-- 1. Open the received document link from your email.  
+﻿﻿﻿ï»¿<!-- 1. Open the received document link from your email.  
 2. Verify your email with the OTP code.  
 3. On the signing page, click **Decline Document**.  
 4. Provide a **Reason for Decline** and confirm.  
 5. The sender will be notified automatically.  
 
-🖼️ *Screenshot Placeholder: Decline document prompt with reason box* -->
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Decline document prompt with reason box* -->
 
 
 ***************************************************************************************
@@ -12,20 +12,20 @@
 
 # How to Decline an eSign Document?
 
-In some cases, a signer may need to **decline** an eSign document — for example, if the document contains incorrect information, unauthorized clauses, or was sent in error.  
-This guide explains how recipients can **decline an e-sign request**, what happens after it’s declined, and how senders can track this status in **Doculan**.
+In some cases, a signer may need to **decline** an eSign document Ã¢â‚¬â€ for example, if the document contains incorrect information, unauthorized clauses, or was sent in error.  
+This guide explains how recipients can **decline an e-sign request**, what happens after itÃ¢â‚¬â„¢s declined, and how senders can track this status in **Doculan**.
 
 ---
 
-<!-- ##  Step 1 — Open the E-Sign Request from Email
+<!-- ##  Step 1 Ã¢â‚¬â€ Open the E-Sign Request from Email
 
-When a sender sends you a document for e-signing, you’ll receive an **email notification** like this:
+When a sender sends you a document for e-signing, youÃ¢â‚¬â„¢ll receive an **email notification** like this:
 
 Subject: Signature Request - [Document Name]
 
 Dear [Your Name],
 
-You have been requested to review and sign the document “[Document Name]”.
+You have been requested to review and sign the document Ã¢â‚¬Å“[Document Name]Ã¢â‚¬Â.
 
 Click the link below to open and sign securely:
 [View Document]
@@ -33,11 +33,11 @@ Click the link below to open and sign securely:
 
 1. Open the email from **Doculan**.  
 2. Click the **View Document** link.  
-3. You’ll be redirected to the **eSign verification page**.
+3. YouÃ¢â‚¬â„¢ll be redirected to the **eSign verification page**.
 
 --- -->
 
-<!-- ##  Step 2 — Verify OTP to Access the Document
+<!-- ##  Step 2 Ã¢â‚¬â€ Verify OTP to Access the Document
 
 For security purposes, Doculan verifies each recipient before allowing document access.
 
@@ -50,7 +50,7 @@ Once verified, the eSign page will open with the document preview and available 
 
 --- -->
 
-<!-- ##  Step 1 — Review the Document Carefully
+<!-- ##  Step 1 Ã¢â‚¬â€ Review the Document Carefully
 
 Before you make a decision, take time to:
 - Review the document contents line by line.  
@@ -61,16 +61,16 @@ If you find something incorrect or unauthorized, you can **decline** the documen
 
 --- -->
 
-##  Step 1 — Click “Decline” to Reject the Document
+##  Step 1 Ã¢â‚¬â€ Click Ã¢â‚¬Å“DeclineÃ¢â‚¬Â to Reject the Document
 
-You’ll see action buttons at the right side of the document page:
+YouÃ¢â‚¬â„¢ll see action buttons at the right side of the document page:
 - **AI Assist**
 - **Submit**
 - **Decline**
 - **Info**
 - **Exit**
 
-<img src="images\Recipient_Contract_Editing.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Recipient_Contract_Editing.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 To decline:
 
@@ -79,40 +79,40 @@ To decline:
 
 ---
 
-##  Step 2 — Enter a Reason for Declining
+##  Step 2 Ã¢â‚¬â€ Enter a Reason for Declining
 
-A pop-up window appears with a text area labeled **“Decline Document”**.
+A pop-up window appears with a text area labeled **Ã¢â‚¬Å“Decline DocumentÃ¢â‚¬Â**.
 
 <details>
   <summary><b>Steps to Confirm Decline</b></summary>
 
-1. Enter the reason (e.g., “Incorrect contract value”, “Received in error”, “Terms not approved”).  
+1. Enter the reason (e.g., Ã¢â‚¬Å“Incorrect contract valueÃ¢â‚¬Â, Ã¢â‚¬Å“Received in errorÃ¢â‚¬Â, Ã¢â‚¬Å“Terms not approvedÃ¢â‚¬Â).  
 2. Click **Confirm Decline**.  
 3. The document will immediately be marked as **Declined**.
 </details>
 
-<img src="images\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  Once you decline a document, it cannot be reopened or signed later.  
 > The sender must create a new eSign request if changes are made.
 
 ---
 
-##  Step 3 — System Actions After Decline
+##  Step 3 Ã¢â‚¬â€ System Actions After Decline
 
 After the recipient declines the document:
 
 | Effect | Description |
 |--------|-------------|
 | **Document Status** | Changes to **Declined** immediately |
-| **Audit Log** | Adds an entry with “Declined by [Recipient Name]” |
+| **Audit Log** | Adds an entry with Ã¢â‚¬Å“Declined by [Recipient Name]Ã¢â‚¬Â |
 | **Access Restriction** | The declined recipient cannot reopen the document link |
 
-<img src="images\Decline Document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Decline Document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-<!-- ##  Step 7 — Notification Sent to the Sender
+<!-- ##  Step 7 Ã¢â‚¬â€ Notification Sent to the Sender
 
 Once the recipient declines, the sender receives a system email like this:
 
@@ -120,7 +120,7 @@ Subject: eSign Document Declined - [Document Name]
 
 Dear [Sender Name],
 
-The recipient [Recipient Email] has declined to sign the document “[Document Name]”.
+The recipient [Recipient Email] has declined to sign the document Ã¢â‚¬Å“[Document Name]Ã¢â‚¬Â.
 
 Reason provided:
 "Incorrect contract terms"
@@ -133,7 +133,7 @@ Doculan System
 
 --- -->
 
-<!-- ##  Step 8 — Viewing Declined Document Status
+<!-- ##  Step 8 Ã¢â‚¬â€ Viewing Declined Document Status
 
 The sender can view the decline status from the **Dashboard** or **Audit** page.
 
@@ -141,13 +141,13 @@ The sender can view the decline status from the **Dashboard** or **Audit** page.
 2. Locate the document in the table view.  
 3. The **Status** column will now show **Declined** (in red).  
 4. Under **Actions**, you can choose:
-   - **View** → Opens document (read-only)
-   - **Duplicate** → To reuse or correct and resend
-   - **Audit** → To view the activity log
+   - **View** Ã¢â€ â€™ Opens document (read-only)
+   - **Duplicate** Ã¢â€ â€™ To reuse or correct and resend
+   - **Audit** Ã¢â€ â€™ To view the activity log
 
 --- -->
 
-##  Step 4 — Check the Audit Trail
+##  Step 4 Ã¢â‚¬â€ Check the Audit Trail
 
 To confirm who declined and when:
 
@@ -158,7 +158,7 @@ To confirm who declined and when:
    - When it was opened  
    - When it was declined (with timestamp and user email)
 
-<img src="images\Audit_after_Decline.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Audit_after_Decline.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 <!-- Example Audit Log Entry:
 
@@ -170,16 +170,16 @@ To confirm who declined and when:
 
 ---
 
-##  Step 5 — What Happens Next?
+##  Step 5 Ã¢â‚¬â€ What Happens Next?
 
 After a document is declined:
-- The document’s **e-sign workflow is terminated** immediately.  
+- The documentÃ¢â‚¬â„¢s **e-sign workflow is terminated** immediately.  
 - Other recipients in the sequence will not receive the document.  
 <!-- - The sender can **duplicate** or **recreate** the contract, make corrections, and resend it for signing. -->
 
 ---
 
-<!-- ##  Step 11 — Sender Options After Decline
+<!-- ##  Step 11 Ã¢â‚¬â€ Sender Options After Decline
 
 If you are the sender:
 
@@ -192,16 +192,16 @@ If you are the sender:
 
 --- -->
 
-<!-- ##  Step 12 — Tips for Preventing Declines
+<!-- ##  Step 12 Ã¢â‚¬â€ Tips for Preventing Declines
 
 - Always **verify the contents** before sending.  
 - Use **AI Assist** to check for missing or inconsistent details.  
-- **Preview the document** using the View option before clicking “Send Mail”.  
+- **Preview the document** using the View option before clicking Ã¢â‚¬Å“Send MailÃ¢â‚¬Â.  
 - Add **clear instructions** in the email body to guide the signer.  
 
 --- -->
 
-##  Step 6 — Decline vs Cancel — What’s the Difference?
+##  Step 6 Ã¢â‚¬â€ Decline vs Cancel Ã¢â‚¬â€ WhatÃ¢â‚¬â„¢s the Difference?
 
 | Action | Who Performs It | When | Result |
 |---------|-----------------|------|--------|
@@ -210,11 +210,11 @@ If you are the sender:
 
 ---
 
-<!-- ##  Step 14 — Visual Indicators
+<!-- ##  Step 14 Ã¢â‚¬â€ Visual Indicators
 
 In the Dashboard:
 - **Declined** status appears in **Red**.
-- Hover tooltip: *“This document was declined by the recipient.”*
+- Hover tooltip: *Ã¢â‚¬Å“This document was declined by the recipient.Ã¢â‚¬Â*
 - Actions like **Resend** and **E-Sign** are disabled.
 
 --- -->
@@ -224,15 +224,15 @@ In the Dashboard:
 1. Sender creates a new eSign request and sends it to **Party 1**.  
 2. Party 1 opens the email and verifies via OTP.  
 3. After reviewing, they find a mismatch in the payment term.  
-4. Party 1 clicks **Decline** → adds the reason “Incorrect pricing details.”  
-5. Doculan updates the document’s status to **Declined**.  
+4. Party 1 clicks **Decline** Ã¢â€ â€™ adds the reason Ã¢â‚¬Å“Incorrect pricing details.Ã¢â‚¬Â  
+5. Doculan updates the documentÃ¢â‚¬â„¢s status to **Declined**.  
 6. The sender receives a notification and reviews the reason.  
 7. The sender duplicates the document, updates pricing, and resends it.  
 
 --- -->
 
- **You’ve learned how to decline an eSign document in Doculan!**  
+ **YouÃ¢â‚¬â„¢ve learned how to decline an eSign document in Doculan!**  
 
 > Declining ensures that documents containing errors or unauthorized terms do not proceed further in the workflow, maintaining accuracy and compliance in your e-signature process.
 
-© Doculan by [Virtualan Software](https://www.virtualan.io)
+Ã‚Â© Doculan by [Virtualan Software](https://www.virtualan.io)

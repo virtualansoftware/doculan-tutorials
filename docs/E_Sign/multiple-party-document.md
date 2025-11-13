@@ -1,12 +1,12 @@
-<!-- 1. Choose **E-Sign → Multiple Party Document**.  
+﻿﻿﻿ï»¿<!-- 1. Choose **E-Sign Ã¢â€ â€™ Multiple Party Document**.  
 2. Add multiple parties with their **Names** and **Emails**.  
-3. Assign signing order if required (Party 1 → Party 2 → Party 3...).  
+3. Assign signing order if required (Party 1 Ã¢â€ â€™ Party 2 Ã¢â€ â€™ Party 3...).  
 4. Drag and drop relevant fields for each signer.  
 5. Preview the signing order and field assignment.  
 6. Set **Expiry Date**, **Reminders**, and compose the email message.  
 7. Click **Send Mail** to distribute the document.  
 
-🖼️ *Screenshot Placeholder: Multiple party setup with signing order* -->
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Multiple party setup with signing order* -->
 
 
 <!-- ***************************************************************************************** -->
@@ -15,7 +15,7 @@
 
 # How to Send Multiple Party Document?
 
-This guide explains how to send a **multi-party e-sign document** in Doculan — where two or more recipients must review and sign the same document in a defined order.
+This guide explains how to send a **multi-party e-sign document** in Doculan Ã¢â‚¬â€ where two or more recipients must review and sign the same document in a defined order.
 A **multi-party document** allows you to send one contract to multiple signers (Party 1, Party 2, Party 3, etc.).  
 Each recipient receives the document **in sequence**, after the previous party has completed their signing.
 
@@ -28,34 +28,34 @@ Each recipient receives the document **in sequence**, after the previous party h
 
 --- -->
 
-<!-- ##  Step 1 — Create or Select a Document
+<!-- ##  Step 1 Ã¢â‚¬â€ Create or Select a Document
 
 1. From the **Dashboard**, click **Create Document**.  
 2. Choose or create a folder named **e-sign documents**.  
-3. Inside the folder, click the **⋮ (three-dot)** icon under **Actions**.  
+3. Inside the folder, click the **Ã¢â€¹Â® (three-dot)** icon under **Actions**.  
 4. Select **Upload** and choose your **contract file (PDF)**.
 
 Once uploaded, the document appears in the list under that folder.
 
 --- -->
 
-<!-- ##  Step 2 — Open the E-Sign Configuration Page
+<!-- ##  Step 2 Ã¢â‚¬â€ Open the E-Sign Configuration Page
 
 1. Locate your document in the list.  
-2. Under **Actions**, click the **⋮ (three-dot)** menu.  
+2. Under **Actions**, click the **Ã¢â€¹Â® (three-dot)** menu.  
 3. Select **E-Sign**.  
 
-You’ll be taken to the **E-Sign Editing Page**, where you can configure all fields and assign them to multiple parties.
+YouÃ¢â‚¬â„¢ll be taken to the **E-Sign Editing Page**, where you can configure all fields and assign them to multiple parties.
 
 --- -->
 
-<!-- ##  Step 3 — Configure Fields
+<!-- ##  Step 3 Ã¢â‚¬â€ Configure Fields
 
 Click the **Fields** tab to view all the available attributes.
 
 | Field Type | Description |
 |-------------|-------------|
-| **Signature** | Place for each signer’s digital signature. |
+| **Signature** | Place for each signerÃ¢â‚¬â„¢s digital signature. |
 | **Text / Textarea** | For collecting additional info or comments. |
 | **Email / Number** | Capture contact data or form inputs. |
 | **Checkbox / Dropdown** | For consent or selection responses. |
@@ -77,14 +77,14 @@ Click the **Fields** tab to view all the available attributes.
 
 --- -->
 
-##  Step 1 — Add Multiple Parties
+##  Step 1 Ã¢â‚¬â€ Add Multiple Parties
 
 Switch to the **Parties** tab to define recipients.
 
 <details>
   <summary><b>Steps to Add Parties</b></summary>
 
-1. By default, you’ll see **Party 1** already listed.  
+1. By default, youÃ¢â‚¬â„¢ll see **Party 1** already listed.  
 2. Fill in the details for **Party 1**:
    - **Name**
    - **Email Address**
@@ -99,11 +99,11 @@ Switch to the **Parties** tab to define recipients.
 6. Click **Save** once all parties are added.
 </details>
 
-<img src="images\Multiple_party_added.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Multiple_party_added.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-##  Step 2 — Define the Signing Order
+##  Step 2 Ã¢â‚¬â€ Define the Signing Order
 
 When multiple parties are added, Doculan follows a **sequential signing** flow:
 
@@ -115,7 +115,7 @@ When multiple parties are added, Doculan follows a **sequential signing** flow:
 
 ---
 
-<!-- ##  Step 6 — Save as Template (Optional)
+<!-- ##  Step 6 Ã¢â‚¬â€ Save as Template (Optional)
 
 Templates help reuse the same contract layout and field placements for future use.
 
@@ -124,8 +124,8 @@ Templates help reuse the same contract layout and field placements for future us
 
 1. Go to the **Template** tab.  
 2. Choose to save under:
-   - **Myself** → for personal use.
-   - **Team** → to share with your organization.  
+   - **Myself** Ã¢â€ â€™ for personal use.
+   - **Team** Ã¢â€ â€™ to share with your organization.  
 3. Enter a **template name**.  
 4. Click **Save Template**.  
 5. To reuse later, simply select the saved template from the drop-down list.  
@@ -134,7 +134,7 @@ Templates help reuse the same contract layout and field placements for future us
 
 --- -->
 
-##  Step 3 — Send Mail
+##  Step 3 Ã¢â‚¬â€ Send Mail
 
 Once your parties and fields are set:
 
@@ -146,13 +146,13 @@ Once your parties and fields are set:
 6. Drag the **Document Link** placeholder into the email body.  
 7. Click **Send Mail**.
 
-<img src="images\Multiple_party_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Multiple_party_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  *Emails are sent sequentially to each party. You can also schedule the email for a future date/time.*
 
 ---
 
-##  Step 4 — Track the Document
+##  Step 4 Ã¢â‚¬â€ Track the Document
 
 After sending, navigate to your folder and click **Audit** for that document.
 
@@ -172,20 +172,20 @@ You can view:
 
 ---
 
-##  Step 5 — Recipient Experience
+##  Step 5 Ã¢â‚¬â€ Recipient Experience
 
-Each party’s experience happens **in order**.
+Each partyÃ¢â‚¬â„¢s experience happens **in order**.
 
 ###  Party 1
 1. Receives the first email with the document link.  
 2. Clicks the link to open the **Signing Page**.  
 
-<img src="images\Party1_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Party1_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 3. Verifies OTP sent to their email.  
 4. Reviews, fills in the required fields, and signs.  
 
-<img src="images\Party1_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Party1_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 5. Clicks **Submit**.
 
@@ -199,13 +199,13 @@ Once Party 1 completes signing, the document is automatically sent to **Party 2*
 1. Receive an email notification only after the previous signer completes their action.  
 
 
-<img src="images\Party2_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Party2_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 2. Click the document link and verify OTP.  
 3. They can **view previously filled fields** before completing their own.  
 
 
-<img src="images\Party2_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Party2_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. Fill in their details, sign, and click **Submit**.
 
@@ -220,7 +220,7 @@ Document Attachment
 
 --- -->
 
-##  Step 6 — AI Assist for Recipients
+##  Step 6 Ã¢â‚¬â€ AI Assist for Recipients
 
 Recipients can click **AI Assist** on their signing screen to ask document-specific questions.
 
@@ -228,7 +228,7 @@ Recipients can click **AI Assist** on their signing screen to ask document-speci
 
 ---
 
-##  Step 7 — Decline, Cancel, or Complete
+##  Step 7 Ã¢â‚¬â€ Decline, Cancel, or Complete
 
 | Status | Description |
 |--------|-------------|
@@ -244,7 +244,7 @@ When completed:
 
 ---
 
-##  Step 8 — Audit Trail & Verification
+##  Step 8 Ã¢â‚¬â€ Audit Trail & Verification
 
 Open **Order Trail** from the document actions menu to view:
 
@@ -254,18 +254,18 @@ Open **Order Trail** from the document actions menu to view:
 
 **Party 1 Audit**
 
-<img src="images\Audit_Party1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Audit_Party1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **Party 2 Audit**
 
-<img src="images\Audit_Party2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Audit_Party2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 This ensures a verifiable audit history for compliance and legal verification.
 
 ---
 
- **You’ve successfully sent a multi-party e-sign document!**
+ **YouÃ¢â‚¬â„¢ve successfully sent a multi-party e-sign document!**
 
-Your workflow is now complete — all parties have securely signed, and the document is stored, certified, and traceable.
+Your workflow is now complete Ã¢â‚¬â€ all parties have securely signed, and the document is stored, certified, and traceable.
 
-© Doculan by [Virtualan Software](https://www.virtualan.io)
+Ã‚Â© Doculan by [Virtualan Software](https://www.virtualan.io)

@@ -1,15 +1,15 @@
-<!-- ## Step 1
+﻿﻿﻿ï»¿<!-- ## Step 1
 
 1. Click **E-Sign** on the dashboard menu.  
 2. Select **Single Party Document**.   
 3. Drag and drop fields such as **Signature**, **Date**, or **Text Box** into the document.  
-4. Add the recipient’s **Name** and **Email Address**.
+4. Add the recipientÃ¢â‚¬â„¢s **Name** and **Email Address**.
 5. Choose **Expiry Date** and **Reminder Options**.  
 6. Write or generate email content using **AI Assist**.  
 7. Click **Send Mail**.  
 8. The recipient receives an email with a signing link.  
 
-🖼️ *Screenshot Placeholder: E-Sign configuration for single party* -->
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: E-Sign configuration for single party* -->
 
 
 *****************************************************************************************
@@ -17,7 +17,7 @@
 
 # How to Send Single Party Document?
 
-This guide explains how to send a **single party e-sign document** in Doculan — from preparing the document to sending, tracking, and completion.
+This guide explains how to send a **single party e-sign document** in Doculan Ã¢â‚¬â€ from preparing the document to sending, tracking, and completion.
 
 A **single party document** is a contract that requires only **one recipient** to sign.  
 Follow the steps below to configure and send it for e-signing.
@@ -31,24 +31,24 @@ Follow the steps below to configure and send it for e-signing. -->
 
 ---
 
-##  Step 1 — Create or Select a Document
+##  Step 1 Ã¢â‚¬â€ Create or Select a Document
 
 1. From the **Dashboard**, click **Create Document**.  
 2. Choose or create a folder named **e-sign documents**.  
-3. Click the **⋮ (three-dot)** icon under the **Actions** column.  
+3. Click the **Ã¢â€¹Â® (three-dot)** icon under the **Actions** column.  
 4. Select **Upload** and choose your **contract file (PDF)**.
 
 <img src="images/Create_and_Upload_Document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 
-Once uploaded, you’ll see your document listed in the folder view.
+Once uploaded, youÃ¢â‚¬â„¢ll see your document listed in the folder view.
 
 ---
 
-##  Step 2 — Open for E-Sign Configuration
+##  Step 2 Ã¢â‚¬â€ Open for E-Sign Configuration
 
 1. In the document list, find your uploaded contract.  
-2. Under **Actions**, click the **⋮ (three-dot)** menu.  
+2. Under **Actions**, click the **Ã¢â€¹Â® (three-dot)** menu.  
 3. Select **E-Sign**.
 
 <img src="images/E-Sign Configuration.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
@@ -57,7 +57,7 @@ This will open the **E-Sign Editing Page**, where you can define fields and assi
 
 ---
 
-##  Step 3 — Configure Fields
+##  Step 3 Ã¢â‚¬â€ Configure Fields
 
 Click the **Fields** tab to access all available input elements.
 
@@ -85,11 +85,11 @@ Click the **Fields** tab to access all available input elements.
 
 ---
 
-##  Step 4 — Add Party Details
+##  Step 4 Ã¢â‚¬â€ Add Party Details
 
 Click the **Parties** tab.
 
-1. You’ll see a default **Party 1** section.  
+1. YouÃ¢â‚¬â„¢ll see a default **Party 1** section.  
 2. Enter:
    - **Name**
    - **Email Address**
@@ -102,7 +102,7 @@ Click the **Parties** tab.
 
 ---
 
-<!-- ##  Step 5 — Save as Template (Optional)
+<!-- ##  Step 5 Ã¢â‚¬â€ Save as Template (Optional)
 
 Templates make future sending faster.
 
@@ -111,8 +111,8 @@ Templates make future sending faster.
 
 1. Open the **Template** tab.  
 2. Choose whether to save for:
-   - **Myself** → private template
-   - **Team** → shared across your team  
+   - **Myself** Ã¢â€ â€™ private template
+   - **Team** Ã¢â€ â€™ shared across your team  
 3. Enter a **template name**.  
 4. Click **Save Template**.  
 5. You can reuse it later from the drop-down menu.
@@ -120,17 +120,17 @@ Templates make future sending faster.
 
 --- -->
 
-##  Step 5 — Send Mail
+##  Step 5 Ã¢â‚¬â€ Send Mail
 
 Click **Send Mail** to send the document for signing.
 
-You’ll now configure email delivery.
+YouÃ¢â‚¬â„¢ll now configure email delivery.
 
 ### Email Setup:
 1. Select **Single Mail**.  
-2. Enter the recipient’s **Name** and **Email ID**.  
+2. Enter the recipientÃ¢â‚¬â„¢s **Name** and **Email ID**.  
 
-<img src="images\Single_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Single_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 3. Choose an **Expiry Date** and **Reminder Options**.
 
@@ -146,19 +146,19 @@ You’ll now configure email delivery.
 
 ---
 
-##  Step 6 — Track and Manage the Document
+##  Step 6 Ã¢â‚¬â€ Track and Manage the Document
 
 After sending, navigate to your folder and click your document.
 
-Beside the tracking details of the sent document, Under **Actions**, click the **⋮ (three-dot)** menu.
+Beside the tracking details of the sent document, Under **Actions**, click the **Ã¢â€¹Â® (three-dot)** menu.
 
 Click the **Audit** button 
 
-You’ll see:
+YouÃ¢â‚¬â„¢ll see:
 - Recipient name and email
 - Status (Sent / Opened / Signed / Completed / Expired)
 - Timestamps for every action
-<!-- <img src="images\Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
+<!-- <img src="E-Sign_Images\\Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
 <!-- You can open the **Order Trail** for the document to view:
 
@@ -167,7 +167,7 @@ You’ll see:
 - When it was **Signed** -->
 - Final status (**Completed / Declined / Cancelled**)
 
-<img src="images\Audit_and_Verification.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Audit_and_Verification.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 All timestamps and audit logs are recorded for compliance and traceability.
 
@@ -179,19 +179,19 @@ All timestamps and audit logs are recorded for compliance and traceability.
 | **Edit** | Edit the recipient details after sending mail |
 | **View** | Open for completed status |
 
-<img src="images\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-<!-- <img src="images\Edit_parties.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
+<!-- <img src="E-Sign_Images\\Edit_parties.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
 ---
 
-##  Step 7 — Recipient Experience
+##  Step 7 Ã¢â‚¬â€ Recipient Experience
 
 When your recipient receives the email:
 
 1. They click the **document link** in the email.  
 
-<img src="images\receiving email.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\receiving email.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 2. They are redirected to the **Doculan Signing Page**.  
 3. They must **verify via OTP** sent to their email.  
@@ -200,32 +200,32 @@ When your recipient receives the email:
    - Fill in required details.
    - Click inside the **Signature Field** to sign.
 
-   <img src="images\Recipient_Contract_Editing.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+   <img src="E-Sign_Images\\Recipient_Contract_Editing.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ### Signature Options
 - **Type:** Enter text signature.  
 - **Draw:** Use mouse/touchpad to sign.  
 - **Upload:** Attach a scanned signature image.
 
-<img src="images\Signing_the _document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Signing_the _document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-##  Step 8 — AI Assist for Recipients
+##  Step 8 Ã¢â‚¬â€ AI Assist for Recipients
 
-Recipients can also click **AI Assist** during signing to ask questions about the contract’s contents.  
-The AI will respond contextually — it does **not** handle general queries.
+Recipients can also click **AI Assist** during signing to ask questions about the contractÃ¢â‚¬â„¢s contents.  
+The AI will respond contextually Ã¢â‚¬â€ it does **not** handle general queries.
 
 ---
 
-##  Step 9 — After Submission
+##  Step 9 Ã¢â‚¬â€ After Submission
 
 <!-- If the recipient declines:
 - They must provide a **reason**.  
 - The sender will receive an **email notification**.  
 - The status changes to **Declined**.
 
-<img src="images\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
+<img src="E-Sign_Images\\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
 If they complete:
 - A **Certificate of Completion** is generated.  
@@ -233,13 +233,13 @@ If they complete:
 - Copies are sent to both sender and recipient via email.  
 - The document status changes to **Completed**.
 
-<img src="images\Submitted_successfully.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Submitted_successfully.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-<img src="images\SSL_Certificate.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\SSL_Certificate.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-<!-- ##  Step 10 — Audit and Verification
+<!-- ##  Step 10 Ã¢â‚¬â€ Audit and Verification
 
 You can open the **Order Trail** for the document to view:
 
@@ -248,7 +248,7 @@ You can open the **Order Trail** for the document to view:
 - When it was **Signed**
 - Final status (**Completed / Declined / Cancelled**)
 
-<img src="images\Audit_and_Verification.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Audit_and_Verification.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 All timestamps and audit logs are recorded for compliance and traceability.
 
@@ -259,4 +259,4 @@ All timestamps and audit logs are recorded for compliance and traceability.
  **Congratulations!**  
 You have successfully configured and sent a **single-party e-sign document** using **Doculan**.
 
-© Doculan by [Virtualan Software](https://www.virtualan.io)
+Ã‚Â© Doculan by [Virtualan Software](https://www.virtualan.io)

@@ -1,37 +1,37 @@
-## Share Document
+﻿﻿﻿ï»¿## Share Document
 
 ### How to share document
 
 1. Click **Share Document** on the dashboard.  
 2. Select a file from your folder.  
-3. Enter the recipient’s **Email Address**.  
+3. Enter the recipientÃ¢â‚¬â„¢s **Email Address**.  
 4. Add an optional message.  
 5. Click **Send**.
 
-🖼️ *Screenshot Placeholder: Share document interface*
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Share document interface*
 
 ---
 
 ### How to resend shared document
 
-1. Go to **Dashboard → Shared Documents**.  
+1. Go to **Dashboard Ã¢â€ â€™ Shared Documents**.  
 2. Find the file you want to resend.  
 3. Click the **Resend** button beside it.  
 4. The recipient receives the shared link again.
 
-🖼️ *Screenshot Placeholder: Resend shared document*
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Resend shared document*
 
 ---
 
 ### How to cancel shared document
 
-1. Open **Dashboard → Shared Documents**.  
+1. Open **Dashboard Ã¢â€ â€™ Shared Documents**.  
 2. Locate the shared file.  
 3. Click **Cancel Share**.  
 4. Confirm when prompted.  
-5. The recipient’s access is revoked immediately.
+5. The recipientÃ¢â‚¬â„¢s access is revoked immediately.
 
-🖼️ *Screenshot Placeholder: Cancel share confirmation*
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Cancel share confirmation*
 
 ---
 
@@ -43,4 +43,4 @@ Once all signers finish their part:
 - You can **view, print, or download** the document anytime.  
 - A full **Order Trail** is available showing timestamps for send, open, sign, and completion events.
 
-🖼️ *Screenshot Placeholder: Completion certificate and order trail view*
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Completion certificate and order trail view*

@@ -1,11 +1,11 @@
-<!-- 1. Choose **E-Sign → Bulk Mail**.  
+﻿﻿﻿ï»¿<!-- 1. Choose **E-Sign Ã¢â€ â€™ Bulk Mail**.  
 2. Upload a `.csv` file or enter addresses manually.  
 3. Each line or entry represents a separate document to be sent.  
 4. Paste multiple addresses following the sample format provided.  
 5. Choose expiry and reminder settings.  
 6. Click **Send Bulk Mail**.  
 
-🖼️ *Screenshot Placeholder: Bulk mail upload view* -->
+Ã°Å¸â€“Â¼Ã¯Â¸Â *Screenshot Placeholder: Bulk mail upload view* -->
 
 
 <!-- ***************************************************************************************** -->
@@ -14,7 +14,7 @@
 # How to Send Bulk Mail in Doculan?
 
 This guide explains how to send **bulk e-sign documents** to multiple recipients at once.  
-Bulk e-sign helps automate sending the same contract or form (like NDAs, consent forms, or offer letters) to many users simultaneously — each receiving their own personalized copy.
+Bulk e-sign helps automate sending the same contract or form (like NDAs, consent forms, or offer letters) to many users simultaneously Ã¢â‚¬â€ each receiving their own personalized copy.
 
 ---
 
@@ -28,17 +28,17 @@ In bulk mode:
 
 ---
 
-##  Step 1 — Open the Bulk Mail Setup
+##  Step 1 Ã¢â‚¬â€ Open the Bulk Mail Setup
 
 1. Go to your **Dashboard**.  
 2. Locate the folder containing your e-sign-ready document.  
-3. Click the **⋮ (three dots)** menu under the **Actions** column.  
+3. Click the **Ã¢â€¹Â® (three dots)** menu under the **Actions** column.  
 4. Select **E-Sign** to open the configuration page.  
 5. Click **Send Mail**, then choose the **Bulk Mail** option.
 
 ---
 
-##  Step 2 — Prepare Your Document Fields
+##  Step 2 Ã¢â‚¬â€ Prepare Your Document Fields
 
 Ensure the document has all the required **signature**, **text**, **date**, and **email** fields configured before bulk sending.
 
@@ -49,11 +49,11 @@ Ensure the document has all the required **signature**, **text**, **date**, and 
 - Name and Email Field   
 - Date Field   
 - Text Fields for form responses   
-- “Save E-Sign” clicked before proceeding  -->
+- Ã¢â‚¬Å“Save E-SignÃ¢â‚¬Â clicked before proceeding  -->
 
 ---
 
-##  Step 3 — Prepare Recipient Data
+##  Step 3 Ã¢â‚¬â€ Prepare Recipient Data
 
 You can add recipients in two ways:  
 <!-- - **Option 1:** Upload a **CSV file**  
@@ -78,7 +78,7 @@ You can add recipients in two ways:
 <p>
   <a href="files/Bulk_Mail_CSV_File.csv" target="_blank"
      style="display:inline-block; background-color:#007bff; color:white; padding:10px 20px; border-radius:6px; text-decoration:none;">
-    📄 Download CSV Example
+    Ã°Å¸â€œâ€ž Download CSV Example
   </a>
 </p>
 
@@ -94,7 +94,7 @@ You can add recipients in two ways:
 | Sarah Lee | sarah@example.com | Virtualan | HR |
 | Amit Patel | amit@example.com | Virtualan | Legal | -->
 
-**Each line = one recipient’s document**  
+**Each line = one recipientÃ¢â‚¬â„¢s document**  
 All the documents are generated and sent individually.
 </details>
 
@@ -118,11 +118,11 @@ Amit Patel, amit@example.com
 5. Click **Validate** to confirm all entries are correct. -->
 </details>
 
-<img src="images\Bulk_Mail_Manual_CSV.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="E-Sign_Images\\Bulk_Mail_Manual_CSV.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-<!-- ##  Step 4 — Generate Email Content (Using AI Assist or Manual)
+<!-- ##  Step 4 Ã¢â‚¬â€ Generate Email Content (Using AI Assist or Manual)
 
 You can create the email content in two ways:
 - Write manually  
@@ -134,7 +134,7 @@ You can create the email content in two ways:
 1. Click the **AI Assist** button.  
 2. The AI chatbot will appear on the side panel.  
 3. Provide a short prompt, e.g.  
-   *“Write an invitation email for document signing for our employee contract.”*  
+   *Ã¢â‚¬Å“Write an invitation email for document signing for our employee contract.Ã¢â‚¬Â*  
 4. The AI will auto-generate a professional message.  
 5. Click **Insert to Email Body** to add it instantly.  
 </details>
@@ -156,7 +156,7 @@ Virtualan Doculan Team
 
 --- -->
 
-<!-- ##  Step 5 — Attach Document Link and Send
+<!-- ##  Step 5 Ã¢â‚¬â€ Attach Document Link and Send
 
 1. Drag and drop the **[Document Link]** placeholder into the email body.  
 2. Review all the fields once again:
@@ -170,7 +170,7 @@ Virtualan Doculan Team
 
 --- -->
 
-<!-- ##  Step 6 — Schedule Bulk Emails (Optional)
+<!-- ##  Step 6 Ã¢â‚¬â€ Schedule Bulk Emails (Optional)
 
 You can schedule the bulk emails to go out at a future date or time.
 
@@ -185,7 +185,7 @@ You can schedule the bulk emails to go out at a future date or time.
 
 --- -->
 
-<!-- ##  Step 7 — Set Expiry Date & Reminders
+<!-- ##  Step 7 Ã¢â‚¬â€ Set Expiry Date & Reminders
 
 1. Under **Mail Settings**, set:
    - **Expiry Date:** The deadline for signing.  
@@ -196,15 +196,15 @@ This ensures signers receive follow-up reminders until the document is signed or
 
 --- -->
 
-##  Step 8 — Track Bulk Document Status
+##  Step 4 Ã¢â‚¬â€ Track Bulk Document Status
 
 Once sent, return to your folder and click **Audit** on the corresponding bulk batch.
 
-You’ll see:
+YouÃ¢â‚¬â„¢ll see:
 
 | Column | Description |
 |---------|-------------|
-| **Name** | Recipient’s name |
+| **Name** | RecipientÃ¢â‚¬â„¢s name |
 | **Email** | Email sent to |
 | **Status** | Sent / Opened / Signed / Declined / Expired |
 | **Last Modified** | Date of last action |
@@ -213,14 +213,14 @@ You’ll see:
 - Sent time
 - Opened time
 - Signed time
-- Recipient’s IP & device info
+- RecipientÃ¢â‚¬â„¢s IP & device info
 - Completed or declined status
 
 You can also export this data as a report for compliance records.
 
 ---
 
-<!-- ##  Step 9 — Resend or Cancel Bulk Documents
+<!-- ##  Step 9 Ã¢â‚¬â€ Resend or Cancel Bulk Documents
 
 | Action | Description |
 |--------|-------------|
@@ -230,7 +230,7 @@ You can also export this data as a report for compliance records.
 
 --- -->
 
-<!-- ##  Step 10 — Recipient Experience
+<!-- ##  Step 10 Ã¢â‚¬â€ Recipient Experience
 
 Each recipient receives a **personalized email** with their own signing link.
 
@@ -246,11 +246,11 @@ Steps:
 
 After signing:
 - The recipient gets a confirmation email.
-- The sender’s dashboard updates with **“Completed”** status.
+- The senderÃ¢â‚¬â„¢s dashboard updates with **Ã¢â‚¬Å“CompletedÃ¢â‚¬Â** status.
 
 --- -->
 
-<!-- ##  Step 11 — Completion and Certification
+<!-- ##  Step 11 Ã¢â‚¬â€ Completion and Certification
 
 When all recipients finish signing:
 - Each document gets an **SSL Certified** completion page.  
@@ -261,21 +261,21 @@ When all recipients finish signing:
 
 --- -->
 
-<!-- ##  Step 12 — Audit Trail Summary
+<!-- ##  Step 12 Ã¢â‚¬â€ Audit Trail Summary
 
 Open **Order Trail** to see:
 - Sent time
 - Opened time
 - Signed time
-- Recipient’s IP & device info
+- RecipientÃ¢â‚¬â„¢s IP & device info
 - Completed or declined status
 
 You can also export this data as a report for compliance records.
 
 --- -->
 
- **You’ve successfully sent a Bulk E-Sign Document!**
+ **YouÃ¢â‚¬â„¢ve successfully sent a Bulk E-Sign Document!**
 
-Now, you can efficiently manage hundreds of contracts or forms using Doculan’s bulk automation and AI-assisted tools.
+Now, you can efficiently manage hundreds of contracts or forms using DoculanÃ¢â‚¬â„¢s bulk automation and AI-assisted tools.
 
-© Doculan by [Virtualan Software](https://www.virtualan.io)
+Ã‚Â© Doculan by [Virtualan Software](https://www.virtualan.io)
