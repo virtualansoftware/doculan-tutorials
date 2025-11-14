@@ -20,3 +20,21 @@
         - [How to share document?](E_Sign\share-document.md)
         - [How to resend shared document?](E_Sign\resend-shared-document.md)
         - [How to cancel shared document?](E_Sign\cancel-shared-document.md)
+
+
+- **Form Management in Doculan**
+    - [How to Create and Send Forms ](Forms/Form_Create.md)
+    - [How do view all Document and attachment](Forms/Form_Document_Storage.md)
+    - [How to Clone Form](Forms/Form_Clone.md)
+    - [How to Cancel Form](Forms/Form_Cancel.md)
+    - [How to Delete Form](Forms/Form-Delete.md)
+    - [How to Resend Form](Forms/Form_Resend.md)
+
+- **Contact Management in Doculan**
+    -  [Create Contact](Contacts/Contact_Create.md)
+    -  [Update Contact](Contacts/Contact-Update.md)
+    -  [Delete Contact](Contacts/Contact-Delete.md)
+    
+- **Document Management in Doculan**
+    -  [Create Document](Document/Documents_Create.md)
+    -  [upload Document](Document/Documents_Upload.md)
