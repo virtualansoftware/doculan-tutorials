@@ -49,11 +49,11 @@ You can always check the **Audit** log to confirm resend activity.
 
 Steps:
 1. Click the **Audit** button in the Actions column.  
-2. You'll see a chronological list of all actions:
+2. You'll see a chronological list of all actions with timestamps:
    - Original document creation  
    - First send  
    - Resend date/time  
-   - Recipient open, view, and sign timestamps  
+   - Recipient open, view, and sign  
 
    <img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

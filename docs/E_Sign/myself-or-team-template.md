@@ -1,4 +1,5 @@
-﻿﻿#  What is "Myself" / "Team" Template?
+﻿﻿
+#  What is "Myself" / "Team" Template?
 
 Templates in **Doculan eSign** are designed to **save time and maintain consistency** across frequently used contracts or agreements.  
 They allow you to reuse predefined documents with fields, party roles, and positions already configured so you don't have to rebuild them from scratch every time.

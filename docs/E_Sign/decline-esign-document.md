@@ -62,11 +62,17 @@ After the recipient declines the document:
 To confirm who declined and when:
 
 1. Click **Audit** beside the document.  
-2. The detailed audit trail displays:
+2. The Audit page displays( all entries below  with timestamp)
+   -  Document creation time
+   -  Sent time
+   -  Opened by
+   -  Signed by
+   -  Declined by [User Name]
+<!-- 2. The detailed audit trail displays:
    - When the document was created  
    - When it was sent  
    - When it was opened  
-   - When it was declined (with timestamp and user email)
+   - When it was declined (with timestamp and user email) -->
 
 <img src=" screenshots\E-Sign_Images\Audit_after_Decline.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
