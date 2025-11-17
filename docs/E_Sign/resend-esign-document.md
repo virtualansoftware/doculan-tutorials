@@ -55,7 +55,7 @@ Steps:
    - Resend date/time  
    - Recipient open, view, and sign  
 
-   <img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 

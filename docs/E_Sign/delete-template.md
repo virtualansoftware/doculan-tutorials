@@ -1,4 +1,5 @@
-﻿﻿# How to Delete a Template?
+﻿﻿
+# How to Delete a Template?
 
 Sometimes you no longer need a particular eSign template‚ maybe the contract version has expired, or your organization has moved to a new format.  
 In such cases, you can **safely delete** templates from Doculan to keep your workspace organized and clutter-free.
@@ -14,9 +15,9 @@ You can delete:
 ---
 
 
-##  Step-by-Step: Deleting an Existing Template
+<!-- ##  Step-by-Step: Deleting an Existing Template -->
 
-### Step 1: Access the eSign section.
+## Step 1: Access the eSign section.
 
 - In the Doculan Dashboard, navigate to the **Template** tab.
 
@@ -25,7 +26,7 @@ You can delete:
 ---
 
 
-### Step 2: Click the "Delete Template" button:
+## Step 2: Click the "Delete Template" button:
 
 - After selecting the template, click the **Delete Template** button.  
 - A confirmation prompt will appear asking:
@@ -36,7 +37,7 @@ You can delete:
 
 ---
 
-### Step 3: Verify deletion:
+## Step 3: Verify deletion:
 
 - Once deleted, the template will be removed from the dropdown list immediately.  
 - You can refresh the page or reopen the Template tab to ensure it's no longer listed.  

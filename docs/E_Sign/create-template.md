@@ -1,4 +1,5 @@
-﻿﻿#  How to Create a Template?
+﻿﻿
+#  How to Create a Template?
 
 Creating a template in **Doculan eSign** allows you to **save time** by reusing pre-defined document layouts and field placements.  
 Instead of setting up each eSign from scratch, you can configure your document once and save it as a reusable template.
@@ -11,9 +12,8 @@ Templates store your field mapping, parties, and email configurations ready to r
 
 ---
 
-##  Step-by-Step: Creating a New Template
 
-### Step 1: Open an existing document:
+## Step 1: Open an existing document:
 
 - In the eSign editor page,
 - After adding all fields and parties,  
@@ -23,7 +23,7 @@ Templates store your field mapping, parties, and email configurations ready to r
 
 ---
 
-### Step 2: Choose template visibility:
+## Step 2: Choose template visibility:
 
 When saving the template, you'll be prompted to choose between:
 - **Myself** for private use  
@@ -41,7 +41,7 @@ When saving the template, you'll be prompted to choose between:
 
 ---
 
-### Step 3: Verify your saved template:
+## Step 3: Verify your saved template:
 
 - Return to the **Template** tab.  
 - In the dropdown, search for the template name you just created.  

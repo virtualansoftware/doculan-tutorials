@@ -1,4 +1,5 @@
-﻿﻿# How to Share a Document?
+﻿﻿
+# How to Share a Document?
 
 The **Share Document** feature in Doculan allows you to send any stored document to individuals or groups quickly and securely without requiring them to log in.  
 You can share for **review**, **reference**, or **collaboration**, while maintaining full control over access permissions.
@@ -18,9 +19,9 @@ It is often used to:
 
 ---
 
-##  Step-by-Step: Sharing a Document
+<!-- ##  Step-by-Step: Sharing a Document -->
 
-### Step 1: Access the sharing options:
+## Step 1: Access the sharing options:
 
 - In the **Actions** column, click the **three-dot (⋮)** button beside the document you want to share.  
 - From the dropdown menu, select **Share**.
@@ -29,7 +30,7 @@ It is often used to:
 
 ---
 
-### Step 2: Configure sharing details:
+## Step 2: Configure sharing details:
 
 Once you click Share, a popup or side panel will appear with fields for:
 
@@ -58,7 +59,7 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 ---
 
-### Step 3: Verify and monitor shared status:
+## Step 3: Verify and monitor shared status:
 
 After sending:
 - Go back to your **Dashboard** and select the same folder.  
