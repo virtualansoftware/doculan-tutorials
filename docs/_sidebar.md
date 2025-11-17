@@ -30,7 +30,8 @@
 
 - **Form Management**
     - [How to Create and Send Forms ](Forms/Form_Create.md)
-    - [How do view all Document and attachment](Forms/Form_Document_Storage.md)
+    <!-- - [How do view all Document and attachment](Forms/Form_Document_Storage.md) -->
+    - [How do view Submitted Form with attachments](Forms/Form_Document_Storage.md)
     - [How to Clone Form](Forms/Form_Clone.md)
     - [How to Cancel Form](Forms/Form_Cancel.md)
     - [How to Delete Form](Forms/Form-Delete.md)
@@ -48,3 +49,8 @@
 - **Document Management**
     -  [Create Document](Document/Documents_Create.md)
     -  [upload Document](Document/Documents_Upload.md)
+
+---
+
+- **Release Notes**
+    - [Newly Released Features](releaseNotes.md)
