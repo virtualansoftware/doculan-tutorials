@@ -27,8 +27,8 @@ After selecting **Cancel eSign**, a pop-up confirmation appears.
   <summary><b>Steps to Confirm Cancellation</b></summary>
 
 1. Click **Cancel eSign** from the dropdown menu.  
-2. A confirmation dialog appears Ã¢â‚¬â€  
-   **“Are you sure you want to cancel this eSign document?**  
+2. A confirmation dialog appears  
+   **"Are you sure you want to cancel this eSign document?"**  
 3. Optionally, enter a short reason for cancellation (helps in tracking).  
 4. Click **Confirm**.  
 5. The system updates the status to **Cancelled**.
@@ -45,7 +45,7 @@ When the document is cancelled:
 | Effect | Description |
 |--------|-------------|
 | **Status Update** | Status changes to **Cancelled** immediately in the dashboard |
-| **Recipient Access** | Any signer trying to open the old link will see: *Ã¢â‚¬Å“This document has been cancelled by the administrator and is no longer available.Ã¢â‚¬Â* |
+| **Recipient Access** | Any signer trying to open the old link will see: *"This document has been cancelled by the administrator and is no longer available."* |
 | **Email Notification** | All recipients receive an automatic email informing them of the cancellation |
 | **Audit Log** | A new entry is created in the **Order Trail** indicating cancellation time and user ID |
 
@@ -58,12 +58,18 @@ When the document is cancelled:
 You can verify all cancellation events in the **Audit Trail**.
 
 1. Click the **Audit** button for the specific document.  
-2. The audit page displays:
+2. The Audit page displays( all entries below  with timestamp)
+   Document creation time
+   Sent time
+   Opened by
+   Signed by
+   Cancelled by [User Name]
+<!-- 2. The audit page displays:
    - Document creation time  
    - Sent time  
    - Opened by  
    - Signed by  
-   - **Cancelled by [User Name]** with timestamp  
+   - **Cancelled by [User Name]** with timestamp   -->
 <!-- 3. You can **download the audit report** for internal compliance. -->
 
 <img src=" screenshots\E-Sign_Images\Cancel_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">

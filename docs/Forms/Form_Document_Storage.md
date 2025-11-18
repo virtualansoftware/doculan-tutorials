@@ -2,8 +2,6 @@
 
 ## **Step1: Navigate to view  Single Submitted Form with Attachment**
 
-<!-- Form Submission  -->
-
 
 - All forms and files are stored in the **Doculan Storage**
 - You can **view, download, and print** submissions(Forms) & attachments(pdf, word, etc...)

@@ -17,10 +17,10 @@ Cancelling a shared document:
 
 ---
 
-##  Step-by-Step: Cancelling a Shared Document
+<!-- ##  Step-by-Step: Cancelling a Shared Document -->
 
 
-### Step 1: Identify the document to cancel:
+## Step 1: Identify the document to cancel:
 
 - Look for the document currently marked as **Shared**.  
 - It eligible for cancellation.  
@@ -33,7 +33,7 @@ Cancelling a shared document:
 
 ---
 
-### Step 2: Open the Actions menu:
+## Step 2: Open the Actions menu:
 
 - In the **Actions** column, click the **three-dot (⋮)** button for the specific document.  
 - The dropdown menu will show several options — *Audit*, *Resend*, *Cancel*.  
@@ -43,7 +43,7 @@ Cancelling a shared document:
 
 ---
 
-### Step 3: Confirm cancellation:
+## Step 3: Confirm cancellation:
 
 A confirmation popup appears with details of the document name and recipients.
 
@@ -56,7 +56,7 @@ A confirmation popup appears with details of the document name and recipients.
 
 ---
 
-### Step 4: Verify the cancellation:
+## Step 4: Verify the cancellation:
 After confirming:
 - The document’s **Status** immediately changes to **Cancelled**.  
 - All previously shared links become invalid.  

@@ -9,7 +9,8 @@
 
 > Clients
 
-![autismcaretherapy](_clients\image-3.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![marykennedy](_clients\image-2.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp; ![americangreensolutions](_clients\image-1.png ':size=10%')
+![autismcaretherapy](_clients\AutismCareTherapy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![marykennedy](_clients\MaryKennedy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp; ![americangreensolutions](_clients\AmericanGreenSolutions.png ':size=10%')
 
-[GitHub](https://github.com/virtualansoftware)
-[Getting Started](#Doculan)
+<!-- [GitHub](https://github.com/virtualansoftware) -->
+[GitHub](https://github.com/virtualansoftware/doculan-tutorials/tree/main/docs)
+[Getting Started](README.md)
