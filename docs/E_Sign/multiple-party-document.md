@@ -16,13 +16,14 @@ Switch to the **Parties** tab to define recipients.
   <summary><b>Steps to Add Parties</b></summary>
 
 1. By default, you'll see **Party 1** already listed.  
-2. Fill in the details for **Party 1**:
+<!-- 2. Fill in the details for **Party 1**:
    - **Name**
    - **Email Address**
    - **Signature**
-   - **Initial** etc at the respective places. 
-3. Click the **Add Party** button to create additional recipients.  
-4. Fill in their details (Party 2, Party 3, etc.).  
+   - **Initial** etc at the respective places.  -->
+2. Click the **Add Party** button to create additional recipients.  
+3. Fill in their details (Party 2, Party 3, etc.).  
+4. Verify that the fields you placed earlier are linked to the respective Parties by relating the colour of the Fields to colour of the Party.
 5. Repeat this process for every signer.  
 
 >  **Important:** Each party must have a valid email address, and every field (Signature, Date, etc.) must be linked to a specific party.
@@ -81,6 +82,7 @@ You can view:
 | **Audit** | Timestamps and activity logs |
 | **Resend** | Available only if the email is expired |
 | **Cancel** | Cancels ongoing signing process |
+| **Download** | Available if the document is completed |
 
 ---
 
@@ -139,6 +141,7 @@ Recipients can click **AI Assist** on their signing screen to ask document-speci
 |--------|-------------|
 | **Declined** | A recipient can choose to decline and provide a reason. The sender is notified immediately. |
 | **Cancelled** | The sender can cancel the document anytime before completion. The sender is notified immediately.|
+| **Expired** | When the Recipient failed to submit document before the validity. The sender is notified immidiately |
 | **Completed** | When all parties have signed, the process finishes automatically. |
 
 When completed:

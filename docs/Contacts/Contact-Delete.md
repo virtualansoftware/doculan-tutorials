@@ -1,4 +1,4 @@
-# ✅ Steps to Delete Contact
+#  Steps to Delete Contact
 
 1. Open the **Contacts** page to view all contacts.
 2. Click the **Delete (trash icon)** next to the contact you want to remove.

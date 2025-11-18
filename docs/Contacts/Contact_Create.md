@@ -1,4 +1,4 @@
-# ✅ Steps to Create Contact
+#  Steps to Create Contact
 
 1. Open the **Doculan Dashboard** and go to the **Contacts** section.
 2. Click on **Add Contact**.

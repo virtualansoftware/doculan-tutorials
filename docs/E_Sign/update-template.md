@@ -6,9 +6,7 @@ It's perfect when your contracts evolve or you want to add new terms or fields t
 
 ---
 
-##  Step-by-Step: Updating an Existing Template
-
-### Step 1: Load an existing template:
+## Step 1: Load an existing template:
 
 - In the Doculan Dashboard, navigate to the **Template** tab.  
 
@@ -56,7 +54,7 @@ It's perfect when your contracts evolve or you want to add new terms or fields t
 
 --- -->
 
-### Step 2: Save the updated configuration back to the template:
+## Step 2: Save the updated configuration back to the template:
 
 Now that your fields and parties are updated, let's save the new version.
 
@@ -82,7 +80,7 @@ Example:
 
 ---
 
-### Step 3: Verify your updated template:
+## Step 3: Verify your updated template:
 
 - Return to the **Template** dropdown and search for your updated version.  
 - Select it to ensure all recent changes (fields, parties, layout) are correctly loaded.  

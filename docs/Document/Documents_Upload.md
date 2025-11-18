@@ -1,4 +1,4 @@
-# ✅ Steps to Upload to Doculan Storage
+#  Steps to Upload to Doculan Storage
 
 - Documents can be saved **locally** or in **Doculan Storage**
 - If saving to Doculan storage:

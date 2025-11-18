@@ -196,7 +196,7 @@ You’ll see:
 | **Email** | Email sent to |
 | **Status** | Sent / Opened / Signed / Declined / Expired |
 | **Last Modified** | Date of last action |
-| **Actions** | View / Resend / Cancel / Delete |
+| **Actions** | View / Resend / Cancel / Delete / Download |
 
 - Sent time
 - Opened time
