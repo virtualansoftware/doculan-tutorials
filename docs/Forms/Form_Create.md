@@ -16,9 +16,9 @@
 | File Upload      | Upload documents/images |
 
 ### File Upload Options:
-- ✅ Accepted file types 
-- ✅ Maximum file size (MB)
-- ✅ Allow multiple files 
+- Accepted file types 
+- Maximum file size (MB)
+- Allow multiple files 
 **Screenshot1:**
 
 <img src="screenshots\Forms\CreateForm1.png" alt="Step 1 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
@@ -72,9 +72,9 @@
 - Form status changes to **Completed**
 - Navigate: **Dashboard → Forms**
 - View actions under **Actions menu**:
-  - 🔎 **Audit** – view submission logs  
-  - 👁 **View** – check individual submission
-- 📥 **Download all submissions as CSV**
+  - **Audit** – view submission logs  
+  - **View** – check individual submission
+- **Download all submissions as CSV**
 
 **Screenshot1:**
 

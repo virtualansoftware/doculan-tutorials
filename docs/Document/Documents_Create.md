@@ -1,9 +1,9 @@
-# ✅ Steps to Create a New Document
+# Steps to Create a New Document
 
 1. Go to **Doculan Dashboard → Documents → Create**
 2. Choose your preferred method:
-   - ✍️ **Create manually**, or
-   - 🤖 **Use AI to generate the document**
+   -**Create manually**, or
+   -**Use AI to generate the document**
 3. Start writing or editing your text
 4. Format the document as needed:
    - Change **font styles & colors**

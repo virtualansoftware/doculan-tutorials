@@ -1,4 +1,4 @@
-# ✅ Steps to Update Contact
+#  Steps to Update Contact
 
 1. Go to the **Contacts** page to view existing contacts.
 2. Click the **Edit (pen icon)** next to the contact you want to modify.
