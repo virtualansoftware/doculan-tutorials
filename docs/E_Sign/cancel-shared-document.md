@@ -23,7 +23,7 @@ Cancelling a shared document:
 ## Step 1: Identify the document to cancel:
 
 - Look for the document currently marked as **Shared**.  
-- It eligible for cancellation.  
+- It is eligible for cancellation.  
 
 <img src="screenshots\E-Sign_Images\SharedDocument_Resend_Or_Cancel.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
