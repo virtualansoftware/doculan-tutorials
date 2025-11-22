@@ -9,11 +9,11 @@ Doculan makes it easy to **resend shared documents** instantly without re-upload
 ##  Overview
 
 Resending allows you to:
-- Reissue expired or unopened links.
-- Update recipient details (e.g., corrected email).
+- Reissue the opened or unopened links.
+<!-- - Update recipient details (e.g., corrected email). -->
 - Maintain a complete tracking history for compliance.
 
->  *You can only resend documents with a status of **Expired** or **Unopened**. Completed or cancelled shares cannot be resent.*
+>  *You can only resend documents with a status of **Shared**. Completed or cancelled shares cannot be resent.*
 
 ---
 
@@ -21,7 +21,7 @@ Resending allows you to:
 
 ## Step 1: Identify the document to resend
 
-- In the **Status** column, look for the document marked as **Expired** or **Shared**.  
+- In the **Status** column, look for the document marked as **Shared**.  
 - These are eligible for resending.  
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Resend_Or_Cancel.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
@@ -47,10 +47,11 @@ Resending allows you to:
 
 | Condition | Action | Notes |
 |------------|---------|-------|
-| Expired | Resend available | Must set new expiry date |
-| Opened/Unopened | Resend available | Use same or updated email |
+| Shared | Resend available | Must set new expiry date |
+| Opened | Resend available | Use same or updated email |
 | Cancelled | Not allowed | Document link is deactivated |
 | Audit Trail | Always updated | Shows all resend activity |
+<!-- | Expired | Resend available | Must set new expiry date | -->
 <!-- | Completed | Not allowed | Document already viewed/signed | -->
 
 ---

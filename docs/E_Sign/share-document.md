@@ -63,11 +63,12 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 After sending:
 - Go back to your **Dashboard** and select the same folder.  
-- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*, *Expired*).  
+- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*).  
+- We only check the expiry date at the bottom of the Audit Trail.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- Click the **Audit** button to see complete tracking details Ã¢â‚¬â€ when it was sent, opened, or downloaded.
+- Click the **Audit** button to see complete tracking details such as - when it was sent, opened, or downloaded.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -78,9 +79,9 @@ After sending:
 | Setting | Description | Notes |
 |----------|--------------|-------|
 | View Only | Recipients can view or download | Recommended for clients |
-| Expiry | Auto-revokes access after set date | Can't be reopened |
 | Reminder | Sends email before expiry | Optional |
 | Audit Trail | Tracks every share action | Can be exported as report |
+<!-- | Expiry | Auto-revokes access after set date | Can't be reopened | -->
 <!-- | Edit Access | Allows modifications | Use cautiously | -->
 
 ---

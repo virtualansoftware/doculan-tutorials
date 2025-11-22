@@ -28,7 +28,7 @@ Once uploaded, you'll see your document listed in the folder view.
 ##  Step 2: Open for E-Sign Configuration
 
 1. In the document list, find your uploaded contract.  
-2. Under **Actions**, click the **⋮ (three-dot)** menu.  
+2. Under **Actions**, click the **⋮ (three-dot)** menu for that document.  
 3. Select **E-Sign**.
 
 <img src=" screenshots\E-Sign_Images\E-Sign Configuration.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
