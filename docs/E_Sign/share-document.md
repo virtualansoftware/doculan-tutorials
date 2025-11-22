@@ -11,7 +11,7 @@ You can share for **review**, **reference**, or **collaboration**, while maintai
 The **Share** feature provides a simple way to send read-only access to any stored file directly from your dashboard.
 
 It is often used to:
-- Share signed contracts or templates with clients.  
+<!-- - Share signed contracts or templates with clients.   -->
 - Send drafts for approval or feedback.  
 - Collaborate with colleagues without duplicating files.
 
