@@ -30,7 +30,7 @@ Doculan enforces strict resend rules to ensure audit accuracy.
 
 In the **Actions** column for that document:
 
-1. Click the **three-dot menu** (Ã¢â€¹Â®).  
+1. Click the **⋮ (three-dot)**.  
 2. You'll see options like:
    - View  
    - Audit  

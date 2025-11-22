@@ -1,3 +1,7 @@
+# How to Delete Contact?
+
+This guide helps to **Delete a Contact in Doculan** helps you maintain a clean and accurate directory by removing unused or outdated entries. From the Contacts page, select the delete option next to the desired contact and confirm the action in the popup. Once confirmed, the contact is permanently removed from the system. This ensures your contact list stays organized and relevant.
+
 #  Steps to Delete Contact
 
 1. Open the **Contacts** page to view all contacts.

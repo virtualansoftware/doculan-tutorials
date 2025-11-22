@@ -1,3 +1,8 @@
+# How to Create Contact?
+
+This guide helps to **Creating a Contact in Doculan** allows you to store essential recipient information for quicker form assignment and communication. Simply navigate to the Contacts section and we have to add contact, and enter the required details such as name, email, and phone number. Once saved, the contact becomes instantly available for use across forms and workflows. This ensures efficient management of your recipient directory.
+
+
 #  Steps to Create Contact
 
 1. Open the **Doculan Dashboard** and go to the **Contacts** section.

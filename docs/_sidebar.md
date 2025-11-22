@@ -29,26 +29,26 @@
 ---
 
 - **Form Management**
-    - [How to Create and Send Forms ](Forms/Form_Create.md)
+    - [How to Create and Send Forms?](Forms/Form_Create.md)
     <!-- - [How do view all Document and attachment](Forms/Form_Document_Storage.md) -->
-    - [How do view Submitted Form with attachments](Forms/Form_Document_Storage.md)
-    - [How to Clone Form](Forms/Form_Clone.md)
-    - [How to Cancel Form](Forms/Form_Cancel.md)
-    - [How to Delete Form](Forms/Form-Delete.md)
-    - [How to Resend Form](Forms/Form_Resend.md)
+    - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
+    - [How to Clone Form?](Forms/Form_Clone.md)
+    - [How to Cancel Form?](Forms/Form_Cancel.md)
+    - [How to Delete Form?](Forms/Form-Delete.md)
+    - [How to Resend Form?](Forms/Form_Resend.md)
 
 ---
 
 - **Contact Management**
-    -  [Create Contact](Contacts/Contact_Create.md)
-    -  [Update Contact](Contacts/Contact-Update.md)
-    -  [Delete Contact](Contacts/Contact-Delete.md)
+    -  [How to Create Contact?](Contacts/Contact_Create.md)
+    -  [How to Update Contact?](Contacts/Contact-Update.md)
+    -  [How to Delete Contact?](Contacts/Contact-Delete.md)
 
 ---
 
 - **Document Management**
-    -  [Create Document](Document/Documents_Create.md)
-    -  [upload Document](Document/Documents_Upload.md)
+    -  [How Create Document?](Document/Documents_Create.md)
+    -  [How to Upload Document?](Document/Documents_Upload.md)
 
 ---
 

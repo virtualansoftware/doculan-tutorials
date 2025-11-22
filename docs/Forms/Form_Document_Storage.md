@@ -1,4 +1,6 @@
-# **Navigate to view Submitted Form with Attachments**
+# How do view Submitted Form with attachments?
+
+This guide explains **how to access single submissions, overall form responses, and specific recipient details**. You can quickly view, download, and manage all attachments stored securely in Doculan Storage.
 
 ## **Step1: Navigate to view  Single Submitted Form with Attachment**
 

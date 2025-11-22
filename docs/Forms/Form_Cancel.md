@@ -1,3 +1,8 @@
+# How to Cancel Form?
+
+This guide helps to how to **cancel a form in Doculan** when it is **no longer needed**. Walks you through navigating to the form, initiating the cancellation, confirming the action, and reviewing the audit trail for tracking. It ensures you can safely stop a form workflow with full transparency.
+
+
 ## **Step 1:  Navigate to Cancel the Form**
 
 - Status must be **Sent**

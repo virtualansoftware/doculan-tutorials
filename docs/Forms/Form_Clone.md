@@ -1,3 +1,7 @@
+# How to Clone Form?
+
+Cloning a form in Doculan lets you **instantly duplicate any existing form** and **reuse its structure without rebuilding it**. After cloning, you can review the details, add recipients, and send it just like a new form. This feature makes repeating form workflows faster and more efficient.
+
 ##  **Step1: Navigate to Clone the Form**
 
 - Go to **Dashboard → Forms**

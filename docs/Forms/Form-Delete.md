@@ -1,3 +1,8 @@
+# How to Delete Form?
+
+This guide helps to **deleting a form in Doculan** is possible only when it has **no linked recipients or submissions**. Navigate to the Forms section, open the action menu, and choose Delete to remove the form permanently. A confirmation popup will appear, allowing you to verify the action before final deletion. This ensures that only unused or draft forms are safely removed from the system.
+
+
 ##  **Step:1 Navigate to Delete the Form**
 
 - Forms can be deleted **only if no recipients are linked**

@@ -1,4 +1,9 @@
-##   **Step 1: Create the Form**
+# How to Create and Send Forms?
+
+This guide explains the complete process of **creating a form, sending it to users, capturing their submissions, and reviewing the collected data**. 
+Follow the step-by-step instructions to manage your form workflow efficiently.
+
+##   **Step 1: Navigate to Create the Form**
 
 - Go to the **Forms** page.
 - Upload a **logo** (optional).
@@ -30,7 +35,7 @@
 ---> The above **Screenshots** represent that how to create **form**
 
 
-#   **Step 2: Send the Form**
+#   **Step 2: Navigate to Send the Form**
 
 - Click **Send Form**
 - Add **recipient name & email**
@@ -49,7 +54,7 @@
 ---> The above **Screenshots** represent that how to send **form.**
 
 
-#   **Step 3: Recipient Submission**
+#   **Step 3: Navigate to Recipient Submission**
 
 - Recipient receives form link by email
 - Complete **OTP verification**
@@ -67,7 +72,7 @@
 
 ---> The above **Screenshots** represent that how to Complete **otp verification** and **fill the form** and download the responses in **PDF Format**
 
-#   **Step 4: Review Submissions**
+#   **Step 4: Navigate to Review Submissions**
 
 - Form status changes to **Completed**
 - Navigate: **Dashboard → Forms**
