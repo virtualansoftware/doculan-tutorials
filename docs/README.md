@@ -10,7 +10,7 @@
 
 **Doculan** — Streamline document workflows, search smarter with OCR and AI, and collect legally binding e-signatures — all in one secure platform.
 
-* Fast document upload (PDF, DOCX, images)
+* Fast document upload (PDF)
 * Built-in e-signature flow for approvals and signatures
 * AI / OCR search and metadata auto-fill to find documents instantly
 * Role & access controls, versioning, secure cloud storage. ([doculan.ai][1])
