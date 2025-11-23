@@ -1,4 +1,4 @@
-﻿﻿- [Getting started](README.md)
+ [Getting started](README.md)
 
 <!-- - [Doculan‚ eSign Instructions](E_Sign\doculan_eSign_Instructions) -->
 ---
