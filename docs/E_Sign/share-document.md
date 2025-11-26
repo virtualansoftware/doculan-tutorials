@@ -1,4 +1,5 @@
-﻿﻿# How to Share a Document?
+﻿﻿
+# How to Share a Document?
 
 The **Share Document** feature in Doculan allows you to send any stored document to individuals or groups quickly and securely without requiring them to log in.  
 You can share for **review**, **reference**, or **collaboration**, while maintaining full control over access permissions.
@@ -10,7 +11,7 @@ You can share for **review**, **reference**, or **collaboration**, while maintai
 The **Share** feature provides a simple way to send read-only access to any stored file directly from your dashboard.
 
 It is often used to:
-- Share signed contracts or templates with clients.  
+<!-- - Share signed contracts or templates with clients.   -->
 - Send drafts for approval or feedback.  
 - Collaborate with colleagues without duplicating files.
 
@@ -18,9 +19,9 @@ It is often used to:
 
 ---
 
-##  Step-by-Step: Sharing a Document
+<!-- ##  Step-by-Step: Sharing a Document -->
 
-### Step 1: Access the sharing options:
+## Step 1: Access the sharing options:
 
 - In the **Actions** column, click the **three-dot (⋮)** button beside the document you want to share.  
 - From the dropdown menu, select **Share**.
@@ -29,7 +30,7 @@ It is often used to:
 
 ---
 
-### Step 2: Configure sharing details:
+## Step 2: Configure sharing details:
 
 Once you click Share, a popup or side panel will appear with fields for:
 
@@ -58,15 +59,16 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 ---
 
-### Step 3: Verify and monitor shared status:
+## Step 3: Verify and monitor shared status:
 
 After sending:
 - Go back to your **Dashboard** and select the same folder.  
-- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*, *Expired*).  
+- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*).  
+- We only check the expiry date at the bottom of the Audit Trail.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- Click the **Audit** button to see complete tracking details Ã¢â‚¬â€ when it was sent, opened, or downloaded.
+- Click the **Audit** button to see complete tracking details such as - when it was sent, opened, or downloaded.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -77,9 +79,9 @@ After sending:
 | Setting | Description | Notes |
 |----------|--------------|-------|
 | View Only | Recipients can view or download | Recommended for clients |
-| Expiry | Auto-revokes access after set date | Can't be reopened |
 | Reminder | Sends email before expiry | Optional |
 | Audit Trail | Tracks every share action | Can be exported as report |
+<!-- | Expiry | Auto-revokes access after set date | Can't be reopened | -->
 <!-- | Edit Access | Allows modifications | Use cautiously | -->
 
 ---

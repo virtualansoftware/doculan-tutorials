@@ -1,4 +1,8 @@
-# ✅ Steps to Upload to Doculan Storage
+# How to Upload Document?
+
+This guide helps to **Upload a document to Doculan** allows you to securely store and manage files within the platform. Simply choose the appropriate storage path, select your PDF file, and upload it to the designated folder. This ensures your documents are centrally organized and easily accessible for future workflows. The process supports efficient document management and seamless retrieval.
+
+#  Steps to Upload to Doculan Storage
 
 - Documents can be saved **locally** or in **Doculan Storage**
 - If saving to Doculan storage:

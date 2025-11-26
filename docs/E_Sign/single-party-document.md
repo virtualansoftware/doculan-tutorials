@@ -10,12 +10,16 @@ Follow the steps below to configure and send it for e-signing.
 
 ##  Step 1: Create or Select a Document
 
-1. From the **Dashboard**, click **Create Document**.  
-2. Choose or create a folder named **e-sign documents**.  
-3. Click the **⋮ (three-dot)** icon under the **Actions** column.  
-4. Select **Upload** and choose your **contract file (PDF)**.
+1. From the **Dashboard**, click **Create Document**. 
+2. Choose or create a folder named **e-sign documents**. 
+3. Upload the document using the **Upload** button.
 
-<img src=" screenshots\E-Sign_Images\Create_and_Upload_Document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\E-Sign_Images\Create_and_Upload_Document1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+4. Click the **⋮ (three-dot)** icon under the **Actions** column.  
+5. We can also upload the document by selecting this **Upload** option from **Actions** column and choose your **contract file (PDF)**.
+
+<img src="screenshots\E-Sign_Images\Create_and_Upload_Document2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 Once uploaded, you'll see your document listed in the folder view.
 
@@ -24,7 +28,7 @@ Once uploaded, you'll see your document listed in the folder view.
 ##  Step 2: Open for E-Sign Configuration
 
 1. In the document list, find your uploaded contract.  
-2. Under **Actions**, click the **⋮ (three-dot)** menu.  
+2. Under **Actions**, click the **⋮ (three-dot)** menu for that document.  
 3. Select **E-Sign**.
 
 <img src=" screenshots\E-Sign_Images\E-Sign Configuration.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
@@ -57,6 +61,7 @@ Click the **Fields** tab to access all available input elements.
 5. Click **Save E-Sign** to store your setup.
 </details>
 
+
 <img src=" screenshots\E-Sign_Images\Configure_Fields.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
@@ -66,11 +71,7 @@ Click the **Fields** tab to access all available input elements.
 Click the **Parties** tab.
 
 1. You'll see a default **Party 1** section.  
-2. Enter:
-   - **Name**
-   - **Email Address**
-3. Verify that the fields you placed earlier are linked to **Party 1**.
-4. Click **Save**.
+2. Click **Save**.
 
 <img src=" screenshots\E-Sign_Images\Add_Party.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -95,7 +96,7 @@ You'll now configure email delivery.
 <img src=" screenshots\E-Sign_Images\Set_Reminder.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. Write the email message manually **or** use **AI Assist** to generate it.  
-5. Drag the **document link** placeholder into the message body.  
+5. Drag and drop the **document link** placeholder into the message body.
 6. Click **Send Mail**.
 
 <img src=" screenshots\E-Sign_Images\Send_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
@@ -136,6 +137,7 @@ All timestamps and audit logs are recorded for compliance and traceability.
 | **Cancel** | Cancel an active document |
 | **Edit** | Edit the recipient details after sending mail |
 | **View** | Open for completed status |
+| **Download** | Only available if document is completed |
 
 <img src=" screenshots\E-Sign_Images\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
