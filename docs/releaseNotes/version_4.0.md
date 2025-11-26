@@ -56,7 +56,7 @@ Doculan’s AI automatically builds the complete form layout with all required f
 You can now compare **previously submitted form values** with **current submissions** in a single view.  
 This feature is especially useful for ensuring data accuracy and compliance.
 
-<img src="screenshots/releaseNotes/Field_Comparison.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Field Comparison">
+<img src="screenshots/releaseNotes/PDF_Form_Comparison.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Field Comparison">
 
 **While Signing (Self-Sign Only):**  
 During the signing process, users performing a **self-sign** can view and compare their **previously submitted values** alongside the current form fields.
