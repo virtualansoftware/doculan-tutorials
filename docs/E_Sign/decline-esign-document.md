@@ -1,4 +1,4 @@
-﻿﻿
+
 # How to Decline an eSign Document?
 
 In some cases, a signer may need to **decline** an eSign document for example, if the document contains incorrect information, unauthorized clauses, or was sent in error.  
