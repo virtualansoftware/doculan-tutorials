@@ -53,4 +53,5 @@
 ---
 
 - **Release Notes**
-    - [Newly Released Features](releaseNotes.md)
+    - [Version 3.0](releaseNotes/version_3.0.md)
+    - [Version 4.0](releaseNotes/version_4.0.md)
