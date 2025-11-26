@@ -70,7 +70,7 @@ Once the document is fully signed, users can compare **all parties’ submitted 
 
 ---
 
-### ✅ Use Cases:
+### Use Cases:
 - Audit verification  
 - Change tracking  
 - Discrepancy detection  
