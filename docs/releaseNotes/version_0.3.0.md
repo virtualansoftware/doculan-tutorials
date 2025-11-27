@@ -1,4 +1,4 @@
-# 🚀 Version 3.0 – New Enhancements
+# 🚀 Version 0.3.0 – New Enhancements
 
 1. **PDF Scrolling** – Users can now smoothly scroll between pages in multi-page PDFs across multiple modules.
 2. **Tab Navigation** – Pressing the `Tab` key moves the focus to the next field while signing.

@@ -1,4 +1,4 @@
-# 🚀 Version 4.0 – New Enhancements
+# 🚀 Version 0.4.0 – New Enhancements
 
 1. **Special Features Tab** – A centralized settings tab to manage advanced AI features.
 2. **AI Field Detection** – Automatically detects fields in supported PDF AcroForms.
