@@ -180,20 +180,23 @@ The AI will respond contextually, it does **not** handle general queries.
 
 ##  Step 9: After Submission
 
-If the recipient declines:
+<!-- If the recipient declines:
 - They must provide a **reason**.  
 - The sender will receive an **email notification**.  
 - The status changes to **Declined**.
 
 <img src=" screenshots\E-Sign_Images\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-If they complete:
+If they complete: -->
+- A pop-up appears as **Submission Successfull**
+- You can either view the document or download the document as zip file.
+
+<img src=" screenshots\E-Sign_Images\Submitted_successfully.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 - A **Certificate of Completion** is generated.  
 - The signed PDF is **SSL certified**.  
 - Copies are sent to both sender and recipient via email.  
 - The document status changes to **Completed**.
-
-<img src=" screenshots\E-Sign_Images\Submitted_successfully.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 <img src=" screenshots\E-Sign_Images\SSL_Certificate.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

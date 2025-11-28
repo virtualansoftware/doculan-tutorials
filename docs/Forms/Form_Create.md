@@ -67,7 +67,11 @@ Follow the step-by-step instructions to manage your form workflow efficiently.
 
 **Screenshot2:**
 
-<img src="screenshots\Forms\RepSub2.png" alt="Step 2 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\RepSub2.png" alt="Step 1 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+**Screenshot3:**
+
+<img src="screenshots\Forms\RepSub3.png" alt="Step 2 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 
 ---> The above **Screenshots** represent that how to Complete **otp verification** and **fill the form** and download the responses in **PDF Format**
