@@ -5,11 +5,11 @@
 
 >Doculan is an all-in-one platform to create documents and forms, manage contacts, and securely E-sign files with ease.
 
-- Simple and lightweight
+- Fast, Simple & Lightweight Platform  
 
-> Clients
+<!-- > Clients -->
 
-![autismcaretherapy](_clients\AutismCareTherapy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![marykennedy](_clients\MaryKennedy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp; ![americangreensolutions](_clients\AmericanGreenSolutions.png ':size=10%')
+<!-- ![autismcaretherapy](_clients\AutismCareTherapy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![marykennedy](_clients\MaryKennedy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp; ![americangreensolutions](_clients\AmericanGreenSolutions.png ':size=10%') -->
 
 <!-- [GitHub](https://github.com/virtualansoftware) -->
 <!-- [GitHub](https://github.com/virtualansoftware/doculan-tutorials/tree/main/docs) -->

@@ -1,6 +1,5 @@
-﻿﻿- [Getting started](README.md)
+﻿﻿[Getting started](README.md)
 
-<!-- - [Doculan‚ eSign Instructions](E_Sign\doculan_eSign_Instructions) -->
 ---
 
 - **E-Sign**
@@ -30,7 +29,6 @@
 
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
-    <!-- - [How do view all Document and attachment](Forms/Form_Document_Storage.md) -->
     - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
     - [How to Clone Form?](Forms/Form_Clone.md)
     - [How to Cancel Form?](Forms/Form_Cancel.md)
@@ -53,4 +51,5 @@
 ---
 
 - **Release Notes**
-    - [Newly Released Features](releaseNotes.md)
+    - [Version 0.3.0](releaseNotes/version_0.3.0.md)
+    - [Version 0.4.0](releaseNotes/version_0.4.0.md)

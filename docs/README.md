@@ -1,105 +1,118 @@
-﻿﻿
-# Doculan — Document Management & E-Signature
+﻿# Doculan — Smart Document Management & E-Signature Platform
 
-> Smart, secure document management with e-signing and AI-powered document tools.
-> 14-day free trial available for all plans. ([doculan.ai][1])
-
----
-
-## Hero
-
-**Doculan** — Streamline document workflows, search smarter with OCR and AI, and collect legally binding e-signatures — all in one secure platform.
-
-* Fast document upload (PDF, DOCX, images)
-* Built-in e-signature flow for approvals and signatures
-* AI / OCR search and metadata auto-fill to find documents instantly
-* Role & access controls, versioning, secure cloud storage. ([doculan.ai][1])
-
-**Get started** — 14-day free trial, no hidden fees. ([app.doculan.ai][2])
+> Secure, AI-powered document management, form automation, and legally compliant e-signatures — all in one platform.  
+> ✅ 30-day free trial available for all plans — https://www.doculan.ai
 
 ---
 
-## Key Features
+## 🚀 Product Overview
 
-### Document Management
+**Doculan** helps individuals and teams securely manage documents, automate workflows, create smart forms, and collect legally binding e-signatures with complete audit trails.
 
-* Upload, organize, tag, and version documents.
-* Role-based access control and secure cloud storage. ([doculan.ai][1])
-
-### E-Signature
-
-* Create signable documents, route for signature, and audit trails for compliance. ([doculan.ai][1])
-
-### AI & OCR
-
-* OCR-enabled full-text search for scanned PDFs and images.
-* AI-assisted metadata extraction and smart tagging for fast retrieval. ([doculan.ai][1])
-
-### Workflow & Automation
-
-* Custom workflows for approvals and reviews.
-* Notifications and activity logs to track changes. ([doculan.ai][1])
-
-### Security & Compliance
-
-* Encrypted storage, access controls, and downloadable records.
-* Paper-copy request policy and hardware/software guidance in T&Cs. ([app.doculan.ai][3])
+From document upload to AI-powered form detection and PDF comparison, Doculan ensures speed, accuracy, and compliance — all in a secure cloud environment.
 
 ---
 
-## How It Works
+## ✨ Key Capabilities
 
-1. **Sign up** — Create an account and choose a plan. ([app.doculan.ai][4])
-2. **Upload documents** — Drag & drop PDF, DOCX, and images. ([doculan.ai][1])
-3. **AI & OCR processing** — Documents are OCR’d and indexed so you can search inside scanned content. ([doculan.ai][1])
-4. **Setup workflow & signatures** — Add approvers, send for e-signature, and get audit logs. ([doculan.ai][1])
-5. **Manage & Export** — Version control, metadata, and export or request paper copies if needed. ([app.doculan.ai][3])
+### 📁 Document Management
+- Upload, organize, tag, and version your documents.
+- Secure cloud storage with role-based access control.
+- Full document history and version tracking.
+
+### ✍️ E-Signature & Audit Trails
+- Create signable documents and send for signatures.
+- Legally binding digital signatures with timestamps.
+- Complete audit logs for compliance and verification.
+
+### 🤖 AI & OCR Intelligence
+- OCR-enabled full-text search inside scanned PDFs.
+- AI-powered metadata extraction and smart tagging.
+- Automatic form field detection for supported AcroForms (I-9, tax forms, onboarding docs).
+
+### 🧠 AI Form Generation
+- Generate dynamic forms instantly using simple natural-language prompts.
+- No manual field creation required.
+
+### 📄 PDF Form Comparison
+- Compare previously submitted PDF forms with new submissions.
+- Detect and highlight populated field changes instantly.
+
+### ᝰ✍🏻 Smart Signing Experience
+- Tab-based field navigation while signing.
+- Auto-save while filling forms.
+- Auto-focus on the next required field.
+
+[//]: # (### ⚙️ Workflow & Automation)
+
+[//]: # (- Custom approval and review workflows.)
+
+[//]: # (- Notifications, activity logs, and task tracking.)
+
+[//]: # (- Multi-user collaboration on supported plans.)
+
+### 🔐 Security & Compliance
+- Encrypted document storage.
+- Access controls and permission-based sharing.
+- Downloadable audit records.
+- Paper copy request support as per Terms & Conditions.
 
 ---
 
-## Pricing (Summary)
+## 🔁 How It Works
 
-**Simple, transparent tiers — all plans include a 14-day free trial.** ([app.doculan.ai][2])
-
-* **Free** — Basic testing & limited usage. ([app.doculan.ai][2])
-* **Starter** — For small teams; more storage & features. ([app.doculan.ai][2])
-* **Professional** — Advanced features for growing orgs; automation & higher limits. ([app.doculan.ai][2])
-* **Enterprise** — Custom pricing, SLAs, dedicated support and integrations. ([app.doculan.ai][2])
-
-> Note: The site advertises “14-day free trial” and “simple, transparent pricing” on the subscription/plan page. Exact monthly / annual figures and limits are published on the plan page. ([app.doculan.ai][2])
+1. **Sign Up** — Create your account.
+2. **Upload Documents** — Drag & drop PDFs instantly.
+3. **AI & OCR Processing** — Search inside scanned documents.
+4. **Create Forms / Enable AI Detection** — Auto-detect fields or generate forms using AI.
+5. **Send for Signature** — Add recipients and track signing status.
+6. **Compare & Store** — Compare submissions and store securely with version history.
 
 ---
 
-## Frequently Asked Questions
+## 💰 Pricing (Overview)
 
-**Is there a free trial?**
-Yes — all plans include a 14-day free trial. ([app.doculan.ai][2])
+All plans come with a **30-day free trial**:
 
-**What file types are supported?**
-PDF, DOCX, images (scannable formats) and common document types; OCR processes scanned documents. ([doculan.ai][1])
+- **Free** — Basic testing & limited usage
+- **Starter** — Best for individuals and small teams
+- **Professional** — Advanced automation & integrations
+- **Enterprise** — Custom pricing, SLAs & dedicated support
 
-**Can I request paper copies of electronic records?**
-Yes — you may request a paper copy at no additional cost within a reasonable timeframe; see Terms & Conditions for details. ([app.doculan.ai][3])
-
-**Where do I sign up?**
-Create an account on the signup page. ([app.doculan.ai][4])
+👉 Full pricing details: https://app.doculan.ai/subscription-plans
 
 ---
 
-## Legal & Links
+## ❓ Frequently Asked Questions
 
-* **Terms & Conditions (PDF)** — Contains record access, paper-copy policy, and system requirements. ([app.doculan.ai][3])
-* **Sign in / App** — The application portal and login are at the app subdomain. ([app.doculan.ai][5])
+**Is there a free trial?**  
+Yes, all plans include a 30-day free trial.
+
+**What file formats are supported?**  
+Primarily PDF and common document formats with OCR support.
+
+**Does Doculan support AI form detection?**  
+Yes, supported for compatible AcroForms such as onboarding and tax forms.
+
+**Can I compare two filled PDFs?**  
+Yes, Doculan supports field-level comparison of populated PDF forms.
+
+**Can I request physical (paper) copies?**  
+Yes, as per the Terms & Conditions.
 
 ---
 
-## Footer
+## 🔗 Useful Links
 
-**Doculan** • Secure Document Management & E-Signing
-Links: Home • Features • Pricing • Sign up • Login • Terms & Conditions • Privacy Policy. ([doculan.ai][1])
+- 🌐 Website: https://www.doculan.ai  
+- 🔐 App Portal: https://app.doculan.ai  
+- 📝 Sign Up: https://app.doculan.ai/register  
+- 💵 Pricing: https://app.doculan.ai/subscription-plans  
+- 📄 Terms & Conditions (PDF): https://www.doculan.ai/#/electronic-sign-disclosure
 
-[1]: https://www.doculan.ai/?utm_source=chatgpt.com "Doculan | Document Management & E-Signature Solution"
-[2]: https://app.doculan.ai/subscription-plans?utm_source=chatgpt.com "Choose Your Plan - Doculan"
-[3]: https://app.doculan.ai/docs/Terms_%26_Conditions.pdf?utm_source=chatgpt.com "Terms & Conditions - Doculan"
-[4]: https://app.doculan.ai/register?utm_source=chatgpt.com "Create an account - Doculan"
-[5]: https://app.doculan.ai/?utm_source=chatgpt.com "Doculan"
+---
+
+## 🏁 Footer
+
+**Doculan** — Secure Document Management • AI Forms • PDF Comparison • E-Signatures  
+Home • Features • Pricing • Sign Up • Login • Privacy Policy • Terms & Conditions
