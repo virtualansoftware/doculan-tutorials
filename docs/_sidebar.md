@@ -53,3 +53,4 @@
 - **Release Notes**
     - [Version 0.3.0](releaseNotes/version_0.3.0.md)
     - [Version 0.4.0](releaseNotes/version_0.4.0.md)
+     - [Version 0.5.0](releaseNotes/version_0.5.0.md)
