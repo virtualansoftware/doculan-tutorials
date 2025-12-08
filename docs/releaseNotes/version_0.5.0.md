@@ -1,4 +1,10 @@
-## How to Generate QR Code for E-Sign Documents?
+# 🚀 Version 0.5.0 – New Enhancements
+
+1. **Generate QR Code for E-Sign Documents** – QR Code generation provides quick, direct access to E-Sign documents by embedding party details and allowing immediate document opening through a simple device scan.
+2. **Generate QR Code for Forms** – QR Codes offer a seamless way for participants to access and submit forms by embedding essential participant information and enabling instant form retrieval through a simple device scan.
+
+---
+## 1️⃣ Generate QR Code for E-Sign Documents
 QR Code generation enables streamlined, **direct access to E-Sign documents** without requiring manual navigation. The generated code includes essential party details and can be scanned from any compatible device to immediately open and complete the document.
 ### Steps to Generate a QR Code
 1. Open the required **E-Sign Document** from the list.
@@ -29,7 +35,7 @@ QR Code generation enables streamlined, **direct access to E-Sign documents** wi
 
 ---
 
-##  How to Generate QR Code for Forms?
+## 2️⃣ Generate QR Code for Forms
 QR Codes provide an efficient method for participants to **access and submit forms with minimal effort**. The generated code contains the required participant information and allows instant form retrieval through a simple device scan.
 ### Steps to Generate a QR Code
 

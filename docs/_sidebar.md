@@ -2,7 +2,7 @@
 
 ---
 
-- **E-Sign**
+- **E-Signature**
     - [How to send single party document?](E_Sign\single-party-document.md)
     - [How to send multiple party document?](E_Sign\multiple-party-document.md)
     - [How to send Bulk mail?](E_Sign\bulk-mail.md)
@@ -12,7 +12,7 @@
 
 ---
 
-- **E-Sign Template**
+- **E-Signature Template**
     - [What is Myself / Team template?](E_Sign\myself-or-team-template.md)
     - [How to create template?](E_Sign\create-template.md)
     - [How to update template?](E_Sign\update-template.md)
@@ -44,13 +44,24 @@
 
 ---
 
-- **Document Management**
+- **Document Editor**
     -  [How Create Document?](Document/Documents_Create.md)
     -  [How to Upload Document?](Document/Documents_Upload.md)
 
 ---
 
+- **Library Management**
+    -  [Library – Documents](Security/Security.mdd)
+    <!-- -  [Library – Forms](Document/Documents_Upload.md) -->
+
+---
+
+- **Security**
+    -  [Two-Factor Authentication[2FA]](Security/Security.md)
+    
+---
+
 - **Release Notes**
     - [Version 0.3.0](releaseNotes/version_0.3.0.md)
     - [Version 0.4.0](releaseNotes/version_0.4.0.md)
-     - [Version 0.5.0](releaseNotes/version_0.5.0.md)
+    - [Version 0.5.0](releaseNotes/version_0.5.0.md)
