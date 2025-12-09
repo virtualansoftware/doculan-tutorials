@@ -8,7 +8,7 @@ Doculan offers **two types of templates**:
 1. **Myself Template**
 2. **Team Template**
 
-Let's break them down step-by-step.
+Let's break them down step-by-step. 
 
 ---
 
