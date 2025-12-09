@@ -51,7 +51,7 @@
 ---
 
 - **Library Management**
-    -  [Library – Documents](Security/Security.mdd)
+    -  [Library – Documents](Library_Management/Library.md)
     <!-- -  [Library – Forms](Document/Documents_Upload.md) -->
 
 ---
