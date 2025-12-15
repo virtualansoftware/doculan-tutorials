@@ -3,13 +3,18 @@
 This guide explains the complete process of **creating a form, sending it to users, capturing their submissions, and reviewing the collected data**. 
 Follow the step-by-step instructions to manage your form workflow efficiently.
 
+---
+
 ##   **Step 1: Navigate to Create the Form**
 
-- Go to the **Forms** page.
-- Upload a **logo** (optional).
-- Enter **Form Title** and **Form Description**.
-- Select the **folder path** to store submitted data.
-- Drag and drop required fields: 
+- Navigate to the **Doculan Dashboard**. Click **Forms** from the main menu. 
+
+- Click the **Create New Form** button to manually design a form, or select **Generate with AI** to automatically create a form using **AI**.
+
+- For manual form creation, click the **Create New Form** button to proceed.
+
+- We have to Upload a **logo** (optional). Enter **Form Title** and **Form Description**.
+- Select the **folder path** to store submitted data. Drag and drop required fields: 
 
 | Field Type        | Description |
 |------------------|-------------|
@@ -40,7 +45,7 @@ Follow the step-by-step instructions to manage your form workflow efficiently.
 - Click **Send Form**
 - Add **recipient name & email**
 - Set **validity date** & **reminders**
-- Drag & drop the **form link** into the email body
+- Drag & drop the **Form link** and **Fullname** into the email body
 - Click **Send**
 
 **Screenshot1:**
@@ -77,13 +82,15 @@ Follow the step-by-step instructions to manage your form workflow efficiently.
 ---> The above **Screenshots** represent that how to Complete **otp verification** and **fill the form** and download the responses in **PDF Format**
 
 #   **Step 4: Navigate to Review Submissions**
+To review and manage form submissions in Doculan, follow the steps below:
 
 - Form status changes to **Completed**
-- Navigate: **Dashboard → Forms**
-- View actions under **Actions menu**:
-  - **Audit** – view submission logs  
-  - **View** – check individual submission
-- **Download all submissions as CSV**
+- Navigate to the **Doculan Dashboard** and click **Forms.**
+- Locate the required form and click the **⋮ (three-dot) icon** under the **Actions** column. 
+- From the Actions menu, you can perform the following operations:
+  - **Audit** – View detailed submission logs and activity history.  
+  - **View** – Review individual form submissions.
+- Download all form submissions in **CSV format** for reporting or offline analysis.
 
 **Screenshot1:**
 

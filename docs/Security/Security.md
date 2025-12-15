@@ -1,6 +1,8 @@
 # Two-Factor Authentication (2FA)
 Two-Factor Authentication (2FA) is a security mechanism that enhances account protection by requiring users to verify their identity through two independent authentication factors. In addition to a standard password, users must provide a second form of verification—such as a one-time passcode, authenticator app token, or hardware security key. This dual-layer validation significantly reduces unauthorized access risks and strengthens overall system security.
 
+---
+
 ## Steps to Enable Two-Factor Authentication (2FA)
 Follow the steps below to securely enable **Two-Factor Authentication (2FA)** in **Doculan.**
 

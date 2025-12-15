@@ -31,7 +31,7 @@ QR Code generation enables streamlined, **direct access to E-Sign documents** wi
 
 6. Scanning the QR code from any device allows users to instantly **access, complete, and submit the E-Sign document.**
 
-> **Note:** QR Code generation is available **only when the E-Sign document status is _Pending_.**
+> **Note:** QR Code generation is available **only when the E-Sign document status is _Pending_ and _Shared_**
 
 ---
 

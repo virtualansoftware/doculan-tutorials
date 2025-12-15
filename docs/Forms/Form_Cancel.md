@@ -2,12 +2,15 @@
 
 This guide helps to how to **cancel a form in Doculan** when it is **no longer needed**. Walks you through navigating to the form, initiating the cancellation, confirming the action, and reviewing the audit trail for tracking. It ensures you can safely stop a form workflow with full transparency.
 
+---
+
 
 ## **Step 1:  Navigate to Cancel the Form**
 
 - Status must be **Sent**
-- Go to **Dashboard → Forms**
-- Click **Action → Cancel**
+- Navigate to the **Doculan Dashboard** and click **Forms.**
+- Locate the **form** and click the **⋮ (three-dot) icon** under the Actions column.
+- Click **Cancel.**
 
 **Screenshot1:**
 
@@ -39,8 +42,10 @@ A confirmation popup appears with details.
 <!-- **Screenshot4:** -->
 # **Step 3: Audit Trail**
 
-- Click **Audit Button** 
-- Check the timesheet from the audit trail.
+- Navigate to the **Doculan Dashboard and click Forms.**
+- Locate the required **form** and click the **⋮ (three-dot) icon** under the **Actions column.**
+- From the Actions menu, you can perform the below operations:
+- **Audit** – We can check the timesheet from the audit trail.
 
 <img src="screenshots\Forms\Form-Cancel4.png" alt="Step 4 — Cancel the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
