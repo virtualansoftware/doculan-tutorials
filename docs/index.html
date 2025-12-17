@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="_media/favicon.ico">
@@ -9,7 +10,8 @@
 	<!-- Primary Meta Tags -->
 	<title>Doculan – Document Management & E-Signature Platform</title>
 	<meta name="title" content="Doculan – Document Management & E-Signature Platform">
-	<meta name="description" content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
+	<meta name="description"
+		content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
 
 	<!-- Canonical -->
 	<link rel="canonical" href="https://www.doculan.ai/" />
@@ -18,7 +20,8 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.doculan.ai/">
 	<meta property="og:title" content="Doculan – Document Management & E-Signature Platform">
-	<meta property="og:description" content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
+	<meta property="og:description"
+		content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
 	<meta property="og:image" content="https://www.doculan.ai/images/DemoThumbnail.png">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
@@ -27,213 +30,241 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="https://www.doculan.ai/">
 	<meta name="twitter:title" content="Doculan – Document Management & E-Signature Platform">
-	<meta name="twitter:description" content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
-    <meta name="twitter:image" content="https://www.doculan.ai/images/DemoThumbnail.png">
+	<meta name="twitter:description"
+		content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
+	<meta name="twitter:image" content="https://www.doculan.ai/images/DemoThumbnail.png">
 
 	<meta property="sb:date_published" content="2020-09-09T01:37:23">
 	<meta property="sb:date_modified" content="2021-09-09T01:37:23">
 	<meta property="sb:meta_image" content="Docu-logo.png">
-	
+
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/cookie.css" rel="stylesheet" type="text/css" media="all" />
 	<script src=//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  	<style>
-	.fa  {
-		padding: 0px;
-		font-size: 25px;
-		width: 50px;
-		text-align: center;
-		text-decoration: none;
-		margin: 0px 0px;
-	}
+	<style>
+		.fa {
+			padding: 0px;
+			font-size: 25px;
+			width: 50px;
+			text-align: center;
+			text-decoration: none;
+			margin: 0px 0px;
+		}
 
-	.fa:hover a {
-		opacity: 0.7;
-	}
+		.fa:hover a {
+			opacity: 0.7;
+		}
 
-	.fa-facebook a {
-		background: #3B5998;
-		color: white;
-	}
+		.fa-facebook a {
+			background: #3B5998;
+			color: white;
+		}
 
-	.fa-twitter a {
-		background: #55ACEE;
-		color: white;
-	}
+		.fa-twitter a {
+			background: #55ACEE;
+			color: white;
+		}
 
-	.fa-google a {
-		background: #dd4b39;
-		color: white;
-	}
+		.fa-google a {
+			background: #dd4b39;
+			color: white;
+		}
 
-	.fa-linkedin a {
-		background: #007bb5;
-		color: white;
-	}
+		.fa-linkedin a {
+			background: #007bb5;
+			color: white;
+		}
 
-	.fa-youtube a {
-		background: #bb0000;
-		color: white;
-	}
+		.fa-youtube a {
+			background: #bb0000;
+			color: white;
+		}
 
-	.fa-instagram a {
-		background: #125688;
-		color: white;
-	}
+		.fa-instagram a {
+			background: #125688;
+			color: white;
+		}
 
-	.fa-pinterest a {
-		background: #cb2027;
-		color: white;
-	}
+		.fa-pinterest a {
+			background: #cb2027;
+			color: white;
+		}
 
-	.fa-snapchat-ghost a {
-		background: #fffc00;
-		color: white;
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	}
+		.fa-snapchat-ghost a {
+			background: #fffc00;
+			color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
 
-	.fa-skype a {
-		background: #00aff0;
-		color: white;
-	}
+		.fa-skype a {
+			background: #00aff0;
+			color: white;
+		}
 
-	.fa-android a {
-		background: #a4c639;
-		color: white;
-	}
+		.fa-android a {
+			background: #a4c639;
+			color: white;
+		}
 
-	.fa-dribbble a {
-		background: #ea4c89;
-		color: white;
-	}
+		.fa-dribbble a {
+			background: #ea4c89;
+			color: white;
+		}
 
-	.fa-vimeo a {
-		background: #45bbff;
-		color: white;
-	}
+		.fa-vimeo a {
+			background: #45bbff;
+			color: white;
+		}
 
-	.fa-tumblr a {
-		background: #2c4762;
-		color: white;
-	}
+		.fa-tumblr a {
+			background: #2c4762;
+			color: white;
+		}
 
-	.fa-vine a {
-		background: #00b489;
-		color: white;
-	}
+		.fa-vine a {
+			background: #00b489;
+			color: white;
+		}
 
-	.fa-foursquare a {
-		background: #45bbff;
-		color: white;
-	}
+		.fa-foursquare a {
+			background: #45bbff;
+			color: white;
+		}
 
-	.fa-stumbleupon a {
-		background: #eb4924;
-		color: white;
-	}
+		.fa-stumbleupon a {
+			background: #eb4924;
+			color: white;
+		}
 
-	.fa-flickr a {
-		background: #f40083;
-		color: white;
-	}
+		.fa-flickr a {
+			background: #f40083;
+			color: white;
+		}
 
-	.fa-yahoo a {
-		background: #430297;
-		color: white;
-	}
+		.fa-yahoo a {
+			background: #430297;
+			color: white;
+		}
 
-	.fa-soundcloud a {
-		background: #ff5500;
-		color: white;
-	}
+		.fa-soundcloud a {
+			background: #ff5500;
+			color: white;
+		}
 
-	.fa-reddit a {
-		background: #ff5700;
-		color: white;
-	}
+		.fa-reddit a {
+			background: #ff5700;
+			color: white;
+		}
 
-	.fa-rss a {
-		background: #ff6600;
-		color: white;
-	}
-  
-  .right {
-      position: absolute;
-      right: 0px;
-      width: 300px;
-      /* border: 3px solid #73AD21;  */
-      padding: 10px;
-    }
-  </style>
+		.fa-rss a {
+			background: #ff6600;
+			color: white;
+		}
 
-  <style>
+		.right {
+			position: absolute;
+			right: 0px;
+			width: 300px;
+			/* border: 3px solid #73AD21;  */
+			padding: 10px;
+		}
+	</style>
+
+	<!-- <style>
   /* Cover page background color update */
   section.cover {
     background: linear-gradient(135deg, #27b5d8, #b0d8e4) !important;
   }
-</style>
+</style> -->
+
+	<style>
+		/* Docsify Cover Page Background Image */
+		section.cover {
+			background: url('_media/cover-bg.png') no-repeat center center !important;
+			background-size: cover !important;
+		}
+
+		/* Optional: dark overlay for better text visibility */
+		section.cover::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: rgba(0, 0, 0, 0.45);
+			/* adjust opacity if needed */
+			z-index: 0;
+		}
+
+		/* Ensure content stays above overlay */
+		section.cover .cover-main {
+			position: relative;
+			z-index: 1;
+		}
+	</style>
+
 
 </head>
+
 <body>
-  <div id="app"></div>
-  <script>
-      // Docsify configuration
-      window.$docsify = {
-        alias: {
-  '/.*/_navbar.md': '/docs/_navbar.md',  // change path if file lives in /docs
-},
+	<div id="app"></div>
+	<script>
+		// Docsify configuration
+		window.$docsify = {
+			alias: {
+				'/.*/_navbar.md': '/docs/_navbar.md',  // change path if file lives in /docs
+			},
 
-        ga: 'G-Z5582BJD5N',
-        noCompileLinks: ['/api/.*','/kafka/.*'],
-        auto2top: true,
-        coverpage: true,
-        executeScript: true,
-        loadSidebar: true,
-        loadNavbar: true,
-        mergeNavbar: true,
-        maxLevel: 4,
-        subMaxLevel: 2,
-        logo: './_media/Docu-logo.png',
-        name: 'virtualan',
-        plugins: [
-          function (hook, vm) {
-            hook.afterEach(function (html) {
-            //   return (
-            //     html + '&copy;Virtualan (<a href="https://www.virtualan.io">https://www.virtualan.io</a>) '
-            //     +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'     
-            //     +' <a href="mailto:info@virtualan.io" target="_NEW"  class="fa fa-google"></a>   '
-            //     +' <a href="https://www.linkedin.com/company/virtualan-software" target="_NEW"  class="fa fa-linkedin"></a> '
-            //     +' <a href="https://www.youtube.com/channel/UCny1F1GiYoo2pARDaSDIzYw" target="_NEW" class="fa fa-youtube"></a> </span> '
-               
-            //   )
-            })
-          },
-        ],
-      };
-  </script>
-  <!-- Docsify v4 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="G-Z5582BJD5N"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
-  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script> 
-  <script>mermaid.initialize({ startOnLoad: true });</script>
+			ga: 'G-Z5582BJD5N',
+			noCompileLinks: ['/api/.*', '/kafka/.*'],
+			auto2top: true,
+			coverpage: true,
+			executeScript: true,
+			loadSidebar: true,
+			loadNavbar: true,
+			mergeNavbar: true,
+			maxLevel: 4,
+			subMaxLevel: 2,
+			logo: './_media/Docu-logo.png',
+			name: 'virtualan',
+			plugins: [
+				function (hook, vm) {
+					hook.afterEach(function (html) {
+						//   return (
+						//     html + '&copy;Virtualan (<a href="https://www.virtualan.io">https://www.virtualan.io</a>) '
+						//     +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'     
+						//     +' <a href="mailto:info@virtualan.io" target="_NEW"  class="fa fa-google"></a>   '
+						//     +' <a href="https://www.linkedin.com/company/virtualan-software" target="_NEW"  class="fa fa-linkedin"></a> '
+						//     +' <a href="https://www.youtube.com/channel/UCny1F1GiYoo2pARDaSDIzYw" target="_NEW" class="fa fa-youtube"></a> </span> '
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5582BJD5N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+						//   )
+					})
+				},
+			],
+		};
+	</script>
+	<!-- Docsify v4 -->
+	<!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
+	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="G-Z5582BJD5N"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+	<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+	<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+	<script>mermaid.initialize({ startOnLoad: true });</script>
 
-  gtag('config', 'G-Z5582BJD5N');
-</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5582BJD5N"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-Z5582BJD5N');
+	</script>
 
 
 </body>
+
 </html>
