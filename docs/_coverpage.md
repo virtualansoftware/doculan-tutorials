@@ -1,16 +1,35 @@
-![logo](_media\docu-mini-logo.png ':size=8%')
+<!-- Logo -->
+<p align="center">
+  <img src="_media/docu-mini-logo.png" width="90" />
+</p>
 
-![Doculan](_media\doculan-mini.png ':size=10%')
+<!-- Product Image / Icon -->
+<p align="center">
+  <img src="_media/doculan-mini.png" width="120" />
+</p>
 
+<!-- # Doculan -->
 
->Doculan is an all-in-one platform to create documents and forms, manage contacts, and securely E-sign files with ease.
+> **Doculan** is an all-in-one platform to create documents and forms, manage contacts, and securely **E-Sign** files with ease.
 
-- Fast, Simple & Lightweight Platform  
+<p align="center">
+  <strong>Fast • Simple • Lightweight Platform</strong>
+</p>
 
-<!-- > Clients -->
+<br/>
 
-<!-- ![autismcaretherapy](_clients\AutismCareTherapy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![marykennedy](_clients\MaryKennedy.png ':size=10%') &nbsp;&nbsp;&nbsp;&nbsp; ![americangreensolutions](_clients\AmericanGreenSolutions.png ':size=10%') -->
-
-<!-- [GitHub](https://github.com/virtualansoftware) -->
-<!-- [GitHub](https://github.com/virtualansoftware/doculan-tutorials/tree/main/docs) -->
-[Getting Started](README.md)
+<p align="center">
+  <a href="#/README">
+    <button style="
+      background:#2bb673;
+      color:#fff;
+      border:none;
+      padding:12px 28px;
+      font-size:16px;
+      border-radius:30px;
+      cursor:pointer;
+    ">
+      Getting Started
+    </button>
+  </a>
+</p>
