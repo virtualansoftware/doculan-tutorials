@@ -38,7 +38,7 @@
   text-decoration: none;
   cursor: pointer;
   padding: 2px 20px;
-  float: right;
+  /* float: right; */
   border-radius: 20px;
 }
 
