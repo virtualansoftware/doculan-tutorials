@@ -63,3 +63,4 @@ QR Codes provide an efficient method for participants to **access and submit for
 6. Users can scan the QR Code on any device to quickly **open, complete, and submit the form.**
 
 > **Note:** QR Codes for Forms can be generated only when the form status is **Opened**, **Sent**, or **Resent**.
+---
