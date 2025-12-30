@@ -83,7 +83,7 @@ GET /templates
 
 ---
 
-# 📄 Document Tracker API
+# 📄 Document Tracker APIs
 
 This API allows clients to retrieve the current status of a document using its tracking and document identifiers.
 
@@ -227,7 +227,7 @@ POST /documents/resend
 
 **Example**
 
-store_as_default=false
+> store_as_default=false
 
 
 ---
@@ -758,7 +758,7 @@ json
 
 ---
 
-# 📁 Files Operation API
+# 📁 Files Operation APIs
 
 The Files Operation **APIs allow you to retrieve individual files or list all available files** associated with your account or documents.
 
