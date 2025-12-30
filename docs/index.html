@@ -171,52 +171,37 @@
 		}
 	</style>
 
-	<!-- <style>
-  /* Cover page background color update */
-  section.cover {
-    background: linear-gradient(135deg, #27b5d8, #b0d8e4) !important;
-  }
-</style> -->
+	
 
-  
 
 	<style>
-		/* Cover background image */
+		/* Docsify Cover Page Background Image */
 		section.cover {
-			position: relative;
-			overflow: hidden;
+			background: url('./_media/cover-bg.jpg') no-repeat center center !important;
+			background-size: cover !important;
 		}
 
-		/* Background image layer */
+		/* Optional: dark overlay for better text visibility */
 		section.cover::before {
 			content: "";
 			position: absolute;
 			inset: 0;
-			background: url('_media/cover-bg.png') no-repeat center center;
-			background-size: cover;
-			filter: blur(2px);
-			/* 👈 Adjust blur level */
-			transform: scale(1.05);
-			/* Prevent edge cut after blur */
+			background: rgba(0, 0, 0, 0.45);
+			/* adjust opacity if needed */
 			z-index: 0;
 		}
 
-		/* Dark overlay (optional but recommended) */
-		section.cover::after {
-			content: "";
-			position: absolute;
-			inset: 0;
-			background: rgba(0, 0, 0, 0.45);
-			/* Adjust darkness */
-			z-index: 1;
-		}
-
-		/* Keep text & buttons sharp */
+		/* Ensure content stays above overlay */
 		section.cover .cover-main {
 			position: relative;
-			z-index: 2;
+			z-index: 1;
 		}
 	</style>
+
+
+
+
+
 
 
 

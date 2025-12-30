@@ -10,6 +10,10 @@
 
 <!-- # Doculan -->
 
+<!-- <p align="center">
+  <strong>Doculan</strong>
+</p> -->
+
 > **Doculan** is an all-in-one platform to create documents and forms, manage contacts, and securely **E-Sign** files with ease.
 
 <p align="center">
