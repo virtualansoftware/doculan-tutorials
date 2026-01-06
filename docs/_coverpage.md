@@ -24,7 +24,6 @@
       background:#2bb673;
       color:#fff;
       border:none;
-      padding:12px 28px;
       font-size:16px;
       border-radius:30px;
       cursor:pointer;
