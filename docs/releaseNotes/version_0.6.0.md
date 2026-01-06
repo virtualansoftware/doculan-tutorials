@@ -204,7 +204,10 @@ This section explains how to enable and use **E-Sign Record** in Doculan, includ
 
 **Screenshot 1**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+-->The above **Screenshot** represent that **Initiating E-Sign Record**
+
 
 8. Click **Send Mail**.
 9. Add the recipient’s **Email ID** and **Name**.
@@ -236,7 +239,10 @@ The recipient will receive the email and open the document.
 
 **Screenshot 2**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+-->The above **Screenshot** represent that **Disclosure and OTP Verification**
+
 
 5. Complete **OTP Verification**.
 6. Open the document.
@@ -252,7 +258,10 @@ The recipient will receive the email and open the document.
 
 **Screenshot 3**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+-->The above **Screenshot** represent that **Video-Based E-Sign Process**
+
 
 - Video recording will appear in the **top-left corner**.
 - The **Signature popup** will appear in the **center** of the screen.
@@ -260,7 +269,10 @@ The recipient will receive the email and open the document.
 
 **Screenshot 4**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+-->The above **Screenshot** represent that **Video-Based E-Sign Process**
+
 
 6. Fill in the remaining required fields.
 7. Click **Submit** to complete the signing process.
@@ -283,7 +295,10 @@ Verify the **signature**, **date**, and **time (timestamp)**.
 
 **Screenshot 5**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+-->The above **Screenshot** represent that **Viewing Signed Document and Evidence**
+
 
 ---
 
@@ -295,7 +310,8 @@ Verify the **signature**, **date**, and **time (timestamp)**.
 
 **Screenshot 6**
 
-<img src="screenshots/releaseNotes/ESIGN-EMB4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+<img src="screenshots/releaseNotes/E-SIGN_RECORD-6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
+-->The above **Screenshot** represent that **Viewing Video Evidence**
 
 ---
