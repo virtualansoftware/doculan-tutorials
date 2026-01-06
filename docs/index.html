@@ -187,37 +187,14 @@
 			overflow: hidden;
 		}
 
-		/* Background image layer */
-		section.cover::before {
-			content: "";
-			position: absolute;
-			inset: 0;
-			/* background: url('_media/bg.jpg') no-repeat center center; */
-			background-size: cover;
-			filter: blur(2px);
-			/* 👈 Adjust blur level */
-			transform: scale(1.05);
-			/* Prevent edge cut after blur */
-			z-index: 0;
-		}
 
-		/* Dark overlay (optional but recommended) */
-		section.cover::after {
-			content: "";
-			position: absolute;
-			inset: 0;
-			background: rgba(0, 0, 0, 0.45);
-			/* Adjust darkness */
-			z-index: 1;
-		}
-
-		/* Keep text & buttons sharp */
-		section.cover .cover-main {
-			position: relative;
-			z-index: 2;
-		}
 	</style>
-
+<style>
+  /* Cover page background color update */
+  section.cover {
+    background: linear-gradient(135deg, #27B5D8, #B0D8E4) !important;
+  }
+</style>
 
 
 </head>
