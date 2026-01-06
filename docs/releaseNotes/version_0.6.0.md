@@ -183,14 +183,14 @@ You can:
 ---
 
 
-# E-Sign Record in Doculan
+# 3️⃣ E-Sign Record in Doculan
 
 E-Sign Record in Doculan enables secure, video-recorded electronic signatures with automatic timestamping for enhanced compliance and auditability. The signing process captures visual evidence and consent during execution, allowing organizations to verify signer identity, signature time, and signing activity with complete transparency.
 
 This section explains how to enable and use **E-Sign Record** in Doculan, including video recording and timestamp verification during the signing process.
 
 
-## Initiating E-Sign Record
+### Initiating E-Sign Record
 
 1. Navigate to the **Doculan Dashboard**.
 2. Click **Documents**.
@@ -221,7 +221,7 @@ Under **Security Settings**, configure the following options:
 > Enable **Wet Signature only** when additional security is needed.
 
 
-## Sending the Document
+### Sending the Document
 
 1. Enter the **Email Subject** and **Email Body**.
 2. Send the email to the recipient.
@@ -230,7 +230,7 @@ The recipient will receive the email and open the document.
 
 ---
 
-## Disclosure and OTP Verification
+### Disclosure and OTP Verification
 
 1. A **Disclosure Popup** will appear.
 2. Read the disclosure statement.
@@ -248,7 +248,7 @@ The recipient will receive the email and open the document.
 6. Open the document.
 
 
-## Video-Based E-Sign Process
+### Video-Based E-Sign Process
 
 1. Click the **Signature Field**.
 2. A **Video-Enabled E-Sign popup** will appear.
@@ -281,7 +281,7 @@ The document will be submitted successfully.
 
 ---
 
-## Viewing Signed Document and Evidence
+### Viewing Signed Document and Evidence
 
 1. Navigate to the **Doculan Dashboard**.
 2. Click **Documents**.
@@ -291,7 +291,7 @@ The document will be submitted successfully.
 6. Select **Document**.
 
 The signed document will appear.  
-Verify the **signature**, **date**, and **time (timestamp)**.
+Verify the **signature**, **timestamp (date and time)**.
 
 **Screenshot 5**
 
@@ -302,7 +302,7 @@ Verify the **signature**, **date**, and **time (timestamp)**.
 
 ---
 
-## Viewing Video Evidence
+### Viewing Video Evidence
 
 1. Click **Evidence**.
 2. Select the specified **Party**.
