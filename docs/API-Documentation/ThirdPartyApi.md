@@ -1,10 +1,10 @@
-# 📄 Document Template APIs
+## 📄 Document Template APIs
 
 This section describes the APIs used to retrieve document templates from the system.
 
 ---
 
-## 🔹 Get Document Template by Name
+## 🔹 1 Get Document Template by Name
 
 Retrieve a specific document template using its template name.
 
@@ -20,9 +20,6 @@ GET /templates/{template_name}
 | `template_name` | string | ✅ Yes | Name of the document template |
 
 
-<!-- #### ATTESTATION AND AGREEMENT -->
-
-
 ### **Query Parameters**
 | Name | Type | Required | Default | Description |
 |-----|------|----------|---------|-------------|
@@ -33,28 +30,22 @@ GET /templates/{template_name}
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-<!-- **Example** -->
-
-
- <!-- Authorization: Bearer <JWT_TOKEN> -->
- 
-
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Successful response |
-| `422` | Validation error |
+| 200 | Successful response |
+| 422 | Validation error |
 
 ### **Tags**
 `Document Template`
 
 ---
 
-## 🔹 Get All Document Templates
+## 🔹 2 Get All Document Templates
 
 Retrieve a list of all available document templates.
 
@@ -75,44 +66,30 @@ GET /templates
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-````
-Authorization: Bearer <JWT_TOKEN>
-
-````
-
 
 ### **Request Body**
 
-_Not required_
+> _Not required_
 
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Successful response |
-| `422` | Validation error |
+| 200 | Successful response |
+| 422 | Validation error |
 
 ### **Tags**
 `Document Template`
 
 ---
 
-## 📌 Notes
-- All endpoints require proper authentication when security is enabled.
-- Responses are returned in **JSON** format.
-- Ensure correct permissions are assigned to access these APIs.
-
----
-
-# 📄 Document Tracker API
+# 📄 Document Tracker APIs
 
 This API allows clients to retrieve the current status of a document using its tracking and document identifiers.
 
 ---
 
-## 🔹 Get Document Status
+## 🔹 1 Get Document Status
 
 Retrieve the status of a specific document.
 
@@ -130,11 +107,13 @@ GET /documents/status
 | `tracking_id` | string | ✅ Yes | Unique tracking identifier of the document |
 | `document_id` | string | ✅ Yes | Unique identifier of the document |
 
+
 **Example**
 
-**racking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77**
 
-**document_id=13c33bd9-78e1-4a4d-9b1c-b0066eda140f**
+> tracking_id=e1bfaec4-a667-43dd-b221-0b4qwbd11a77
+
+> document_id=13d78bd9-70p1-4c8d-9b1c-a9066eda140f
 
 
 ---
@@ -144,25 +123,18 @@ GET /documents/status
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-````
- Authorization: Bearer <JWT_TOKEN>
- ````
-
-
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Successful response |
-| `422` | Validation error |
+| 200 | Successful response |
+| 422 | Validation error |
 
 ---
 
@@ -176,20 +148,7 @@ _Not required_
 
 ---
 
-### **Notes**
-- Ensure valid `tracking_id` and `document_id` values are provided.
-- Authorization requirements depend on the configured security scheme.
-- The response contains the latest document processing status.
-
----
-
-# 📄 Document Tracker API
-
-This API allows clients to retrieve the status of a document for a specific party involved in the document workflow.
-
----
-
-## 🔹 Get Party Document Status
+## 🔹 2 Get Party Document Status
 
 Retrieve the document status for an individual party using tracking, document, and party identifiers.
 
@@ -210,9 +169,11 @@ GET /documents/party-status
 
 **Example**
 
-**tracking_id=13c33bd9-78e1-4a4d-9b1c-b0066eda140f**
-**document_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77**
-**party_id=1**
+> tracking_id=13c34dd9-7f31-4s3d-9b1c-b006eda140f
+
+> document_id=e1bfqwe9-a677-43ad-b211-0b4afbd11a77
+
+> party_id=1
 
 
 ---
@@ -222,25 +183,18 @@ GET /documents/party-status
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-````
-Authorization: Bearer <JWT_TOKEN>
-````
-
-
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Successful response |
-| `422` | Validation error |
+| 200 | Successful response |
+| 422 | Validation error |
 
 ---
 
@@ -254,28 +208,15 @@ _Not required_
 
 ---
 
-### **Notes**
-- All query parameters are mandatory for this endpoint.
-- Ensure the `party_id` belongs to the specified document.
-- Authorization requirements depend on the configured security scheme.
-- The response returns the latest status of the document for the specified party.
-
---- 
-
-# 📄 Document Tracker API
-
-This API allows clients to resend a document signing link to recipients, with optional validity and client metadata.
-
----
-
-## 🔹 Resend Document Link
+## 🔹 3 Resend Document Link
 
 Resend the document access or signing link for an existing document using its document and tracking identifiers.
 
 ### **Endpoint**
 
+````
 POST /documents/resend
-
+````
 
 ---
 
@@ -286,7 +227,7 @@ POST /documents/resend
 
 **Example**
 
-store_as_default=false
+> store_as_default=false
 
 
 ---
@@ -296,11 +237,6 @@ store_as_default=false
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-Authorization: Bearer <JWT_TOKEN>
-
-
 ---
 
 ### **Request Body**
@@ -309,61 +245,49 @@ Authorization: Bearer <JWT_TOKEN>
 
 #### **Request Body Example**
 
-````json
+````
+json
+
 {
-  "document_id": "fce50e1e-5d05-4cf8-99ba-e62994f3ceb0",
-  "tracking_id": "076a1e8b-27ae-4e5a-8d7e-d6d24d98f2ed",
+  "document_id": "fce36a1e-5q95-4cf8-99ba-e62994f3ceb0",
+  "tracking_id": "076a3e8b-2uue-49va-8d7e-d6d24d98f2ed",
   "validityDate": "2025-12-31T18:29:59.000Z",
   "remainder": 0,
-  "client_info": {
-    "ip": "122.164.82.75",
-    "city": "Chennai",
-    "region": "Tamil Nadu",
-    "country": "IN",
-    "timezone": "Asia/Kolkata",
-    "timestamp": "2025-12-21T15:44:01.699Z",
-    "aws_region": "ap-south-1",
+  "client_info": 
+  {
+    "ip": "3.88.145.27",
+    "city": "New York",
+    "region": "New York",
+    "country": "US",
+    "timezone": "America/New_York",
+    "timestamp": "2025-12-21T10:14:01.699Z",
+    "aws_region": "us-east-1",
     "browser": "Chrome",
     "device": "PC/Laptop",
     "os": "Windows 10"
   }
 }
+
 ````
 
 **Response**
 
 | Status Code | Description                       |
 | ----------- | --------------------------------- |
-| `200`       | Document link successfully resent |
-| `422`       | Validation error                  |
+| 200       | Document link successfully resent |
+| 422       | Validation error                  |
 
 **Response Format**
 
-Content Type: **application/json**
+Content Type: `application/json`
 
 **Tags**
 
-Document Tracker
-
-## **Notes**
-
-- Ensure the document and tracking identifiers are valid and active.
-
-- The validityDate defines the expiration of the resent link.
-
-- Client metadata is used for auditing and tracking purposes.
-
-- Authorization requirements depend on the configured security scheme.
+`Document Tracker`
 
 ---
 
-# 📄 Document Tracker API
-
-These APIs allow clients to retrieve signed documents after the document workflow has been completed.
-
----
-
-## 🔹 Get Signed PDF
+## 🔹 4 Get Signed PDF
 
 Retrieve the final signed PDF document.
 
@@ -383,10 +307,11 @@ GET /documents/signed-pdf
 
 **Example**
 
-````
-tracking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77
-document_id=fce50e1e-5d05-4cf8-99ba-e62994f3ceb0
-````
+
+> tracking_id=a2bfeeb9-a677-43ad-b211-0b4afbd11a77
+
+> document_id=fyo50e1e-5d05-4cf8-99ba-e62994f3ceb0
+
 
 ---
 
@@ -395,24 +320,18 @@ document_id=fce50e1e-5d05-4cf8-99ba-e62994f3ceb0
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-````
-Authorization: Bearer <JWT_TOKEN>
-````
-
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Signed PDF retrieved successfully |
-| `422` | Validation error |
+| 200 | Signed PDF retrieved successfully |
+| 422 | Validation error |
 
 ---
 
@@ -421,7 +340,7 @@ _Not required_
 
 ---
 
-## 🔹 Download Signed Document Package
+## 🔹 5 Download Signed Document Package
 
 Download the complete signed document package, which may include the signed PDF, audit logs, and supporting files.
 
@@ -441,10 +360,11 @@ GET /documents/signed-package
 
 **Example**
 
-````
-document_id=fce50e1e-5d05-4cf8-99ba-e62994f3ceb0
-tracking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77
-````
+
+> document_id=fce56e1e-5d05-4cf8-99ba-e62994f3ceb0
+
+> tracking_id=a2bfeeb9-a677-47qd-b211-0b4afbd11a77
+
 
 ---
 
@@ -453,24 +373,18 @@ tracking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77
 |-----|------|----------|-------------|
 | `Authorization` | string | ❌ No | Bearer access token |
 
-**Example**
-
-````
-Authorization: Bearer <JWT_TOKEN>
-````
-
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Signed document package downloaded successfully |
-| `422` | Validation error |
+| 200 | Signed document package downloaded successfully |
+| 422 | Validation error |
 
 ---
 
@@ -482,23 +396,10 @@ _Not required_
 ### **Tags**
 `Document Tracker`
 
----
-
-### **Notes**
-- Both endpoints require the document to be fully signed.
-- Authorization may be required based on the configured security scheme.
-- The signed document package may include additional artifacts such as audit trails and certificates.
-- Use the signed PDF endpoint for direct access to the final document, and the package endpoint for full compliance records.
 
 ---
 
-# 📄 Document Tracker API
-
-This section covers APIs related to document completion certificates, audit/action logging, and tracking status retrieval.
-
----
-
-## 🔹 Get Completed Certificate
+## 🔹 6 Get Completed Certificate
 
 Retrieve the completion certificate for a fully processed document.
 
@@ -518,10 +419,10 @@ GET /documents/complete-certificates
 
 **Example**
 
-````
-document_id=fce50e1e-5d05-4cf8-99ba-e62994f3ceb0
-tracking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77
-````
+
+> document_id=fce50e1e-5d05-4cf8-99ba-b67994f3ceb0
+
+> tracking_id=e1bfeeb9-a677-43ad-f411-0b4afbd11a77
 
 ---
 
@@ -535,18 +436,13 @@ tracking_id=e1bfeeb9-a677-43ad-b211-0b4afbd11a77
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | Completion certificate generated successfully |
-| `422` | Validation error |
+| 200 | Completion certificate generated successfully |
+| 422  | Validation error |
+
 
 ---
 
-### **Response Notes**
-- This endpoint may return a **certificate file or no-content response**, depending on implementation.
-- Used primarily for compliance and audit purposes.
-
----
-
-## 🔹 Log Action API
+## 🔹 7 Log Action API
 
 Log a document-related action such as cancellation, rejection, or other workflow events.
 
@@ -575,29 +471,29 @@ POST /documents/log-action
 json
 
 {
-  "document_id": "682c5804-f860-4e98-802f-d5531b5aabd8",
+  "document_id": "687u5804-d360-4e98-802f-d5531b5aabd8",
   "tracking_id": "7054eab3-c0f2-40e2-9b9e-731c1444df6d",
   "action": "CANCELLED",
   "party_id": "1",
   "reason": "User requested cancellation",
   "client_info": {
-    "ip": "122.164.82.75",
-    "city": "Chennai",
-    "region": "Tamil Nadu",
-    "country": "IN",
-    "timezone": "Asia/Kolkata",
-    "timestamp": "2025-12-21T15:44:01.699Z",
+    "ip": "3.128.94.52",
+    "city": "Lisle",
+    "region": "Illinois",
+    "country": "US",
+    "timezone": "America/Chicago",
+    "timestamp": "2025-12-21T04:14:01.699Z",
     "browser": "Chrome",
     "device": "PC/Laptop",
     "os": "Windows 10"
   },
   "holder": {
-    "name": "Manikandan",
-    "email": "manikandan.d@virtualandemo.com",
+    "name": "John Doe",
+    "email": "johndoe@virtualansoftware.com",
     "address": {
-      "address_line_1": "3333 warrenville road",
-      "address_line_2": "suite 200",
-      "city": "lisle",
+      "address_line_1": "3333 Warrenville Road",
+      "address_line_2": "Suite 200",
+      "city": "Lisle",
       "country": "USA",
       "state": "IL",
       "zipcode": "60532"
@@ -605,22 +501,17 @@ json
   }
 }
 
+
 ````
 
 **Responses**
 
 | Status Code | Description                |
 | ----------- | -------------------------- |
-| `200`       | Action logged successfully |
-| `422`       | Validation error           |
+| 200       | Action logged successfully |
+| 422       | Validation error           |
 
-**Notes**
-
-- This API is used for audit trails and compliance logging.
-
-- Logged actions become part of the document’s lifecycle history.
-
-## 🔹 Get All Tracking IDs by Status
+## 🔹 8 Get All Tracking IDs by Status
 
 Retrieve all document tracking IDs grouped by their current status.
 
@@ -638,13 +529,13 @@ GET /documents/trackings-status
 
 **Request Body**
 
-`Not required`
+> Not required
 
 **Responses**
 
 | Status Code | Description                         |
 | ----------- | ----------------------------------- |
-| `200`       | Tracking IDs retrieved successfully |
+| 200       | Tracking IDs retrieved successfully |
 
 
 **Response Format**
@@ -655,23 +546,9 @@ Content Type: `application/json`
 
 `Document Tracker`
 
-**General Notes**
-
-- All endpoints may require authorization depending on system configuration.
-
-- These APIs support auditing, compliance, and operational monitoring.
-
-- Ensure document and tracking identifiers are valid before invoking these endpoints.
-
 ---
 
-# 📄 Document Tracker API
-
-These APIs manage document sending, signing, tracking, and metadata retrieval throughout the document lifecycle.
-
----
-
-## 🔹 Send Document
+## 🔹 9 Send Document
 
 Send a document to one or more parties for review or signing.
 
@@ -706,15 +583,17 @@ POST /documents/send
 
 ````
 json
+
 {
-  "document_id": "fce50e1e-5d05-4cf8-99ba-e62994f3ceb0",
+  "document_id": "fct60e1e-5d05-4cf8-99ja-e62994f3ceb0",
   "validityDate": "2025-12-31T18:29:59.000Z",
   "remainder": 0,
-  "parties": [
+  "parties": 
+  [
     {
       "id": "1",
-      "name": "vignesh",
-      "email": "vignesh02cse@gmail.com"
+      "name": "Sarah Williams",
+      "email": "sarah.williams@virtualansoftware.com"
     }
   ],
   "email_response": [
@@ -724,27 +603,27 @@ json
     }
   ],
   "cc_emails": [
-    "gowtham.v@virtualandemo.com"
+    "jason.brown@virtualansoftware.com"
   ],
   "client_info": {
-    "ip": "122.164.82.75",
-    "city": "Chennai",
-    "region": "Tamil Nadu",
-    "country": "IN",
-    "timezone": "Asia/Kolkata",
-    "timestamp": "2025-12-21T15:44:01.699Z",
-    "aws_region": "ap-south-1",
+    "ip": "3.156.94.52",
+    "city": "Lisle",
+    "region": "Illinois",
+    "country": "US",
+    "timezone": "America/Chicago",
+    "timestamp": "2025-12-21T04:14:01.699Z",
+    "aws_region": "us-east-2",
     "browser": "Chrome",
     "device": "PC/Laptop",
     "os": "Windows 10"
   },
   "holder": {
-    "name": "Manikandan",
-    "email": "manikandan.d@virtualandemo.com",
+    "name": "John Doe",
+    "email": "johndoe@virtualansoftware.com",
     "address": {
-      "address_line_1": "3333 warrenville road",
-      "address_line_2": "suite 200",
-      "city": "lisle",
+      "address_line_1": "3333 Warrenville Road",
+      "address_line_2": "Suite 200",
+      "city": "Lisle",
       "country": "USA",
       "state": "IL",
       "zipcode": "60532"
@@ -756,6 +635,7 @@ json
     "template_name": "Testing-template"
   }
 }
+
 ````
 
 
@@ -763,15 +643,15 @@ json
 
 | Status Code | Description                |
 | ----------- | -------------------------- |
-| `200`       | Document sent successfully |
-| `422`       | Validation error           |
+| 200      | Document sent successfully |
+| 422       | Validation error           |
 
 
-## 🔹 Get Tracking Metadata
+## 🔹 10 Get Tracking Metadata
 
 Retrieve **metadata and status details** for a document using its **tracking ID.**
 
-Endpoint
+**Endpoint**  
 
 ````
 GET /documents/{tracking_id}
@@ -785,7 +665,7 @@ GET /documents/{tracking_id}
 
 
 ````
-/documents/98db097c-56f6-4ffa-9c6e-62efbae24b36
+/documents/98dd587c-5d56-5dfa-9c6e-62efbae24b36
 ````
 
 **Headers**
@@ -799,16 +679,16 @@ GET /documents/{tracking_id}
 
 | Status Code | Description                 |
 | ----------- | --------------------------- |
-| `200`       | Tracking metadata retrieved |
-| `422`       | Validation error            |
+| 200       | Tracking metadata retrieved |
+| 422       | Validation error            |
 
 
-## 🔹 Sign Field API
+## 🔹 11 Sign Field API
 
 Submit **signed field values** for a document by a specific party.
 
-Endpoint
 
+**Endpoint**
 ````
 POST /documents/sign
 ````
@@ -823,15 +703,18 @@ POST /documents/sign
 **Request Body**
 
 Content-Type: `application/json`
+
 Required: `✅ Yes`
+
+
+**Request Body Example**
 
 ````
 json
-Request Body Example
 
 {
   "tracking_id": "98db097c-56f6-4ffa-9c6e-62efbae24b36",
-  "document_id": "fce50e1e-5d05-4cf8-99ba-e62994f3ceb0",
+  "document_id": "fce58e1e-5d05-4cf8-99ba-e62994f3ceb0",
   "party_id": "1",
   "fields": [
     {
@@ -846,18 +729,19 @@ Request Body Example
     }
   ],
   "client_info": {
-    "ip": "38.134.138.151",
-    "city": "Chennai",
-    "region": "Tamil Nadu",
-    "country": "IN",
-    "timezone": "Asia/Kolkata",
-    "timestamp": "2025-12-27T15:32:59.239Z",
-    "aws_region": "ap-south-1",
+    "ip": "3.128.94.52",
+    "city": "Lisle",
+    "region": "Illinois",
+    "country": "US",
+    "timezone": "America/Chicago",
+    "timestamp": "2025-12-27T04:02:59.239Z",
+    "aws_region": "us-east-2",
     "browser": "Chrome",
     "device": "PC/Laptop",
     "os": "Windows 10"
   }
 }
+
 
 ````
 
@@ -865,35 +749,27 @@ Request Body Example
 
 | Status Code | Description                |
 | ----------- | -------------------------- |
-| `200`       | Fields signed successfully |
-| `422`       | Validation error           |
+| 200       | Fields signed successfully |
+| 422       | Validation error           |
 
 **Tags**
 
 `Document Tracker`
 
-**General Notes**
-
-- All endpoints may require authorization depending on configuration.
-
-- Ensure document and tracking IDs are valid and active.
-
-- These APIs support end-to-end document sending, signing, and tracking workflows.
-
 ---
 
-# 📁 Files Operation API
+# 📁 Files Operation APIs
 
 The Files Operation **APIs allow you to retrieve individual files or list all available files** associated with your account or documents.
 
 
-**Base URL**
+**Base URL:**   
 https://api.doculansign.com
 
 
 ---
 
-## 🔹 Get File
+## 🔹 1 Get File
 
 Retrieve a specific file using its document ID.  
 Optionally, you can return the actual PDF file or just the file metadata.
@@ -914,7 +790,7 @@ GET /files/{document_id}
 **Example**
 
 ````
-/files/f7f5a7ce-85ef-4cf8-a3ab-3a9cc1ebc5ea
+/files/f7f5a7ce-87yf-4cf8-a3ab-3a9cc1ebc5ea
 ````
 
 ---
@@ -927,30 +803,25 @@ GET /files/{document_id}
 ---
 
 ### **Headers**
-_None required_
+> _None required_
 
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | File or metadata retrieved successfully |
-| `422` | Validation error |
+| 200 | File or metadata retrieved successfully |
+| 422 | Validation error |
+
 
 ---
 
-### **Response Notes**
-- When `return_pdf=true`, the response may contain binary PDF data.
-- When `return_pdf=false`, metadata is returned in JSON format.
-
----
-
-## 🔹 List Files
+## 🔹 2 List Files
 
 Retrieve a list of all available files.
 
@@ -970,19 +841,19 @@ GET /files/
 ---
 
 ### **Query Parameters**
-_None_
+> _None_
 
 ---
 
 ### **Request Body**
-_Not required_
+> _Not required_
 
 ---
 
 ### **Responses**
 | Status Code | Description |
 |------------|-------------|
-| `200` | List of files retrieved successfully |
+| 200 | List of files retrieved successfully |
 
 ---
 
@@ -992,16 +863,8 @@ _Not required_
 
 ---
 
-## 🏷️ Tags
+###  Tags
 `Files Operation`
-
----
-
-## ℹ️ General Notes
-- All endpoints are read-only.
-- Authorization may be required depending on your security configuration.
-- Ensure the `document_id` exists and is accessible by the requesting client.
-- Use **Get File** for direct file access and **List Files** for browsing available documents.
 
 ---
 
