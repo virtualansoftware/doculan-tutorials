@@ -2,7 +2,7 @@
 
 1. **Wet Signature in Doculan** – Wet Signature in Doculan allows recipients to print documents, sign them manually, and upload the signed PDF back into the E-Sign workflow, ensuring compliance where handwritten signatures are required with a secure digital audit trail.
 2. **E-Sign Embedded in Doculan** – E-Sign Embedded in Doculan enables users to integrate the signing process directly within forms, allowing recipients to review and electronically sign documents seamlessly without leaving the form flow.
-3. **E-Sign Record in Doculan** - captures video evidence and timestamped signatures during the signing process, ensuring enhanced security and audit compliance. This feature enables reliable verification of signer activity and signature authenticity.
+3. **E-Sign Record in Doculan** - E-Sign Record in Doculan captures video evidence and timestamped signatures during the signing process, ensuring enhanced security and audit compliance. This feature enables reliable verification of signer activity and signature authenticity.
 
 ---
 ## 1️⃣ Wet Signature in Doculan
