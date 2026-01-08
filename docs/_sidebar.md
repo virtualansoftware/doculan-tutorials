@@ -27,6 +27,20 @@
 
 ---
 
+- **Wet Signature**
+    - [Wet-Sign in Doculan](Wet-Signature/WetSign.md)
+
+    <!-- docs\Wet-Signature\WetSign.md -->
+
+---
+
+- **Video Enabled Esign**
+    - [E-Sign Record in Doculan](Video_Enabled-Esign/VideoEsign.md)
+
+    <!-- docs\Video_Enabled-Esign\VideoEsign.md -->
+    
+---
+
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
     - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
@@ -35,6 +49,13 @@
     - [How to Delete Form?](Forms/Form-Delete.md)
     - [How to Resend Form?](Forms/Form_Resend.md)
 
+---
+
+- **Embedded Esign**
+    - [E-Sign Embedded in Doculan](Embedded-Esign/EmbdedEsign.md)
+
+    <!-- docs\Embedded-Esign\EmbdedEsign.md -->
+    
 ---
 
 - **Contact Management**
@@ -62,8 +83,7 @@
 ---
 
 - **API Documentation**
-    -  [E-Signature](API-Documentation/E-Signature.md)
-    - [Third Party API](API-Documentation/ThirdPartyApi.md)
+    -  [E-Signature](API-Documentation/E-Sign.md)
     ---
     
 - **Release Notes**
