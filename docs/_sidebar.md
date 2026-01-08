@@ -1,4 +1,4 @@
-﻿﻿[Getting started](README.md)
+﻿﻿ [Getting started](README.md)
 
 ---
 
@@ -9,6 +9,19 @@
     - [How to cancel eSign document?](E_Sign\cancel-esign-document.md)
     - [How to decline eSign document?](E_Sign\decline-esign-document.md)
     - [How to resend eSign document?](E_Sign\resend-esign-document.md)
+
+- **Wet Signature**
+    - [Wet-Sign in Doculan](Wet-Signature/WetSign.md)
+
+    <!-- docs\Wet-Signature\WetSign.md -->
+
+
+
+- **Video Enabled Esign**
+    - [E-Sign Record in Doculan](Video_Enabled-Esign/VideoEsign.md)
+
+    <!-- docs\Video_Enabled-Esign\VideoEsign.md -->
+    
 
 ---
 
@@ -26,21 +39,6 @@
     - [How to cancel shared document?](E_Sign\cancel-shared-document.md)
 
 ---
-
-- **Wet Signature**
-    - [Wet-Sign in Doculan](Wet-Signature/WetSign.md)
-
-    <!-- docs\Wet-Signature\WetSign.md -->
-
----
-
-- **Video Enabled Esign**
-    - [E-Sign Record in Doculan](Video_Enabled-Esign/VideoEsign.md)
-
-    <!-- docs\Video_Enabled-Esign\VideoEsign.md -->
-    
----
-
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
     - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
@@ -48,8 +46,6 @@
     - [How to Cancel Form?](Forms/Form_Cancel.md)
     - [How to Delete Form?](Forms/Form-Delete.md)
     - [How to Resend Form?](Forms/Form_Resend.md)
-
----
 
 - **Embedded Esign**
     - [E-Sign Embedded in Doculan](Embedded-Esign/EmbdedEsign.md)

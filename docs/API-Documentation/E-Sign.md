@@ -374,16 +374,16 @@ json
       "parties": [
         {
           "id": "1",
-          "name": "John Doe",
-          "email": "john.doe@example.com",
+          "name": "User One",
+          "email": "user.one@example.test",
           "color": "hsl(196, 100%, 90%)",
           "status": {
             "sent": [
               {
                 "isSent": true,
                 "dateTime": "2025-12-12T16:00:50.797238+00:00",
-                "party_name": "John Doe",
-                "party_email": "john.doe@example.com",
+                "party_name": "User One",
+                "party_email": "user.one@example.test",
                 "ip": "34.201.55.91",
                 "browser": "Chrome",
                 "os": "Windows 11",
@@ -401,8 +401,8 @@ json
               {
                 "isOpened": true,
                 "dateTime": "2025-12-12T16:11:04.313365+00:00",
-                "party_name": "John Doe",
-                "party_email": "john.doe@example.com",
+                "party_name": "User One",
+                "party_email": "user.one@example.test",
                 "ip": "34.201.45.91",
                 "browser": "Chrome",
                 "os": "Windows 11",
@@ -420,8 +420,8 @@ json
               {
                 "isSigned": true,
                 "dateTime": "2025-12-12T16:12:49.689499+00:00",
-                "party_name": "John Doe",
-                "party_email": "john.doe@example.com",
+                "party_name": "User One",
+                "party_email": "user.one@example.test",
                 "ip": "34.201.45.91",
                 "browser": "Chrome",
                 "os": "Windows 11",
@@ -448,8 +448,8 @@ json
       "parties": [
         {
           "id": "1",
-          "name": "Alex Brown",
-          "email": "alex.brown@example.com",
+          "name": "User Two",
+          "email": "user.two@example.test",
           "color": null,
           "status": {
             "cancelled": [
@@ -457,8 +457,8 @@ json
                 "isCancelled": true,
                 "reason": "Invalid document format",
                 "dateTime": "2025-12-31T21:48:44.275476+00:00",
-                "party_name": "Alex Brown",
-                "party_email": "alex.brown@example.com",
+                "party_name": "User Two",
+                "party_email": "user.two@example.test",
                 "ip": "18.211.90.44",
                 "browser": "Chrome",
                 "os": "Windows 11",
@@ -476,49 +476,49 @@ json
         }
       ]
     },
+    {
+      "document_id": "92c79f09-76c5-4cf8-bab6-9b98721ncefc",
+      "tracking_id": "ac532311-6c71-4f65-aea6-a6chnj77faefa",
+      "validity_date": "2026-12-12T18:29:59.000Z",
+      "status": "scheduled",
+      "datetime": "2026-01-06T13:42:49.000600+00:00",
+      "parties": [
         {
-            "document_id": "92c79f09-76c5-4cf8-bab6-9b98721ncefc",
-            "tracking_id": "ac532311-6c71-4f65-aea6-a6chnj77faefa",
-            "validity_date": "2026-12-12T18:29:59.000Z",
-            "status": "scheduled",
-            "datetime": "2026-01-06T13:42:49.000600+00:00",
-            "parties": [
-                {
-                    "id": "1",
-                    "name": "gowtham 1",
-                    "email": "govisgr8@gmail.com",
-                    "color": "hsl(196, 100%, 90%)",
-                    "status": {
-                        "scheduled": [
-                            {
-                                "isScheduled": true,
-                                "dateTime": "2026-01-06T13:42:49.000600+00:00",
-                                "party_name": "gowtham 1",
-                                "party_email": "govisgr8@gmail.com",
-                                "ip": "34.228.4.221",
-                                "browser": "HeadlessChrome",
-                                "os": "Linux ",
-                                "device": "PC/Laptop",
-                                "location": {
-                                    "city": "Ashburn",
-                                    "region": "Virginia",
-                                    "country": "US",
-                                    "timestamp": "2026-01-06T13:42:48.584Z",
-                                    "timezone": "America/New_York"
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": "2",
-                    "name": "gowtham 2",
-                    "email": "govisgr4@gmail.com",
-                    "color": "hsl(80, 70%, 90%)",
-                    "status": {}
+          "id": "1",
+          "name": "Signer One",
+          "email": "signer.one@example.test",
+          "color": "hsl(196, 100%, 90%)",
+          "status": {
+            "scheduled": [
+              {
+                "isScheduled": true,
+                "dateTime": "2026-01-06T13:42:49.000600+00:00",
+                "party_name": "Signer One",
+                "party_email": "signer.one@example.test",
+                "ip": "34.228.4.221",
+                "browser": "HeadlessChrome",
+                "os": "Linux",
+                "device": "PC/Laptop",
+                "location": {
+                  "city": "Ashburn",
+                  "region": "Virginia",
+                  "country": "US",
+                  "timestamp": "2026-01-06T13:42:48.584Z",
+                  "timezone": "America/New_York"
                 }
+              }
             ]
+          }
         },
+        {
+          "id": "2",
+          "name": "Signer Two",
+          "email": "signer.two@example.test",
+          "color": "hsl(80, 70%, 90%)",
+          "status": {}
+        }
+      ]
+    },
     {
       "document_id": "021fc34b-b267-43ba-a7af-455286ebe90b",
       "tracking_id": "0e8aa699-9114-4cbb-a479-m50cf693f988",
@@ -528,8 +528,8 @@ json
       "parties": [
         {
           "id": "1",
-          "name": "Emily Clark",
-          "email": "emily.clark@example.com",
+          "name": "User Three",
+          "email": "user.three@example.test",
           "color": "hsl(196, 100%, 90%)",
           "status": {}
         }
@@ -544,16 +544,16 @@ json
       "parties": [
         {
           "id": "1",
-          "name": "Michael Lee",
-          "email": "michael.lee@example.com",
+          "name": "User Four",
+          "email": "user.four@example.test",
           "color": "#ccf1ffff",
           "status": {
             "shared": [
               {
                 "isShared": true,
                 "dateTime": "2026-01-06T13:15:29.208286+00:00",
-                "party_name": "Michael Lee",
-                "party_email": "michael.lee@example.com",
+                "party_name": "User Four",
+                "party_email": "user.four@example.test",
                 "ip": "44.193.15.98",
                 "browser": "Chrome",
                 "os": "Linux",
@@ -573,6 +573,7 @@ json
     }
   ]
 }
+
 
 ````
 
@@ -907,14 +908,7 @@ This API returns the **signed document** in **PDF format.**
 <p>
   <a href="files/Sample Two-Party Agreement-Authorized.pdf" target="_blank"
      style="display:inline-block; background-color:#007bff; color:white; padding:10px 20px; border-radius:6px; text-decoration:none;">
-    📄 ⬇️Download Sample PDF 
-  </a>
-</p>
-
-<p>
-  <a href="files/Sample Two-Party Agreement-Authorized.pdf" target="_blank"
-     style="display:inline-block; background-color:#1E90FF; color:white; padding:10px 20px; border-radius:6px; text-decoration:none;">
-     ⬇️Download Sample PDF 
+    📄 Download Sample PDF 
   </a>
 </p>
 
