@@ -1,6 +1,6 @@
 ﻿﻿ [Getting started](README.md)
-
----
+ 
+ ---
 
 - **E-Signature**
     - [How to send single party document?](E_Sign/single-party-document.md)
@@ -13,15 +13,8 @@
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
 
-    <!-- docs\Wet-Signature\WetSign.md -->
-
-
-
 - **Video Enabled Esign**
     - [How to use Video Enabled Esign?](Video_Enabled-Esign/VideoEsign.md)
-
-    <!-- docs\Video_Enabled-Esign\VideoEsign.md -->
-    
 
 ---
 
@@ -50,8 +43,6 @@
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
 
-    <!-- docs\Embedded-Esign\EmbdedEsign.md -->
-    
 ---
 
 - **Contact Management**

@@ -1,5 +1,5 @@
-#  E-Sign Embedded in Doculan
-E-Sign Embedded in Doculan allows users to **embed the E-Sign** process directly within forms, enabling recipients to **review and sign documents without leaving the form flow**. This ensures a seamless signing experience while **securely capturing signed documents** and storing completed forms in **Doculan Storage**. This section explains how to use **E-Sign Embedded** within Forms in Doculan.
+#  How to use Embedded Esign?
+It allows users to **embed the E-Sign** process directly within forms, enabling recipients to **review and sign documents without leaving the form flow**. This ensures a seamless signing experience while **securely capturing signed documents** and storing completed forms in **Doculan Storage**. This section explains how to use **E-Sign Embedded** within Forms in Doculan.
 
 ---
 

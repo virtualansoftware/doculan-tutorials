@@ -1,6 +1,6 @@
-#  E-Sign Record in Doculan
+#  How to use Video Enabled Esign?
 
-E-Sign Record in Doculan enables secure, video-recorded electronic signatures with automatic timestamping for enhanced compliance and auditability. The signing process captures visual evidence and consent during execution, allowing organizations to verify signer identity, signature time, and signing activity with complete transparency.
+It enables secure, video-recorded electronic signatures with automatic timestamping for enhanced compliance and auditability. The signing process captures visual evidence and consent during execution, allowing organizations to verify signer identity, signature time, and signing activity with complete transparency.
 
 ---
 

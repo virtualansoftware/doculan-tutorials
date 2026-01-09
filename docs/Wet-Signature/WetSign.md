@@ -1,5 +1,5 @@
-#  Wet Signature in Doculan
-Wet Signature in Doculan enables recipients to **physically sign printed documents** as part of the **E-Sign workflow**. The signed document is then **uploaded** in **PDF format** for verification and submission. This process ensures compliance with scenarios that require **handwritten signatures** while maintaining a secure digital audit trail. This section explains how to complete a **Wet Signature** process in Doculan using the E-Sign workflow.
+#  How to use Wet Signature? 
+It enables recipients to **physically sign printed documents** as part of the **E-Sign workflow**. The signed document is then **uploaded** in **PDF format** for verification and submission. This process ensures compliance with scenarios that require **handwritten signatures** while maintaining a secure digital audit trail. This section explains how to complete a **Wet Signature** process in Doculan using the E-Sign workflow.
 
 ---
 
