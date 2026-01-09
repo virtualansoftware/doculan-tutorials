@@ -3,22 +3,22 @@
 ---
 
 - **E-Signature**
-    - [How to send single party document?](E_Sign\single-party-document.md)
-    - [How to send multiple party document?](E_Sign\multiple-party-document.md)
-    - [How to send Bulk mail?](E_Sign\bulk-mail.md)
-    - [How to cancel eSign document?](E_Sign\cancel-esign-document.md)
-    - [How to decline eSign document?](E_Sign\decline-esign-document.md)
-    - [How to resend eSign document?](E_Sign\resend-esign-document.md)
+    - [How to send single party document?](E_Sign/single-party-document.md)
+    - [How to send multiple party document?](E_Sign/multiple-party-document.md)
+    - [How to send Bulk mail?](E_Sign/bulk-mail.md)
+    - [How to cancel eSign document?](E_Sign/cancel-esign-document.md)
+    - [How to decline eSign document?](E_Sign/decline-esign-document.md)
+    - [How to resend eSign document?](E_Sign/resend-esign-document.md)
 
 - **Wet Signature**
-    - [Wet-Sign in Doculan](Wet-Signature/WetSign.md)
+    - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
 
     <!-- docs\Wet-Signature\WetSign.md -->
 
 
 
 - **Video Enabled Esign**
-    - [E-Sign Record in Doculan](Video_Enabled-Esign/VideoEsign.md)
+    - [How to use Video Enabled Esign?](Video_Enabled-Esign/VideoEsign.md)
 
     <!-- docs\Video_Enabled-Esign\VideoEsign.md -->
     
@@ -26,17 +26,17 @@
 ---
 
 - **E-Signature Template**
-    - [What is Myself / Team template?](E_Sign\myself-or-team-template.md)
-    - [How to create template?](E_Sign\create-template.md)
-    - [How to update template?](E_Sign\update-template.md)
-    - [How to delete template?](E_Sign\delete-template.md)
+    - [What is Myself / Team template?](E_Sign/myself-or-team-template.md)
+    - [How to create template?](E_Sign/create-template.md)
+    - [How to update template?](E_Sign/update-template.md)
+    - [How to delete template?](E_Sign/delete-template.md)
 
 ---
 
 - **Share Document**
-    - [How to share document?](E_Sign\share-document.md)
-    - [How to resend shared document?](E_Sign\resend-shared-document.md)
-    - [How to cancel shared document?](E_Sign\cancel-shared-document.md)
+    - [How to share document?](E_Sign/share-document.md)
+    - [How to resend shared document?](E_Sign/resend-shared-document.md)
+    - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
 
 ---
 - **Form Management**
@@ -48,7 +48,7 @@
     - [How to Resend Form?](Forms/Form_Resend.md)
 
 - **Embedded Esign**
-    - [E-Sign Embedded in Doculan](Embedded-Esign/EmbdedEsign.md)
+    - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
 
     <!-- docs\Embedded-Esign\EmbdedEsign.md -->
     
@@ -69,8 +69,7 @@
 
 - **Library Management**
     -  [Library – Documents](Library_Management/Library.md)
-    <!-- -  [Library – Forms](Document/Documents_Upload.md) -->
-
+    
 ---
 
 - **Security**
@@ -83,8 +82,12 @@
     ---
     
 - **Release Notes**
+
+    **2025**
     - [Version 0.3.0](releaseNotes/version_0.3.0.md)
     - [Version 0.4.0](releaseNotes/version_0.4.0.md)
     - [Version 0.5.0](releaseNotes/version_0.5.0.md)
+
+   **2026**
     - [Version 0.6.0](releaseNotes/version_0.6.0.md)
 ---

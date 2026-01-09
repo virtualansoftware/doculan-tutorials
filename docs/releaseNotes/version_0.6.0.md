@@ -1,6 +1,6 @@
 # 🚀 Version 0.6.0 – New Enhancements
 
-### 1. Wet Signature in Doculan
+### 1. Wet Signature
 
 The **Wet Signature** feature enables recipients to print documents, apply handwritten signatures, and securely upload the signed PDF back into the Doculan E-Sign workflow. This ensures regulatory compliance in scenarios requiring physical signatures while maintaining a complete digital audit trail.
 
@@ -8,7 +8,7 @@ The **Wet Signature** feature enables recipients to print documents, apply handw
 
 ---
 
-### 2. E-Sign Embedded in Doculan
+### 2. E-Sign Embedded
 
 **E-Sign Embedded** allows organizations to seamlessly integrate the electronic signing experience directly within forms. Recipients can review and sign documents without navigating away from the form interface, ensuring a smooth, efficient, and uninterrupted signing workflow.
 
@@ -16,7 +16,7 @@ The **Wet Signature** feature enables recipients to print documents, apply handw
 
 ---
 
-### 3. E-Sign Record in Doculan
+### 3. Video Enabled Esign
 
 The **E-Sign Record** feature captures video evidence along with timestamped signatures during the signing process, delivering enhanced security, traceability, and audit compliance. This functionality provides strong verification of signer intent and signature authenticity.
 
