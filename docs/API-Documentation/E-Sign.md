@@ -170,9 +170,6 @@ GET /templates
 ````
 
 ### **Headers**
-| Name | Type | Required | Description |
-|-----|------|----------|-------------|
-| `x-api-key` | string | ✅ yes | Api-key |
 
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
