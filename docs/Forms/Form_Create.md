@@ -119,11 +119,11 @@ To review and manage form submissions in Doculan, follow the steps below:
 <div class="video-wrap" role="region" aria-label="Demo: Creating a form">
   <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
   <video controls poster="screenshots\Thumbnail\Forms.png">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Doculan_Forms.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Doculan_Forms.webm" type="video/webm">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Doculan_Forms.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Doculan_Forms.webm" type="video/webm">
     <!-- Fallback link if browser can't play video -->
     Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Doculan_Forms.mp4" target="_blank" rel="noopener">Download / Open video</a>
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Doculan_Forms.mp4" target="_blank" rel="noopener">Download / Open video</a>
   </video>
 </div>
 
