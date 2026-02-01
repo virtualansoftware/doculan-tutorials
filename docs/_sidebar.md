@@ -82,4 +82,5 @@
 
    **2026**
     - [Version 0.6.0](releaseNotes/version_0.6.0.md)
+    - [Version 0.7.0](releaseNotes/version_0.7.0.md)
 ---
