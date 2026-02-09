@@ -16,9 +16,8 @@ It enables recipients to **physically sign printed documents** as part of the **
 
 Under **Security Settings**, you can configure the following options:
 - **OTP Verification**
+- **Certificate**
 - **Wet Signature**
-
-You may disable **OTP Verification** if required, but enabling both options is considered a best practice.
 
 **Screenshot 1**
 
@@ -34,6 +33,8 @@ You may disable **OTP Verification** if required, but enabling both options is c
 2. Send the email to the recipient.
 
 The recipient will receive the email and open the document using **OTP Verification**.
+
+**“Wet Signature Required”** popup is displayed, and the user must click the **“I Understand”** button to proceed.
 
 After reviewing the document, the recipient should click the **Print** button to print the document.
 
