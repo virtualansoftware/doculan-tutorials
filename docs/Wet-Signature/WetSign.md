@@ -34,7 +34,7 @@ Under **Security Settings**, you can configure the following options:
 
 The recipient will receive the email and open the document using **OTP Verification**.
 
-**“Wet Signature Required”** popup is displayed, and the user must click the **“I Understand”** button to proceed.
+**Wet Signature Required** popup is displayed, and the user must click the **“I Understand”** button to proceed.
 
 After reviewing the document, the recipient should click the **Print** button to print the document.
 

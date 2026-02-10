@@ -83,7 +83,7 @@ Click the **Parties** tab.
 
 Click **Send Mail** to send the document for signing.
 
-You'll now configure email delivery.
+You will now configure email delivery.
 
 ### Email Setup:
 1. Select **Single Mail**.  
@@ -94,6 +94,12 @@ You'll now configure email delivery.
 3. Choose an **Expiry Date** and **Reminder Options**.
 
 <img src=" screenshots\E-Sign_Images\Set_Reminder.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+Under **Security Settings**, We have to enable only the following options:
+- **OTP Verification**
+- **Certificate**
+
+<img src=" screenshots\E-Sign_Images\Sec_SS.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. Write the email message manually **or** use **AI Assist** to generate it.  
 5. Drag and drop the **document link** placeholder into the message body.
@@ -160,6 +166,7 @@ When your recipient receives the email:
    - Fill in required details.
    - Click inside the **Signature Field** to sign.
 
+
    <img src=" screenshots\E-Sign_Images\Recipient_Contract_Editing.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ### Signature Options
@@ -197,6 +204,7 @@ If they complete: -->
 - The signed PDF is **SSL certified**.  
 - Copies are sent to both sender and recipient via email.  
 - The document status changes to **Completed**.
+
 
 <img src=" screenshots\E-Sign_Images\SSL_Certificate.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

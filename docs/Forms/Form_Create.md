@@ -24,6 +24,8 @@ Follow the step-by-step instructions to manage your form workflow efficiently.
 | Date             | Date selection |
 | Radio Buttons    | Single-choice option |
 | File Upload      | Upload documents/images |
+| Signature    | Digital Signature Capture |
+| E-Sign Embed    | Embedded Signing Experience |
 
 ### File Upload Options:
 - Accepted file types 
