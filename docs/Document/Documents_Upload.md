@@ -1,26 +1,49 @@
-# How to Upload Document?
+# How to Save Document?
 
-This guide helps to **Upload a document to Doculan** allows you to securely store and manage files within the platform. Simply choose the appropriate storage path, select your PDF file, and upload it to the designated folder. This ensures your documents are centrally organized and easily accessible for future workflows. The process supports efficient document management and seamless retrieval.
+This guide helps to **Save a document to Doculan** allows you to securely store and manage files within the platform. Simply choose the appropriate storage path, select your PDF file, and upload it to the designated folder. This ensures your documents are centrally organized and easily accessible for future workflows. The process supports efficient document management and seamless retrieval.
 
 ---
 
+## Save the Document
 
-#  Steps to Upload to Doculan Storage
+1. After creating or editing the document, click the **Save** button in the **Document Editor**.
 
-- Documents can be saved **locally** or in **Doculan Storage**
-- If saving to Doculan storage:
-  - Select the correct **folder path / storage path**
-  - Upload the **PDF file**
+**Screenshot 1**
 
-**Screenshot1:**
+<img src="screenshots\Document\Document-Save1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-<img src="screenshots\Document\Document-Upload1.png" alt="Step 1 — Upload to Doculan Storage
-" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+---
 
-**Screenshot2:**
+## Enter Document Name
 
-<img src="screenshots\Document\Document-Upload2.png" alt="Step 2 — Upload to Doculan Storage
-" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+2. The **Save New File** popup appears.
+3. Enter the required **Document Name**.
+4. Click **Confirm Save** to proceed.
 
----> The above **Screenshots** represent that how to **Upload Document.**
+**Screenshot 2**
 
+<img src="screenshots\Document\Document-Save2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Select Storage Location
+
+5. The **File Upload** popup appears.
+6. Select the required **folder** where the document should be stored in **Doculan Storage**.
+7. Click **Upload File** to save the document.
+
+**Screenshot 3**
+
+<img src="screenshots\Document\Document-Save3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Verify Saved Document
+
+8. The document is successfully uploaded and can be viewed in the selected folder within **Doculan Storage**.
+
+**Screenshot 4**
+
+<img src="screenshots\Document\Document-Save4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
