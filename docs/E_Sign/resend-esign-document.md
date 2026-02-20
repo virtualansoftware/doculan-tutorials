@@ -1,15 +1,14 @@
 ﻿﻿
 # How to Resend an eSign Document?
 
-Sometimes, an eSign document may need to be resent again, for example, if the **recipient missed the email**, the **document expired**, or **email details were updated**.  
-This guide covers all the ways you can **resend eSign requests** in Doculan, including how to handle expired, pending, or failed email deliveries.
+At times, an eSign document may need to be resent—for example, if the **recipient did not receive the email**, the **document has expired**, or the **recipient’s email details were updated**.  
+This guide explains when and how you can **resend an eSign request in Doculan**, including how the system handles expired or pending documents while maintaining audit integrity.
 
 ---
 
-##  Step 1: Understanding When You Can Resend
+##  Step 1: Understand Resend Eligibility
 
-You can resend a document only under certain conditions.  
-Doculan enforces strict resend rules to ensure audit accuracy.
+For compliance and audit accuracy, Doculan allows resending only under specific conditions.
 
 | Document Status | Can Resend? | Description |
 |------------------|-------------|--------------|
@@ -22,7 +21,7 @@ Doculan enforces strict resend rules to ensure audit accuracy.
 
 <img src=" screenshots\E-Sign_Images\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
->  **Note:** You can only resend *if the document status is not Completed, Cancelled, or Declined.*
+>  **Note:**  You may only resend a document *if its status is **not Completed, Cancelled, or Declined**.*
 
 ---
 
@@ -30,37 +29,39 @@ Doculan enforces strict resend rules to ensure audit accuracy.
 
 In the **Actions** column for that document:
 
-1. Click the **three-dot menu** (Ã¢â€¹Â®).  
+1. Under the Actions column, click the **⋮ (three-dot)** icon.  
 2. You'll see options like:
    - View  
    - Audit  
    - Download    
    - **Resend** *(visible only if applicable)*  
-3. Click **Resend**.
-4. Set an expiry date(if needed) before send button.
+3. From the dropdown menu, select **Resend**.
+4. If necessary, update or set a new **expiry date**.
+5. Click Send to resend the request.
 
 <img src=" screenshots\E-Sign_Images\Resend_Popup.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+> *The system will immediately dispatch the document again to the recipient.*
 ---
 
-##  Step 3: View Audit Trail After Resend
+##  Step 3: Verify Resend Activity in the Audit Trail
 
 You can always check the **Audit** log to confirm resend activity.
 
 Steps:
 1. Click the **Audit** button in the Actions column.  
-2. You'll see a chronological list of all actions with timestamps:
+2. The Audit page will display a chronological record of activities, including:
    - Original document creation  
-   - First send  
+   - Initial send date and time  
    - Resend date/time  
-   - Recipient open, view, and sign  
+   - Recipient open, view, and signing activity 
 
 <img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
- **You've learned how to resend an eSign document in Doculan!**
+ **You have successfully learned how to resend an eSign document in Doculan!**
 
-> Resending ensures that no document signing opportunity is missed Ã¢â‚¬â€ especially when recipients fail to act before expiry or emails fail to deliver. It helps maintain a smooth, uninterrupted e-signature workflow.
+> Resending ensures that no document signing opportunity is missed—especially when recipients do not respond before expiry or when emails fail to deliver. It helps maintain a smooth and uninterrupted e-signature workflow.
 
 © Doculan by [Virtualan Software](https://www.virtualan.io)

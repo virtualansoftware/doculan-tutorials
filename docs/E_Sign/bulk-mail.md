@@ -1,36 +1,43 @@
 ﻿
 # How to Send Bulk Mail in Doculan?
 
-This guide explains how to send **bulk e-sign documents** to multiple recipients at once.  
-Bulk e-sign helps automate sending the same contract or form (like NDAs, consent forms, or offer letters) to many users simultaneously — each receiving their own personalized copy.
+This guide provides a comprehensive overview of how to distribute **bulk e-sign documents** to multiple recipients simultaneously within Doculan.  
+
+The Bulk E-Sign feature empowers organizations to efficiently circulate identical contracts or forms—such as NDAs, consent agreements, or offer letters—to numerous recipients at once. Each recipient receives a secure, personalized copy for individual signing, ensuring both efficiency and compliance.
 
 ---
 
-##  Overview
 
-In bulk mode:
-- One template or document is sent to **many recipients**.  
-- Each recipient gets a **separate document** for signing.  
-- You can import recipient details manually or via **CSV file**.  
-- The system tracks each email independently and provides a complete audit trail.
+When utilizing Bulk Mode:
+- A single document or template is distributed to **multiple recipients**.  
+- Each recipient receives a **distinct and secure copy** for signing.  
+- Recipient details may be entered manually or imported via a **CSV file**.  
+- The system independently tracks each document and maintains a comprehensive audit trail for full transparency and compliance.
 
 ---
 
-##  Step 1 — Open the Bulk Mail Setup
+##  Step 1: Open the Bulk Mail Setup
 
-1. Go to your **Dashboard**.  
+1. Navigate to your **Dashboard**.  
 2. Locate the folder containing your e-sign-ready document.  
 3. Click the **⋮ (three dots)** menu under the **Actions** column.  
-4. Select **E-Sign** to open the configuration page.  
+4. Select **E-Sign** to enter the configuration page.  
 5. Click **Send Mail**, then choose the **Bulk Mail** option.
 
 ---
 
-##  Step 2 — Prepare Your Document Fields
+##  Step 2: Prepare Your Document Fields
 
-Ensure the document has all the required **signature**, **text**, **date**, and **email** fields configured before bulk sending.
+Before proceeding, ensure that the document includes all necessary fields, such as:
+- Signature
+- Name
+- Email
+- Date
+- Text or additional required input fields
 
->  **Tip:** You can save a document as a **template** so that each bulk recipient gets an identical copy with predefined fields.
+All fields must be correctly assigned and saved prior to **bulk** sending.
+
+>  **Tip:** Save the document as a reusable Template to ensure consistency across all distributed copies.
 
 <!-- ### Field Configuration Checklist:
 - Signature Field   
@@ -41,9 +48,9 @@ Ensure the document has all the required **signature**, **text**, **date**, and 
 
 ---
 
-##  Step 3 — Prepare Recipient Data
+##  Step 3: Prepare Recipient Data
 
-You can add recipients in two ways:  
+Doculan provides two methods for adding recipients:  
 <!-- - **Option 1:** Upload a **CSV file**  
 - **Option 2:** Enter manually into the text area -->
 
@@ -51,14 +58,15 @@ You can add recipients in two ways:
 
 ###  Option 1: Upload CSV File
 
-<details>
+Uploading a **CSV file** is the most efficient method when distributing documents at scale.
+<details open>
   <summary><b>Steps to Upload CSV File</b></summary>
 
 1. Click **Upload CSV File**.  
-2. Choose a file from your computer that follows the required format.  
-3. Doculan reads each row as one recipient.  
-4. Verify the uploaded data in the preview table.  
-5. Click **Validate** to ensure all email addresses are correctly formatted.
+2. Select a properly formatted **CSV file** from your device.  
+3. The system will interpret each row as an individual recipient. 
+4. Review the preview table to verify accuracy.  
+5. Click **Validate** to confirm proper email formatting and data structure.
 </details>
 
 ####  CSV File Format Example
@@ -82,15 +90,17 @@ You can add recipients in two ways:
 | Sarah Lee | sarah@example.com | Virtualan | HR |
 | Amit Patel | amit@example.com | Virtualan | Legal | -->
 
-**Each line = one recipient’s document**  
-All the documents are generated and sent individually.
+**Each row in the CSV file represents one recipient and generates one unique document.**  
+> *All documents are securely created and delivered individually.*
 </details>
 
 ---
 
 ###  Option 2: Enter Manually
 
-<details>
+For smaller distributions, recipients may be entered directly.
+
+<details open>
   <summary><b>Steps to Enter Recipients Manually</b></summary>
 
 1. In the **Recipients** text area, type details for each recipient.  
@@ -108,6 +118,7 @@ Amit Patel, amit@example.com
 
 <img src=" screenshots\E-Sign_Images\Bulk_Mail_Manual_CSV.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+> *This method offers flexibility when handling a limited number of recipients.*
 ---
 
 <!-- ##  Step 4 — Generate Email Content (Using AI Assist or Manual)
@@ -184,7 +195,7 @@ This ensures signers receive follow-up reminders until the document is signed or
 
 --- -->
 
-##  Step 4 — Track Bulk Document Status
+##  Step 4: Track Bulk Document Status
 
 Once sent, return to your folder and click **Audit** on the corresponding bulk batch.
 
@@ -204,7 +215,7 @@ You’ll see:
 - Recipient’s IP & device info
 - Completed or declined status
 
-You can also export this data as a report for compliance records.
+> *You can also export this data as a report for compliance records.*
 
 ---
 
@@ -265,5 +276,38 @@ You can also export this data as a report for compliance records.
  **You’ve successfully sent a Bulk E-Sign Document!**
 
 Now, you can efficiently manage hundreds of contracts or forms using Doculan’s bulk automation and AI-assisted tools.
+
+---
+
+**Demo Video:**
+<!-- Inline HTML in Markdown file -->
+<style>
+.video-wrap {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.video-wrap video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+
+<div class="video-wrap" role="region" aria-label="Demo: Creating a E-Sign">
+  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
+  <video controls poster="">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Esign_Bulk_Mail.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Esign_Bulk_Mail.webm" type="video/webm">
+    <!-- Fallback link if browser can't play video -->
+    Your browser does not support the video tag. 
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Esign_Bulk_Mail.mp4" target="_blank" rel="noopener">Download / Open video</a>
+  </video>
+</div>
+
+> The above **Video** represent that how to **send a document using the bulk email feature**.
 
 © Doculan by [Virtualan Software](https://www.virtualan.io)

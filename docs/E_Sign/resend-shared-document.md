@@ -1,19 +1,16 @@
 ﻿﻿
 # How to Resend a Shared Document?
 
-Sometimes recipients may miss your shared email, or the access link might expire before they view the document.  
-Doculan makes it easy to **resend shared documents** instantly without re-uploading or reconfiguring sharing settings.
+Sometimes, recipients may miss your shared email, or the access link may expire before they have a chance to view the document.  
+Doculan makes it easy to **resend shared documents** instantly—without the need to re-upload the file or reconfigure the sharing settings—ensuring a seamless and uninterrupted document access experience.
 
----
-
-##  Overview
 
 Resending allows you to:
-- Reissue expired or unopened links.
-- Update recipient details (e.g., corrected email).
-- Maintain a complete tracking history for compliance.
+- Reissue links that have been opened or remain unopened.
+<!-- - Update recipient details (e.g., corrected email). -->
+- Maintain a complete and uninterrupted tracking history for compliance purposes.
 
->  *You can only resend documents with a status of **Expired** or **Unopened**. Completed or cancelled shares cannot be resent.*
+>  *You can only resend documents with a status of **Shared**. Completed or cancelled shares cannot be resent.*
 
 ---
 
@@ -21,8 +18,8 @@ Resending allows you to:
 
 ## Step 1: Identify the document to resend
 
-- In the **Status** column, look for the document marked as **Expired** or **Shared**.  
-- These are eligible for resending.  
+- In the **Status** column, look for the document marked as **Shared**.  
+- Only documents with this status are eligible for resending. 
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Resend_Or_Cancel.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -30,14 +27,14 @@ Resending allows you to:
 ## Step 2: Set reminder and validity
 
 - Click **Resend**
-- Resend popup shows up for setting validity and reminder.
+- A pop-up window will appear, allowing you to configure the link validity period and set a reminder before resending.
 
 <img src=" screenshots\E-Sign_Images\Resend_Popup.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ## Step 3: View Audit Trail After Resend
 
-- You can also verify the activity by clicking the **Audit** button.
-- It displays timestamps and recipient details.
+- YClick the **Audit** button to verify the document activity.
+- The **audit trail** displays detailed timestamps and recipient information, including resend activity.
 
 <img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -47,10 +44,11 @@ Resending allows you to:
 
 | Condition | Action | Notes |
 |------------|---------|-------|
-| Expired | Resend available | Must set new expiry date |
-| Opened/Unopened | Resend available | Use same or updated email |
+| Shared | Resend available | Must set new expiry date |
+| Opened | Resend available | Use same or updated email |
 | Cancelled | Not allowed | Document link is deactivated |
 | Audit Trail | Always updated | Shows all resend activity |
+<!-- | Expired | Resend available | Must set new expiry date | -->
 <!-- | Completed | Not allowed | Document already viewed/signed | -->
 
 ---

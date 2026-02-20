@@ -29,8 +29,8 @@ You can delete:
 ## Step 2: Click the "Delete Template" button:
 
 - After selecting the template, click the **Delete Template** button.  
-- A confirmation prompt will appear asking:
-  > "Are you sure you want to delete this template permanently?"
+- A confirmation prompt will appear asking:<br>
+   _"Are you sure you want to delete this template permanently?"_
 - Click **Permenantly Delete** button to proceed.
 
 <img src=" screenshots\E-Sign_Images\Delete_Template.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">

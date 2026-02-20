@@ -1,21 +1,17 @@
 ﻿﻿
 # How to Share a Document?
 
-The **Share Document** feature in Doculan allows you to send any stored document to individuals or groups quickly and securely without requiring them to log in.  
-You can share for **review**, **reference**, or **collaboration**, while maintaining full control over access permissions.
+The **Share Document** feature in Doculan enables you to quickly and securely send any stored document to individuals or groups—without requiring them to log in.  
+You can share documents for **review**, **reference**, or **collaboration** while maintaining full control over access permissions, ensuring both flexibility and security throughout the process.
 
----
-
-##  Overview
-
-The **Share** feature provides a simple way to send read-only access to any stored file directly from your dashboard.
+The **Share** feature offers a simple and efficient way to provide read-only access to any stored file directly from your dashboard, ensuring secure and controlled document viewing.
 
 It is often used to:
-- Share signed contracts or templates with clients.  
-- Send drafts for approval or feedback.  
-- Collaborate with colleagues without duplicating files.
+<!-- - Share signed contracts or templates with clients.   -->
+- Send draft documents for review or feedback before finalizing.  
+- Collaborate with colleagues without creating duplicate files.
 
->  Note: Shared documents are temporary links; recipients can view or download only until access expires.
+>  Note: Shared documents are accessible through temporary links; Recipients can view or download the file only until the access period expires.
 
 ---
 
@@ -26,7 +22,7 @@ It is often used to:
 - In the **Actions** column, click the **three-dot (⋮)** button beside the document you want to share.  
 - From the dropdown menu, select **Share**.
 
-<img src=" screenshots\E-Sign_Images\E-Sign Configuration.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\E-Sign-Configuration.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -41,17 +37,17 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 <img src=" screenshots\E-Sign_Images\ShareDocument_Add_Recipient.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- **Expiry Date:** Set how long the link should remain active.  
-- **Reminder:** Choose to send an email reminder before expiration.  
+- **Expiry Date:** Specify how long the shared link should remain active.  
+- **Reminder:** Optionally schedule an email reminder before the link expires.  
 
 <img src=" screenshots\E-Sign_Images\ShareDocument_Set_Reminder.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- **Email body:** Add a personalized message for context.
-- Optionally, click **AI Assist** to generate a professional message body for your email.
+- **Email body:** Add a personalized message to provide context for the recipient.
+- Optionally, click **AI Assist** to generate a professional and well-structured email message automatically.
 
 <img src=" screenshots\E-Sign_Images\ShareDocument_Send_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- **Schedule Mail** Schedule the E-mail deilvery time for the recipient.
+- **Schedule Mail** Set a specific date and time for the email to be delivered to the recipient.
 
 <img src=" screenshots\E-Sign_Images\ShareDocument_Schedule_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -63,11 +59,12 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 After sending:
 - Go back to your **Dashboard** and select the same folder.  
-- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*, *Expired*).  
+- Check the **Status** column to view sharing status (e.g., *Shared*, *Opened*).  
+- To verify the link’s validity period, review the **Expiry Date** displayed at the bottom of the **Audit Trail**.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- Click the **Audit** button to see complete tracking details Ã¢â‚¬â€ when it was sent, opened, or downloaded.
+- Click the **Audit** button to view complete tracking details, including when the document was sent, opened, and downloaded.
 
 <img src=" screenshots\E-Sign_Images\SharedDocument_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -78,14 +75,45 @@ After sending:
 | Setting | Description | Notes |
 |----------|--------------|-------|
 | View Only | Recipients can view or download | Recommended for clients |
-| Expiry | Auto-revokes access after set date | Can't be reopened |
 | Reminder | Sends email before expiry | Optional |
 | Audit Trail | Tracks every share action | Can be exported as report |
+<!-- | Expiry | Auto-revokes access after set date | Can't be reopened | -->
 <!-- | Edit Access | Allows modifications | Use cautiously | -->
 
 ---
 
 
  **You've successfully shared a document using Doculan's Share feature!**
+
+ **Demo Video:**
+<!-- Inline HTML in Markdown file -->
+<style>
+.video-wrap {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.video-wrap video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+
+<div class="video-wrap" role="region" aria-label="Demo: Share Document">
+  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
+  <video controls poster="">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Share_Document/Share_Document.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Share_Document/Share_Document.webm" type="video/webm">
+    <!-- Fallback link if browser can't play video -->
+    Your browser does not support the video tag. 
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Share_Document/Share_Document.mp4" target="_blank" rel="noopener">Download / Open video</a>
+  </video>
+</div>
+
+> The above **Video** represent that how to **Share Document**
 
 © Doculan by [Virtualan Software](https://www.virtualan.io)

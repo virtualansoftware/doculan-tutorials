@@ -1,11 +1,8 @@
 ﻿# How to Cancel a Shared Document?
 
-Sometimes, after sharing a document, you may need to **cancel or revoke access** — for example, if the wrong recipient was added or the document content has changed.  
-Doculan allows you to **cancel shared documents instantly**, preventing any further access or activity.
+Sometimes, after sharing a document, you may need to **cancel or revoke access**—for example, if an incorrect recipient was added or the document content has been updated. 
+Doculan allows you to **cancel shared documents instantly**, immediately preventing any further access or activity and ensuring your document remains secure and under your control.
 
----
-
-##  Overview
 
 Cancelling a shared document:
 - Immediately **revokes access** for all recipients.  
@@ -13,7 +10,7 @@ Cancelling a shared document:
 - Updates the document status to **Cancelled**.  
 - Keeps the original audit trail for record-keeping.
 
->  Once cancelled, the document cannot be reopened or signed unless resent as a new document.
+> Once cancelled, the document cannot be reopened or accessed again. To share it, you must send it as a new document.
 
 ---
 
@@ -22,8 +19,8 @@ Cancelling a shared document:
 
 ## Step 1: Identify the document to cancel:
 
-- Look for the document currently marked as **Shared**.  
-- It eligible for cancellation.  
+- Locate the document currently marked as **Shared** in the Status column.  
+- Only documents with this status are eligible for cancellation.  
 
 <img src="screenshots\E-Sign_Images\SharedDocument_Resend_Or_Cancel.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -58,7 +55,7 @@ A confirmation popup appears with details of the document name and recipients.
 
 ## Step 4: Verify the cancellation:
 After confirming:
-- The document’s **Status** immediately changes to **Cancelled**.  
+- The document’s **Status** immediately updated to **Cancelled**.  
 - All previously shared links become invalid.  
 - Recipients who attempt to open the link will see a message:  
   _“Access revoked — this document is no longer available.”_
@@ -80,6 +77,6 @@ After confirming:
 ---
 
 
- **You’ve successfully cancelled a shared document in Doculan!**
+> **You’ve successfully cancelled a shared document in Doculan!**
 
 © Doculan by [Virtualan Software](https://www.virtualan.io)
