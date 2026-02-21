@@ -25,8 +25,9 @@
 <!-- HEAD -->
 <!-- [GitHub](https://github.com/virtualansoftware) -->
 
-[Getting Started](README.md)
-=======
+<!-- [Getting Started](README.md) -->
+
+
 <p align="center">
   <a href="#/README">
     <button style="
