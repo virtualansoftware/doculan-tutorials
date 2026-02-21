@@ -10,11 +10,11 @@ Here is the professionally structured version of your steps:
 
 1. Navigate to **Settings**.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 2. Select the **Signature** tab from the menu.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > This will allow you to upload, draw, or type your signature for future use in documents.
 
@@ -29,15 +29,15 @@ Here is the professionally structured version of your steps:
     - Draw a signature
     - Type a signature (auto-generated format)
 
-<img src=" screenshots\Self_E-Sign\Self_Sign3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. After adding your signature, select it from the list and click **Set as Default** to make it your primary signature for future documents.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 5. You can add up to **five signatures** to your account. However, only **one signature** can be set as the **default signature** at a time.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > The **default signature** will be automatically applied whenever you use the signing feature, unless you manually select a different saved signature.
 
@@ -47,11 +47,11 @@ Here is the professionally structured version of your steps:
 
 6. Navigate to the selected document and open the **Action Menu**, then click the **Sign** button to begin the signing process.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 7. When you open the e-sign document, your **default signature** will be automatically applied to the designated signature field within the document.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > Enter any required information, review the document carefully, and click **Submit** to complete the signing process.
 
@@ -62,7 +62,7 @@ Here is the professionally structured version of your steps:
 - A pop-up message will appear confirming **Submission Successful**.
 - You can choose to view the signed document or download it as a ZIP file.
 
-<img src=" screenshots\Self_E-Sign\Self_Sign9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-Sign\Self_Sign9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **You have successfully signed the document using your default signature.** 
 

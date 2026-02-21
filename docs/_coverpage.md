@@ -22,11 +22,12 @@
 
 <br/>
 
-< HEAD
+<!-- HEAD -->
 <!-- [GitHub](https://github.com/virtualansoftware) -->
 
-[Getting Started](README.md)
-=======
+<!-- [Getting Started](README.md) -->
+
+
 <p align="center">
   <a href="#/README">
     <button style="
@@ -41,4 +42,4 @@
     </button>
   </a>
 </p>
-> cdbe3811c0fae7688eb369129ddcab8c977b8f67
+<!-- cdbe3811c0fae7688eb369129ddcab8c977b8f67 -->
