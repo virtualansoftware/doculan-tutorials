@@ -14,6 +14,7 @@
     - [How to use Variable field?](E_Sign/veriable-fields.md)
     - [How to use Delegate Email?](E_Sign/delegate-email.md)
     - [How to Schedule an Email?](E_Sign/schedule-email.md)
+    - [How to Rename the File?](E_Sign/rename-file.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
