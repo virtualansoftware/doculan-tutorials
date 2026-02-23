@@ -69,11 +69,11 @@ It ensures flexibility while maintaining a secure and trackable signing workflow
 <div class="video-wrap" role="region" aria-label="Demo: Creating a E-Sign">
   <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
   <video controls poster="">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/DefaultSignature.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/DefaultSignature.webm" type="video/webm">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Delegate_Email.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Delegate_Email.webm" type="video/webm">
     <!-- Fallback link if browser can't play video -->
     Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/DefaultSignature.mp4" target="_blank" rel="noopener">Download / Open video</a>
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Delegate_Email.mp4" target="_blank" rel="noopener">Download / Open video</a>
   </video>
 </div> 
 
