@@ -62,6 +62,7 @@
     -  [How to Create Document?](Document/Documents_Create.md)
     -  [How to Save Document?](Document/Documents_Upload.md)
     -  [How to Versioning & Comparison Document?](Document/Documents_Compare.md)
+    -  [How to use E-Sign in the Document Editor?](Document/Documents_E-sign.md)
 
 ---
 
