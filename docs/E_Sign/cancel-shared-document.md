@@ -26,7 +26,7 @@ Cancelling a shared document:
 
 - You can verify recipient activity (viewed/unopened) by clicking the **Audit** button.
 
-<img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Resend_pending_status1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -48,7 +48,7 @@ A confirmation popup appears with details of the document name and recipients.
   _“Are you sure you want to cancel sharing this document? This action is irreversible.”_  
 - Click **Confirm** to proceed.
 
-<img src=" screenshots\E-Sign_Images\Cancel_Esign_Document.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Cancel_Esign_Document1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 
 ---
@@ -61,7 +61,7 @@ After confirming:
   _“Access revoked — this document is no longer available.”_
 - Click the **Audit** option to see the timestamps and recipient details.
 
-<img src=" screenshots\E-Sign_Images\Cancel_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Cancel_Audit1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 

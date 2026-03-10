@@ -38,7 +38,7 @@ This guide explains **how to access single submissions, overall form responses, 
 
 **Screenshot 2:**
 
-<img src="screenshots\Forms\Form-OverAllSub2.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\FormOverAllSub2.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 > The above **Screenshot** represent that how to **View all Overall Submitted Forms with Attachments.**
 

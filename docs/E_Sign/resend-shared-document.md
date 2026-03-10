@@ -29,14 +29,14 @@ Resending allows you to:
 - Click **Resend**
 - A pop-up window will appear, allowing you to configure the link validity period and set a reminder before resending.
 
-<img src=" screenshots\E-Sign_Images\Resend_Popup.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Resend_Popup1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ## Step 3: View Audit Trail After Resend
 
 - YClick the **Audit** button to verify the document activity.
 - The **audit trail** displays detailed timestamps and recipient information, including resend activity.
 
-<img src=" screenshots\E-Sign_Images\Resend_pending_status.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Resend_pending_status1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 

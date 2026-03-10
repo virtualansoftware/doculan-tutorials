@@ -17,7 +17,7 @@ Templates store your field mapping, parties, and email configurations ready to r
 
 - In the eSign editor page,
 - After adding all fields and parties,  
-- You'll find **Save** Button.
+- You'll find **Create** Button.
 
 <img src=" screenshots\E-Sign_Images\Configure_Fields.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

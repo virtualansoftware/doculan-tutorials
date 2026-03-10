@@ -1,6 +1,6 @@
 # 🚀 Version 0.8.0 – New Enhancements
 
-# 1️⃣ Variable field
+## 1️⃣ Variable field
 
 The **Variable Field** feature allows you to create reusable dynamic placeholders within a document. These placeholders automatically populate the same value wherever they appear, eliminating the need to enter repetitive information multiple times.
 Variable fields improve efficiency, accuracy, and consistency—especially in contracts, agreements, and form-based documents.
@@ -11,7 +11,7 @@ Variable fields improve efficiency, accuracy, and consistency—especially in co
 
 ---
 
-# 2️⃣ Rename the File
+## 2️⃣ Rename the File
 
 The **Rename File** feature allows you to update the name of an existing document without changing its content, structure, or workflow. This helps improve document organization, clarity, and version control within your workspace. The rename action does not affect the document’s content, recipients, audit trail, or signing status. It simply updates the display name for better management and tracking.
 

@@ -15,6 +15,7 @@
     - [How to use Delegate Email?](E_Sign/delegate-email.md)
     - [How to Schedule an Email?](E_Sign/schedule-email.md)
     - [How to Rename the File?](E_Sign/rename-file.md)
+    - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -66,6 +67,11 @@
 
 ---
 
+- **Note Taker**
+    -  [How to Use the Note Taker Option?](Notes_Taker/notes_taker.md)
+
+---
+
 - **Library Management**
     -  [Library – Documents](Library_Management/Library.md)
 
@@ -92,4 +98,5 @@
     - [Version 0.6.0](releaseNotes/version_0.6.0.md)
     - [Version 0.7.0](releaseNotes/version_0.7.0.md)
     - [Version 0.8.0](releaseNotes/version_0.8.0.md)
+    - [Version 0.9.0](releaseNotes/version_0.9.0.md)
 ---
