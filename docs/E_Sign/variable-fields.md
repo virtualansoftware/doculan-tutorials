@@ -42,12 +42,16 @@ Ensure all information is accurate before saving, as the entered value will appl
 
 ## Step 3: Add a Required Variable Field
 
-5. Drag and drop the **Variable Field** into the document at the desired location.
+5. Drag and drop the **Required Field** into the document at the desired location.
+
 6. Click on the inserted field to open the **Settings** panel.<br>
 - A pop-up window will appear prompting you to:
+  - Enable the **Variable option** and manually assign the **Variable Field**.
   - Select the appropriate **Scope**.
   - Choose the required **Variable** from the Variable Details list.
   - Select the relevant **Label** for the field.
+
+<img src=" screenshots\Variable-Fields\variable-field8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 <img src=" screenshots\Variable-Fields\variable-field6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -70,11 +74,16 @@ Select the required Scope based on your use case:
 
 7. To apply a value only to a specific field instance:
 
-- Open another **Variable Field** and access its **Settings panel**.
+- Assign another **Variable Field** and access its **Settings panel**.
 - Select the **Scope** as **Current**.
-- Enter the relevant **Value** for the field.
+- Enter the relevant **Label Name** for the field.
 
 <img src=" screenshots\Variable-Fields\variable-field7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+8. During the sending process, the **Variable Registry** will open automatically.
+- Enter the **current variable value** in the **Variable Registry** and review the **variable field details** to ensure the correct information is applied.
+
+<img src=" screenshots\Variable-Fields\variable-field9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > The value entered will update according to the selected scope rules.
 
@@ -82,7 +91,7 @@ Select the required Scope based on your use case:
 
 ## Step 5: Recipient Signing Experience
 
-8. When your recipient receives the email:
+9. When your recipient receives the email:
 
 - They click the **document link** in the email.
 - Predefined variable values will be automatically populated throughout the document.

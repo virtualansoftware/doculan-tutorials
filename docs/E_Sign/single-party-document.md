@@ -88,7 +88,11 @@ Click **Send Mail** to initiate the signing process.
 
 <img src=" screenshots\E-Sign_Images\Single_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-3. Choose an **Expiry Date** and **Reminder Options**.
+3. Move the recipient details to arrange them in the **desired signing order**.
+
+<img src=" screenshots\E-Sign_Images\Single_mail1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+4. Choose an **Expiry Date** and **Reminder Options**.
 
 <img src=" screenshots\E-Sign_Images\Set_Reminder.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -98,9 +102,9 @@ Under **Security Settings**, We have to enable only the following options:
 
 <img src=" screenshots\E-Sign_Images\Sec_SS.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-4. Write the email message manually **or** use **AI Assist** to generate it.  
-5. Drag and drop the **document link** placeholder into the message body.
-6. Click **Send Mail**.
+5. Write the email message manually **or** use **AI Assist** to generate it.  
+6. Drag and drop the **document link** placeholder into the message body.
+7. Click **Send Mail**.
 
 <img src=" screenshots\E-Sign_Images\Send_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

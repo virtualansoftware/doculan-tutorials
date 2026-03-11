@@ -64,6 +64,10 @@ Once your parties and fields are set:
 
 <img src=" screenshots\E-Sign_Images\Multiple_party_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+8. Move the recipient details to arrange them in the **desired signing order**.
+
+<img src=" screenshots\E-Sign_Images\Multiple_party_mail1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 >  *Emails are sent sequentially to each party. You can also schedule the email for a future date/time.*
 
 ---

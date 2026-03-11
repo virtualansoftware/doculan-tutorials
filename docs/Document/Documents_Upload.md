@@ -11,7 +11,7 @@ To upload a document, simply select the appropriate storage path, select your PD
 
 **Screenshot 1**
 
-<img src="screenshots\Document\Document-Save1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 ---
 
