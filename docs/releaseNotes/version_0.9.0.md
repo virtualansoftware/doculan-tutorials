@@ -8,6 +8,8 @@ This helps speed up the signing workflow by allowing multiple parties to complet
 
 🔗 **Learn more:** [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
 
+<img src=" screenshots\E-Sign_Images\Co-signer4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 ---
 
 ## 3️⃣ Note Taker
@@ -17,3 +19,5 @@ The **Note Taker** feature allows users to record sessions and automatically con
 After the session is completed, the system generates a **detailed** summary that can be **edited**, downloaded as a **PDF**, or sent for **E-Sign**. The **History** section allows users to view, resume, or delete previous sessions.
 
 🔗 **Learn more:** [How to Use the Note Taker Option?](Notes_Taker/notes_taker.md)
+
+<img src=" screenshots\Notes_Taker\Notes_Taker2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
