@@ -17,7 +17,7 @@ Optionally, you can return the actual PDF file or just the file metadata.
 ### **Endpoint**
 
 ````
-GET /files/{document_id}
+GET api/v1/documents
 ````
 
 ### **Headers**
@@ -36,10 +36,10 @@ GET /files/{document_id}
 | `document_id` | string | ✅ Yes | Unique identifier of the document |
 
 
-### **Query Parameters**
+<!-- ### **Query Parameters**
 | Name | Type | Required | Default | Description |
 |-----|------|----------|---------|-------------|
-| `return_pdf` | boolean | ❌ No | `false` | If `true`, returns the PDF file; otherwise returns file metadata |
+| `return_pdf` | boolean | ❌ No | `false` | If `true`, returns the PDF file; otherwise returns file metadata | -->
 
 ### **Request Body**
 > _Not required_
@@ -81,7 +81,7 @@ Retrieve a list of all available files.
 ### **Endpoint**
 
 ````
-GET /files/
+GET api/v1/documents/{document_id}
 ````
 
 
@@ -166,7 +166,7 @@ Retrieve a list of all available document templates.
 
 
 ````
-GET /templates
+GET api/v1/documents/templates
 ````
 
 ### **Headers**
@@ -330,7 +330,7 @@ Retrieves a list of all document statuses.
 ### **Endpoint**
 
 ```` 
-GET /documents/all-status 
+GET api/v1/documents/all-status 
 ````
 ---
 
@@ -602,7 +602,7 @@ Retrieve the document status for an individual party using tracking, document, a
 ### **Endpoint**
 
 ````
-GET /documents/party-status
+GET api/v1/documents/party-status
 ````
 
 ### **Headers**
@@ -792,7 +792,7 @@ Resend the document access or signing link for an existing document using its do
 ### **Endpoint**
 
 ````
-POST /documents/resend
+POST api/v1/documents/resend
 ````
 
 ### **Headers**
@@ -874,7 +874,7 @@ Retrieve the final signed PDF document.
 ### **Endpoint**
 
 ````
-GET /documents/signed-pdf
+GET api/v1/documents/signed-pdf
 ````
 ### **Headers**
 | Name                | Type               | Required | Description                                                |
@@ -936,7 +936,7 @@ Retrieve the completion certificate for a fully processed document.
 ### **Endpoint**
 
 ````
-GET /documents/complete-certificates
+GET api/v1/documents/complete-certificates
 ````
 
 ### **Headers**
@@ -1001,7 +1001,7 @@ Log a document-related action such as cancellation, rejection, or other workflow
 ### **Endpoint**
 
 ````
-POST /documents/log-action
+POST api/v1/documents/log-action
 ````
 
 ---
@@ -1087,7 +1087,7 @@ Send a document to one or more parties for review or signing.
 
 
 ````
-POST /documents/send
+POST api/v1/documents/send
 ````
 
 ### **Headers**
@@ -1195,7 +1195,7 @@ Submit **signed field values** for a document by a specific party.
 
 **Endpoint**
 ````
-POST /documents/sign
+POST api/v1/documents/sign
 ````
 
 ### **Headers**
