@@ -17,7 +17,7 @@ Optionally, you can return the actual PDF file or just the file metadata.
 ### **Endpoint**
 
 ````
-GET api/v1/documents
+GET api/v1/documents/
 ````
 
 ### **Headers**
@@ -166,7 +166,7 @@ Retrieve a list of all available document templates.
 
 
 ````
-GET api/v1/documents/templates
+GET api/v1/documents/templates/all/
 ````
 
 ### **Headers**
@@ -330,7 +330,7 @@ Retrieves a list of all document statuses.
 ### **Endpoint**
 
 ```` 
-GET api/v1/documents/all-status 
+GET api/v1/documents/status 
 ````
 ---
 
