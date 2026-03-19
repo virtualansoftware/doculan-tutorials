@@ -12,7 +12,7 @@ This helps speed up the signing workflow by allowing multiple parties to complet
 
 ---
 
-## 3️⃣ Note Taker
+## 2️⃣ Note Taker
 
 The **Note Taker** feature allows users to record sessions and automatically convert spoken content into structured notes. It captures content sentence by sentence and generates notes in real time, which can be edited during the session.
 
