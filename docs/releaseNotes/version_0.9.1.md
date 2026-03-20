@@ -34,5 +34,3 @@ Download **signed documents** with improved flexibility—choose to **merge the 
 **Screenshot 2:**  
 <img src="screenshots/releaseNotes/Download-2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
-**Screenshot 3:**  
-<img src="screenshots/releaseNotes/Download-3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
