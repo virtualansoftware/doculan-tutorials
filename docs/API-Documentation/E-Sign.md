@@ -1,4 +1,327 @@
-##  Files Operation APIs
+## **Authorization Management API**
+
+The **Auth Management API** is used to handle authentication and authorization processes within the system. It ensures secure access to resources by verifying user identity and controlling permissions.
+
+## 🔹 1 Register User
+
+The **Register User API** is used to create a new user account in the system. It collects user details and securely stores them for authentication and access control.
+
+### **Endpoint**
+
+```
+POST /api/v1/auth/register
+```
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+```
+json
+
+{
+  "name": "string",
+  "email": "user@example.com",
+  "password": "string",
+  "preferences": {
+    "dateFormat": "string",
+    "timeFormat": "string",
+    "timezone": "string",
+    "region": "string"
+  },
+  "organization": "string",
+  "logo": "string",
+  "theme": "string",
+  "extra": {},
+  "additionalProp1": {}
+}
+
+```
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "User registered",
+  "user_id": {
+    "status": 200,
+    "message": "User registered successfully",
+    "subscription_plan": null,
+    "billing_cycle": null
+  }
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+` Authorization `
+
+---
+
+## 🔹 2 Login User
+
+The **Login User API** is used to authenticate users and allow access to the system by validating their credentials.
+
+### **Endpoint**
+
+```
+POST /api/v1/auth/login
+
+```
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+```
+json
+
+{
+  "email": "user@example.com",
+  "password": "string",
+}
+
+```
+### **Response Body Example**
+
+```
+json
+
+{
+  "access_token": "string",
+  "token_type": "string",
+  "is_temp_password": true,
+  "subscription_status": "string",
+  "mfa_access": {
+    "additionalProp1": true,
+    "additionalProp2": true,
+    "additionalProp3": true
+  }
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+` Authorization `
+
+---
+
+## 🔹 3 Email Verification
+
+The **Email Verification API** is used to verify a user’s email address after registration. It ensures that the provided email is valid and owned by the user.
+
+### **Endpoint**
+
+```
+POST /api/v1/auth/verify-email
+```
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+```
+json
+
+{
+  "email": "user@example.com",
+  "otp": "string"
+}
+
+```
+### **Response Body Example**
+
+```
+{
+  "status": "active",
+  "message": "User verified Successfully"
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+` Authorization `
+
+---
+
+## 🔹 4 Resend Verification Email
+
+The **Resend Verification Email API** is used to resend the verification email (OTP or verification link) to users who have not yet verified their email address.
+
+### **Endpoint**
+
+```
+POST /api/v1/auth/verify-email/resend
+
+```
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+```
+json
+
+{
+  "email": "string"
+}
+
+```
+### **Response Body Example**
+
+```
+json
+
+{
+  "status": "unverified",
+  "message": "OTP sent successfully"
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+` Authorization `
+
+---
+
+
+## 🔹 5 Create Api Key
+
+The **Create API Key** is used to generate a unique API key for secure access to the system’s APIs.
+
+### **Endpoint**
+
+```
+POST /api/v1/auth/clients/api-keys
+
+```
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+<!-- ### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+```
+json
+
+{
+  "expired_days": 0
+}
+
+```
+### **Response Body Example**
+
+```
+json
+
+{
+  "api_key": "YapuaO4NF-NCDYJLLagSX3lSm2xjASLVCjPiqkLXS7UJ6LumZ-VRGzAJn15lFP2w",
+  "key_preview": "YapuaO****************FP2w",
+  "expires_in_days": 2
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+` Authorization `
+
+---
+
+##  **Files Operation APIs**
 
 The Files Operation **APIs allow you to retrieve individual files or list all available files** associated with your account or documents.
 
@@ -20,20 +343,16 @@ Optionally, you can return the actual PDF file or just the file metadata.
 GET api/v1/documents/
 ````
 
-### **Headers**
+<!-- ### **Headers**
 
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 <!-- > _None required_ -->
-
-
-### **Path Parameters**
-| Name | Type | Required | Description |
-|-----|------|----------|-------------|
-| `document_id` | string | ✅ Yes | Unique identifier of the document |
+<!-- ### **Query Parameters**
+> _None_ -->
 
 
 <!-- ### **Query Parameters**
@@ -41,8 +360,8 @@ GET api/v1/documents/
 |-----|------|----------|---------|-------------|
 | `return_pdf` | boolean | ❌ No | `false` | If `true`, returns the PDF file; otherwise returns file metadata | -->
 
-### **Request Body**
-> _Not required_
+<!-- ### **Request Body**
+> _Not required_ -->
 
 ### **Response Body Example**
 
@@ -63,11 +382,15 @@ json
 }
 ````
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 ###  Tags
 `Files Operation`
@@ -86,19 +409,22 @@ GET api/v1/documents/{document_id}
 
 
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
-### **Query Parameters**
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `document_id` | string | ✅ Yes | Unique identifier of the document |
+
+<!-- ### **Query Parameters**
 > _None_
 
-
-
 ### **Request Body**
-> _Not required_
+> _Not required_ -->
 
 ### **Response Body Example**
 
@@ -137,11 +463,15 @@ json
 ````
 
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 ### **Response Format**
 - Content-Type: `application/json`
@@ -152,7 +482,213 @@ json
 
 ---
 
-##  Document Template APIs
+## 🔹 3 Redirect URL
+
+The **Redirect URL API** is used to define or retrieve the URL where users are redirected after completing specific actions such as login, email verification, or E-Sign processes.
+
+### **Endpoint**
+
+```
+POST /api/v1/documents/auth/redirect
+```
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_
+
+### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.samplePayload.signaturePart123456789",
+  "ui_url": "https://dev.example.com/pdf-editor",
+  "token_type": "Bearer",
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+###  Tags
+`Files Operation`
+
+---
+
+## 🔹 4 Get Folders Structure
+
+The Get **Folders Structure API** is used to retrieve the hierarchical structure of folders, including subfolders and associated files.
+
+### **Endpoint**
+
+```
+GET /api/v1/documents/folder-structure
+``` 
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_
+
+### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "items": [
+    {
+      "index": 1,
+      "type": "folder",
+      "name": "Root Files",
+      "items": [
+        {
+          "index": 1,
+          "type": "folder",
+          "name": "Project Alpha",
+          "items": [
+            {
+              "index": 1,
+              "type": "folder",
+              "name": "Project Alpha - Docs",
+              "items": [
+                {
+                  "index": 1,
+                  "type": "file",
+                  "name": "Requirement_Spec.pdf",
+                  "document_id": "doc-001",
+                  "created_by_name": "User One",
+                  "created_by_email": "userone@example.com",
+                  "created_at": "2026-02-10T10:30:00Z"
+                },
+                {
+                  "index": 2,
+                  "type": "file",
+                  "name": "Weekly_Review_Report.pdf",
+                  "document_id": "doc-002",
+                  "created_by_name": "User Two",
+                  "created_by_email": "usertwo@example.com",
+                  "created_at": "2026-03-09T09:45:00Z"
+                }
+              ],
+              "created_by_name": "User Three",
+              "created_by_email": "userthree@example.com",
+              "created_at": "2026-03-08T08:00:00Z"
+            }
+          ],
+          "created_by_name": "User Two",
+          "created_by_email": "usertwo@example.com",
+          "created_at": "2026-03-01T12:00:00Z"
+        }
+      ],
+      "created_by_name": "User One",
+      "created_by_email": "userone@example.com",
+      "created_at": "2026-02-01T09:00:00Z"
+    }
+  ]
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+###  Tags
+`Files Operation`
+
+---
+
+## 🔹 5 Upload Files
+
+The **Upload File API** is used to upload documents or files to the system and store them in a specific folder.
+
+### **Endpoint**
+
+```
+POST /api/v1/documents/upload/
+
+```
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+
+### **Request Body**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `files`         | array<string >           | ✅ Yes    | Chose the recured file                   |
+| `path` | string \| null | ❌ No    | Specifies the destination folder |
+| `overwrite` | boolean | ❌ No    | Set to true or false to overwrite existing files |
+
+### **Response Body Example**
+
+```
+json
+
+{
+    "uploaded_files": [
+        {
+            "document_id": "doc-001",
+            "filename": "Project Alpha/User One/Test/Confidentiality_Agreement.pdf",
+            "status": "uploaded"
+        }
+    ]
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+###  Tags
+`Files Operation`
+
+---
+
+##  **Document Template APIs**
 
 This section describes the APIs used to retrieve document templates from the system.
 
@@ -169,24 +705,24 @@ Retrieve a list of all available document templates.
 GET api/v1/documents/templates/all/
 ````
 
-### **Headers**
+<!-- ### **Headers**
 
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 
 
 ### **Query Parameters**
-| Name | Type | Required | Description |
-|-----|------|----------|-------------|
-| `is_global` | boolean \| null | ❌ No | Filter global templates |
+| Name | Type | Required | Default | Description |
+|-----|------|----------|-------------|-------------|
+| `Scope` | string | ❌ No  | `Myself` | Filter for a specific document scope |
 
 
-### **Request Body**
+<!-- ### **Request Body**
 
-> _Not required_
+> _Not required_ -->
 
 
 ### **Response Body Example**
@@ -294,16 +830,20 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses** -->
 <!-- | Status Code | Description |
 |------------|-------------|
 | 200 | Successful response |
 | 422 | Validation error | -->
 
-| Status Code                                             | Description         |
+<!-- | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
 <!-- | Status Code                                             | Description         |
@@ -317,7 +857,926 @@ json
 
 ---
 
-## Document Tracker APIs
+## 🔹2 Get Specific Document Template
+
+Retrieve a specific template from the list of available document templates.
+
+### **Endpoint**
+````
+GET api/v1/documents/templates/{template_name}
+````
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `template_name` | string | ✅ Yes | Specifies the template name |
+
+### **Query Parameters**
+| Name | Type | Required | Default | Description |
+|-----|------|----------|-------------|-------------|
+| `Scope` | string | ❌ No  | `Myself` | Filter for a specific document scope |
+
+
+<!-- ### **Request Body**
+
+> _Not required_ -->
+
+
+### **Response Body Example**
+
+```` 
+json
+
+{
+  "document_id": "doc-12345-demo",
+
+  "parties": [
+    {
+      "id": "party-1",
+      "name": "User One",
+      "email": "userone@example.com",
+      "color": "hsl(200, 80%, 85%)",
+      "priority": 1
+    },
+    {
+      "id": "party-2",
+      "name": "User Two",
+      "email": "usertwo@example.com",
+      "color": "hsl(120, 70%, 85%)",
+      "priority": 2
+    }
+  ],
+
+  "fields": [
+    {
+      "id": "field-full-name",
+      "label": "Full Name",
+      "type": "text",
+      "value": "User One",
+      "position": { "x": 600, "y": 880 },
+      "size": { "width": 350, "height": 40 },
+      "page": 4,
+      "style": {},
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-address",
+      "label": "Address",
+      "type": "text",
+      "value": "123 Demo Street",
+      "position": { "x": 510, "y": 960 },
+      "size": { "width": 520, "height": 40 },
+      "page": 4,
+      "style": {},
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-date",
+      "label": "Date",
+      "type": "date",
+      "value": "2026-03-29",
+      "position": { "x": 520, "y": 1215 },
+      "size": { "width": 490, "height": 40 },
+      "page": 4,
+      "style": {},
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-email",
+      "label": "Email",
+      "type": "email",
+      "value": "userone@example.com",
+      "position": { "x": 580, "y": 1050 },
+      "size": { "width": 370, "height": 45 },
+      "page": 4,
+      "style": {},
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-signature",
+      "label": "Signature",
+      "type": "signature",
+      "value": "signature-placeholder",
+      "position": { "x": 570, "y": 1130 },
+      "size": { "width": 390, "height": 65 },
+      "page": 4,
+      "style": {
+        "mode": "draw-and-type"
+      },
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-initial-page-1",
+      "label": "Initial",
+      "type": "initial",
+      "value": "U1",
+      "position": { "x": 1080, "y": 1630 },
+      "size": { "width": 100, "height": 30 },
+      "page": 1,
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-initial-page-2",
+      "label": "Initial",
+      "type": "initial",
+      "value": "U1",
+      "position": { "x": 1080, "y": 1620 },
+      "size": { "width": 100, "height": 30 },
+      "page": 2,
+      "assignedTo": "party-1",
+      "required": true
+    },
+    {
+      "id": "field-initial-page-3",
+      "label": "Initial",
+      "type": "initial",
+      "value": "U1",
+      "position": { "x": 1070, "y": 1620 },
+      "size": { "width": 100, "height": 30 },
+      "page": 3,
+      "assignedTo": "party-1",
+      "required": true
+    }
+  ]
+}
+
+````
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+`Document Template`
+
+---
+
+## 🔹 3 Create Template
+
+The Create Template API is used to create a reusable document template for workflows such as E-Sign and document generation.
+
+### **Endpoint**
+
+```` 
+GET api/v1/documents/status 
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body**
+
+```
+json
+
+{
+  "template_name": "string",
+  "fields": [
+    {
+      "id": "string",
+      "type": "string",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "page": 0,
+      "color": "string",
+      "style": "string",
+      "label": "string",
+      "partyId": "string",
+      "required": false,
+      "record": false,
+      "timestamp": false,
+      "options": [
+        "string"
+      ],
+      "variable_registry": {
+        "variable": "string",
+        "label": "string",
+        "scope": "string",
+        "type": "string",
+        "value": ""
+      }
+    }
+  ],
+  "parties": [
+    {
+      "id": "string",
+      "name": "string",
+      "email": "user@example.com",
+      "color": "string",
+      "priority": 0
+    }
+  ],
+  "document_id": "string",
+  "scope": "Myself"
+}
+
+```
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "Template 'Name of the Template' created."
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+`Document Template`
+
+---
+
+## 🔹 4 Delete Template
+
+The **Delete Template API** is used to permanently remove a document template from the system.
+
+### **Endpoint**
+
+````
+DELETE /api/v1/documents/templates/{template_name}
+````
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `template_name` | string | ✅ Yes | Specifies the template name |
+
+### **Query Parameters**
+| Name | Type | Required | Default | Description |
+|-----|------|----------|-------------|-------------|
+| `Scope` | string | ❌ No  | `Myself` | Filter for a specific document scope |
+
+
+<!-- ### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "Template 'Name of the Template' deleted."
+}
+
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+`Document Template`
+
+---
+
+## 🔹 5 Update Template
+
+The **Update Template API** is used to modify an existing document template, such as updating its name, file, or configuration.
+
+### **Endpoint**
+
+```` 
+PUT /api/v1/documents/templates/{template_name}
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `template_name` | string | ✅ Yes | Specifies the template name |
+
+### **Request Body**
+
+```
+json
+
+{
+  "fields": [
+    {
+      "id": "string",
+      "type": "string",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "page": 0,
+      "color": "string",
+      "style": "string",
+      "label": "string",
+      "partyId": "string",
+      "required": false,
+      "record": false,
+      "timestamp": false,
+      "options": [
+        "string"
+      ],
+      "variable_registry": {
+        "variable": "string",
+        "label": "string",
+        "scope": "string",
+        "type": "string",
+        "value": ""
+      }
+    }
+  ],
+  "parties": [
+    {
+      "id": "string",
+      "name": "string",
+      "email": "user@example.com",
+      "color": "string",
+      "priority": 0
+    }
+  ],
+  "document_id": "string",
+  "scope": "Myself"
+}
+
+```
+
+### **Response Body Example**
+```
+json
+
+{
+  "detail": "Template updated successfully"
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+`Document Template`
+
+---
+
+## **Variable Registry APIs**
+
+The **Variable Registry APIs** are used to manage dynamic variables that can be applied to documents, templates, and E-Sign workflows.
+
+---
+
+## 🔹 1 Create Variable Registry
+
+The **Create Variable Registry API** is used to create and store variables that can be dynamically applied to documents, templates, and E-Sign workflows.
+
+### **Endpoint**
+
+```` 
+POST /api/v1/documents/variable-registry/
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+
+### **Query Parameters**
+> _None_ -->
+
+### **Request Body**
+
+```
+json
+
+{
+  "variable": "string",
+  "scope": "Current",
+  "fields": [
+    {
+      "type": "string",
+      "style": "string",
+      "label": "string",
+      "value": "string"
+    }
+  ],
+  "template_name": "string"
+}
+
+```
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "variables saved successfully",
+  "variable": "string",
+  "scope": "Current"
+}
+```
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+
+---
+
+## 🔹 2 Get Variable Registry
+
+The **Get Variable Registry API** is used to retrieve all available variables stored in the Variable Registry. These variables can be used in templates, documents, and E-Sign workflows.
+
+### **Endpoint**
+
+```` 
+POST /api/v1/documents/variable-registry/{variable}
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `variable` | string | ✅ Yes | Specifies the variable name |
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `Scope` | string | ✅ Yes | Filter for a specific document scope |
+| `template_name` | string \| null | ❌ No | templateName is required only if scope=local |
+
+<!-- ### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "variable": "Organization",
+  "scope": "Global",
+  "fields": [
+    {
+      "type": "Text",
+      "style": "string",
+      "label": "Name",
+      "value": "Virtualan Software"
+    }
+  ]
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+---
+
+## 🔹 3 Update Variable Registry
+
+The **Update Variable Registry API** is used to modify existing variables in the registry, such as updating their name, value, or scope.
+
+### **Endpoint**
+
+```` 
+PUT /api/v1/documents/variable-registry/{variable}
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `variable` | string | ✅ Yes | Specifies the variable name |
+
+<!-- ### **Query Parameters**
+> _None_ -->
+
+
+### **Request Body**
+
+```
+json
+
+{
+  "variable": "string",
+  "scope": "Global",
+  "fields": [
+    {
+      "type": "string",
+      "style": "string",
+      "label": "string",
+      "value": "string"
+    }
+  ],
+  "template_name": "string"
+}
+```
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "Variable fields replaced successfully",
+  "variable": "Organization Name",
+  "scope": "Global",
+  "replaced_fields": 1,
+  "total_fields": 1
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+---
+
+## 🔹 4 Delete Variable Registry
+
+This API is used to **delete** an existing variable registry from the system. Once deleted, the variable and its associated data will no longer be available.
+
+### **Endpoint**
+
+```` 
+DELETE /api/v1/documents/variable-registry/{variable}
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `variable` | string | ✅ Yes | Specifies the variable name |
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `scope` | string | ✅ Yes | Filter for a specific document scope |
+| `leable` | string \| null | ❌ No | entire variable registry file will be deleted. |
+
+<!-- ### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "message": "variable field deleted",
+  "variable": "Organization Name",
+  "scope": "Global"
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+---
+
+## 🔹 5 Get All Variable Registry
+
+This API retrieves a **list of all variable registries** available in the system. It can be used to view, manage, and reference variables across templates or workflows.
+
+### **Endpoint**
+
+```` 
+GET /api/v1/documents/variable-registry
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `scope` | string | ✅ Yes | Filter for a specific document scope |
+| `variable` | string \| null | ❌ No | entire variable registry file will be deleted. |
+
+<!-- ### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "variable_registry": [
+    {
+      "variable": "Company Details",
+      "fields": [
+        {
+          "type": "text",
+          "style": "",
+          "label": "Name",
+          "value": "User Company One"
+        },
+        {
+          "type": "email",
+          "style": "",
+          "label": "Email",
+          "value": "contact@companyone.com"
+        },
+        {
+          "type": "text",
+          "style": "",
+          "label": "Company Name",
+          "value": "Company One Pvt Ltd"
+        }
+      ]
+    },
+    {
+      "variable": "Company Details 2",
+      "fields": [
+        {
+          "type": "text",
+          "style": "",
+          "label": "Company Name",
+          "value": "Company Two Pvt Ltd"
+        }
+      ]
+    },
+    {
+      "variable": "Company Details 3",
+      "fields": [
+        {
+          "type": "text",
+          "style": "",
+          "label": "Company Name",
+          "value": "Company Three LLC"
+        }
+      ]
+    },
+    {
+      "variable": "Company",
+      "fields": [
+        {
+          "type": "dropdown",
+          "style": "",
+          "label": "Global Dropdown",
+          "value": "Option One"
+        },
+        {
+          "type": "date",
+          "style": "",
+          "label": "Global Date",
+          "value": "2026-12-12"
+        },
+        {
+          "type": "email",
+          "style": "",
+          "label": "Global Personal Email",
+          "value": "userone@example.com"
+        },
+        {
+          "type": "number",
+          "style": "",
+          "label": "Global Phone Number",
+          "value": "9876543210"
+        }
+      ]
+    },
+    {
+      "variable": "Employee Info",
+      "fields": [
+        {
+          "type": "text",
+          "style": "",
+          "label": "Name",
+          "value": "User One"
+        },
+        {
+          "type": "email",
+          "style": "",
+          "label": "Official Email ID",
+          "value": "userone@companyone.com"
+        },
+        {
+          "type": "date",
+          "style": "",
+          "label": "Start Date",
+          "value": "2025-12-25"
+        },
+        {
+          "type": "dropdown",
+          "style": "",
+          "label": "Gender",
+          "value": "Option One"
+        }
+      ]
+    }
+  ]
+}
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+---
+
+## 🔹 6 Get Variable Registry Values
+
+This API retrieves the **values associated with a specific variable registry**. It is useful for accessing predefined or dynamically stored values tied to a variable
+
+### **Endpoint**
+
+```` 
+GET /api/v1/documents/variable-registry/values/{variable}
+````
+---
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `variable` | string | ✅ Yes | Specifies the variable name |
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `scope` | string | ✅ Yes | Filter for a specific document scope |
+
+<!-- ### **Request Body**
+> _Not required_ -->
+
+### **Response Body Example**
+
+```
+json
+
+[
+  {
+    "label": "Organization Name",
+    "value": "Virtualan Software"
+  }
+]
+```
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Variable Registry`
+
+
+---
+
+## **Document Tracker APIs**
 
 This API allows clients to retrieve the current status of a document using its tracking and document identifiers.
 
@@ -334,16 +1793,17 @@ GET api/v1/documents/status
 ````
 ---
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
-
+<!-- ### **Query Parameters**
+> _None_
 
 ### **Request Body**
-> _Not required_
+> _Not required_ -->
 
 ### **Response Body Example**
 
@@ -574,11 +2034,15 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
 <!-- **Example**
@@ -588,7 +2052,6 @@ json
 
 > document_id=13n25bd9-70p1-4c8d-9b1c-a9066eda140f -->
 
----
 
 ### **Tags**
 `Document Tracker`
@@ -605,11 +2068,11 @@ Retrieve the document status for an individual party using tracking, document, a
 GET api/v1/documents/party-status
 ````
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 
 
@@ -623,8 +2086,8 @@ GET api/v1/documents/party-status
 
 
 
-### **Request Body**
-> _Not required_
+<!-- ### **Request Body**
+> _Not required_ -->
 
 
 ### **Response Body Example**
@@ -763,11 +2226,15 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
 
@@ -795,11 +2262,11 @@ Resend the document access or signing link for an existing document using its do
 POST api/v1/documents/resend
 ````
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 
 ### **Query Parameters**
@@ -849,12 +2316,12 @@ json
 
 ````
 
-### **Response**
+<!-- ### **Response**
 
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
-| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    | -->
 
 ### **Example**
 
@@ -876,11 +2343,11 @@ Retrieve the final signed PDF document.
 ````
 GET api/v1/documents/signed-pdf
 ````
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 
 ### **Query Parameters**
@@ -890,8 +2357,8 @@ GET api/v1/documents/signed-pdf
 | `document_id` | string | ✅ Yes | Unique identifier of the document |
 
 
-### **Request Body**
-> _Not required_
+<!-- ### **Request Body**
+> _Not required_ -->
 
 ### **Response Example**
 
@@ -909,11 +2376,15 @@ This API returns the **signed document** in **PDF format.**
   </a>
 </p>
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
 ### **Example**
@@ -939,11 +2410,11 @@ Retrieve the completion certificate for a fully processed document.
 GET api/v1/documents/complete-certificates
 ````
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 
 
@@ -955,8 +2426,8 @@ GET api/v1/documents/complete-certificates
 
 
 
-### **Request Body**
-> _Not required_
+<!-- ### **Request Body**
+> _Not required_ -->
 
 ### **Response Example**
 
@@ -975,11 +2446,15 @@ GET api/v1/documents/complete-certificates
 </p>
 
 
-### **Responses**
+<!-- ### **Responses**
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
 ### **Example**
@@ -1004,16 +2479,14 @@ Log a document-related action such as cancellation, rejection, or other workflow
 POST api/v1/documents/log-action
 ````
 
----
-
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
----
-
+<!-- ### **Query Parameters**
+> _None_ -->
 
 ### **Request Body Example**
 
@@ -1065,12 +2538,16 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses**
 
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
                                             
 
 ### **Tags**
@@ -1090,13 +2567,11 @@ Send a document to one or more parties for review or signing.
 POST api/v1/documents/send
 ````
 
-### **Headers**
+<!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
-
-
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
 ### **Query Parameters**
 | Name | Type | Required | Default | Description |
@@ -1175,12 +2650,16 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses**
 
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 ### **Tags**
 
@@ -1193,19 +2672,20 @@ json
 Submit **signed field values** for a document by a specific party.
 
 
-**Endpoint**
+### **Endpoint**
 ````
 POST api/v1/documents/sign
 ````
 
-### **Headers**
+<!-- ### **Headers**
 
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
 | `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
 
-
+### **Query Parameters**
+> _None_ -->
 
 ### **Request Body Example**
 
@@ -1260,16 +2740,128 @@ json
 
 ````
 
-### **Responses**
+<!-- ### **Responses**
 
 | Status Code                                             | Description         |
 | ------------------------------------------------------- | ------------------- |
 | <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
 | <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 ### **Tags**
 
 `Document Tracker`
 
 ---
+
+## 🔹 9 Tracking IDs API
+
+Use the **Tracking ID** to fetch the current status of a document and track its progress through the E-Sign workflow.
+
+
+### **Endpoint**
+````
+POST api/v1/documents/tracking-ids/
+````
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `document_id` | string | ✅ Yes | Unique identifier of the document |
+| `page` | intiger | ✅ Yes | Specifies the page number |
+| `limit` | intiger | ✅ Yes | Specifies the number of records per page |
+
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "page": 1,
+  "limit": 10,
+  "total": 4,
+
+  "tracking_ids": [
+    {
+      "tracking_id": "track-001",
+      "status": "expired",
+      "updated_at": "2026-01-06T15:08:28Z",
+      "parties": [
+        {
+          "party_id": "party-1",
+          "name": "User One",
+          "email": "userone@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-002",
+      "status": "expired",
+      "updated_at": "2026-01-06T15:08:28Z",
+      "parties": [
+        {
+          "party_id": "party-2",
+          "name": "User Two",
+          "email": "usertwo@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-003",
+      "status": "cancelled",
+      "updated_at": "2025-10-14T14:26:49Z",
+      "parties": [
+        {
+          "party_id": "party-3",
+          "name": "User Three",
+          "email": "userthree@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-004",
+      "status": "expired",
+      "updated_at": "2025-10-18T04:59:59Z",
+      "parties": [
+        {
+          "party_id": "party-4",
+          "name": "User Four",
+          "email": "userfour@example.com"
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Document Tracker`
+
+---
+
 
