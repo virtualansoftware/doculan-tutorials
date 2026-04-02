@@ -304,7 +304,7 @@ json
 {
   "api_key": "YapuaO4NF-NCDYJLLagSX3lSm2jKLrDtFP8GqkLXS7UJ6LumZ-VRGzAJn15lFP2w",
   "key_preview": "YapuaO****************FP2w",
-  "expires_in_days": 2
+  "expires_in_days": 30
 }
 
 ```
