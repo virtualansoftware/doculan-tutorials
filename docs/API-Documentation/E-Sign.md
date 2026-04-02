@@ -292,7 +292,7 @@ POST /api/v1/auth/clients/api-keys
 json
 
 {
-  "expired_days": 0
+  "expired_days": 30
 }
 
 ```
