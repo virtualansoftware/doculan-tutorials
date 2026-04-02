@@ -2,6 +2,10 @@
 
 The **Auth Management API** is used to handle authentication and authorization processes within the system. It ensures secure access to resources by verifying user identity and controlling permissions.
 
+**Base URL:**   
+https://api.doculan.ai
+
+
 ## 🔹 1 Register User
 
 The **Register User API** is used to create a new user account in the system. It collects user details and securely stores them for authentication and access control.
@@ -298,7 +302,7 @@ json
 json
 
 {
-  "api_key": "YapuaO4NF-NCDYJLLagSX3lSm2xjASLVCjPiqkLXS7UJ6LumZ-VRGzAJn15lFP2w",
+  "api_key": "YapuaO4NF-NCDYJLLagSX3lSm2jKLrDtFP8GqkLXS7UJ6LumZ-VRGzAJn15lFP2w",
   "key_preview": "YapuaO****************FP2w",
   "expires_in_days": 2
 }
@@ -324,10 +328,6 @@ json
 ##  **Files Operation APIs**
 
 The Files Operation **APIs allow you to retrieve individual files or list all available files** associated with your account or documents.
-
-
-**Base URL:**   
-https://api.doculan.ai
 
 
 ---
