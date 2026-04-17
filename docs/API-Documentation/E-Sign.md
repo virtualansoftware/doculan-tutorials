@@ -482,52 +482,135 @@ json
 
 ---
 
-## 🔹 3 Redirect URL
+Got it — here’s the **corrected Markdown section** based on your actual API and response. You can directly append this to your doc:
 
-The **Redirect URL API** is used to define or retrieve the URL where users are redirected after completing specific actions such as login, email verification, or E-Sign processes.
+---
+
+## 🔹 5 Redirect URL (PDF Editor)
+
+The **Redirect URL API** is used to securely generate a session for accessing the third-party PDF editor.  
+This API uses **API Key authentication only (no login required)** and returns a scoped bearer token along with the editor UI URL.
+
+---
 
 ### **Endpoint**
 
 ```
+
 POST /api/v1/documents/auth/redirect
+
 ```
 
-<!-- ### **Headers**
-| Name                | Type               | Required | Description                                                |
-| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
-| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format |
+---
+<!-- 
+### **Headers**
 
-### **Query Parameters**
-> _None_
+| Name        | Type   | Required | Description                          |
+|-------------|--------|----------|--------------------------------------|
+| X-API-Key   | string | ✅ Yes   | API key for client authentication    |
+| accept      | string | ✅ Yes   | application/json                     |
+
+--- -->
 
 ### **Request Body**
-> _Not required_ -->
+> _Not required_
+
+---
 
 ### **Response Body Example**
 
 ```
+
 json
 
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.samplePayload.signaturePart123456789",
-  "ui_url": "https://dev.example.com/pdf-editor",
-  "token_type": "Bearer",
+  "client_id": "client_xxxxxxxxxxx1bb23c0a105316",
+  "email": "sample@example.com",
+  "role": "admin",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.samplePayload.signature",
+  "ui_url": "https://demo.doculandemo.com/pdf-editor",
+  "token_type": "bearer"
 }
 
 ```
-<!-- ### **Responses**
 
-| Status Code                                             | Description         |
-| ------------------------------------------------------- | ------------------- |
-| <span style="color:green; font-weight:bold;">200</span> | Successful response |
-| <span style="color:green; font-weight:bold;">201</span> | Created |
-| <span style="color:green; font-weight:bold;">202</span> | Accepted |
-| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
-| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
-| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+---
 
-###  Tags
+### **Response Fields**
+
+| Field         | Type   | Description                                              |
+|---------------|--------|----------------------------------------------------------|
+| client_id     | string | Unique identifier for the client                         |
+| email         | string | Associated client email                                  |
+| role          | string | Role assigned to the client (e.g., admin)                |
+| access_token  | string | Bearer token used for authentication in editor session   |
+| ui_url        | string | Third-party PDF editor URL                               |
+| token_type    | string | Token type (always `bearer`)                             |
+
+---
+
+### **Usage Flow**
+
+1. Call the API using your **X-API-Key**
+2. Receive:
+   - `access_token`
+   - `ui_url`
+3. Load `ui_url` inside an iframe or browser
+4. Pass the following data to the editor via `postMessage`
+
+---
+
+### **PostMessage Payload**
+
+```
+
+json
+
+{
+  "type": "INIT_DATA",
+  "payload": {
+    "document_id": "string",
+    "access_token": "string"
+  }
+}
+
+```
+
+---
+
+### **Important Notes**
+
+- No user login is required — authentication is handled via API Key
+- The `access_token` is **short-lived and scoped to the client**
+- Ensure secure communication by restricting `postMessage` origin in production
+
+Example:
+
+```
+
+postMessage(data, "https://demo.doculandemo.com");
+
+```
+
+---
+
+### **Error Handling**
+
+- If the API call fails, retry with a valid API key
+- Ensure the iframe is fully loaded before sending data
+- Handle cases where `access_token` is not yet available
+
+---
+
+### **Required Parameters**
+
+| Parameter    | Required | Description                |
+|--------------|----------|----------------------------|
+| document_id  | ✅ Yes   | Document to be edited      |
+| access_token  | ✅ Yes  | Bearer token for authenticating the session      |
+---
+
+### Tags
 `Files Operation`
 
 ---
