@@ -16,6 +16,7 @@
     - [How to Schedule an Email?](E_Sign/schedule-email.md)
     - [How to Rename the File?](E_Sign/rename-file.md)
     - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
+    - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -37,6 +38,7 @@
     - [How to share document?](E_Sign/share-document.md)
     - [How to resend shared document?](E_Sign/resend-shared-document.md)
     - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
+    - [How to Share a folder?](E_Sign/share_folder.md)
 
 ---
 - **Form Management**
@@ -46,6 +48,7 @@
     - [How to Cancel Form?](Forms/Form_Cancel.md)
     - [How to Delete Form?](Forms/Form-Delete.md)
     - [How to Resend Form?](Forms/Form_Resend.md)
+    - [How to Save Forms?](Forms/Form_Save.md)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
