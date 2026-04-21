@@ -6,7 +6,7 @@ This guide helps to **resending a form** allows you to issue a fresh access link
 
 ##  **Step 1: Navigate to Resend the Form**
 
-- Navigate to the **Doculan Dashboard** and click **Forms.**
+- Navigate to the **Documents** and select the **appropriate folder.**
 - Locate the **form** and click the **⋮ (three-dot) icon** under the Actions column.
 - Click **Resend**, then 
 - Recipient receives a new access email  
@@ -16,17 +16,21 @@ This guide helps to **resending a form** allows you to issue a fresh access link
 
 <img src="screenshots\Forms\Form-Resend.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
+**Screenshot 2:**
+
+<img src="screenshots\Forms\Form-Resend1.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
 > The above **Screenshot** represent that how to **Resend Form.**
 
 
 # **Step 2: Audit Trail**
 
-- Navigate to the **Doculan Dashboard and click Forms.**
+- Navigate to the **Documents and select the appropriate folder**.
 - Locate the required **form** and click the **⋮ (three-dot) icon** under the **Actions column.**
 - From the Actions menu, you can perform the below operations:
 - **Audit** – We can check the timesheet from the audit trail.
 
-**Screenshot 2:**
+**Screenshot 3:**
 
 <img src="screenshots\Forms\Form-Resend2.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 

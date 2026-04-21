@@ -7,7 +7,7 @@ This feature streamlines recurring form workflows, saving time while ensuring co
 
 ##  **Step1: Navigate to Clone the Form**
 
-- Navigate to the **Doculan Dashboard** and click **Forms.**
+- Navigate to the **Documents** and select the **appropriate folder.**
 - Locate the **required form** and click the **⋮ (three-dot) icon** under the Actions column.
 - Click **Clone** and form will be cloned  
 - Review the cloned form and click **Send Form**.
@@ -26,7 +26,7 @@ This feature streamlines recurring form workflows, saving time while ensuring co
 
 # **Step 2: Audit Trail**
 
-- Navigate to the **Doculan Dashboard and click Forms.**
+- Navigate to the **Documents and select the appropriate folder**.
 - Locate the required **form** and click the **⋮ (three-dot) icon** under the **Actions column.**
 - From the Actions menu, you can perform the following operations:
 - **Audit** – View detailed submission logs and the complete activity history.

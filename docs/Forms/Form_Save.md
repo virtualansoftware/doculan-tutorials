@@ -6,24 +6,24 @@ The **Save Form** option allows you to store a form without sending it, enabling
 
 ## Step-by-Step Instructions
 
-1. Navigate to the Forms section.
+1. Navigate to the **Documents** section.
 
-<img src="screenshots\Forms\Save_form.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\CreateForm1.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-2. Click Create Form and choose your preferred method.
+2. Click **Create Form** and choose your preferred method.
 3. Fill in the required form details and fields.
 
 <img src="screenshots\Forms\Save_form1.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-4. Click the Send Form dropdown option.
+4. Click the Send Form **dropdown** option.
 
 <img src="screenshots\Forms\Save_form2.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-5. Select Save Form instead of sending.
+5. Select **Save Form** instead of sending.
 
 <img src="screenshots\Forms\Save_form3.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-6. Click Save Form to store the form for future use.
+6. Click **Save Form** to store it in the selected folder.
 
 <img src="screenshots\Forms\Save_form4.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 

@@ -9,7 +9,7 @@ This guide explains **how to access single submissions, overall form responses, 
 
 - All forms and files are stored in the **Doculan Storage**
 - You can **view, download, and print** submissions(Forms) & attachments(pdf, word, etc...)
-- Navigate to the **Doculan Dashboard** and click **Forms.**
+- Navigate to the **Documents** and select the **appropriate folder.**
 - Locate the required form and click the **⋮ (three-dot) icon** under the **Actions column.**
 - We have to click **Details**, then
 - We can see the **Submitted Form with their Attachment.**  
@@ -27,7 +27,7 @@ This guide explains **how to access single submissions, overall form responses, 
 
 ## **Step 2: Navigate to view  Overall Submitted Form with Attachments**
 
-- Navigate to the **Doculan Dashboard** and **click Forms.**
+- Navigate to the **Documents** and select the **appropriate folder.**
 - Locate the required **Primary form** and click the **⋮ (three-dot) icon** under the Actions column.
 - We have to click **Details**, then
 - We can see the **Submitted Forms with their Attachments.**  
@@ -44,7 +44,7 @@ This guide explains **how to access single submissions, overall form responses, 
 
 ## **Step 3: Navigate to view Specific Recipient in Overall Submitted Forms with Attachments**
 
-- Navigate to the **Doculan Dashboard and click Forms.**
+- Navigate to the **Documents and select the appropriate folder**.
 - Locate the **Specific Recipient form** and click the **⋮ (three-dot) icon** under the **Actions column.**
 - We have to click **Details**, then
 - We can see the **Specific Recipient's Submitted Form with their Attachment** 
