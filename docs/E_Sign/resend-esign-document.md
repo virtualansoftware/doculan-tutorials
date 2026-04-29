@@ -19,7 +19,7 @@ For compliance and audit accuracy, Doculan allows resending only under specific 
 | **Declined** |  No | Recipient refused to sign |
 <!-- | **Failed** |  Yes | Email delivery issue | -->
 
-<img src=" screenshots\E-Sign_Images\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Actions_available1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  **Note:**  You may only resend a document *if its status is **not Completed, Cancelled, or Declined**.*
 

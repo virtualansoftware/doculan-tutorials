@@ -18,7 +18,7 @@ It’s ideal when your contracts evolve or when you need to add new terms or fie
 
 - The saved configuration — including fields, parties, and layout settings — will load automatically into the editor.
 
-<img src="screenshots\E-Sign_Images\Configure_Fields.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\E-Sign_Images\Configure_Fields1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  **Tip:** If the template does not appear in the list, click Refresh or reload the page to synchronize the latest data.
 

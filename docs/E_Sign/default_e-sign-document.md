@@ -51,7 +51,7 @@ Here is the professionally structured version of your steps:
 
 7. When you open the e-sign document, your **default signature** will be automatically applied to the designated signature field within the document.
 
-<img src="screenshots\Self_E-sign\Self_Sign_8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-sign\Self_Sign_7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > Enter any required information, review the document carefully, and click **Submit** to complete the signing process.
 
@@ -62,7 +62,7 @@ Here is the professionally structured version of your steps:
 - A pop-up message will appear confirming **Submission Successful**.
 - You can choose to view the signed document or download it as a ZIP file.
 
-<img src="screenshots\Self_E-sign\Self_Sign_9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src="screenshots\Self_E-sign\Self_Sign_8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **You have successfully signed the document using your default signature.** 
 

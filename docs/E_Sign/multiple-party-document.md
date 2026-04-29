@@ -138,7 +138,7 @@ Once Party 1 completes signing, the document is automatically forwarded to **Par
 
 Recipients can click **AI Assist** on their signing screen to ask document-specific questions.
 
-<img src=" screenshots\E-Sign_Images\AI_Assist.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\AI_Assist1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  *AI Assist works only for the uploaded document. It does not answer unrelated queries.*
 

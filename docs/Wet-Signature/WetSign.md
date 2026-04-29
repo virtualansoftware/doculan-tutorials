@@ -39,6 +39,10 @@ After reviewing the document, the recipient should click the **Print** button to
 
 **Screenshot 2**
 
+<img src="screenshots/releaseNotes/Wet-Sign5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
+
+**Screenshot 3**
+
 <img src="screenshots/releaseNotes/Wet-Sign2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
 > The above **Screenshot** represent that **how to send and print the Document**.
@@ -58,7 +62,7 @@ After printing the document:
 6. **Review** the uploaded document.
 7. Click the **Confirm** button.
 
-**Screenshot 3**
+**Screenshot 4**
 
 <img src="screenshots/releaseNotes/Wet-Sign3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
@@ -72,7 +76,7 @@ After printing the document:
 - The sender and recipient can view the submitted document.
 - The document can be downloaded as a **ZIP file** for record-keeping or sharing purposes.
 
-**Screenshot 4**
+**Screenshot 5**
 
 <img src="screenshots/releaseNotes/Wet-Sign4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 

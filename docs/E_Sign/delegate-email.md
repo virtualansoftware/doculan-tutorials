@@ -42,7 +42,7 @@ It ensures flexibility while maintaining a secure and trackable signing workflow
 
 - The document has been **successfully resent to the updated (delegated) recipient**.
 
-<img src=" screenshots\Delegate-email\delegate-email4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Delegate-email\delegate-email5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > Once the recipient details are updated, the original recipient will no longer have access to the document.
 

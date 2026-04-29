@@ -78,6 +78,14 @@ Uploading a **CSV file** is the most efficient method when distributing document
   </a>
 </p>
 
+<!-- 6. Enable the custom signing order to define the sequence and prioritize recipients accordingly.
+
+<p>
+  <a href="files/Bulk_Mail_CSV_Files.csv" target="_blank"
+     style="display:inline-block; background-color:#007bff; color:white; padding:10px 20px; border-radius:6px; text-decoration:none;">
+    📄 Download CSV Example
+  </a>
+</p> -->
 
 <!-- <iframe src="files\Bulk_Mail_CSV_File.csv"
         style="width:100%; height:600px; border:2px solid black; border-radius:4px;">
@@ -117,6 +125,10 @@ Amit Patel, amit@example.com
 </details>
 
 <img src=" screenshots\E-Sign_Images\Bulk_Mail_Manual_CSV.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+<!-- 5. Enable the custom signing order to define the sequence and prioritize recipients accordingly.
+
+<img src=" screenshots\E-Sign_Images\Bulk_Mail_Manual_CSV1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
 > *This method offers flexibility when handling a limited number of recipients.*
 ---

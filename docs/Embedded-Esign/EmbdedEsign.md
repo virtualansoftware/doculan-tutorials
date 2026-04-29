@@ -7,7 +7,7 @@ This section explains how to configure and use **E-Sign Embedded** within Forms 
 ### Step 1: Creating a Form with E-Sign Embedded
 
 1. Navigate to the **Doculan Dashboard**.
-2. Click **Forms**.
+2. Click **Documents** from the main menu.
 3. Click **Create New Form**.
 4. Enter the **Form Title** and **Form Description**.
 5. Select the **folder path** to store submitted form data.

@@ -34,7 +34,7 @@
 
 ---
 
-- **Share Document**
+- **Share Document & Folder**
     - [How to share document?](E_Sign/share-document.md)
     - [How to resend shared document?](E_Sign/resend-shared-document.md)
     - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
@@ -104,4 +104,5 @@
     - [Version 0.8.0](releaseNotes/version_0.8.0.md)
     - [Version 0.9.0](releaseNotes/version_0.9.0.md)
     - [Version 0.9.1](releaseNotes/version_0.9.1.md)
+    - [Version 0.10.0](releaseNotes/version_0.10.0.md)
 ---

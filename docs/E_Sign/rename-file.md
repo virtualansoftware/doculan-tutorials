@@ -26,6 +26,6 @@ The **Rename File** feature allows you to update the name of an existing documen
 
 **Screenshot 2**
 
-<img src=" screenshots\E-Sign_Images\Rename-file.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Rename-file2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > The rename action does not affect the document’s content, recipients, audit trail, or signing status. It simply updates the display name for better management and tracking.

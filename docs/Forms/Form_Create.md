@@ -6,7 +6,7 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 
 ##   **Step 1: Navigate to Create the Form**
 
-- Navigate to the **Doculan Dashboard**. Click **Documents** from the main menu. 
+- Navigate to the **Doculan Dashboard**. Click **Forms** from the main menu. 
 - Click **Create New Form** to manually design a form, or select **Generate with AI** to automatically create a form using **AI** assistance.
 - For manual form creation, click the **Create New Form** button to proceed.
 - We have to Upload a **logo** (optional). Enter **Form Title** and **Form Description**.
@@ -90,7 +90,7 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 To review and manage form submissions in Doculan, follow the steps below:
 
 - Form status changes to **Completed**
-- Navigate to the **Documents** and select the **appropriate folder**.
+- Navigate to the **Forms**.
 - Locate the required form and click the **⋮ (three-dot) icon** under the **Actions** column. 
 - From the Actions menu, you can perform the following operations:
   - **Audit** – View detailed submission logs and activity history.  

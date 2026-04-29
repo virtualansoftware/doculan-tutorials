@@ -30,11 +30,11 @@ A pop-up window will appear prompting you to:
 - Select the appropriate **Field Type**, then enter the required **Label** and **Value** as needed.<br>
 Ensure all information is accurate before saving, as the entered value will apply according to the selected scope.
 
-<img src=" screenshots\Variable-Fields\variable-field4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. Click **Save** to apply and store the new variable.
 
-<img src=" screenshots\Variable-Fields\variable-field5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > Once configured, the variable field will be properly linked and ready for use within the document.
 
@@ -51,7 +51,7 @@ Ensure all information is accurate before saving, as the entered value will appl
   - Choose the required **Variable** from the Variable Details list.
   - Select the relevant **Label** for the field.
 
-<img src=" screenshots\Variable-Fields\variable-field8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 <img src=" screenshots\Variable-Fields\variable-field6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -83,7 +83,7 @@ Select the required Scope based on your use case:
 8. During the sending process, the **Variable Registry** will open automatically.
 - Enter the **current variable value** in the **Variable Registry** and review the **variable field details** to ensure the correct information is applied.
 
-<img src=" screenshots\Variable-Fields\variable-field9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > The value entered will update according to the selected scope rules.
 
@@ -96,15 +96,15 @@ Select the required Scope based on your use case:
 - They click the **document link** in the email.
 - Predefined variable values will be automatically populated throughout the document.
 
-<img src=" screenshots\Variable-Fields\variable-field10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 - The recipient is required to complete only the **signature field**, as all other details have been pre-populated using **variable fields**.
 
-<img src=" screenshots\Variable-Fields\variable-field11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- For the second recipient, only the signature field requires completion, since all other details have been pre-populated through variable fields.”
+<!-- - For the second recipient, only the signature field requires completion, since all other details have been pre-populated through variable fields.”
 
-<img src=" screenshots\Variable-Fields\variable-field13.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field13.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
 > These **Variable Fields** are used to predefine and manage consistent values within a document.
 
@@ -115,7 +115,7 @@ Select the required Scope based on your use case:
 - A confirmation pop-up message will appear indicating that the **submission was successful**.
 - You may then choose to view the signed document or download it as a ZIP file.
 
-<img src=" screenshots\Variable-Fields\variable-field15.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Variable-Fields\variable-field11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **The document has been successfully signed using the configured variable fields.**
 

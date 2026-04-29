@@ -7,7 +7,6 @@ This dual-layer authentication framework significantly reduces the risk of unaut
 
 ## Steps to Enable Two-Factor Authentication (2FA)
 Follow the steps below to securely enable **Two-Factor Authentication (2FA)** in **Doculan**, ensuring enhanced protection for your account and sensitive data.
-**
 
 1. Navigate to the **Doculan Dashboard**.
 2. Click the **Profile** icon located at the top right corner.
