@@ -27,7 +27,7 @@ This guide explains **how to access single submissions, overall form responses, 
 
 ## **Step 2: Navigate to view  Overall Submitted Form with Attachments**
 
-- Navigate to the **Documents** and select the **appropriate folder.**
+- Navigate to the **Forms**.
 - Locate the required **Primary form** and click the **⋮ (three-dot) icon** under the Actions column.
 - We have to click **Details**, then
 - We can see the **Submitted Forms with their Attachments.**  

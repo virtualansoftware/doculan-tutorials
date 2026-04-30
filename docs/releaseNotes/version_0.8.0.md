@@ -17,4 +17,4 @@ The **Rename File** feature allows you to update the name of an existing documen
 
 🔗 **Learn more:** [How to Rename the File?](E_Sign/rename-file.md)
 
-<img src=" screenshots\E-Sign_Images\Rename-file.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Rename-file2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">

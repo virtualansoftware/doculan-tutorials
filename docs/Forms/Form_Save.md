@@ -6,7 +6,7 @@ The **Save Form** option allows you to store a form without sending it, enabling
 
 ## Step-by-Step Instructions
 
-1. Navigate to the **Documents** section.
+1. Navigate to the **Forms** section.
 
 <img src="screenshots\Forms\CreateForm1.png" alt="Step 1 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 

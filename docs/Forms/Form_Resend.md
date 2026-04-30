@@ -6,7 +6,8 @@ This guide helps to **resending a form** allows you to issue a fresh access link
 
 ##  **Step 1: Navigate to Resend the Form**
 
-- Navigate to the **Documents** and select the **appropriate folder.**
+<!-- - Navigate to the **Documents** and select the **appropriate folder.** -->
+- Navigate to the **Forms**.
 - Locate the **form** and click the **⋮ (three-dot) icon** under the Actions column.
 - Click **Resend**, then 
 - Recipient receives a new access email  
@@ -25,7 +26,7 @@ This guide helps to **resending a form** allows you to issue a fresh access link
 
 # **Step 2: Audit Trail**
 
-- Navigate to the **Documents and select the appropriate folder**.
+- Navigate to the **Forms**.
 - Locate the required **form** and click the **⋮ (three-dot) icon** under the **Actions column.**
 - From the Actions menu, you can perform the below operations:
 - **Audit** – We can check the timesheet from the audit trail.

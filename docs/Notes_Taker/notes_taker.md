@@ -75,18 +75,18 @@ Using the **Note Taker**, you can:
 
 1. Return to the Summary page.
 
-<img src=" screenshots\Notes_Taker\Notes_Taker6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Notes_Taker\Notes_Taker7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 2. Click the **E-Sign icon**.
 3. Enter the file name and **click Continue**.
 
-<img src=" screenshots\Notes_Taker\Notes_Taker7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Notes_Taker\Notes_Taker8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 4. Select the folder to **upload the file**.
 
-<img src=" screenshots\Notes_Taker\Notes_Taker8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
-
 <img src=" screenshots\Notes_Taker\Notes_Taker9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+<img src=" screenshots\Notes_Taker\Notes_Taker10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > You will then be **redirected to the E-Sign process** where you can add fields and send the document to recipients.
 
@@ -103,7 +103,7 @@ Here you can:
 - Click the Resume icon to continue a pending session.
 - Click the Delete icon to remove unwanted sessions.
 
-<img src=" screenshots\Notes_Taker\Notes_Taker10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Notes_Taker\Notes_Taker11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 You have successfully created the document using the **Note Taker**.
 
