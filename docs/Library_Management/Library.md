@@ -29,7 +29,7 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 4. In the **Actions** column, click the **⋮ (three-dot)** icon next to the required document.
 5. Select **Copy** to create a duplicate of the selected Library document.
 
-**Screenshot 2**
+**Screenshot 3**
 
 <img src="screenshots/Library_Management_Images/Lib-Doc3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
@@ -37,6 +37,8 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 
 
 6. A Document & Template Viewing pop-up is displayed, allowing you to carefully review the document and template details before proceeding.
+
+**Screenshot 4**
 
 <img src="screenshots/Library_Management_Images/Lib-Doc4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
@@ -49,6 +51,8 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 7. An **Important Disclaimer** popup window will appears:  
     - Click **I Understand** to acknowledge the notice and proceed with the action.
 
+**Screenshot 5**
+
 <img src="screenshots/Library_Management_Images/Lib-Doc5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
 > The above **screenshot** illustrates the **Important Disclaimer** pop-up, prompting the user to acknowledge the notice before proceeding with the action.
@@ -59,7 +63,7 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 
 8. Select the appropriate folder location in **Doculan Storage** where the copied document should be saved, ensuring it is stored in the correct directory for future access and workflow management.
 
-**Screenshot 3**
+**Screenshot 6**
 
 <img src="screenshots/Library_Management_Images/Lib-Doc6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
@@ -72,7 +76,7 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 9. Enter the **Document Name** and **Template Name**, then click **Copy** to complete the duplication process and save the document to the selected location.
 
 
-**Screenshot 4**
+**Screenshot 7**
 
 <img src="screenshots/Library_Management_Images/Lib-Doc7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
@@ -89,7 +93,7 @@ By utilizing the Library, users can efficiently locate and reuse templates, redu
 
 You can now access, edit, and use the duplicated document from these locations as needed for your workflows.
 
-**Screenshot 5**  
+**Screenshot 8**  
 <img src="screenshots/Library_Management_Images/Lib-Doc8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
 > The above **Screenshot** represent that the document has been successfully saved in **Document Storage**, where it can be accessed, managed, and used for future workflows.
@@ -97,7 +101,7 @@ You can now access, edit, and use the duplicated document from these locations a
 
 
 
-**Screenshot 6**
+**Screenshot 9**
 
 <img src="screenshots/Library_Management_Images/Lib-Doc9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="PDF Scrolling">
 
