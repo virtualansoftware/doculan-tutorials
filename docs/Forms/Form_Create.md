@@ -4,9 +4,9 @@ This guide explains the complete process of **creating a form, sending it to use
 Follow the step-by-step instructions to efficiently create, send, manage, and analyze your form data within the system.
 ---
 
-##   **Step 1: Navigate to Create the Form**
+##   **Step 1: Navigate to Create Form; there are two ways to proceed**
 
-- Navigate to the **Doculan Dashboard**. Click **Forms** from the main menu. 
+- Navigate to the **Doculan Dashboard** and click **Forms** from the main menu, or navigate to **Documents** and click **Forms** from the Create button. 
 - Click **Create New Form** to manually design a form, or select **Generate with AI** to automatically create a form using **AI** assistance.
 - For manual form creation, click the **Create New Form** button to proceed.
 - We have to Upload a **logo** (optional). Enter **Form Title** and **Form Description**.
@@ -33,13 +33,17 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 
 **Screenshot 2:**
 
-<img src="screenshots\Forms\CreateForm2.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\CreateForm2.png" alt="Step 1 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 **Screenshot 3:**
 
-<img src="screenshots\Forms\CreateForm3.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\CreateForm.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 **Screenshot 4:**
+
+<img src="screenshots\Forms\CreateForm3.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+**Screenshot 5:**
 
 <img src="screenshots\Forms\CreateForm4.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
