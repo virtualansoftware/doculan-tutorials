@@ -3,7 +3,7 @@
 The **Auth Management API** is used to handle authentication and authorization processes within the system. It ensures secure access to resources by verifying user identity and controlling permissions.
 
 **Base URL:**   
-https://api.doculan.ai
+https://api.doculan.ai/client-docs
 
 
 ## 🔹 1 Register User
