@@ -12,6 +12,7 @@
     - [How to use the default E-Sign Document?](E_Sign/default_e-sign-document.md)
     - [How to use self sign feature?](E_Sign/self-sign-document.md)
     - [How to use Variable field?](E_Sign/variable-fields.md)
+    - [How to Use Variable Mapping in a CSV File?](E_Sign/variable_mapping.md)
     - [How to use Delegate Email?](E_Sign/delegate-email.md)
     - [How to Schedule an Email?](E_Sign/schedule-email.md)
     - [How to Rename the File?](E_Sign/rename-file.md)
