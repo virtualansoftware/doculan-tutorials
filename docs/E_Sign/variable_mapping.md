@@ -51,6 +51,8 @@ Uploading a CSV file is the most efficient method for large-scale distribution.
 3. Each row will be treated as a unique recipient.
 4. Click Validate to verify email format and data structure.
 
+</details>
+
 ####  CSV File Format Example
 
 - CSV File Format Example

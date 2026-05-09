@@ -11,6 +11,7 @@
     - [How to resend eSign document?](E_Sign/resend-esign-document.md)
     - [How to use the default E-Sign Document?](E_Sign/default_e-sign-document.md)
     - [How to use self sign feature?](E_Sign/self-sign-document.md)
+    - [How to Use Self Sign Mode?](E_Sign/self-sign-mode.md)
     - [How to use Variable field?](E_Sign/variable-fields.md)
     - [How to Use Variable Mapping in a CSV File?](E_Sign/variable_mapping.md)
     - [How to use Delegate Email?](E_Sign/delegate-email.md)
@@ -68,6 +69,12 @@
     -  [How to Save Document?](Document/Documents_Upload.md)
     -  [How to Versioning & Comparison Document?](Document/Documents_Compare.md)
     -  [How to use E-Sign in the Document Editor?](Document/Documents_E-sign.md)
+
+---
+
+- **PDF Editor**
+    - [How to Merge PDF Files?](PDF_Editor/Merge_pdf.md)
+    - [How to Split PDF Files?](PDF_Editor/Split_pdf.md)
 
 ---
 
