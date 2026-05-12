@@ -1,4 +1,4 @@
-# 🚀 **New Features & Enhancements**
+# 🚀 Version 0.10.0 – New Enhancements
 
 ## 1️⃣ **Dark Mode & Light Mode**
    Switch seamlessly between **dark and light themes** to align with your working environment and minimize eye strain. This feature enables users to select the most suitable display mode, ensuring optimal comfort and improved productivity across different lighting conditions.

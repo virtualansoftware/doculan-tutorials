@@ -113,4 +113,5 @@
     - [Version 0.9.0](releaseNotes/version_0.9.0.md)
     - [Version 0.9.1](releaseNotes/version_0.9.1.md)
     - [Version 0.10.0](releaseNotes/version_0.10.0.md)
+    - [Version 0.10.1](releaseNotes/version_0.10.1.md)
 ---
