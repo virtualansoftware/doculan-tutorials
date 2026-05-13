@@ -21,9 +21,10 @@ Currently, if no documents are sent for signing, the status will show as empty.
 
 ### AI Assist
 
-The **AI Assist** chatbot can be opened anytime by selecting **AI Assist** from the toolbar.  
+> The **AI Assist** chatbot can be opened anytime by selecting **AI Assist** from the toolbar.  
 It allows you to ask questions about any document and get quick insights or summaries.
 
+© Doculan by [Virtualan Software](https://www.virtualan.io)
 
 ---
 

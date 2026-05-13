@@ -1,8 +1,9 @@
 ﻿﻿
-# How to Cancel an eSign Document?
+# How to Cancel an E-Sign Document?
 
-Sometimes you may need to **cancel an ongoing e-signature request** for example, if you sent it to the wrong recipient, updated the document, or no longer need it signed.  
-This guide explains how to cancel such eSign documents in **Doculan** and what happens afterward.
+There may be occasions when it becomes necessary to **cancel an active e-signature request**—for instance, if the document was sent to an incorrect recipient, requires revision, or is no longer needed for signing.  
+
+This guide outlines the proper procedure to cancel an eSign document in **Doculan**, along with the system actions that follow cancellation.
 
 ---
 
@@ -13,9 +14,9 @@ This guide explains how to cancel such eSign documents in **Doculan** and what h
 3. Choose **Audit** to confirm the current activity and signer progress (optional).  
 4. Once confirmed, click the **Cancel eSign** option.
 
-<img src=" screenshots\E-Sign_Images\Actions_available.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\E-Sign_Images\Actions_available1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
->  You can only cancel documents that are *not yet completed* or *not fully signed by all parties*.
+> You can only cancel documents that are *not yet completed* or *not fully signed by all parties*.
 
 ---
 
@@ -23,7 +24,7 @@ This guide explains how to cancel such eSign documents in **Doculan** and what h
 
 After selecting **Cancel eSign**, a pop-up confirmation appears.
 
-<details>
+<details open>
   <summary><b>Steps to Confirm Cancellation</b></summary>
 
 1. Click **Cancel eSign** from the dropdown menu.  
@@ -44,7 +45,7 @@ When the document is cancelled:
 
 | Effect | Description |
 |--------|-------------|
-| **Status Update** | Status changes to **Cancelled** immediately in the dashboard |
+| **Status Update** | The document status changes instantly to **Cancelled** on the dashboard. |
 | **Recipient Access** | Any signer trying to open the old link will see: *"This document has been cancelled by the administrator and is no longer available."* |
 | **Email Notification** | All recipients receive an automatic email informing them of the cancellation |
 | **Audit Log** | A new entry is created in the **Order Trail** indicating cancellation time and user ID |
@@ -53,9 +54,9 @@ When the document is cancelled:
 
 ---
 
-##  Step 4: Track Audit History
+##  Step 4: Review the Audit History
 
-You can verify all cancellation events in the **Audit Trail**.
+All cancellation activities can be verified through the **Audit Trail**.
 
 1. Click the **Audit** button for the specific document.  
 2. The Audit page displays( all entries below  with timestamp)

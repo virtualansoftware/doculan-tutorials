@@ -1,18 +1,18 @@
 ﻿﻿
 # How to Send Multiple Party Document?
 
-This guide explains how to send a **multi-party e-sign document** in Doculan, where two or more recipients must review and sign the same document in a defined order.
-A **multi-party document** allows you to send one contract to multiple signers (Party 1, Party 2, Party 3, etc.).  
-Each recipient receives the document **in sequence**, after the previous party has completed their signing.
+This guide explains how to send a **multi-party e-sign document** in Doculan, where two or more recipients are required to review and sign the same document in a defined sequence.
+
+A **multi-party document** enables you to send a single contract to multiple signatories (Party 1, Party 2, Party 3, etc.). Each recipient receives the document **in sequence**, only after the previous party has completed their signing process.
 
 ---
 
 
 ##  Step 1: Add Multiple Parties
 
-Switch to the **Parties** tab to define recipients.
+Navigate to the **Parties** tab to define all recipients.
 
-<details>
+<details open>
   <summary><b>Steps to Add Parties</b></summary>
 
 1. By default, you'll see **Party 1** already listed.  
@@ -22,11 +22,11 @@ Switch to the **Parties** tab to define recipients.
    - **Signature**
    - **Initial** etc at the respective places.  -->
 2. Click the **Add Party** button to create additional recipients.  
-3. Fill in their details (Party 2, Party 3, etc.).  
-4. Verify that the fields you placed earlier are linked to the respective Parties by relating the colour of the Fields to colour of the Party.
+3. Enter the required details for each additional party (Party 2, Party 3, etc.).  
+4. Ensure that all previously added fields (Signature, Date, Initial, etc.) are correctly assigned to the appropriate party. This can be verified by matching the field color with the corresponding party color.
 5. Repeat this process for every signer.  
 
->  **Important:** Each party must have a valid email address, and every field (Signature, Date, etc.) must be linked to a specific party.
+>  **Important:** Each party must have a valid email address, and every field must be assigned to a specific party.
 
 6. Click **Save** once all parties are added.
 </details>
@@ -41,9 +41,11 @@ When multiple parties are added, Doculan follows a **sequential signing** flow:
 
 - **Party 1** receives the email first.
 - Once Party 1 completes signing, the document is automatically sent to **Party 2**.
-- The sequence continues until all parties have signed.
+- The process continues in sequence until all parties have signed.
 
 <!-- >  *If you need parallel (simultaneous) signing, contact your admin to enable it in the configuration.* -->
+
+> *This ensures an organized and structured signing process.*
 
 ---
 
@@ -62,16 +64,20 @@ Once your parties and fields are set:
 
 <img src=" screenshots\E-Sign_Images\Multiple_party_mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+8. Move the recipient details to arrange them in the **desired signing order**.
+
+<img src=" screenshots\E-Sign_Images\Multiple_party_mail1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 >  *Emails are sent sequentially to each party. You can also schedule the email for a future date/time.*
 
 ---
 
 ##  Step 4: Track the Document
 
-After sending, navigate to your folder and click **Audit** for that document.
+After sending the document, navigate to the respective folder and select Audit for the document.
 
-You can view:
-- Party details (Name, Email)
+The Audit section provides:
+- Party details (Name and Email Address)
 - Document status: *Sent, Opened, Signed, Completed, Expired, Declined*
 - Timestamps for every action
 - Sequential signing progress
@@ -79,33 +85,34 @@ You can view:
 ### Common Actions
 | Action | Description |
 |--------|-------------|
-| **Audit** | Timestamps and activity logs |
+| **Audit** | View timestamps and activity logs |
 | **Resend** | Available only if the email is expired |
 | **Cancel** | Cancels ongoing signing process |
-| **Download** | Available if the document is completed |
+| **Download** | Available once the document is completed
+
+
 
 ---
 
 ##  Step 5: Recipient Experience
 
-Each party experience happens **in order**.
+Each recipient’s signing experience takes place **in a sequential order**.
 
 ###  Party 1
-1. Receives the first email with the document link.  
-2. Clicks the link to open the **Signing Page**.  
+1. Receives the initial email containing the document link.
+2. Clicks the link to access the **Signing Page**.
 
 <img src=" screenshots\E-Sign_Images\Party1_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-3. Verifies OTP sent to their email.  
-4. Reviews, fills in the required fields, and signs.  
+3. Completes OTP verification sent to their email.
+4. Reviews the document, fills in the required fields, and signs.
 
 <img src=" screenshots\E-Sign_Images\Party1_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-5. Clicks **Submit**.
+5. Clicks **Submit** to finalize their portion.
 
-Document Attachment
 
-Once Party 1 completes signing, the document is automatically sent to **Party 2**.
+Once Party 1 completes signing, the document is automatically forwarded to **Party 2**.
 
 ---
 
@@ -115,21 +122,23 @@ Once Party 1 completes signing, the document is automatically sent to **Party 2*
 
 <img src=" screenshots\E-Sign_Images\Party2_Recipient_Mail.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-2. Click the document link and verify OTP.  
+2. Click the document link and complete OTP verification.
 3. They can **view previously filled fields** before completing their own.  
 
 
 <img src=" screenshots\E-Sign_Images\Party2_Document_Editing_Done.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-4. Fill in their details, sign, and click **Submit**.
+4. Enter their required details, sign, and click **Submit**.
 
-Document Attachment
+> *This process continues until all designated parties have completed signing.*
 
 ---
 
 ##  Step 6: AI Assist for Recipients
 
 Recipients can click **AI Assist** on their signing screen to ask document-specific questions.
+
+<img src=" screenshots\E-Sign_Images\AI_Assist1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 >  *AI Assist works only for the uploaded document. It does not answer unrelated queries.*
 
@@ -168,12 +177,45 @@ Open **Order Trail** from the document actions menu to view:
 
 <img src=" screenshots\E-Sign_Images\Audit_Party2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-This ensures a verifiable audit history for compliance and legal verification.
+> *This ensures a verifiable audit history for compliance and legal verification.*
 
 ---
 
  **You've successfully sent a multi-party e-sign document!**
 
 Your workflow is now complete, all parties have securely signed, and the document is stored, certified, and traceable.
+
+---
+
+**Demo Video:**
+<!-- Inline HTML in Markdown file -->
+<style>
+.video-wrap {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.video-wrap video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+
+<div class="video-wrap" role="region" aria-label="Demo: Creating a E-Sign">
+  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
+  <video controls poster="">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/E-Sign+Multiple+Party.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/E-Sign+Multiple+Party.webm" type="video/webm">
+    <!-- Fallback link if browser can't play video -->
+    Your browser does not support the video tag. 
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/E-Sign+Multiple+Party.mp4" target="_blank" rel="noopener">Download / Open video</a>
+  </video>
+</div>
+
+> The above **Video** represent that how to **Create an multi-party E-Sign Document and Send to Recipient**.
 
 © Doculan by [Virtualan Software](https://www.virtualan.io)

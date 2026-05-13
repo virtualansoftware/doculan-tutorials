@@ -1,49 +1,52 @@
-#  Steps to Upload to Doculan Storage
+# How to Save Document?
 
-- Documents can be saved **locally** or in **Doculan Storage**
-- If saving to Doculan storage:
-  - Select the correct **folder path / storage path**
-  - Upload the **PDF file**
+This guide helps to **Save a document to Doculan** allows you to securely store and manage files within the platform. <br>
+To upload a document, simply select the appropriate storage path, select your PDF file, and upload it to the designated folder. This ensures your documents are centrally organized and easily accessible for future workflows. By following this process, you can maintain structured document management and enable seamless retrieval whenever needed.
 
-**Screenshot1:**
+---
 
-<img src="screenshots\Document\Document-Upload1.png" alt="Step 1 — Upload to Doculan Storage
-" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+## Step 1: Save the Document
 
-**Screenshot2:**
+1. After creating or editing the document, click the **Save** button within the **Document Editor** to securely store your changes.
 
-<img src="screenshots\Document\Document-Upload2.png" alt="Step 2 — Upload to Doculan Storage
-" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+**Screenshot 1**
 
----> The above **Screenshots** represent that how to **Upload Document.**
+<img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-**Demo Video:**
-<!-- Inline HTML in Markdown file -->
-<style>
-.video-wrap {
-  border: 2px solid black;
-  border-radius: 4px;
-  width: 100%;
-  max-width: 800px;
-  overflow: hidden;
-  margin-bottom: 1rem;
-}
-.video-wrap video {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-</style>
+---
 
-<div class="video-wrap" role="region" aria-label="Demo: Creating a form">
-  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="screenshots\Thumbnail\DemoPics.png">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Upload.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Upload.webm" type="video/webm">
-    <!-- Fallback link if browser can't play video -->
-    Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Upload.mp4" target="_blank" rel="noopener">Download / Open video</a>
-  </video>
-</div>
+## Step 2: Enter Document Name
 
----> The above **Video** represent that how to **Upload Document.**
+2. The **Save New File** popup appears.
+3. Enter the required **Document Name**.
+4. Click **Confirm Save** to proceed.
+
+**Screenshot 2**
+
+<img src="screenshots\Document\Document-Save2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Step 3: Select Storage Location
+
+5. The **File Upload** popup appears.
+6. Select the required **folder** where the document should be stored in **Doculan Storage**.
+7. Click **Upload File** to save the document.
+
+**Screenshot 3**
+
+<img src="screenshots\Document\Document-Save3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Step 4: Verify Saved Document
+
+8. The document is successfully uploaded and is now available in the selected folder within **Doculan Storage**, where it can be viewed and managed as needed.
+
+**Screenshot 4**
+
+<img src="screenshots\Document\Document-Save4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+© Doculan by [Virtualan Software](https://www.virtualan.io)
+
+---

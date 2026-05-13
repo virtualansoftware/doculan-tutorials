@@ -1,26 +1,65 @@
-#  Steps to Create a New Document
+# How to Create Document?
 
-1. Go to **Doculan Dashboard → Documents → Create**
-2. Choose your preferred method:
-   -  **Create manually**, or
-   -  **Use AI to generate the document**
-3. Start writing or editing your text
-4. Format the document as needed:
-   - Change **font styles & colors**
-   - **Increase / Decrease** font size        
-   - Insert **images**, **logos**, or **pages**
-5. Doculan provides **spell check** to ensure accuracy
-6. Save the document (**PDF format only**)
+This guide explains how to **Create a document in Doculan** allows you to build professional, fully customizable files either manually or with AI assistance. You can edit text, apply formatting, adjust styles, and insert images or additional pages to structure your document effectively. Built-in spell check ensures accuracy before saving your work.<br>
+Once completed, the document can be saved and exported in PDF format for secure storage, sharing, and distribution.
 
-**Screenshot1:**
+---
 
-<img src="screenshots\Document\Document-Create.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-**Screenshot2:**
+## Step 1:  Steps to Create a New Document
 
-<img src="screenshots\Document\Document-Create2.png" alt="Step 2 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+1. Navigate to the **Doculan Dashboard**.
+2. Select **Documents** from the main menu.
+3. Click the **Create** button to start creating a new document.
 
----> The above **Screenshots** represent that how to **Create a new Document.**
+**Screenshot 1**
+
+<img src="screenshots\Document\Document-Create1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Step 2: Choose Document Creation Method
+
+4. A popup appears with the message:  
+   **“Create with AI or Create Manually”**
+
+**Screenshot 2**
+
+<img src="screenshots\Document\Document-Create2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Step 3: Enter Document Type
+
+5. Enter the required **Document Type** to auto-generate the document.
+
+**Alternatively:**
+
+- Click **Create Manully** to proceed with manual document creation.
+
+**Screenshot 3**
+
+<img src="screenshots\Document\Document-Create3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+## Step 4: Use the Document Editor and Format the Document
+
+6. The **Document Editor** opens with full editing capabilities.  
+7. All editing panels are fully **draggable**, allowing you to reposition them anywhere around the document workspace for enhanced flexibility and convenience.
+
+You can format the document using the following options:
+
+- Change **font styles** and **text colors**
+- Increase or decrease **font size**
+- Insert **images**, **logos**, or **additional pages**
+- Use **spell check** to ensure content accuracy
+
+**Screenshot 4**
+
+<img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
 
 **Demo Video:**
 <!-- Inline HTML in Markdown file -->
@@ -40,16 +79,17 @@
 }
 </style>
 
-<div class="video-wrap" role="region" aria-label="Demo: Creating a form">
+<div class="video-wrap" role="region" aria-label="Demo: Creating a E-Sign">
   <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="screenshots\Thumbnail\DemoPics.png">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Create.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Create.webm" type="video/webm">
+  <video controls poster="">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Document_Editor/Document_Editor.mp4" type="video/mp4">
+    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Document_Editor/Document_Editor.webm" type="video/webm">
     <!-- Fallback link if browser can't play video -->
     Your browser does not support the video tag. 
-    <a href="./video/https://doculan-storage-public.s3.us-east-1.amazonaws.com/tutorials/Document-Create.mp4" target="_blank" rel="noopener">Download / Open video</a>
+    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Document_Editor/Document_Editor.mp4" target="_blank" rel="noopener">Download / Open video</a>
   </video>
 </div>
 
----> The above **Video** represent that how to **Create Document.**
+> The above **Video** represent that how to **Create a document in Doculan**, guiding you through each step of the document creation process within the platform..
 
+© Doculan by [Virtualan Software](https://www.virtualan.io)

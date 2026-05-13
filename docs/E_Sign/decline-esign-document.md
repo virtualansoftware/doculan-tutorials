@@ -1,14 +1,14 @@
-﻿﻿
+
 # How to Decline an eSign Document?
 
-In some cases, a signer may need to **decline** an eSign document for example, if the document contains incorrect information, unauthorized clauses, or was sent in error.  
-This guide explains how recipients can **decline an e-sign request**, what happens after it's declined, and how senders can track this status in **Doculan**.
+In certain situations, a signer may need to **decline an eSign document** — for example, if it contains incorrect information, unauthorized clauses, or was sent in error.  
+This guide explains how recipients can **decline an e-sign request**, what happens after it's declined, and how senders can track the declined status in **Doculan**.
 
 ---
 
 ##  Step 1: Click "Decline" to Reject the Document
 
-You'll see action buttons at the right side of the document page:
+On the right side of the document page, the following action buttons are available:
 - **AI Assist**
 - **Submit**
 - **Decline**
@@ -28,24 +28,24 @@ To decline:
 
 A pop-up window appears with a text area labeled **Decline Document**.
 
-<details>
+<details open>
   <summary><b>Steps to Confirm Decline</b></summary>
 
-1. Enter the reason   
+1. Enter a clear and appropriate reason for declining the document.   
 2. Click **Confirm Decline**.  
-3. The document will immediately be marked as **Declined**.
+3. The document status will immediately update to **Declined**.
 </details>
 
 <img src=" screenshots\E-Sign_Images\Recipient_declining.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
->  Once you decline a document, it cannot be reopened or signed later.  
+>  Once a document has been declined, it cannot be reopened or signed at a later time.  
 > The sender must create a new eSign request if changes are made.
 
 ---
 
 ##  Step 3: System Actions After Decline
 
-After the recipient declines the document:
+Upon confirmation, the system performs the following actions:
 
 | Effect | Description |
 |--------|-------------|
@@ -59,20 +59,15 @@ After the recipient declines the document:
 
 ##  Step 4: Check the Audit Trail
 
-To confirm who declined and when:
+To verify the decline and review the document history:
 
 1. Click **Audit** beside the document.  
-2. The Audit page displays( all entries below  with timestamp)
+2. The Audit page will display a complete timeline of activity, including:
    -  Document creation time
    -  Sent time
    -  Opened by
    -  Signed by
    -  Declined by [User Name]
-<!-- 2. The detailed audit trail displays:
-   - When the document was created  
-   - When it was sent  
-   - When it was opened  
-   - When it was declined (with timestamp and user email) -->
 
 <img src=" screenshots\E-Sign_Images\Audit_after_Decline.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -81,9 +76,10 @@ To confirm who declined and when:
 
 ##  Step 5: What Happens Next?
 
-After a document is declined:
+Once a document is declined:
 - The document **e-sign workflow is terminated** immediately.  
-- Other recipients in the sequence will not receive the document.  
+- Any remaining recipients in the signing sequence will not receive the document.
+- The process must be re-initiated by the sender if revisions are required.  
 
 ---
 

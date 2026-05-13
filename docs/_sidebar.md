@@ -1,56 +1,109 @@
-﻿﻿- [Getting started](README.md)
+﻿﻿ [Getting started](README.md)
+ 
+ ---
 
-<!-- - [Doculan‚ eSign Instructions](E_Sign\doculan_eSign_Instructions) -->
+- **E-Signature**
+    - [How to send single party document?](E_Sign/single-party-document.md)
+    - [How to send multiple party document?](E_Sign/multiple-party-document.md)
+    - [How to send Bulk mail?](E_Sign/bulk-mail.md)
+    - [How to cancel eSign document?](E_Sign/cancel-esign-document.md)
+    - [How to decline eSign document?](E_Sign/decline-esign-document.md)
+    - [How to resend eSign document?](E_Sign/resend-esign-document.md)
+    - [How to use the default E-Sign Document?](E_Sign/default_e-sign-document.md)
+    - [How to use self sign feature?](E_Sign/self-sign-document.md)
+    - [How to use Variable field?](E_Sign/variable-fields.md)
+    - [How to Use Variable Mapping in a CSV File?](E_Sign/variable_mapping.md)
+    - [How to use Delegate Email?](E_Sign/delegate-email.md)
+    - [How to Schedule an Email?](E_Sign/schedule-email.md)
+    - [How to Rename the File?](E_Sign/rename-file.md)
+    - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
+    - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
+
+- **Wet Signature**
+    - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
+
+- **Video Enabled Esign**
+    - [How to use Video Enabled Esign?](Video_Enabled-Esign/VideoEsign.md)
+
 ---
 
-- **E-Sign**
-    - [How to send single party document?](E_Sign\single-party-document.md)
-    - [How to send multiple party document?](E_Sign\multiple-party-document.md)
-    - [How to send Bulk mail?](E_Sign\bulk-mail.md)
-    - [How to cancel eSign document?](E_Sign\cancel-esign-document.md)
-    - [How to decline eSign document?](E_Sign\decline-esign-document.md)
-    - [How to resend eSign document?](E_Sign\resend-esign-document.md)
+- **E-Signature Template**
+    - [What is Myself / Team template?](E_Sign/myself-or-team-template.md)
+    - [How to create template?](E_Sign/create-template.md)
+    - [How to update template?](E_Sign/update-template.md)
+    - [How to delete template?](E_Sign/delete-template.md)
 
 ---
 
-- **E-Sign Template**
-    - [What is Myself / Team template?](E_Sign\myself-or-team-template.md)
-    - [How to create template?](E_Sign\create-template.md)
-    - [How to update template?](E_Sign\update-template.md)
-    - [How to delete template?](E_Sign\delete-template.md)
+- **Share Document & Folder**
+    - [How to share document?](E_Sign/share-document.md)
+    - [How to resend shared document?](E_Sign/resend-shared-document.md)
+    - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
+    - [How to Share a folder?](E_Sign/share_folder.md)
 
 ---
-
-- **Share Document**
-    - [How to share document?](E_Sign\share-document.md)
-    - [How to resend shared document?](E_Sign\resend-shared-document.md)
-    - [How to cancel shared document?](E_Sign\cancel-shared-document.md)
-
----
-
 - **Form Management**
-    - [How to Create and Send Forms ](Forms/Form_Create.md)
-    <!-- - [How do view all Document and attachment](Forms/Form_Document_Storage.md) -->
-    - [How do view Submitted Form with attachments](Forms/Form_Document_Storage.md)
-    - [How to Clone Form](Forms/Form_Clone.md)
-    - [How to Cancel Form](Forms/Form_Cancel.md)
-    - [How to Delete Form](Forms/Form-Delete.md)
-    - [How to Resend Form](Forms/Form_Resend.md)
+    - [How to Create and Send Forms?](Forms/Form_Create.md)
+    - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
+    - [How to Clone Form?](Forms/Form_Clone.md)
+    - [How to Cancel Form?](Forms/Form_Cancel.md)
+    - [How to Delete Form?](Forms/Form-Delete.md)
+    - [How to Resend Form?](Forms/Form_Resend.md)
+    - [How to Save Forms?](Forms/Form_Save.md)
+
+- **Embedded Esign**
+    - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
 
 ---
 
 - **Contact Management**
-    -  [Create Contact](Contacts/Contact_Create.md)
-    -  [Update Contact](Contacts/Contact-Update.md)
-    -  [Delete Contact](Contacts/Contact-Delete.md)
+    -  [How to Create Contact?](Contacts/Contact_Create.md)
+    -  [How to Update Contact?](Contacts/Contact-Update.md)
+    -  [How to Delete Contact?](Contacts/Contact-Delete.md)
 
 ---
 
-- **Document Management**
-    -  [Create Document](Document/Documents_Create.md)
-    -  [upload Document](Document/Documents_Upload.md)
+- **Document Editor**
+    -  [How to Create Document?](Document/Documents_Create.md)
+    -  [How to Save Document?](Document/Documents_Upload.md)
+    -  [How to Versioning & Comparison Document?](Document/Documents_Compare.md)
+    -  [How to use E-Sign in the Document Editor?](Document/Documents_E-sign.md)
 
 ---
 
+- **Note Taker**
+    -  [How to Use the Note Taker Option?](Notes_Taker/notes_taker.md)
+
+---
+
+- **Library Management**
+    -  [Library – Documents](Library_Management/Library.md)
+
+---
+
+- **Security**
+    -  [Two-Factor Authentication[2FA]](Security/Security.md)
+    
+---
+
+- **API Documentation**
+    -  [API-Overview](API-Documentation/API-Overview.md)
+    -  [E-Signature](API-Documentation/E-Sign.md)
+    
+---
+  
 - **Release Notes**
-    - [Newly Released Features](releaseNotes.md)
+
+    **2025**
+    - [Version 0.3.0](releaseNotes/version_0.3.0.md)
+    - [Version 0.4.0](releaseNotes/version_0.4.0.md)
+    - [Version 0.5.0](releaseNotes/version_0.5.0.md)
+
+   **2026**
+    - [Version 0.6.0](releaseNotes/version_0.6.0.md)
+    - [Version 0.7.0](releaseNotes/version_0.7.0.md)
+    - [Version 0.8.0](releaseNotes/version_0.8.0.md)
+    - [Version 0.9.0](releaseNotes/version_0.9.0.md)
+    - [Version 0.9.1](releaseNotes/version_0.9.1.md)
+    - [Version 0.10.0](releaseNotes/version_0.10.0.md)
+---
