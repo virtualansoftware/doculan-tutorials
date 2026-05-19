@@ -19,7 +19,7 @@
     - [How to Rename the File?](E_Sign/rename-file.md)
     - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
     - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
-
+    <!-- - [How to Use Inbox?](E_Sign/inbox.md) -->
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
 
@@ -113,5 +113,5 @@
     - [Version 0.9.0](releaseNotes/version_0.9.0.md)
     - [Version 0.9.1](releaseNotes/version_0.9.1.md)
     - [Version 0.10.0](releaseNotes/version_0.10.0.md)
-    - [Version 0.10.1](releaseNotes/version_0.10.1.md)
+    - [Version 0.11.0](releaseNotes/version_0.11.0.md)
 ---
