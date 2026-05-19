@@ -4,19 +4,21 @@ PDF merging allows you to combine multiple PDF documents into a single file for 
 
 ---
 
-## Step 1: Navigate to PDF Merge Tool
+## Step 1: Navigate to the PDF Merge Tool
 
 * Go to the **Documents** section.
-* Salect the **PDF Editor** menu.
-* Click on **Merge PDF**.
+* Select the appropriate folder and choose the required file.
+* Open the **File Action** menu.
+* Click **PDF Editor**.
+* A popup will appear to select the **Merge PDF** tool.
 
 **Screenshot 1**
 
-<img src=" screenshots\Pdf-Editor\Merge-&-Split-pdf1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **Screenshot 2**
 
-<img src=" screenshots\Pdf-Editor\Merge-&-Split-pdf2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -36,15 +38,31 @@ PDF merging allows you to combine multiple PDF documents into a single file for 
 
 ---
 
-## Step 3: Arrange PDF Order
+## Step 3: Configure Merge PDF Files
 
-* Drag and reorder the uploaded files as needed.
-* The top file will appear first in the merged document.
-* Verify the sequence before proceeding.
+The Merge PDF process provides two methods to combine PDF documents based on your requirements.
+
+### Option 1: Full Document Merge
+
+* Use this option to merge complete PDF documents into a single file.
+* All pages from the selected documents will be combined in the uploaded order.
 
 **Screenshot 5**
 
 <img src=" screenshots\Pdf-Editor\Merge-pdf5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+<!-- **Screenshot 5**
+
+<img src=" screenshots\Pdf-Editor\Merge-pdf6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
+
+### Option 2: Selected Page-wise Merge
+
+* Use this option to merge only specific pages from multiple PDF files.
+* Select the required pages and arrange them in your preferred order before merging.
+
+**Screenshot 6**
+
+<img src=" screenshots\Pdf-Editor\Merge-pdf7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -54,9 +72,9 @@ PDF merging allows you to combine multiple PDF documents into a single file for 
 * The system will process and combine all selected files into a single document.
 * Wait for the processing to complete.
 
-**Screenshot 6**
+**Screenshot 7**
 
-<img src=" screenshots\Pdf-Editor\Merge-pdf6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -65,9 +83,9 @@ PDF merging allows you to combine multiple PDF documents into a single file for 
 * Click **Download** to save the final PDF to your device.
 * Open the file to preview the merged document.
 
-**Screenshot 7**
+**Screenshot 8**
 
-<img src=" screenshots\Pdf-Editor\Merge-pdf8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
@@ -76,22 +94,27 @@ PDF merging allows you to combine multiple PDF documents into a single file for 
 * Click **Upload** to save the file in the Doculan folder.
 * Select the destination folder where you want to store it.
 
-**Screenshot 8**
+**Screenshot 9** 
 
-<img src=" screenshots\Pdf-Editor\Merge-pdf9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf13.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-**Screenshot 9**
+**Screenshot 10**
 
-<img src=" screenshots\Pdf-Editor\Merge-pdf10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf14.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ## Step 7: View the Merge Document in Doculan
 
 * Open the file action menu.
 * Click the **View** option to preview the document.
+* You can also use the **Merge option** during the **view** process from the left side menu to merge documents again.
 
-**Screenshot 10**
+**Screenshot 11**
 
-<img src=" screenshots\Pdf-Editor\Merge-pdf11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Merge-pdf15.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Screenshot 12**
+
+<img src=" screenshots\Pdf-Editor\Merge-pdf16.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 

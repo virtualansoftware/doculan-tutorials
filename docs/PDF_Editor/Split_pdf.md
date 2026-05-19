@@ -6,35 +6,67 @@ PDF splitting allows you to divide a single PDF document into multiple smaller f
 
 ## Step 1: Open PDF Split Tool
 
-* Navigate to the **Documents** section.
-* Go to **PDF Tools**.
-* Click on **Split PDF**.
+* Go to the **Documents** section.
+* Select the appropriate folder and choose the required file.
+* Open the **File Action** menu.
+* Click **PDF Editor**.
+* A popup will appear to select the **Split PDF** tool.
 
 **Screenshot 1**
 
-<img src=" screenshots\Pdf-Editor\Merge-&-Split-pdf1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **Screenshot 2**
 
-<img src=" screenshots\Pdf-Editor\Merge-&-Split-pdf2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-## Step 2: Select Split Option
+## Step 2: Select the Split Option
 
-Choose how you want to split the PDF:
+The Split PDF tool provides multiple methods to split PDF documents based on your requirements.
 
-* **By Page Range**: Define specific start and end pages.
-* **By Individual Pages**: Split each page into a separate file.
-* **Custom Ranges**: Create multiple splits within a single document.
+
+### Option 1: By Individual Pages
+
+* Use this option to split each page of the PDF into separate individual files.
+* Every page will be generated as an individual PDF documents.
 
 **Screenshot 3**
 
 <img src=" screenshots\Pdf-Editor\Split-pdf3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+### Option 2: Custom Ranges
+
+* Use this option to create multiple PDF files from a single document using custom page ranges.
+* Define multiple page ranges based on your required document structure.
+* Enter page numbers or ranges (e.g., 1–3,5,6–10).
+
+**Screenshot 4**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Screenshot 5**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+### Option 3: Select Page-wise
+
+* Use this option to select specific pages from the PDF document.
+* Arrange the selected pages in the required order before splitting or creating the new PDF structure.
+* The system will process the document and generate separate files based on your configuration.
+
+**Screenshot 6**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Screenshot 7**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 ---
 
-## Step 3: Upload PDF File
+<!-- ## Step 3: Upload PDF File
 
 * Click **Upload File** or drag and drop the PDF into the upload area.
 * Select the file you want to split from your device.
@@ -44,9 +76,9 @@ Choose how you want to split the PDF:
 
 <img src=" screenshots\Pdf-Editor\Split-pdf.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
----
+--- -->
 
-## Step 4: Configure Split Settings
+<!-- ## Step 4: Configure Split Settings
 
 * Enter page numbers or ranges (e.g., 1–5, 6–10).
 * Verify the selected ranges are correct.
@@ -54,11 +86,11 @@ Choose how you want to split the PDF:
 
 **Screenshot 5**
 
-<img src=" screenshots\Pdf-Editor\Split-pdf4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
----
+<!-- --- -->
 
-## Step 5: Execute Split Operation
+<!-- ## Step 5: Execute Split Operation
 
 * Click the **Split PDF** button.
 * The system will process the document and generate separate files based on your configuration.
@@ -66,42 +98,49 @@ Choose how you want to split the PDF:
 
 **Screenshot 6**
 
-<img src=" screenshots\Pdf-Editor\Split-pdf5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"> -->
 
----
+<!-- --- -->
 
-## Step 6: Preview and Download
+## Step 4: Preview and Download
  
 * Click **Download** to save individual PDF files to your device.
-* Review the downloaded split documents.
+* Review the downloaded split document.
 
-**Screenshot 7**
+**Screenshot 8**
 
-<img src=" screenshots\Pdf-Editor\Split-pdf7.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf14.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
-## Step 7: Upload Doculan Feature
+## Step 5: Upload Doculan Feature
 
 * Click **Upload** to save the file in the Doculan folder.
 * Select the destination folder where you want to store it.
 
-**Screenshot 8**
-
-<img src=" screenshots\Pdf-Editor\Split-pdf6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
-
 **Screenshot 9**
 
-<img src=" screenshots\Pdf-Editor\Split-pdf8.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
-
-## Step 8: View the Split  Document in Doculan
-
-* Open the file action menu.
-* Click the **View** option to preview the document.
+<img src=" screenshots\Pdf-Editor\Split-pdf10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 **Screenshot 10**
 
-<img src=" screenshots\Pdf-Editor\Split-pdf9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Pdf-Editor\Split-pdf11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+---
+
+## Step 6: View the Split  Document in Doculan
+
+* Open the file action menu.
+* Click the **View** option to preview the document.
+* You can also use the **Split option** during the **view** process from the left side menu to merge documents again.
+
+**Screenshot 11**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf12.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Screenshot 12**
+
+<img src=" screenshots\Pdf-Editor\Split-pdf13.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 ---
 
