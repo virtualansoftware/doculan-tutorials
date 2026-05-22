@@ -76,7 +76,7 @@ After the folder is shared:
 
 **Download** the files within the Folder.
 
-<img src=" screenshots\VDR\VDR14.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\VDR\VDR14.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
 
 <img src=" screenshots\VDR\VDR15.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -107,7 +107,7 @@ You can revoke access or unshare the folder at any time from the folder settings
 - In the User page, open the folder action menu and click **Revoke** to remove access.
 - A confirmation popup will appear; click *Revoke Access* to confirm.
 
-<img src=" screenshots\VDR\VDR21.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\VDR\VDR21.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
 
 <img src=" screenshots\VDR\VDR22.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -118,7 +118,7 @@ Unshare the folder from the VDR page to remove it from the room.
 - Go to the Shared folder, open the folder action menu.
 - Enter the folder name and click **Confirm**.
 
-<img src=" screenshots\VDR\VDR19.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\VDR\VDR19.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
 
 <img src=" screenshots\VDR\VDR20.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
