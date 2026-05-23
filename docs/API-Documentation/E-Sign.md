@@ -1,10 +1,37 @@
-## **Authorization Management API**
+# **How to Generate an API Key**
 
-The **Auth Management API** is used to handle authentication and authorization processes within the system. It ensures secure access to resources by verifying user identity and controlling permissions.
+The **API Keys** feature in Doculan allows users to create and manage secure API keys for integrating external applications and services. Each API key is generated with a validity period and can be managed directly from the Settings page.
 
-**Base URL:**   
-https://api.doculan.ai/client-docs
+## Step 1: Log In to Your Account
+  - Open the Doculan application.
+  - Enter your login credentials and sign in to your account.
 
+**Login URL:** https://demo.doculandemo.com/login
+
+## Step 2: Open Profile Settings
+  - After logging in, navigate to the Profile section from the dashboard.
+  - Click the Settings icon available in the top-right corner of the profile page.
+
+<img src=" screenshots\releaseNotes\API-1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+## Step 3: Manage and Generate API Keys
+  - In the **Settings page**, select the **API Keys** tab.
+  - The API Keys section displays all previously generated API keys, including their **creation date, expiration date, and status.**
+  - To generate a new key, click the **Generate API Key** button.
+  - A new API key will be created automatically for your account and added to the list.
+
+<img src=" screenshots\releaseNotes\API-2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+---
+
+# **Client Management APIs**
+
+The **Client Management APIs** provide endpoints to create, update, retrieve, search, and manage client information efficiently. They enable secure and structured handling of client data throughout the complete client lifecycle.
+
+
+**Base URL:** https://api.doculan.ai/client-docs
+
+---
 
 <!-- ## 🔹 1 Register User
 
@@ -399,7 +426,81 @@ json
 
 ---
 
-## 🔹 2 Upload Documents
+## 🔹 2 Delete Folder
+
+**Delete** a folder in the document management system.
+This action permanently removes the selected folder and its associated contents from the system.
+
+Optionally, you can review folder details before deletion and confirm whether to remove all nested subfolders, documents, and related metadata associated with the folder.
+
+
+### **Endpoint**
+
+````
+DELETE /api/v1/documents/folder/
+````
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+<!-- > _None required_ -->
+<!-- ### **Query Parameters**
+> _None_ -->
+
+
+### **Query Parameters**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+<!-- | `files`         | array<string >           | ✅ Yes    | Chose the recured file                   | -->
+| `folder_mapping_id`|string \| (string \| null) | ✅ Yes   | Specifies the destination folder |
+
+
+
+<!-- ### **Request Body**
+
+````
+json
+
+{
+  "new_folder": "string",
+  "folder_mapping_id": "string"
+}
+
+```` -->
+
+### **Response Body Example**
+
+````
+json
+
+{
+  "status": 200,
+  "detail": "Folder 'Documents' deleted successfully",
+  "folder_name": "Documents"
+}
+
+````
+
+<!-- ### **Responses**
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+###  Tags
+`Files Operation`
+
+---
+
+## 🔹 3 Upload Documents
 
 Upload a document for storage and management.
 
@@ -440,7 +541,7 @@ POST /api/v1/documents/upload/
 ````
 json
 
-```json id="m8x4rz"
+id="m8x4rz"
 {
   "uploaded_files": [
     {
@@ -450,7 +551,6 @@ json
     }
   ]
 }
-```
 
 
 ````
@@ -494,9 +594,9 @@ GET /api/v1/documents/
 ### **Query Parameters**
 | Name                | Type               | Required | Description                                                |
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
-| `folder_mapping_id`|string \| (string \| null) | ✅ Yes   | Specifies the destination folder |                  |
-| `Page` | intiger | ✅ Yes     | Valid page values are integers starting from 1 |
-| `Limit` | intiger | ✅ Yes     | Limit must be a positive integer within the range of 1–500 |
+| `folder_mapping_id`|string \| (string \| null) | ❌ No   | Specifies the destination folder |                  |
+| `Page` | intiger | ❌ No      | Valid page values are integers starting from 1 |
+| `Limit` | intiger | ❌ No      | Limit must be a positive integer within the range of 1–500 |
 
 
 <!-- ### **Request Body**
@@ -544,9 +644,9 @@ json
 
 ---
 
-## 🔹 4 Get Documents
+## 🔹 4 Get Document
 
-Retrieve a list of all available documents.
+Retrieve the selected document from the document list.
 
 ### **Endpoint**
 
@@ -574,7 +674,18 @@ GET /api/v1/documents/{document_id}
 
 ### **Response Body Example**
 
-Download files
+This API returns the **requested document file**, allowing you to access the document associated with the specified document ID.
+
+A sample document response is attached below for reference.
+
+You may **download** the sample file to review the document content and structure.
+
+<p>
+  <a href="files/Sample-Document.pdf" target="_blank"
+     style="display:inline-block; background-color:#007bff; color:white; padding:10px 20px; border-radius:6px; text-decoration:none;">
+    📄 Download Sample PDF
+  </a>
+</p>
 
 <!-- ### **Responses**
 
@@ -613,8 +724,8 @@ GET /api/v1/documents/folder-structure
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `folder_mapping_id`|string \| (string \| null) | ❌ No    | Specifies the destination folder |                  |
 | `Content type`|string \| (string \| null) | ❌ No    | Specifies the destination folder |
-| `Page` | intiger | ✅ Yes     | Valid page values are integers starting from 1 |
-| `Limit` | intiger | ✅ Yes     | Limit must be a positive integer within the range of 1–500 |
+| `Page` | intiger | ❌ No     | Valid page values are integers starting from 1 |
+| `Limit` | intiger | ❌ No    | Limit must be a positive integer within the range of 1–500 |
 
 <!-- ### **Request Body**
 > _Not required_ -->
@@ -717,7 +828,7 @@ Use ESign Editor APIs to create, edit, and manage electronic signature documents
 
 ---
 
-## 🔹 1 Redirect URL (PDF Editor)
+## 🔹 1 Redirect URL (E-sign Editor)
 
 The **Redirect URL API** is used to securely generate a session for accessing the third-party PDF editor.  
 This API uses **API Key authentication only (no login required)** and returns a scoped bearer token along with the editor UI URL.
@@ -728,7 +839,7 @@ This API uses **API Key authentication only (no login required)** and returns a 
 
 ```
 
-GET /api/v1/documents/
+GET /api/v1/documents/auth/redirect
 
 ```
 
@@ -949,7 +1060,7 @@ json
 
 ---
 
-## 🔹 2 Get All Document Templates
+## 🔹 2 Get All Templates
 
 Retrieve a list of all available document templates.
 
@@ -973,8 +1084,8 @@ GET /api/v1/documents/templates/all/
 | Name | Type | Required | Default | Description |
 |-----|------|----------|-------------|-------------|
 | `Scope` | string | ❌ No  | `Myself` | Filter for a specific document scope |
-| `Page` | intiger | ✅ Yes     | Valid page values are integers starting from 1 |
-| `Limit` | intiger | ✅ Yes     | Limit must be a positive integer within the range of 1–500 |
+| `Page` | intiger | ❌ No      | Valid page values are integers starting from 1 |
+| `Limit` | intiger | ❌ No     | Limit must be a positive integer within the range of 1–500 |
 | `search`|string \| (string \| null) | ❌ No    | Specifies the template name |
 
 
@@ -1054,7 +1165,7 @@ json
 
 ---
 
-## 🔹3 Get Specific Document Template
+## 🔹3 Get Specific Template
 
 Retrieve a specific template from the list of available document templates.
 
@@ -1282,7 +1393,7 @@ json
 
 ---
 
-## 🔹 4 Delete Template
+## 🔹 5 Delete Template
 
 The **Delete Template API** is used to permanently remove a document template from the system.
 
@@ -1345,7 +1456,7 @@ The **Variable Registry APIs** are used to manage dynamic variables that can be 
 
 ---
 
-## 🔹 1 Create Variable Registry
+## 🔹 1 Create Variable
 
 The **Create Variable Registry API** is used to create and store variables that can be dynamically applied to documents, templates, and E-Sign workflows.
 
@@ -1372,7 +1483,7 @@ json
 
 {
   "variable": "string",
-  "scope": "Current",
+  "scope": "Globla",
   "fields": [
     {
       "type": "string",
@@ -1394,7 +1505,7 @@ json
 {
   "message": "variables saved successfully",
   "variable": "string",
-  "scope": "Current"
+  "scope": "Global"
 }
 ```
 <!-- ### **Responses**
@@ -1415,7 +1526,7 @@ json
 
 ---
 
-## 🔹 2 Get All Variable Registry
+## 🔹 2 Get All Variable
 
 This API retrieves a **list of all variable registries** available in the system. It can be used to view, manage, and reference variables across templates or workflows.
 
@@ -1437,8 +1548,8 @@ GET /api/v1/documents/variable-registry
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `Scope`|string | ✅ Yes    | Available values : Global, Local, Current | 
 | `variable`|string \| (string \| null) | ❌ No    | If provided, only the matching field will be displayed. |
-| `Page` | intiger | ✅ Yes     | Valid page values are integers starting from 1 |
-| `Limit` | intiger | ✅ Yes     | Limit must be a positive integer within the range of 1–500 |
+| `Page` | intiger | ❌ No    | Valid page values are integers starting from 1 |
+| `Limit` | intiger | ❌ No     | Limit must be a positive integer within the range of 1–500 |
 
 <!-- ### **Request Body**
 > _Not required_ -->
@@ -1540,7 +1651,7 @@ json
 
 ---
 
-## 🔹 3 Get Variable Registry
+## 🔹 3 Get Variable
 
 The **Get Variable Registry API** is used to retrieve all available variables stored in the Variable Registry. These variables can be used in templates, documents, and E-Sign workflows.
 
@@ -1607,7 +1718,7 @@ json
 
 ---
 
-## 🔹 4 Update Variable Registry
+## 🔹 4 Update Variable
 
 The **Update Variable Registry API** is used to modify existing variables in the registry, such as updating their name, value, or scope.
 
@@ -1684,7 +1795,7 @@ json
 
 ---
 
-## 🔹 5 Delete Variable Registry
+## 🔹 5 Delete Variable
 
 This API is used to **delete** an existing variable registry from the system. Once deleted, the variable and its associated data will no longer be available.
 
@@ -1829,11 +1940,11 @@ POST api/v1/documents/send
 | ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
 | `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
-
+<!-- 
 ### **Query Parameters**
 | Name | Type | Required | Default | Description |
 |-----|------|----------|---------|-------------|
-| `store_as_default` | boolean | ❌ No | `false` | Store configuration as default |
+| `store_as_default` | boolean | ❌ No | `false` | Store configuration as default | -->
 
 
 ### **Request Body Example**
@@ -2123,14 +2234,296 @@ json
 
 ---
 
-## 🔹 4 Get Over All Status
+## 🔹 4 Log Action API
+
+Log document-related actions such as Cancel, Decline, and other workflow events for tracking and audit purposes.
+
+### Log Action Cancel
+
+### **Endpoint**
+
+````
+POST api/v1/documents/log-action
+````
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+<!-- ### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+````
+json
+
+{
+  "document_id": "687u5804-d360-4e98-802f-d5531htyrf675abd8",
+  "tracking_id": "7054eab3-c0f2-40e2-9b9e-731c1444df6d",
+  "action": "CANCELLED",
+  "party_id": "1",
+  "reason": "User requested cancellation",
+  "client_info": {
+    "ip": "3.128.94.52",
+    "city": "Lisle",
+    "region": "Illinois",
+    "country": "US",
+    "timezone": "America/Chicago",
+    "timestamp": "2025-12-21T04:14:01.699Z",
+    "browser": "Chrome",
+    "device": "PC/Laptop",
+    "os": "Windows 10"
+  },
+  "holder": {
+    "name": "John Doe",
+    "email": "johndoe@virtualansoftware.com",
+    "address": {
+      "address_line_1": "3333 Warrenville Road",
+      "address_line_2": "Suite 200",
+      "city": "Lisle",
+      "country": "USA",
+      "state": "IL",
+      "zipcode": "60532"
+    }
+  }
+}
+
+
+````
+
+### **Response Body Example**
+
+````
+json
+
+{
+    "message": "Action 'CANCELLED' logged successfully."
+}
+
+````
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+                                            
+
+### **Tags**
+
+`Document Tracker`
+
+---
+
+### Log Action Decline
+
+### **Endpoint**
+
+````
+POST api/v1/documents/log-action
+````
+
+<!-- ### **Headers**
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+<!-- ### **Query Parameters**
+> _None_ -->
+
+### **Request Body Example**
+
+````
+json
+
+{
+  "document_id": "687u5804-d360-4e98-802f-d5531htyrf675abd8",
+  "tracking_id": "7054eab3-c0f2-40e2-9b9e-731c1444df6d",
+  "action": "DECLINED",
+  "party_id": "1",
+  "reason": "User requested cancellation",
+  "client_info": {
+    "ip": "3.128.94.52",
+    "city": "Lisle",
+    "region": "Illinois",
+    "country": "US",
+    "timezone": "America/Chicago",
+    "timestamp": "2025-12-21T04:14:01.699Z",
+    "browser": "Chrome",
+    "device": "PC/Laptop",
+    "os": "Windows 10"
+  },
+  "holder": {
+    "name": "John Doe",
+    "email": "johndoe@virtualansoftware.com",
+    "address": {
+      "address_line_1": "3333 Warrenville Road",
+      "address_line_2": "Suite 200",
+      "city": "Lisle",
+      "country": "USA",
+      "state": "IL",
+      "zipcode": "60532"
+    }
+  }
+}
+
+
+````
+
+### **Response Body Example**
+
+````
+json
+
+{
+    "message": "Action 'DECLINED' logged successfully."
+}
+
+````
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+                                            
+
+### **Tags**
+
+`Document Tracker`
+
+---
+
+## 🔹 5 Get Tracking Ids
+
+Use the **Tracking ID** to fetch the current status of a document and track its progress through the E-Sign workflow.
+
+
+### **Endpoint**
+````
+GET api/v1/documents/tracking-ids/
+````
+
+<!-- ### **Headers**
+
+| Name                | Type               | Required | Description                                                |
+| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
+| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
+| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `document_id` | string | ✅ Yes | Unique identifier of the document |
+| `status`|string \| (string \| null) | ❌ No  | Retrieve document tracking IDs based on the specified status |
+| `page` | intiger | ❌ No | Specifies the page number |
+| `limit` | intiger | ❌ No | Specifies the number of records per page |
+
+
+### **Response Body Example**
+
+```
+json
+
+{
+  "page": 1,
+  "limit": 10,
+  "total": 4,
+
+  "tracking_ids": [
+    {
+      "tracking_id": "track-001",
+      "status": "expired",
+      "updated_at": "2026-01-06T15:08:28Z",
+      "parties": [
+        {
+          "party_id": "party-1",
+          "name": "User One",
+          "email": "userone@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-002",
+      "status": "expired",
+      "updated_at": "2026-01-06T15:08:28Z",
+      "parties": [
+        {
+          "party_id": "party-2",
+          "name": "User Two",
+          "email": "usertwo@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-003",
+      "status": "cancelled",
+      "updated_at": "2025-10-14T14:26:49Z",
+      "parties": [
+        {
+          "party_id": "party-3",
+          "name": "User Three",
+          "email": "userthree@example.com"
+        }
+      ]
+    },
+    {
+      "tracking_id": "track-004",
+      "status": "expired",
+      "updated_at": "2025-10-18T04:59:59Z",
+      "parties": [
+        {
+          "party_id": "party-4",
+          "name": "User Four",
+          "email": "userfour@example.com"
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+
+<!-- ### **Responses**
+
+| Status Code                                             | Description         |
+| ------------------------------------------------------- | ------------------- |
+| <span style="color:green; font-weight:bold;">200</span> | Successful response |
+| <span style="color:green; font-weight:bold;">201</span> | Created |
+| <span style="color:green; font-weight:bold;">202</span> | Accepted |
+| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
+| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
+| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
+
+### **Tags**
+
+`Document Tracker`
+
+---
+
+## 🔹 6 Get Document Status
 
 Retrieves a list of all document statuses.
 
 ### **Endpoint**
 
 ```` 
-GET api/v1/documents/status 
+GET api/v1/documents/status/
 ````
 ---
 
@@ -2140,10 +2533,13 @@ GET api/v1/documents/status
 | `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
 | `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
 
-<!-- ### **Query Parameters**
-> _None_
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `document_id` | string | ✅ Yes | Unique identifier of the document |
+| `tracking_id` | string | ✅ Yes | Unique tracking identifier of the document |
 
-### **Request Body**
+<!-- ### **Request Body**
 > _Not required_ -->
 
 ### **Response Body Example**
@@ -2386,12 +2782,12 @@ json
 | <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
 
 
-<!-- **Example**
+**Example**
 
 
 > tracking_id=e1ewaec4-a667-43dd-b221-0b4qwbh54a77
 
-> document_id=13n25bd9-70p1-4c8d-9b1c-a9066eda140f -->
+> document_id=13n25bd9-70p1-4c8d-9b1c-a9066eda140f
 
 
 ### **Tags**
@@ -2399,14 +2795,14 @@ json
 
 ---
 
-## 🔹 5 Get Document Status By Party
+## 🔹 7 Get Party Status
 
 Retrieve the document status for an individual party using tracking, document, and party identifiers.
 
 ### **Endpoint**
 
 ````
-GET api/v1/documents/party-status
+GET api/v1/documents/party-status/
 ````
 
 <!-- ### **Headers**
@@ -2437,132 +2833,90 @@ GET api/v1/documents/party-status
 json
 
 {
-  "tracking_id": "09aa3a64-fd50-4afa-a79e-e70ek5cea2a6",
-  "document_id": "form-doc-dded726c-a117-42e3-9df9-a3a3c5hg91b2",
-  "validity_date": "2025-12-11T18:29:59.000Z",
+  "tracking_id": "f1234567-abcd-4e89-9123-456789abcdef",
+  "document_id": "d9876543-1234-4abc-8def-1234567890ab",
+  "validity_date": "2027-12-31T23:59:59.000Z",
   "tracking_status": {
     "status": "completed",
-    "dateTime": "2025-12-11T14:29:10.596474+00:00",
-    "ip": "34.102.136.180",
+    "dateTime": "2026-06-15T10:45:12.123456+00:00",
+    "ip": "203.0.113.45",
     "browser": "Chrome",
     "os": "Windows 11",
     "device": "PC/Laptop",
     "location": {
-      "city": "San Francisco",
-      "region": "California",
+      "city": "Chicago",
+      "region": "Illinois",
       "country": "US",
-      "timestamp": "2025-12-11T14:29:09.599Z",
-      "timezone": "America/Los_Angeles"
+      "timestamp": "2026-06-15T10:45:08.000Z",
+      "timezone": "America/Chicago"
     }
   },
-  "party_id": "1",
   "party_info": {
     "id": "1",
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "color": "hsl(196, 100%, 90%)",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "color": "hsl(210, 100%, 90%)",
+    "priority": 1,
     "status": {
       "sent": [
         {
           "isSent": true,
-          "dateTime": "2025-12-11T14:26:25.598788+00:00",
-          "party_name": "John Doe",
-          "party_email": "john.doe@example.com",
-          "ip": "34.102.136.180",
+          "dateTime": "2026-06-15T10:30:00.000000+00:00",
+          "party_name": "Jane Smith",
+          "party_email": "jane.smith@example.com",
+          "ip": "203.0.113.40",
           "browser": "Chrome",
           "os": "Windows 11",
           "device": "PC/Laptop",
           "location": {
-            "city": "San Francisco",
-            "region": "California",
+            "city": "Chicago",
+            "region": "Illinois",
             "country": "US",
-            "timestamp": "2025-12-11T14:26:22.091Z",
-            "timezone": "America/Los_Angeles"
+            "timestamp": "2026-06-15T10:29:55.000Z",
+            "timezone": "America/Chicago"
           }
         }
       ],
       "opened": [
         {
           "isOpened": true,
-          "dateTime": "2025-12-11T14:28:46.051332+00:00",
-          "party_name": "John Doe",
-          "party_email": "john.doe@example.com",
-          "ip": "34.102.136.180",
+          "dateTime": "2026-06-15T10:35:15.000000+00:00",
+          "party_name": "Jane Smith",
+          "party_email": "jane.smith@example.com",
+          "ip": "203.0.113.45",
           "browser": "Chrome",
           "os": "Windows 11",
           "device": "PC/Laptop",
           "location": {
-            "city": "San Francisco",
-            "region": "California",
+            "city": "Chicago",
+            "region": "Illinois",
             "country": "US",
-            "timestamp": "2025-12-11T14:28:46.738Z",
-            "timezone": "America/Los_Angeles"
+            "timestamp": "2026-06-15T10:35:10.000Z",
+            "timezone": "America/Chicago"
           }
         }
       ],
       "signed": [
         {
           "isSigned": true,
-          "dateTime": "2025-12-11T14:29:10.596474+00:00",
-          "party_name": "John Doe",
-          "party_email": "john.doe@example.com",
-          "ip": "34.102.136.180",
+          "dateTime": "2026-06-15T10:40:30.000000+00:00",
+          "ip": "203.0.113.45",
           "browser": "Chrome",
           "os": "Windows 11",
-          "device": "PC/Laptop",
           "location": {
-            "city": "San Francisco",
-            "region": "California",
+            "city": "Chicago",
+            "region": "Illinois",
             "country": "US",
-            "timestamp": "2025-12-11T14:29:09.599Z",
-            "timezone": "America/Los_Angeles"
-          }
+            "timestamp": "2026-06-15T10:40:25.000Z",
+            "timezone": "America/Chicago"
+          },
+          "party_name": "Jane Smith",
+          "party_email": "jane.smith@example.com",
+          "device": "PC/Laptop"
         }
       ]
     }
-  },
-  "fields": [
-    {
-      "id": "176544595874381-date",
-      "type": "date",
-      "x": 545,
-      "y": 852,
-      "width": 100,
-      "height": 25,
-      "page": 0,
-      "color": "hsl(196, 100%, 90%)",
-      "style": "both",
-      "partyId": "1",
-      "required": false,
-      "record": false,
-      "timestamp": false,
-      "options": [],
-      "signed": true,
-      "value": "12/11/2025",
-      "signed_at": "2025-12-11T14:29:08.922733+00:00"
-    },
-    {
-      "id": "1765446872111-date",
-      "type": "date",
-      "x": 625,
-      "y": 297,
-      "width": 100,
-      "height": 25,
-      "page": 0,
-      "color": "hsl(196, 100%, 90%)",
-      "style": "both",
-      "partyId": "1",
-      "required": false,
-      "record": false,
-      "timestamp": false,
-      "options": [],
-      "signed": true,
-      "value": "12/11/2025",
-      "signed_at": "2025-12-11T14:29:08.922758+00:00"
-    }
-  ],
-  "otp_enabled": null,
-  "wet_sign": false
+  }
 }
 
 ````
@@ -2593,17 +2947,14 @@ json
 
 ---
 
-
----
-
-## 🔹 6 Download Signed Document
+## 🔹 8 Get Signed Pdf
 
 Retrieve the final signed PDF document.
 
 ### **Endpoint**
 
 ````
-GET api/v1/documents/signed-pdf
+GET api/v1/documents/signed-pdf/
 ````
 <!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
@@ -2662,14 +3013,14 @@ This API returns the **signed document** in **PDF format.**
 
 ---
 
-## 🔹 7 Download Certificate
+## 🔹 9 Get Completed Certificate
 
 Retrieve the completion certificate for a fully processed document.
 
 ### **Endpoint**
 
 ````
-GET api/v1/documents/complete-certificates
+GET api/v1/documents/complete-certificates/
 ````
 
 <!-- ### **Headers**
@@ -2731,199 +3082,7 @@ GET api/v1/documents/complete-certificates
 
 ---
 
-## 🔹 8 Log Action
-
-Log a document-related action such as cancellation, rejection, or other workflow events.
-
-### **Endpoint**
-
-````
-POST api/v1/documents/log-action
-````
-
-<!-- ### **Headers**
-| Name                | Type               | Required | Description                                                |
-| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
-| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
-
-<!-- ### **Query Parameters**
-> _None_ -->
-
-### **Request Body Example**
-
-````
-json
-
-{
-  "document_id": "687u5804-d360-4e98-802f-d5531htyrf675abd8",
-  "tracking_id": "7054eab3-c0f2-40e2-9b9e-731c1444df6d",
-  "action": "CANCELLED",
-  "party_id": "1",
-  "reason": "User requested cancellation",
-  "client_info": {
-    "ip": "3.128.94.52",
-    "city": "Lisle",
-    "region": "Illinois",
-    "country": "US",
-    "timezone": "America/Chicago",
-    "timestamp": "2025-12-21T04:14:01.699Z",
-    "browser": "Chrome",
-    "device": "PC/Laptop",
-    "os": "Windows 10"
-  },
-  "holder": {
-    "name": "John Doe",
-    "email": "johndoe@virtualansoftware.com",
-    "address": {
-      "address_line_1": "3333 Warrenville Road",
-      "address_line_2": "Suite 200",
-      "city": "Lisle",
-      "country": "USA",
-      "state": "IL",
-      "zipcode": "60532"
-    }
-  }
-}
 
 
-````
-
-### **Response Body Example**
-
-````
-json
-
-{
-    "message": "Action 'CANCELLED' logged successfully."
-}
-
-````
-
-<!-- ### **Responses**
-
-| Status Code                                             | Description         |
-| ------------------------------------------------------- | ------------------- |
-| <span style="color:green; font-weight:bold;">200</span> | Successful response |
-| <span style="color:green; font-weight:bold;">201</span> | Created |
-| <span style="color:green; font-weight:bold;">202</span> | Accepted |
-| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
-| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
-| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
-                                            
-
-### **Tags**
-
-`Document Tracker`
-
----
-
-
-## 🔹 9 Tracking IDs API
-
-Use the **Tracking ID** to fetch the current status of a document and track its progress through the E-Sign workflow.
-
-
-### **Endpoint**
-````
-POST api/v1/documents/tracking-ids/
-````
-
-<!-- ### **Headers**
-
-| Name                | Type               | Required | Description                                                |
-| ------------------- | ------------------ | -------- | ---------------------------------------------------------- |
-| `x-api-key`         | string             | ✅ Yes    | API key used to authenticate the request                   |
-| `Content type` | application/json | ✅ Yes     | Specifies that the API response is returned in JSON format | -->
-
-### **Query Parameters**
-| Name | Type | Required | Description |
-|-----|------|----------|-------------|
-| `document_id` | string | ✅ Yes | Unique identifier of the document |
-| `page` | intiger | ✅ Yes | Specifies the page number |
-| `limit` | intiger | ✅ Yes | Specifies the number of records per page |
-
-
-### **Response Body Example**
-
-```
-json
-
-{
-  "page": 1,
-  "limit": 10,
-  "total": 4,
-
-  "tracking_ids": [
-    {
-      "tracking_id": "track-001",
-      "status": "expired",
-      "updated_at": "2026-01-06T15:08:28Z",
-      "parties": [
-        {
-          "party_id": "party-1",
-          "name": "User One",
-          "email": "userone@example.com"
-        }
-      ]
-    },
-    {
-      "tracking_id": "track-002",
-      "status": "expired",
-      "updated_at": "2026-01-06T15:08:28Z",
-      "parties": [
-        {
-          "party_id": "party-2",
-          "name": "User Two",
-          "email": "usertwo@example.com"
-        }
-      ]
-    },
-    {
-      "tracking_id": "track-003",
-      "status": "cancelled",
-      "updated_at": "2025-10-14T14:26:49Z",
-      "parties": [
-        {
-          "party_id": "party-3",
-          "name": "User Three",
-          "email": "userthree@example.com"
-        }
-      ]
-    },
-    {
-      "tracking_id": "track-004",
-      "status": "expired",
-      "updated_at": "2025-10-18T04:59:59Z",
-      "parties": [
-        {
-          "party_id": "party-4",
-          "name": "User Four",
-          "email": "userfour@example.com"
-        }
-      ]
-    }
-  ]
-}
-
-```
-
-
-<!-- ### **Responses**
-
-| Status Code                                             | Description         |
-| ------------------------------------------------------- | ------------------- |
-| <span style="color:green; font-weight:bold;">200</span> | Successful response |
-| <span style="color:green; font-weight:bold;">201</span> | Created |
-| <span style="color:green; font-weight:bold;">202</span> | Accepted |
-| <span style="color:red; font-weight:bold;">404</span>   | Not Found    |
-| <span style="color:red; font-weight:bold;">422</span>   | Validation error    |
-| <span style="color:red; font-weight:bold;">500</span>   | Internal Server Error    | -->
-
-### **Tags**
-
-`Document Tracker`
-
----
 
 
