@@ -870,7 +870,7 @@ json
   "email": "sample@example.com",
   "role": "admin",
   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.samplePayload.signature",
-  "ui_url": "https://demo.doculandemo.com/pdf-editor",
+  "ui_url": "https://demo.doculandemo.com/esign-editor",
   "token_type": "bearer"
 }
 
