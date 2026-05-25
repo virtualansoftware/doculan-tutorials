@@ -29,7 +29,7 @@ The **API Keys** feature in Doculan allows users to create and manage secure API
 The **Client Management APIs** provide endpoints to create, update, retrieve, search, and manage client information efficiently. They enable secure and structured handling of client data throughout the complete client lifecycle.
 
 
-**Base URL:** https://api.doculan.ai/client-docs
+**Base URL:** https://api.doculandemo.com/client-docs
 
 ---
 
@@ -870,7 +870,7 @@ json
   "email": "sample@example.com",
   "role": "admin",
   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.samplePayload.signature",
-  "ui_url": "https://demo.doculandemo.com/pdf-editor",
+  "ui_url": "https://demo.doculandemo.com/esign-editor",
   "token_type": "bearer"
 }
 
