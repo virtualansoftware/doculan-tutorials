@@ -58,9 +58,9 @@
 ---
 
 
-## 6️⃣ **Custom Domain**
+## 6️⃣ **Custom Subdomain**
 
-**Custom Domain** allows users to access Doculan using their own domain instead of the default application URL. This feature provides a personalized and branded signing experience for recipients. It also helps build trust and professionalism by presenting documents through an organization’s official domain.
+**Custom Subdomain** allows users to access Doculan using their own domain instead of the default application URL. This feature provides a personalized and branded signing experience for recipients. It also helps build trust and professionalism by presenting documents through an organization’s official domain.
 
 <!-- <img src="screenshots/releaseNotes/sub_domain.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Custom Domain"> -->
 
@@ -68,7 +68,7 @@
 
 ---
 
-##  7️⃣ **Images & Underlines Fields**
+##  7️⃣ **Image & Underline Fields**
 
 The **Images & Underlines Fields** feature in the E-Sign module allows both senders and recipients to add images and apply underline formatting directly within documents during the signing process. This functionality improves document clarity, enhances collaboration, and ensures a more interactive signing experience.
 
