@@ -11,6 +11,7 @@
     - [How to resend eSign document?](E_Sign/resend-esign-document.md)
     - [How to use the default E-Sign Document?](E_Sign/default_e-sign-document.md)
     - [How to use self sign feature?](E_Sign/self-sign-document.md)
+    - [How to Use Self Sign Mode?](E_Sign/self-sign-mode.md)
     - [How to use Variable field?](E_Sign/variable-fields.md)
     - [How to Use Variable Mapping in a CSV File?](E_Sign/variable_mapping.md)
     - [How to use Delegate Email?](E_Sign/delegate-email.md)
@@ -18,6 +19,9 @@
     - [How to Rename the File?](E_Sign/rename-file.md)
     - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
     - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
+    - [How to Use Inbox?](E_Sign/inbox.md)
+    - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
+    - [How to use Images & Underlines Fields?](E_Sign/Image-and-Underline.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -42,6 +46,11 @@
     - [How to Share a folder?](E_Sign/share_folder.md)
 
 ---
+
+- **VDR**
+    [How to Use Viruala Dotd Room (VDR)?](VDR/virtual_data_room.md)
+    
+---
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
     - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
@@ -50,6 +59,7 @@
     - [How to Delete Form?](Forms/Form-Delete.md)
     - [How to Resend Form?](Forms/Form_Resend.md)
     - [How to Save Forms?](Forms/Form_Save.md)
+    - [How to Use Anonymous Forms?](Forms/Anonymous_Form.md)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
@@ -71,6 +81,12 @@
 
 ---
 
+- **PDF Editor**
+    - [How to Merge PDF Files?](PDF_Editor/Merge_pdf.md)
+    - [How to Split PDF Files?](PDF_Editor/Split_pdf.md)
+
+---
+
 - **Note Taker**
     -  [How to Use the Note Taker Option?](Notes_Taker/notes_taker.md)
 
@@ -79,6 +95,10 @@
 - **Library Management**
     -  [Library – Documents](Library_Management/Library.md)
 
+---
+
+- **Settings**
+    - [How to Create a Subdomain?](Settings/Subdomain.md)
 ---
 
 - **Security**
@@ -106,4 +126,5 @@
     - [Version 0.9.0](releaseNotes/version_0.9.0.md)
     - [Version 0.9.1](releaseNotes/version_0.9.1.md)
     - [Version 0.10.0](releaseNotes/version_0.10.0.md)
+    - [Version 0.11.0](releaseNotes/version_0.11.0.md)
 ---
