@@ -20,7 +20,8 @@
     - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
     - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
     - [How to Use Inbox?](E_Sign/inbox.md)
-    <!-- - [How to use contract Lifecycle Management (CLM)?](E_Sign/Contract-Lifecycle.md) -->
+    - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
+    - [How to use Images & Underlines Fields?](E_Sign/Image-and-Underline.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -93,6 +94,10 @@
 - **Library Management**
     -  [Library – Documents](Library_Management/Library.md)
 
+---
+
+- **Settings**
+    - [How to Create a Subdomain?](Settings/Subdomain.md)
 ---
 
 - **Security**
