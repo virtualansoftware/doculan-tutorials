@@ -60,6 +60,7 @@
     - [How to Resend Form?](Forms/Form_Resend.md)
     - [How to Save Forms?](Forms/Form_Save.md)
     - [How to Use Anonymous Forms?](Forms/Anonymous_Form.md)
+    - [How to use Web Form Integration?](Forms/Form_Integration.md)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
@@ -127,4 +128,5 @@
     - [Version 0.9.1](releaseNotes/version_0.9.1.md)
     - [Version 0.10.0](releaseNotes/version_0.10.0.md)
     - [Version 0.11.0](releaseNotes/version_0.11.0.md)
+    - [Version 0.11.1](releaseNotes/version_0.11.1.md)
 ---
