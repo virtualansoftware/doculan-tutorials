@@ -1,6 +1,6 @@
-# How to use Images & Underlines Fields?
+# How to use Image & Underline Fields?
 
-The **Images & Underlines Fields** feature in the E-Sign module allows both senders and recipients to add images and apply underline formatting directly within documents during the signing process. This functionality improves document clarity, enhances collaboration, and ensures a more interactive signing experience.
+The **Image & Underline Fields** feature in the E-Sign module allows both senders and recipients to add images and apply underline formatting directly within documents during the signing process. This functionality improves document clarity, enhances collaboration, and ensures a more interactive signing experience.
 
 ---
 
