@@ -1,6 +1,6 @@
 # How to use Web Form Integration?
 
-The **Form Integration** feature enables organizations to seamlessly collect form submissions directly through their website or application without requiring users to access the Doculan portal. This integration simplifies data collection, improves workflow automation, and ensures a smooth user experience for both administrators and form respondents.
+The **Web Form Integration** feature enables organizations to seamlessly collect form submissions directly through their website or application without requiring users to access the Doculan portal. This integration simplifies data collection, improves workflow automation, and ensures a smooth user experience for both administrators and form respondents.
 
 Once integrated, submitted forms are automatically delivered via email and can also be reviewed directly within the Doculan platform.
 
@@ -11,8 +11,10 @@ Once integrated, submitted forms are automatically delivered via email and can a
 After creating and completing the form configuration:
 
 1. Click **Generate Form**
-2. Set the required **date and time**
-3. Generate the public form link
+2. Configure the required options, such as **Never Expire** and **Allow Resubmit**, based on your requirements.
+3. Click Generate to create the public form link for sharing.
+
+<img src="screenshots\Form-Integration\Form-Integration.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 This generated link can be shared through any preferred communication method, including:
 
@@ -22,7 +24,7 @@ This generated link can be shared through any preferred communication method, in
 * Internal systems
 * Applications
 
-<img src="screenshots\Form-Integration\Form-Integration.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\Form-Integration\Form-Integration8.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
 
 <img src="screenshots\Form-Integration\Form-Integration1.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
