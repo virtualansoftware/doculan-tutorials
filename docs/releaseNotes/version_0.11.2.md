@@ -1,8 +1,8 @@
 # 🚀 Version 0.11.2 – New Enhancements
 
-## 1️⃣ **Document Scheduler**
+## 1️⃣ **Bulk E-Sign**
 
-The **Document Scheduler** streamlines large-scale email delivery by automatically sending emails to recipients at scheduled intervals. It provides real-time tracking of delivery status and recipient activity while allowing users to monitor campaigns and resend failed emails from a centralized dashboard.
+The **Bulk E-Sign** streamlines large-scale email delivery by automatically sending emails to recipients at scheduled intervals. It provides real-time tracking of delivery status and recipient activity while allowing users to monitor campaigns and resend failed emails from a centralized dashboard.
 
 
 🔗 **Learn more:** [How to send Bulk mail?](E_Sign/bulk-mail.md)
