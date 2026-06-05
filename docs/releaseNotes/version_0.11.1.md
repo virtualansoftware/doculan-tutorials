@@ -1,4 +1,4 @@
-# 🚀 Version 0.11.0 – New Enhancements
+# 🚀 Version 0.11.1 – New Enhancements
 
 ##  1️⃣ **Image & Underline Fields**
 
