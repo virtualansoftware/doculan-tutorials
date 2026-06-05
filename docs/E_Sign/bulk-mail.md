@@ -207,7 +207,21 @@ This ensures signers receive follow-up reminders until the document is signed or
 
 --- -->
 
-##  Step 4: Track Bulk Document Status
+## Step 4: Document Scheduler
+- Upon clicking Send Document, you will be automatically redirected to the Document Scheduler page to manage and monitor document delivery.
+- The system sends documents to recipients one at a time, maintaining a 30-second interval between each email.
+- If any document delivery fails, you can resend it directly from the Document Scheduler page using the Resend option in the Actions menu.
+
+<img src=" screenshots\E-Sign_Images\Bulk_Mail_Dashboard1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
+
+<img src=" screenshots\E-Sign_Images\Bulk_Mail_Scheduler.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
+
+
+<img src=" screenshots\E-Sign_Images\Bulk_Mail_Resend.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+---
+
+##  Step 5: Track Bulk Document Status
 
 Once sent, return to your folder and click **Audit** on the corresponding bulk batch.
 

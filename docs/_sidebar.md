@@ -22,6 +22,7 @@
     - [How to Use Inbox?](E_Sign/inbox.md)
     - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
     - [How to use Images & Underlines Fields?](E_Sign/Image-and-Underline.md)
+    - [How to Use Email Templates?](E_Sign/Email_Template.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -61,6 +62,7 @@
     - [How to Save Forms?](Forms/Form_Save.md)
     - [How to Use Anonymous Forms?](Forms/Anonymous_Form.md)
     - [How to use Web Form Integration?](Forms/Form_Integration.md)
+    - [How to Send Bulk Form in Doculan?](Forms/Form_Bulk.md)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
@@ -129,4 +131,5 @@
     - [Version 0.10.0](releaseNotes/version_0.10.0.md)
     - [Version 0.11.0](releaseNotes/version_0.11.0.md)
     - [Version 0.11.1](releaseNotes/version_0.11.1.md)
+    - [Version 0.11.2](releaseNotes/version_0.11.2.md)
 ---
