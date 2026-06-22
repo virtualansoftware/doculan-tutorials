@@ -29,26 +29,38 @@ The **Login User** with API Keys API allows users to authenticate using an API K
 **Purpose:**
 
 - Authenticate API users securely.
-- Generate access tokens for API requests.
+- Authorize API requests using API keys.
 - Validate API key permissions.
 - Enable programmatic access to the platform.
 
-**Example :** 
 
-````
-Admin Login
-Format:
-Authorization: client_id.api_key
-Example:
-Authorization: client_25e6bd6944fdfsdfcc7f5576a7.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdksj4873nfdHMfzYVtWj1tPaGKWu8FxKEucHs
+**Admin Login Format:**
 
-User Login
-Format:
-Authorization: client_id.sub_client_id.api_key
-Example:
-Authorization: client_25e6bd6944fdfsdfcc7f5576a7.sub_client_cdfsdbb2bfbf486f868802f6.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdks
+  Authorization: 
 
-````
+    client_id.api_key
+    
+**Example:**
+
+  Authorization: 
+
+    client_25e6bd6944fdfsdfcx7f5576a7.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdksj4873nfdHMfzYVtWj1tPaGKWu8FxKEucHs
+    └─────────── Admin-id ───────────┘└─────────────────────────── Api-key ───────────────────────────┘
+
+**User Login Format:**
+
+  
+  Authorization:
+
+    client_id.sub_client_id.api_key
+
+**Example:**
+
+  Authorization: 
+  
+    client_25e6bd6944fdfsdfcx7f5576a7.sub_client_cdfsdbb2bfbf486f868802f6.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdksj4873nfdHMfzYVtWj1tPaGKWu8FxKEucHs
+    └──────── Admin-Client-id ───────┘└───────── User-Client-id ─────────┘└─────────────────────────── Api-key ────────────────────────────┘
+
 
 
 > Note: For admin users, provide **client_id.api_key**. For sub-client users, provide **client_id.sub_client_id.api_key**. This header is required for all authorized API requests.
