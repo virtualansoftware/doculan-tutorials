@@ -1,4 +1,4 @@
-﻿﻿
+﻿
 # How to Cancel an E-Sign Document?
 
 There may be occasions when it becomes necessary to **cancel an active e-signature request**—for instance, if the document was sent to an incorrect recipient, requires revision, or is no longer needed for signing.  
@@ -14,7 +14,7 @@ This guide outlines the proper procedure to cancel an eSign document in **Docula
 3. Choose **Audit** to confirm the current activity and signer progress (optional).  
 4. Once confirmed, click the **Cancel eSign** option.
 
-<img src=" screenshots\E-Sign_Images\Actions_available1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+img src=" screenshots\E-Sign_Images\<Actions_available1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 > You can only cancel documents that are *not yet completed* or *not fully signed by all parties*.
 

@@ -55,6 +55,7 @@ Using the **Note Taker**, you can:
 
 1. Once the session is complete, click **Stop & Generate Summary**.
 2. The system will automatically generate a **detailed summary** of the session.
+3. The meeting audio recording is available for **playback and review**.
 
 <img src=" screenshots\Notes_Taker\Notes_Taker6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -84,7 +85,7 @@ Using the **Note Taker**, you can:
 
 4. Select the folder to **upload the file**.
 
-<img src=" screenshots\Notes_Taker\Notes_Taker9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+<img src=" screenshots\Notes_Taker\Notes_Taker9.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
 
 <img src=" screenshots\Notes_Taker\Notes_Taker10.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -101,7 +102,8 @@ Here you can:
 
 - View the session status.
 - Click the Resume icon to continue a pending session.
-- Click the Delete icon to remove unwanted sessions.
+- Review previously recorded sessions.
+- Delete sessions that are no longer required.
 
 <img src=" screenshots\Notes_Taker\Notes_Taker11.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 

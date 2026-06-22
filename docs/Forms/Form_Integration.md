@@ -90,24 +90,25 @@ Once users submit the integrated form:
 
 ---
 
-# Reviewing Form Submissions in Doculan
+# Reviewing Form Details in Doculan
 
 Administrators can review all submitted forms directly from the Doculan platform.
 
-## To View Submissions:
+## To View Details:
 
 1. Navigate to the **Forms List**
-2. Open the **Form Action Menu**
-3. Click **Public Link**
-4. Access the **Submission Section**
+2. Open the **Action Menu**
+3. Click **Details**
 
 <img src="screenshots\Form-Integration\Form-Integration6.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-The Submission Section allows administrators to:
+The Details Section allows administrators to:
 
-* Review submitted responses
-* Track submission activity
-* Manage collected form data efficiently
+* View applicant details
+* Review educational information
+* Check academic performance
+* Download resumes
+* Manage application records
 
 <img src="screenshots\Form-Integration\Form-Integration7.png" alt="Step 2 — view all Docs" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 

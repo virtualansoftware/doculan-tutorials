@@ -112,23 +112,28 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 
 ---
 
-## Step 7: Review Form Submissions
+## Step 7: Review Form Details
 
 - Navigate to the **Forms** section and open the required anonymous form.
-- Click the **Submissions** tab.
-- Click **Refresh** to load the latest responses.
+- Select the **Action Menu**
+- Click the **Details**
 
-### The submissions table displays:
+<img src="screenshots\Anonymous-form\Anonymous-Form-list.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-| Column | Description |
-|--------|-------------|
-| Email | Submitter email address |
-| Last Submission | Latest submission date and time |
-| Submissions | Number of submissions from the same email |
 
-<img src="screenshots\Anonymous-form\Anonymous-Form-submission-list1.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+### The Details displays:
 
-<img src="screenshots\Anonymous-form\Anonymous-Form-submission-list2.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+- View applicant details
+- Review educational information
+- Check academic performance
+- Download resumes
+- Manage application records
+
+<!-- <img src="screenshots\Anonymous-form\Anonymous-Form-submission-list1.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+<img src="screenshots\Anonymous-form\Anonymous-Form-submission-list2.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"> -->
+
+<img src="screenshots\Anonymous-form\Anonymous-Form-submission-list.png" alt="Step 7 — Review Submissions" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
 > The above screenshot represents how to review anonymous form submissions inside the system.
 
@@ -145,15 +150,9 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 
 <img src="screenshots\Anonymous-form\Anonymous-Form-public-link-2.png" alt="Step 3 — Anonymous Form List" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-- Click **Public Link** to access:
-  - Public Form Link
-  - QR Code
-  - Submissions
-  - Integration Settings
+  <!-- <img src="screenshots\Anonymous-form\Anonymous-Form-submission-list-1.png" alt="Step 3 — Anonymous Form List" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-  <img src="screenshots\Anonymous-form\Anonymous-Form-submission-list-1.png" alt="Step 3 — Anonymous Form List" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
-
-  <img src="screenshots\Anonymous-form\Anonymous-Form-submission-list-2.png" alt="Step 3 — Anonymous Form List" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+  <img src="screenshots\Anonymous-form\Anonymous-Form-submission-list-2.png" alt="Step 3 — Anonymous Form List" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"> -->
 
 > The above screenshot represents how anonymous forms are displayed in the Forms List and how to access public form management options from the Actions menu.
 
@@ -166,15 +165,12 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 ### Integration Details
 
 | Item | Value |
-|------|------|
-| FORM ID | 278c39b0-07a3-44c7-adcf-65325bc6a0f0 |
-| API ENDPOINT | POST https://api.doculan.ai/v1/external/forms/submit |
 
 ### API Usage
 - Use the **FORM ID** to identify the anonymous form.
 - Submit form responses using the provided API endpoint.
 - Send data through a **POST request**.
-- Submitted responses will appear in the **Submissions** section.
+- Submitted responses will appear in the **Submissions** section.\
 
 <img src="screenshots\Anonymous-form\Anonymous-Form-Intagaration1.png" alt="Step 8 — API Integration" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
@@ -186,6 +182,9 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 
  **Demo Video:**
 <!-- Inline HTML in Markdown file -->
+|------|------|
+| FORM ID | 278c39b0-07a3-44c7-adcf-65325bc6a0f0 |
+| API ENDPOINT | POST https://api.doculan.ai/v1/external/forms/submit |
 <style>
 .video-wrap {
   border: 2px solid black;

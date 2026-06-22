@@ -44,7 +44,7 @@
     - [How to share document?](E_Sign/share-document.md)
     - [How to resend shared document?](E_Sign/resend-shared-document.md)
     - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
-    - [How to Share a folder?](E_Sign/share_folder.md)
+    <!-- - [How to Share a folder?](E_Sign/share_folder.md) -->
 
 ---
 

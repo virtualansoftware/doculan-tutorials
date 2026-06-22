@@ -22,9 +22,40 @@ The **API Keys** feature in Doculan allows users to create and manage secure API
 
 <img src=" screenshots\releaseNotes\API-2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
+## Step 4: Login User with API Keys
+
+The **Login User** with API Keys API allows users to authenticate using an API Key and Secret Key instead of traditional username/password credentials.
+
+**Purpose:**
+
+- Authenticate API users securely.
+- Generate access tokens for API requests.
+- Validate API key permissions.
+- Enable programmatic access to the platform.
+
+**Example :** 
+
+````
+Admin Login
+Format:
+Authorization: client_id.api_key
+Example:
+Authorization: client_25e6bd6944fdfsdfcc7f5576a7.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdksj4873nfdHMfzYVtWj1tPaGKWu8FxKEucHs
+
+User Login
+Format:
+Authorization: client_id.sub_client_id.api_key
+Example:
+Authorization: client_25e6bd6944fdfsdfcc7f5576a7.sub_client_cdfsdbb2bfbf486f868802f6.hd7uSh7Fp1-v8Hd00GMWomSpkB2fdks
+
+````
+
+
+> Note: For admin users, provide **client_id.api_key**. For sub-client users, provide **client_id.sub_client_id.api_key**. This header is required for all authorized API requests.
+
 ---
 
-# **Client Management APIs**
+## **Client Management APIs**
 
 The **Client Management APIs** provide endpoints to create, update, retrieve, search, and manage client information efficiently. They enable secure and structured handling of client data throughout the complete client lifecycle.
 
@@ -575,7 +606,7 @@ id="m8x4rz"
 
 ---
 
-## 🔹 3 List Documents
+## 🔹 4 List Documents
 
 Retrieve a list of all available documents.
 
@@ -644,7 +675,7 @@ json
 
 ---
 
-## 🔹 4 Get Document
+## 🔹 5 Get Document
 
 Retrieve the selected document from the document list.
 
@@ -703,7 +734,7 @@ You may **download** the sample file to review the document content and structur
 
 ---
 
-## 🔹 5 Get Folders Structure
+## 🔹 6 Get Folders Structure
 
 The Get **Folders Structure API** is used to retrieve the hierarchical structure of folders, including subfolders and associated files.
 
@@ -822,7 +853,7 @@ json
 ---
 
 
-# **ESign Editor APIs**
+## **ESign Editor APIs**
 
 Use ESign Editor APIs to create, edit, and manage electronic signature documents and workflows.
 
@@ -1171,7 +1202,7 @@ Retrieve a specific template from the list of available document templates.
 
 ### **Endpoint**
 ````
-GET api/v1/documents/templates/{template_name}
+GET /api/v1/documents/templates/{template_name}
 ````
 
 <!-- ### **Headers**
@@ -1932,7 +1963,7 @@ Send a document to one or more parties for review or signing.
 
 
 ````
-POST api/v1/documents/send
+POST /api/v1/documents/send
 ````
 
 <!-- ### **Headers**
@@ -2159,7 +2190,7 @@ Resend the document access or signing link for an existing document using its do
 ### **Endpoint**
 
 ````
-POST api/v1/documents/resend
+POST /api/v1/documents/resend
 ````
 
 <!-- ### **Headers**
@@ -2243,7 +2274,7 @@ Log document-related actions such as Cancel, Decline, and other workflow events 
 ### **Endpoint**
 
 ````
-POST api/v1/documents/log-action
+POST /api/v1/documents/log-action
 ````
 
 <!-- ### **Headers**
@@ -2328,7 +2359,7 @@ json
 ### **Endpoint**
 
 ````
-POST api/v1/documents/log-action
+POST /api/v1/documents/log-action
 ````
 
 <!-- ### **Headers**
@@ -2415,7 +2446,7 @@ Use the **Tracking ID** to fetch the current status of a document and track its 
 
 ### **Endpoint**
 ````
-GET api/v1/documents/tracking-ids/
+GET /api/v1/documents/tracking-ids/
 ````
 
 <!-- ### **Headers**
@@ -2802,7 +2833,7 @@ Retrieve the document status for an individual party using tracking, document, a
 ### **Endpoint**
 
 ````
-GET api/v1/documents/party-status/
+GET /api/v1/documents/party-status/
 ````
 
 <!-- ### **Headers**
@@ -2954,7 +2985,7 @@ Retrieve the final signed PDF document.
 ### **Endpoint**
 
 ````
-GET api/v1/documents/signed-pdf/
+GET /api/v1/documents/signed-pdf/
 ````
 <!-- ### **Headers**
 | Name                | Type               | Required | Description                                                |
@@ -3020,7 +3051,7 @@ Retrieve the completion certificate for a fully processed document.
 ### **Endpoint**
 
 ````
-GET api/v1/documents/complete-certificates/
+GET /api/v1/documents/complete-certificates/
 ````
 
 <!-- ### **Headers**
@@ -3081,6 +3112,521 @@ GET api/v1/documents/complete-certificates/
 `Document Tracker`
 
 ---
+
+## **Custom Labels APIs**
+
+Custom Labels APIs allow users to create, update, retrieve, and manage custom labels across documents and workflows.
+
+## 1🔹Create labels
+
+Create Label API creates a new custom label for use across documents and workflows.
+
+### **Endpoint**
+
+````
+GET  /api/v1/documents/custom-labels/create/
+````
+
+### **Request body**
+
+````
+json
+
+{
+  "type": "Text",
+  "label": [
+    "Name"
+  ]
+}
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "type": "Text",
+  "label": {
+    "lbl_001": "John Smith",
+    "lbl_002": "Emma Johnson",
+    "lbl_003": "Michael Brown",
+    "lbl_004": "Sophia Davis",
+    "lbl_005": "William Wilson",
+    "lbl_006": "Robert Taylor",
+    "lbl_007": "Olivia Anderson",
+    "lbl_008": "Daniel Martinez",
+    "lbl_009": "Ava Thomas",
+    "lbl_010": "James White",
+    "lbl_011": "Charlotte Harris",
+    "lbl_012": "Benjamin Clark",
+    "lbl_013": "Amelia Lewis",
+    "lbl_014": "Noah Walker"
+  },
+  "created_at": "2026-06-20T10:31:27.590649+00:00",
+  "created_by": "demo.user@example.com"
+}
+
+````
+### **Tags**
+`Custom Labels`
+
+---
+
+## 2🔹Get all labels
+
+Get All Labels API retrieves all available custom labels configured in the system.
+
+### **Endpoint**
+
+````
+GET  /api/v1/documents/custom-labels/get-all-labels/
+````
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `type` | string \| (string \| null)  | ❌ No| Filter by Label Type API retrieves labels based on the selected label type |
+| `search`|string \| (string \| null) | ❌ No  | Search Labels API searches label types and label values using a case-insensitive search |
+| `page` | intiger | ❌ No | Specifies the page number |
+| `limit` | intiger | ❌ No | Specifies the number of records per page |
+
+### **Response body**
+
+
+````
+json
+
+{
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 2,
+    "total_pages": 1
+  },
+  "data": [
+    {
+      "type": "Text",
+      "label": {
+        "lbl_001": "John Smith",
+        "lbl_014": "Emma Johnson"
+      },
+      "created_at": "2026-06-20T10:31:27.590649+00:00",
+      "created_by": "demo.user@example.com"
+    },
+    {
+      "type": "Text",
+      "label": {
+        "lbl_001": "Michael Brown",
+        "lbl_014": "Sophia Davis"
+      },
+      "created_at": "2026-06-20T11:15:42.123456+00:00",
+      "created_by": "test.user@example.com"
+    }
+  ]
+}
+
+````
+
+### **Tags**
+`Custom Labels`
+
+---
+
+
+## 3🔹Labels Update
+
+Update Label API updates the details of an existing custom label in the system
+
+### **Endpoint**
+
+````
+GET /api/v1/documents/custom-labels/update/
+````
+
+### **Request body**
+
+````
+json
+
+{
+  "type": "Text",
+  "label": {
+    "lbl_001": "First Name",
+    "lbl_002": "Last Name",
+    "lbl_003": "Email Address"
+  }
+}
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "type": "Text",
+  "label": {
+    "lbl_001": "John Smith",
+    "lbl_002": "Emma Johnson",
+    "lbl_003": "john.smith@example.com",
+    "lbl_004": "Michael Brown",
+    "lbl_005": "Sophia Davis",
+    "lbl_006": "Robert Wilson",
+    "lbl_007": "Olivia Taylor",
+    "lbl_008": "Daniel Anderson",
+    "lbl_009": "Ava Martinez",
+    "lbl_010": "William Thomas",
+    "lbl_011": "Mia Garcia",
+    "lbl_012": "James White",
+    "lbl_013": "Charlotte Harris",
+    "lbl_014": "Ethan Clark"
+  },
+  "created_at": "2026-06-20T14:37:05.533399+00:00",
+  "created_by": "demo.user@example.com"
+}
+````
+
+### **Tags**
+
+`Custom Labels`
+
+---
+
+## 4🔹Delete Labels
+
+Delete Label API removes an existing custom label from the system
+
+
+### **Endpoint**
+
+````
+GET /api/v1/documents/custom-labels/delete/
+````
+
+### **Request body**
+
+````
+json
+
+{
+  "type": "string",
+  "label_ids": [
+    "string"
+  ]
+}
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "type": "Text",
+  "deleted": [
+    "lbl_003",
+    "lbl_007",
+    "lbl_011"
+  ],
+  "not_found": [],
+  "deleted_count": 3
+}
+````
+
+### **Tags**
+`Custom Labels`
+
+---
+
+## **Client and User Role APIs**
+
+**Client APIs** are used to manage client-related information within the system. These APIs allow users to create, update, retrieve, and manage client records.
+
+## 1🔹Create Client Role
+
+The **Create Client Role** feature allows administrators to define custom roles for client users and assign specific permissions based on business requirements.
+
+
+### **Endpoint**
+
+````
+POST /api/v1/roles/
+````
+
+### **Request body**
+
+````
+json
+
+{
+  "role_name": "string",
+  "user_folder_mapping": [
+    "string"
+  ]
+}
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "message": "Role created successfully",
+  "data": {
+    "role_name": "QA_Manager",
+    "assigned_folders": [
+      {
+        "folderMappingId": "FDR123456789",
+        "path": "Project_Documents"
+      }
+    ]
+  }
+}
+
+````
+
+### **Tags**
+
+`Client and User Role`
+
+---
+
+## 2🔹Get All Client Roles
+
+The **Get All Client Roles API** retrieves a list of all client roles configured in the system along with their associated folder mappings and permissions.
+
+### **Endpoint**
+
+````
+GET  /api/v1/roles/
+````
+
+### **Query Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `page` | intiger | ❌ No | Specifies the page number |
+| `limit` | intiger | ❌ No | Specifies the number of records per page |
+
+### **Response body**
+
+
+````
+json
+
+{
+  "page": 1,
+  "limit": 10,
+  "total_records": 3,
+  "total_pages": 1,
+  "data": [
+    {
+      "role_name": "QA_Manager",
+      "assigned_folders": [
+        {
+          "folderMappingId": "FDR123456789",
+          "path": "Project_Documents"
+        }
+      ]
+    },
+    {
+      "role_name": "Client_Admin",
+      "assigned_folders": [
+        {
+          "folderMappingId": "FDR987654321",
+          "path": "Client_Records"
+        }
+      ]
+    },
+    {
+      "role_name": "Support_Engineer",
+      "assigned_folders": [
+        {
+          "folderMappingId": "FDR456789123",
+          "path": "Support_Tickets"
+        }
+      ]
+    }
+  ]
+}
+
+````
+
+### **Tags**
+
+`Client and User Role`
+
+---
+
+## 3🔹Create Client Role
+
+The **Create Client Role** feature allows administrators to define custom roles for client users and assign specific permissions based on business requirements.
+
+
+### **Endpoint**
+
+````
+POST /api/v1/roles/
+````
+
+### **path Parameters**
+| Name | Type | Required | Description |
+|-----|------|----------|-------------|
+| `role_name` | String | ✅ Yes | Enter the specific role name |
+
+
+
+### **Request body**
+
+````
+json
+
+{
+  "client_id": "string",
+  "user_folder_mapping": [
+    "string"
+  ]
+}
+
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "message": "Role updated successfully",
+  "data": {
+    "role_name": "QA_Manager",
+    "assigned_folders": [
+      {
+        "folderMappingId": "FDR123456789",
+        "path": "Project_Documents"
+      }
+    ],
+    "client_id": "sub_client_a1b2c3d4e5f67890123456789abcdef"
+  }
+}
+
+````
+
+### **Tags**
+
+`Client and User Role`
+
+---
+
+## 4🔹Add User
+
+The **Add User API** is used to create a new user account and assign a role. It allows administrators to manage user access and permissions within the system.
+
+
+### **Endpoint**
+
+````
+POST /api/v1/auth/add-user
+````
+
+### **Request body**
+
+````
+json
+
+{
+  "name": "string",
+  "email": "user@example.com",
+  "role": "string",
+  "additionalProp1": {}
+}
+
+
+````
+
+### **Response body**
+
+````
+json
+
+{
+  "message": "User registered by admin 'admin@example.com'.",
+  "email": "john.smith@example.com",
+  "sub_client_id": "sub_client_a1b2c3d4e5f67890123456789abcdef",
+  "status": 200
+}
+
+````
+
+### **Tags**
+
+`Client and User Role`
+
+---
+
+## 5🔹Get User
+
+The **Get User API** is used to retrieve the details of a specific user from the system.
+
+
+### **Endpoint**
+
+````
+GET /api/v1/auth/get-users
+````
+
+
+### **Response body**
+
+````
+json
+
+{
+  "email": "james.wilson@example.com",
+  "users": [
+    {
+      "email": "james.wilson@example.com",
+      "client_id": "client_8f7a6b5c4d3e2f1a9b8c7d6e5f4a3b2c"
+    },
+    {
+      "email": "sarah.johnson@example.com",
+      "client_id": "sub_client_1a2b3c4d5e6f7g8h9i0j123456789abc"
+    },
+    {
+      "email": "michael.brown@example.com",
+      "client_id": "sub_client_9z8y7x6w5v4u3t2s1r0q987654321def"
+    }
+  ]
+}
+
+````
+
+### **Tags**
+
+`Client and User Role`
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
