@@ -20,24 +20,44 @@ Once completed, the document can be saved and exported in PDF format for secure 
 
 ## Step 2: Choose Document Creation Method
 
-4. A popup appears with the message:  
+1. A popup appears with the message:  
    **“Create with AI or Create Manually”**
 
 **Screenshot 2**
 
-<img src="screenshots\Document\Document-Create2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Document\Document-Create2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+**Build an AI Prompt**<br>
+
+2. Select AI Prompt.
+3. Enter a detailed prompt describing the type of document you want to create.
+4. Click Generate to allow the AI to create the document content automatically.
+
+**Screenshot 3**
+
+<img src="screenshots\Document\Document-Promt.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+**Generate the Document With AI**<br>
+
+5. Review the generated content.
+6. Select Create New Document with AI.
+7. The system generates a new document based on the provided prompt.
+
+**Screenshot 4**
+
+<img src="screenshots\Document\Document-AI.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 ---
 
 ## Step 3: Enter Document Type
 
-5. Enter the required **Document Type** to auto-generate the document.
+1. Enter the required **Document Type** to auto-generate the document.
 
 **Alternatively:**
 
 - Click **Create Manully** to proceed with manual document creation.
 
-**Screenshot 3**
+**Screenshot 5**
 
 <img src="screenshots\Document\Document-Create3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
@@ -45,8 +65,8 @@ Once completed, the document can be saved and exported in PDF format for secure 
 
 ## Step 4: Use the Document Editor and Format the Document
 
-6. The **Document Editor** opens with full editing capabilities.  
-7. All editing panels are fully **draggable**, allowing you to reposition them anywhere around the document workspace for enhanced flexibility and convenience.
+1. The **Document Editor** opens with full editing capabilities.  
+2. All editing panels are fully **draggable**, allowing you to reposition them anywhere around the document workspace for enhanced flexibility and convenience.
 
 You can format the document using the following options:
 
@@ -55,7 +75,7 @@ You can format the document using the following options:
 - Insert **images**, **logos**, or **additional pages**
 - Use **spell check** to ensure content accuracy
 
-**Screenshot 4**
+**Screenshot 6**
 
 <img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
