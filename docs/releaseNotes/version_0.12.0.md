@@ -1,6 +1,6 @@
 # 🚀 Version 0.12.0 – New Enhancements
 
-## 1️⃣ **Manage Lables**
+## 1️⃣ **Manage Labels**
 
 The **Manage Labels** feature allows users to create, organize, and manage labels for documents and contracts. Labels help categorize content, improve document organization, and make it easier to search, filter, and identify documents within the system. Users can create custom labels, assign them to documents or contracts, edit existing labels, and remove labels when they are no longer needed. This feature enhances document management and improves overall workflow efficiency.
 
