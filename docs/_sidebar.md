@@ -20,9 +20,9 @@
     - [How to Use the Co-Signer Option?](E_Sign/Co-Signer.md)
     - [How to Use the Comment Section in E-Sign?](E_Sign/comment_section.md)
     - [How to Use Inbox?](E_Sign/inbox.md)
-    - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
     - [How to use Images & Underlines Fields?](E_Sign/Image-and-Underline.md)
     - [How to Use Email Templates?](E_Sign/Email_Template.md)
+    - [How to create Custom Labels?](E_Sign/Custom-Label.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
@@ -49,8 +49,13 @@
 ---
 
 - **VDR**
-    [How to Use Viruala Dotd Room (VDR)?](VDR/virtual_data_room.md)
-    
+    - [How to Use Viruala Dotd Room (VDR)?](VDR/virtual_data_room.md)
+
+---
+
+- **Contract**
+    - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
+    - [How to Set a Contract Renewal Reminder?](E_Sign/Contract-Reminder.md)
 ---
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
