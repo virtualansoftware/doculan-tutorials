@@ -63,7 +63,7 @@ Once completed, the document can be saved and exported in PDF format for secure 
 
 ---
 
-## Step 4: Use the Document Editor and Format the Document
+<!-- ## Step 4: Use the Document Editor and Format the Document
 
 1. The **Document Editor** opens with full editing capabilities.  
 2. All editing panels are fully **draggable**, allowing you to reposition them anywhere around the document workspace for enhanced flexibility and convenience.
@@ -75,9 +75,9 @@ You can format the document using the following options:
 - Insert **images**, **logos**, or **additional pages**
 - Use **spell check** to ensure content accuracy
 
-**Screenshot 6**
+**Screenshot 6** -->
 
-<img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<!-- <img src="screenshots\Document\Document-Create4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"> -->
 
 ---
 
