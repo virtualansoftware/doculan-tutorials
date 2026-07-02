@@ -3136,7 +3136,7 @@ Create Label API creates a new custom label for use across documents and workflo
 ### **Endpoint**
 
 ````
-GET  /api/v1/documents/custom-labels/create/
+POST  /api/v1/documents/custom-labels/create/
 ````
 
 ### **Request body**
@@ -3253,7 +3253,7 @@ Update Label API updates the details of an existing custom label in the system
 ### **Endpoint**
 
 ````
-GET /api/v1/documents/custom-labels/update/
+PUT /api/v1/documents/custom-labels/update/
 ````
 
 ### **Request body**
@@ -3313,7 +3313,7 @@ Delete Label API removes an existing custom label from the system
 ### **Endpoint**
 
 ````
-GET /api/v1/documents/custom-labels/delete/
+DELETE /api/v1/documents/custom-labels/delete/
 ````
 
 ### **Request body**
@@ -3471,15 +3471,14 @@ json
 
 ---
 
-## 3🔹Create Client Role
+## 3🔹Update Client Role
 
-The **Create Client Role** feature allows administrators to define custom roles for client users and assign specific permissions based on business requirements.
-
+The **Update Client Role** feature allows administrators to define custom roles for client users and assign specific permissions based on business requirements.
 
 ### **Endpoint**
 
 ````
-POST /api/v1/roles/
+PUT /api/v1/roles/{role_name}
 ````
 
 ### **path Parameters**
