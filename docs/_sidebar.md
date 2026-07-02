@@ -1,6 +1,7 @@
-﻿﻿ [Getting started](README.md)
- 
- ---
+﻿﻿
+ [Getting started](README.md)
+
+<div class="doc-section" id="section-ui">
 
 - **E-Signature**
     - [How to send single party document?](E_Sign/single-party-document.md)
@@ -45,7 +46,6 @@
     - [How to share document?](E_Sign/share-document.md)
     - [How to resend shared document?](E_Sign/resend-shared-document.md)
     - [How to cancel shared document?](E_Sign/cancel-shared-document.md)
-    <!-- - [How to Share a folder?](E_Sign/share_folder.md) -->
 
 ---
 
@@ -60,6 +60,7 @@
 
 
 ---
+
 - **Form Management**
     - [How to Create and Send Forms?](Forms/Form_Create.md)
     - [How do view Submitted Form with attachments?](Forms/Form_Document_Storage.md)
@@ -110,19 +111,14 @@
 
 - **Settings**
     - [How to Create a Subdomain?](Settings/Subdomain.md)
+
 ---
 
 - **Security**
     -  [Two-Factor Authentication[2FA]](Security/Security.md)
-    
+
 ---
 
-- **API Documentation**
-    -  [API-Overview](API-Documentation/API-Overview.md)
-    -  [E-Signature](API-Documentation/E-Sign.md)
-    
----
-  
 - **Release Notes**
 
     **2025**
@@ -130,7 +126,7 @@
     - [Version 0.4.0](releaseNotes/version_0.4.0.md)
     - [Version 0.5.0](releaseNotes/version_0.5.0.md)
 
-   **2026**
+    **2026**
     - [Version 0.6.0](releaseNotes/version_0.6.0.md)
     - [Version 0.7.0](releaseNotes/version_0.7.0.md)
     - [Version 0.8.0](releaseNotes/version_0.8.0.md)
@@ -141,4 +137,15 @@
     - [Version 0.11.1](releaseNotes/version_0.11.1.md)
     - [Version 0.11.2](releaseNotes/version_0.11.2.md)
     - [Version 0.12.0](releaseNotes/version_0.12.0.md)
----
+
+</div>
+
+<div class="doc-section" id="section-api">
+
+- **API Documentation**
+
+    -  [API-Overview](API-Documentation/API-Overview.md)
+    -  [E-Signature](API-Documentation/E-Sign.md)
+
+
+</div>

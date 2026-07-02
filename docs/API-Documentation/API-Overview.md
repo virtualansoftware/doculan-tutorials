@@ -172,6 +172,32 @@ json
 
 ---
 
+
+### Custom Labels APIs
+
+| Operation                    | Method | Endpoint                                      |
+| ---------------------------- | ------ | --------------------------------------------- |
+| Create labels                | POST   | `/api/v1/documents/custom-labels/create/`     |
+| Get all labels               | GET    | `/api/v1/documents/custom-labels/get-all-labels/` |
+| Labels Update                | PUT    | `/api/v1/documents/custom-labels/update/`     |
+| Delete Labels                | DELETE | `/api/v1/documents/custom-labels/delete/`     |
+
+---
+
+### Client Roles APIs
+
+| Operation                    | Method | Endpoint                                      |
+| ---------------------------- | ------ | --------------------------------------------- |
+| Create Client Role           | POST   | `/api/v1/roles/`                              |
+| Get All Client Roles         | GET    | `/api/v1/roles/`                              |
+| Update Client Role           | PUT    | `/api/v1/roles/{role_name}`                   |
+| Add User                     | POST   | `/api/v1/auth/add-user`                       |
+| Get User                     | GET    | `/api/v1/auth/get-users`                      |
+| Get Current User Api         | GET    | `/api/v1/auth/current-user`                   |
+
+
+---
+
 ## HTTP Status Codes
 
 | Status Code | Description              |

@@ -196,6 +196,62 @@
   }
 </style>
 
+<style>
+  /* Sidebar tab navigation */
+  .sidebar-tabs {
+    display: flex;
+    padding: 12px 10px 0;
+    gap: 4px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 12px;
+  }
+
+  .sidebar-tab-btn {
+    flex: 1;
+    padding: 9px 6px;
+    border: 2px solid #ddd;
+    border-bottom: none;
+    background: #f5f7f9;
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #888;
+    transition: color 0.18s, background 0.18s, border-color 0.18s;
+    text-align: center;
+    font-family: inherit;
+    letter-spacing: 0.2px;
+    outline: none;
+    line-height: 1.3;
+  }
+
+  .sidebar-tab-btn:hover {
+    color: #42b983;
+    background: #f0faf5;
+    border-color: #42b983;
+  }
+
+  .sidebar-tab-btn.active {
+    background: #fff;
+    color: #42b983;
+    border-color: #42b983;
+    border-bottom-color: #fff;
+    margin-bottom: -2px;
+  }
+
+  .doc-section {
+    display: none;
+  }
+
+  .doc-section.active {
+    display: block;
+  }
+</style>
+
 
 </head>
 
@@ -225,13 +281,55 @@
 					hook.afterEach(function (html) {
 						//   return (
 						//     html + '&copy;Virtualan (<a href="https://www.virtualan.io">https://www.virtualan.io</a>) '
-						//     +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'     
+						//     +'<span class="right"> <a href="https://twitter.com/VirtualanS" target="_NEW"  class="fa fa-twitter"></a>'
 						//     +' <a href="mailto:info@virtualan.io" target="_NEW"  class="fa fa-google"></a>   '
 						//     +' <a href="https://www.linkedin.com/company/virtualan-software" target="_NEW"  class="fa fa-linkedin"></a> '
 						//     +' <a href="https://www.youtube.com/channel/UCny1F1GiYoo2pARDaSDIzYw" target="_NEW" class="fa fa-youtube"></a> </span> '
 
 						//   )
 					})
+				},
+				function (hook, vm) {
+					function activateTab(tab) {
+						document.querySelectorAll('.sidebar-tab-btn').forEach(function (btn) {
+							btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
+						});
+						document.querySelectorAll('.doc-section').forEach(function (s) {
+							s.classList.remove('active');
+						});
+						var target = document.getElementById('section-' + tab);
+						if (target) target.classList.add('active');
+						try { localStorage.setItem('docsActiveTab', tab); } catch(e) {}
+					}
+
+					function injectTabs() {
+						var nav = document.querySelector('.sidebar-nav');
+						if (!nav || nav.querySelector('.sidebar-tabs')) return;
+
+						var tabsHtml = '<div class="sidebar-tabs">' +
+							'<button class="sidebar-tab-btn" data-tab="ui">📘 UI Docs</button>' +
+							'<button class="sidebar-tab-btn" data-tab="api">🔗 API Docs</button>' +
+							'</div>';
+						var firstSection = nav.querySelector('.doc-section');
+						if (firstSection) {
+							firstSection.insertAdjacentHTML('beforebegin', tabsHtml);
+						} else {
+							nav.insertAdjacentHTML('afterbegin', tabsHtml);
+						}
+
+						document.querySelectorAll('.sidebar-tab-btn').forEach(function (btn) {
+							btn.addEventListener('click', function () {
+								activateTab(this.getAttribute('data-tab'));
+							});
+						});
+
+						var saved = 'ui';
+						try { saved = localStorage.getItem('docsActiveTab') || 'ui'; } catch(e) {}
+						activateTab(saved);
+					}
+
+					hook.ready(injectTabs);
+					hook.doneEach(injectTabs);
 				},
 			],
 		};
