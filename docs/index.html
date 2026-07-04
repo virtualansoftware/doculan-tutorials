@@ -23,8 +23,8 @@
 	<meta property="og:description"
 		content="Manage documents, collect e-signatures, create templates, and automate workflows with Doculan’s secure cloud-based platform.">
 	<meta property="og:image" content="https://www.doculan.ai/images/DemoThumbnail.png">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+	<meta property="og:image:width" content="500">
+	<meta property="og:image:height" content="160">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -210,6 +210,21 @@
     margin-bottom: 12px;
   }
 
+  .sidebar-btn {
+    display: block;
+    padding: 4px 0px;
+    background: #90ddf0;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    margin: 4px 38px;
+  }
+
+  .sidebar-btn:hover {
+    opacity: 0.9;
+  }
+
   .sidebar-tab-btn {
     flex: 1;
     padding: 9px 6px;
@@ -307,8 +322,8 @@
 						if (!nav || nav.querySelector('.sidebar-tabs')) return;
 
 						var tabsHtml = '<div class="sidebar-tabs">' +
-							'<button class="sidebar-tab-btn" data-tab="ui">📘 UI Docs</button>' +
-							'<button class="sidebar-tab-btn" data-tab="api">🔗 API Docs</button>' +
+							'<button class="sidebar-tab-btn" data-tab="ui">💻 UI Docs</button>' +
+							'<button class="sidebar-tab-btn" data-tab="api">⚙️ API Docs</button>' +
 							'</div>';
 						var firstSection = nav.querySelector('.doc-section');
 						if (firstSection) {

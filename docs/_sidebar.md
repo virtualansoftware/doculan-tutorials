@@ -1,5 +1,6 @@
 ﻿﻿
- [Getting started](README.md)
+ <!-- [Getting started](README.md) -->
+ <a href="#/README" class="sidebar-btn">Getting Started</a>
 
 <div class="doc-section" id="section-ui">
 
