@@ -198,7 +198,7 @@ You can schedule the bulk emails to go out at a future date or time.
 
 <!-- ##  Step 7 — Set Expiry Date & Reminders
 
-1. Under **Mail Settings**, set:
+1. Under **Mail Settings**,set:
    - **Expiry Date:** The deadline for signing.  
    - **Reminder Frequency:** How often to remind pending signers (daily, weekly, etc.).  
 2. Click **Save Settings**.
