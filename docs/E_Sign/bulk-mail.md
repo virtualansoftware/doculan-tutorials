@@ -261,7 +261,7 @@ Each recipient receives a **personalized email** with their own signing link.
 
 Steps:
 1. Open the email and click the **document link**.  
-2. Verify the **OTP** sent to their email  .  
+2. Verify the **OTP** sent to their email.  
 3. Fill in the required details.  
 4. Click the **Signature Field** and choose:
    - **Type**
