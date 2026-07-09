@@ -41,7 +41,7 @@
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/cookie.css" rel="stylesheet" type="text/css" media="all" />
-	<script src=//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<style>
 		.fa {
 			padding: 0px;
@@ -178,7 +178,7 @@
   }
 </style> -->
 
-  
+<!-- Cover page -->
 
 	<style>
 		/* Cover background image */
@@ -192,9 +192,14 @@
 <style>
   /* Cover page background color update */
   section.cover {
-    background: linear-gradient(135deg, #27B5D8, #B0D8E4) !important;
+    background: linear-gradient(135deg, #172554, #034b61) !important;
+	/* background: url('_media/Cover_Page_Image.png') center center / cover no-repeat !important; */
+
   }
+  
 </style>
+
+<!-- Sidebar Navigation -->
 
 <style>
   /* Sidebar tab navigation */
@@ -212,7 +217,7 @@
 
   .sidebar-btn {
     display: block;
-    padding: 4px 0px;
+    padding: 0px 0px;
     background: #90ddf0;
     color: white !important;
     text-decoration: none;
@@ -235,7 +240,7 @@
     border-radius: 6px 6px 0 0;
     font-size: 11.5px;
     font-weight: 700;
-    color: #888;
+    color: #90ddf0;
     transition: color 0.18s, background 0.18s, border-color 0.18s;
     text-align: center;
     font-family: inherit;
@@ -251,7 +256,7 @@
   }
 
   .sidebar-tab-btn.active {
-    background: #fff;
+    background: #ffffff;
     color: #42b983;
     border-color: #42b983;
     border-bottom-color: #fff;
@@ -267,10 +272,212 @@
   }
 </style>
 
+<!-- Documentation hero -->
+
+<style>
+.doc-hero{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    padding:110px 20px 1px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.doc-hero-badge{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:fit-content;
+
+    margin:0 auto 30px;
+
+    gap:6px;
+    padding:8px 18px;
+
+    border:1px solid rgba(96,165,250,.4);
+    border-radius:30px;
+
+    background:rgba(59,130,246,.1);
+
+    color:#60a5fa;
+
+    font-size:13px;
+    font-weight:700;
+}
+
+
+.doc-hero h1{
+    max-width:800px;
+    margin:0 auto 25px;
+}
+
+.doc-hero h1 .grad{
+    background:linear-gradient(90deg,#60a5fa,#38bdf8);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
+
+.doc-hero p{
+    max-width:700px;
+    margin:0 auto 40px;
+}
+
+.doc-hero-pills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:14px;
+    max-width:920px;
+    margin:0 auto 36px;
+}
+
+.doc-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:12px 22px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:30px;
+    background:rgba(255,255,255,.04);
+    color:#fff !important;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+    text-shadow:none !important;
+    transition:background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.doc-pill:hover{
+    background:rgba(255,255,255,.09);
+    border-color:rgba(96,165,250,.5);
+    transform:translateY(-2px);
+}
+
+.doc-pill .arrow{
+    font-size:13px;
+}
+
+.doc-hero-btn{
+    display:inline-flex;
+    align-items:center;
+    padding:14px 32px;
+    border-radius:30px;
+    background:#2563eb;
+    color:#fff !important;
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+    text-shadow:none !important;
+    transition:background .2s ease, transform .2s ease;
+}
+
+.doc-hero-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+@media(max-width:991px){
+
+.doc-hero{
+    padding:130px 20px 70px;
+}
+
+.doc-hero h1{
+    font-size:36px;
+}
+
+.doc-hero p{
+    font-size:16px;
+}
+
+}
+
+@media(max-width:480px){
+
+.doc-hero h1{
+    font-size:28px;
+}
+
+.doc-pill{
+    font-size:13px;
+    padding:10px 16px;
+}
+
+
+
+}
+
+/* Neutralize docsify's default cover sizing so the hero renders at
+   natural height instead of being clipped/centered inside a fixed
+   100vh flex box. Only override when docsify has applied `.show` —
+   otherwise the cover never hides on route change. */
+section.cover{
+    display:none;
+}
+
+section.cover.show{
+    height:auto !important;
+    min-height:100vh;
+    display:block !important;
+}
+
+.markdown-section{
+    padding-top:20px !important;
+}
+
+.app-nav{
+    display:none !important;
+}
+
+.cover-main{
+    width:100% !important;
+    max-width:100% !important;
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    margin:0 auto !important;
+    padding:0 !important;
+
+    text-align:center !important;
+}
+
+.cover-h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: -17px;
+}
+
+.cover-p{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+</style>
+
+<link rel="stylesheet" href="header.css">
 
 </head>
 
 <body>
+	<div id="site-header"></div>
+	<script src="header.js"></script>
 	<div id="app"></div>
 	<script>
 		// Docsify configuration
@@ -289,8 +496,8 @@
 			mergeNavbar: true,
 			maxLevel: 4,
 			subMaxLevel: 2,
-			logo: './_media/Docu-logo.png',
-			name: 'virtualan',
+			// logo: './_media/Docu-logo.png',
+			// name: 'virtualan',
 			plugins: [
 				function (hook, vm) {
 					hook.afterEach(function (html) {
@@ -317,6 +524,10 @@
 						try { localStorage.setItem('docsActiveTab', tab); } catch(e) {}
 					}
 
+					function tabForPath(path) {
+						return path && path.indexOf('/API-Documentation/') === 0 ? 'api' : 'ui';
+					}
+
 					function injectTabs() {
 						var nav = document.querySelector('.sidebar-nav');
 						if (!nav || nav.querySelector('.sidebar-tabs')) return;
@@ -337,15 +548,102 @@
 								activateTab(this.getAttribute('data-tab'));
 							});
 						});
-
-						var saved = 'ui';
-						try { saved = localStorage.getItem('docsActiveTab') || 'ui'; } catch(e) {}
-						activateTab(saved);
 					}
 
 					hook.ready(injectTabs);
-					hook.doneEach(injectTabs);
+					hook.doneEach(function () {
+						injectTabs();
+						activateTab(tabForPath(vm.route.path));
+					});
 				},
+
+				// function(hook, vm) {
+				// 	hook.doneEach(function () {
+				// 		document.querySelectorAll('.doc-pill').forEach(function(btn) {
+				// 			btn.addEventListener('click', function(e) {
+				// 				const href = this.getAttribute('href');
+
+				// 				if (href && href.startsWith('#/')) {
+				// 					e.preventDefault();
+				// 					window.location.hash = href;
+				// 				}
+				// 			});
+				// 		});
+				// 	});
+				// },
+				// function (hook, vm) {
+				// 	// Docsify does not execute <script> tags embedded in coverpage/markdown
+				// 	// content, so the hero slider and mobile menu toggle are wired up here
+				// 	// instead, re-run after every render via doneEach.
+				// 	function initHeroSlider() {
+				// 		var slides = document.querySelectorAll('.hero-slider .slide');
+				// 		if (!slides.length) return;
+
+				// 		if (window.__heroSliderInterval) {
+				// 			clearInterval(window.__heroSliderInterval);
+				// 		}
+
+				// 		var dotsContainer = document.getElementById('heroSliderDots');
+				// 		var captionText = document.getElementById('sliderCaptionText');
+				// 		var dots = [];
+
+				// 		if (dotsContainer) {
+				// 			dotsContainer.innerHTML = '';
+				// 			slides.forEach(function () {
+				// 				var dot = document.createElement('span');
+				// 				dotsContainer.appendChild(dot);
+				// 				dots.push(dot);
+				// 			});
+				// 		}
+
+				// 		function render(index) {
+				// 			slides.forEach(function (s, i) { s.classList.toggle('active', i === index); });
+				// 			dots.forEach(function (d, i) { d.classList.toggle('active', i === index); });
+				// 			if (captionText) captionText.textContent = slides[index].getAttribute('data-title') || '';
+				// 		}
+
+				// 		var current = 0;
+				// 		render(current);
+
+				// 		window.__heroSliderInterval = setInterval(function () {
+				// 			current = (current + 1) % slides.length;
+				// 			render(current);
+				// 		}, 3000);
+				// 	}
+
+				// 	function initMobileMenu() {
+				// 		var toggle = document.getElementById('menuToggle');
+				// 		var menu = document.getElementById('mobileMenu');
+				// 		if (!toggle || !menu || toggle.dataset.bound) return;
+				// 		toggle.dataset.bound = 'true';
+
+				// 		function closeMenu() {
+				// 			menu.classList.remove('open');
+				// 			toggle.setAttribute('aria-expanded', 'false');
+				// 		}
+
+				// 		toggle.addEventListener('click', function () {
+				// 			var isOpen = menu.classList.toggle('open');
+				// 			toggle.setAttribute('aria-expanded', String(isOpen));
+				// 		});
+
+				// 		menu.querySelectorAll('a').forEach(function (link) {
+				// 			link.addEventListener('click', closeMenu);
+				// 		});
+
+				// 		document.addEventListener('click', function (e) {
+				// 			if (!menu.contains(e.target) && !toggle.contains(e.target)) closeMenu();
+				// 		});
+				// 	}
+
+				// 	function initHero() {
+				// 		initHeroSlider();
+				// 		initMobileMenu();
+				// 	}
+
+				// 	hook.ready(initHero);
+				// 	hook.doneEach(initHero);
+				// },
 			],
 		};
 	</script>

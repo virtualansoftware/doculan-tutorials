@@ -1,45 +1,62 @@
-<!-- Logo -->
-<p align="center">
-  <img src="_media/docu-mini-logo.png" width="90" />
-</p>
+<!-- Documentation hero -->
+<div class="doc-hero">
 
-<!-- Product Image / Icon -->
-<p align="center">
-  <img src="_media/doculan-mini.png" width="120" />
-</p>
+  <div class="doc-hero-badge">&#128218; DOCUMENTATION</div>
 
-<!-- # Doculan -->
+ <div class="cover-h1">
+  <h1>
+    Guides &amp; Tutorials for<br>
+    <span class="grad">Every Doculan Workflow</span>
+  </h1>
+  </div>
 
-<!-- <p align="center">
-  <strong>Doculan</strong>
-</p> -->
+  <div class="cover-p">
+  <p>
+    From e-signatures to contract lifecycle management, explore step-by-step
+    guides that help your team get the most out of every Doculan feature.
+  </p>
+  </div>
 
-> **Doculan** is an all-in-one platform to create documents and forms, manage contacts, and securely **E-Sign** files with ease.
+  <div class="doc-hero-pills">
 
-<p align="center">
-  <strong>Fast • Simple • Lightweight Platform</strong>
-</p>
-
-<br/>
-
-<!-- HEAD -->
-<!-- [GitHub](https://github.com/virtualansoftware) -->
-
-<!-- [Getting Started](README.md) -->
-
-
-<p align="center">
-  <a href="#/README">
-    <button style="
-      background:#2bb673;
-      color:#fff;
-      border:none;
-      font-size:16px;
-      border-radius:30px;
-      cursor:pointer;
-    ">
-      Getting Started
-    </button>
+  <a class="doc-pill" href="#/E_Sign/single-party-document">
+    E-Signature <span class="arrow">&#8594;</span>
   </a>
-</p>
-<!-- cdbe3811c0fae7688eb369129ddcab8c977b8f67 -->
+
+  <a class="doc-pill" href="#/VDR/virtual_data_room">
+    Virtual Data Room <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/Document/Documents_Create">
+    Document Editor <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/Forms/Form_Create">
+    Form Management <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/PDF_Editor/Merge_pdf">
+    PDF Editor <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/Notes_Taker/notes_taker">
+    Note Taker <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/Library_Management/Library">
+    Library Management <span class="arrow">&#8594;</span>
+  </a>
+
+  <a class="doc-pill" href="#/API-Documentation/API-Overview">
+    API Documentation <span class="arrow">&#8594;</span>
+  </a>
+
+</div>
+
+  <div class="doc-hero-cta">
+    <a href="#/README" class="doc-hero-btn">Getting Started</a>
+  </div>
+
+<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+
+</div>
