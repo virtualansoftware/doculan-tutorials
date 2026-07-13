@@ -138,6 +138,7 @@
     - [Version 0.11.1](releaseNotes/version_0.11.1.md)
     - [Version 0.11.2](releaseNotes/version_0.11.2.md)
     - [Version 0.12.0](releaseNotes/version_0.12.0.md)
+    - [Version 0.13.0](releaseNotes/version_0.13.0.md)
 
 </div>
 
