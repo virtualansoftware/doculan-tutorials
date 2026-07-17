@@ -40,7 +40,7 @@ Custom date formats are now supported for eSign date fields. The selected format
 
 A new copy button allows files to be duplicated from one folder to another. This improves file management without impacting the original document.
 
-<a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Document_Management/Copy+File.mp4" target="_blank">
+<a href="https://youtu.be/rSiPrEJg5Sw" target="_blank">
   Which Video Here.
 </a>
 

@@ -192,11 +192,13 @@
 <style>
   /* Cover page background color update */
   section.cover {
-    background: linear-gradient(135deg, #172554, #034b61) !important;
+    background: linear-gradient(135deg, #0f172a, #032859) !important;
 	/* background: url('_media/Cover_Page_Image.png') center center / cover no-repeat !important; */
 
   }
   
+   
+
 </style>
 
 <!-- Sidebar Navigation -->
@@ -280,7 +282,11 @@
     max-width:1400px;
     margin:0 auto;
     padding:110px 20px 1px;
-
+	font-family:  ui-sans-serif, system-ui, sans-serif,
+                 "Apple Color Emoji",
+                 "Segoe UI Emoji",
+                 "Segoe UI Symbol",
+                 "Noto Color Emoji";
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -308,7 +314,7 @@
 
     color:#60a5fa;
 
-    font-size:13px;
+    font-size:10px;
     font-weight:700;
 }
 
@@ -316,18 +322,33 @@
 .doc-hero h1{
     max-width:800px;
     margin:0 auto 25px;
+
+    font-size:70px;
+    font-weight:700 !important;   /* Make bold */
+    line-height:1.1;
+    color:#ffffff;
 }
 
+
 .doc-hero h1 .grad{
-    background:linear-gradient(90deg,#60a5fa,#38bdf8);
+    /* background:linear-gradient(90deg,#37C3F2); */
+	background: #60d6fd;
+	color: #ffffff;
     -webkit-background-clip:text;
     background-clip:text;
     color:transparent;
+	font-weight:700;
 }
 
 .doc-hero p{
-    max-width:700px;
-    margin:0 auto 40px;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: #B8C7E0;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .doc-hero-pills{
@@ -349,8 +370,8 @@
     background:rgba(255,255,255,.04);
     color:#fff !important;
     text-decoration:none;
-    font-size:14px;
-    font-weight:600;
+    font-size:12px;
+    font-weight:lighter;
     text-shadow:none !important;
     transition:background .2s ease, border-color .2s ease, transform .2s ease;
 }
@@ -373,8 +394,8 @@
     background:#2563eb;
     color:#fff !important;
     text-decoration:none;
-    font-weight:700;
-    font-size:15px;
+    font-weight:600;
+    font-size:12px;
     text-shadow:none !important;
     transition:background .2s ease, transform .2s ease;
 }
@@ -470,7 +491,7 @@ html, body{
 
 
 .doc-fot{
-    font-size:16px;
+    font-size:12px;
 	color:#fff !important;
 	padding-bottom: 0px;
 
@@ -610,93 +631,7 @@ html {
 					});
 				},
 
-				// function(hook, vm) {
-				// 	hook.doneEach(function () {
-				// 		document.querySelectorAll('.doc-pill').forEach(function(btn) {
-				// 			btn.addEventListener('click', function(e) {
-				// 				const href = this.getAttribute('href');
-
-				// 				if (href && href.startsWith('#/')) {
-				// 					e.preventDefault();
-				// 					window.location.hash = href;
-				// 				}
-				// 			});
-				// 		});
-				// 	});
-				// },
-				// function (hook, vm) {
-				// 	// Docsify does not execute <script> tags embedded in coverpage/markdown
-				// 	// content, so the hero slider and mobile menu toggle are wired up here
-				// 	// instead, re-run after every render via doneEach.
-				// 	function initHeroSlider() {
-				// 		var slides = document.querySelectorAll('.hero-slider .slide');
-				// 		if (!slides.length) return;
-
-				// 		if (window.__heroSliderInterval) {
-				// 			clearInterval(window.__heroSliderInterval);
-				// 		}
-
-				// 		var dotsContainer = document.getElementById('heroSliderDots');
-				// 		var captionText = document.getElementById('sliderCaptionText');
-				// 		var dots = [];
-
-				// 		if (dotsContainer) {
-				// 			dotsContainer.innerHTML = '';
-				// 			slides.forEach(function () {
-				// 				var dot = document.createElement('span');
-				// 				dotsContainer.appendChild(dot);
-				// 				dots.push(dot);
-				// 			});
-				// 		}
-
-				// 		function render(index) {
-				// 			slides.forEach(function (s, i) { s.classList.toggle('active', i === index); });
-				// 			dots.forEach(function (d, i) { d.classList.toggle('active', i === index); });
-				// 			if (captionText) captionText.textContent = slides[index].getAttribute('data-title') || '';
-				// 		}
-
-				// 		var current = 0;
-				// 		render(current);
-
-				// 		window.__heroSliderInterval = setInterval(function () {
-				// 			current = (current + 1) % slides.length;
-				// 			render(current);
-				// 		}, 3000);
-				// 	}
-
-				// 	function initMobileMenu() {
-				// 		var toggle = document.getElementById('menuToggle');
-				// 		var menu = document.getElementById('mobileMenu');
-				// 		if (!toggle || !menu || toggle.dataset.bound) return;
-				// 		toggle.dataset.bound = 'true';
-
-				// 		function closeMenu() {
-				// 			menu.classList.remove('open');
-				// 			toggle.setAttribute('aria-expanded', 'false');
-				// 		}
-
-				// 		toggle.addEventListener('click', function () {
-				// 			var isOpen = menu.classList.toggle('open');
-				// 			toggle.setAttribute('aria-expanded', String(isOpen));
-				// 		});
-
-				// 		menu.querySelectorAll('a').forEach(function (link) {
-				// 			link.addEventListener('click', closeMenu);
-				// 		});
-
-				// 		document.addEventListener('click', function (e) {
-				// 			if (!menu.contains(e.target) && !toggle.contains(e.target)) closeMenu();
-				// 		});
-				// 	}
-
-				// 	function initHero() {
-				// 		initHeroSlider();
-				// 		initMobileMenu();
-				// 	}
-
-				// 	hook.ready(initHero);
-				// 	hook.doneEach(initHero);
-				// },
+				
 			],
 		};
 	</script>
