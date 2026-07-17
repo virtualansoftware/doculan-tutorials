@@ -1,7 +1,7 @@
 <!-- Documentation hero -->
 <div class="doc-hero">
 
-  <div class="doc-hero-badge">&#128218; DOCUMENTATION</div>
+  <div class="doc-hero-badge">&#128214; DOCUMENTATION</div>
 
  <div class="cover-h1">
   <h1>
@@ -51,18 +51,18 @@
     API Documentation <span class="arrow">&#8594;</span>
   </a>
 
-</div>
+ </div>
 
   <div class="doc-hero-cta">
     <a href="#/README" class="doc-hero-btn">Getting Started</a>
   </div>
-<p>
+ <p>
                                                            
   </p>
    <div class="doc-fot">
     <a href="#/README" class="doc-fot">Scroll Down</a>
   </div>
 
-  <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+   <a href="#/README"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
   
 </div>

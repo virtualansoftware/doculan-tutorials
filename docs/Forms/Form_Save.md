@@ -29,35 +29,36 @@ The **Save Form** option allows you to store a form without sending it, enabling
 
 ---
 
- **Demo Video:**
+**Demo Video:**
 <!-- Inline HTML in Markdown file -->
 <style>
 .video-wrap {
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 4px;
   width: 100%;
   max-width: 800px;
   overflow: hidden;
   margin-bottom: 1rem;
+  line-height: 0; /* removes iframe gaps */
 }
-.video-wrap video {
+
+.video-wrap iframe {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
-<div class="video-wrap" role="region" aria-label="Demo: Creating a form">
-  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Save_Form.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Save_Form.mp4.webm" type="video/webm">
-    <!-- Fallback link if browser can't play video -->
-    Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Forms/Save_Form.mp4" target="_blank" rel="noopener">Download / Open video</a>
-  </video>
+<div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
+  <iframe
+    src="https://www.youtube.com/embed/aExDuJoCFBs"
+    title="Demo Video"
+    allowfullscreen>
+  </iframe>
 </div>
-
 
 > The above **Video** represent that how to **Save Forms**.
 

@@ -4,7 +4,7 @@
 
 The **Custom Labels** feature allows users to create, organize, and manage labels for documents and contracts. Labels help categorize content, improve document organization, and make it easier to search, filter, and identify documents within the system. Users can create custom labels, assign them to documents or contracts, edit existing labels, and remove labels when they are no longer needed. This feature enhances document management and improves overall workflow efficiency.
 
-<a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/E_Signature/Field+Labels.mp4" target="_blank">
+<a href="https://youtu.be/1pG5EKQ9CNI" target="_blank">
  Click Here to Watch the Video.
 </a> 
 
@@ -20,7 +20,7 @@ The **Custom Labels** feature allows users to create, organize, and manage label
 
 The **Custom Branding Banner** feature allows administrators to upload and manage a custom banner image for their organization. The banner is displayed in the application header and helps personalize the platform with company branding. Users can upload a new banner, replace an existing banner, or remove the current banner as needed. This feature enhances brand visibility and provides a customized experience for all users within the organization.
 
-<a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Settings/Banner.mp4" target="_blank">
+<a href="https://youtu.be/Khl06BJ6sA0" target="_blank">
  Click Here to Watch the Video.
 </a>
 <br><br>
@@ -35,7 +35,7 @@ The **Custom Branding Banner** feature allows administrators to upload and manag
 
 The **Account Deactivation Controls** feature allows administrators to temporarily disable a user account without permanently deleting it. Once an account is deactivated, the user can no longer log in or access the platform. However, all user data, documents, permissions, and activity history are retained and can be restored if the account is reactivated in the future.
 
-<a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Settings/Deactivate.mp4" target="_blank">
+<a href="https://youtu.be/jjC05X8WqAE" target="_blank">
  Click Here to Watch the Video.
 </a> 
 

@@ -32,6 +32,45 @@
     });
   }
 
+  // Close delay covers the moment the cursor crosses the visual gap between
+  // the trigger and the mega-menu panel, where neither element is hovered.
+  var MEGA_CLOSE_DELAY = 200;
+
+  function initMegaMenus() {
+    var dropdowns = document.querySelectorAll('.mega-dropdown');
+
+    dropdowns.forEach(function (dropdown) {
+      if (dropdown.dataset.megaBound === 'true') return;
+      dropdown.dataset.megaBound = 'true';
+
+      var closeTimer = null;
+
+      function openMenu() {
+        if (closeTimer !== null) {
+          clearTimeout(closeTimer);
+          closeTimer = null;
+        }
+        dropdown.classList.add('mega-open');
+      }
+
+      function scheduleClose() {
+        if (closeTimer !== null) clearTimeout(closeTimer);
+        closeTimer = setTimeout(function () {
+          dropdown.classList.remove('mega-open');
+          closeTimer = null;
+        }, MEGA_CLOSE_DELAY);
+      }
+
+      // mouseenter/mouseleave don't bubble and are computed from the DOM
+      // ancestry of the hovered element, so both the trigger <a> and the
+      // .mega-menu panel (its sibling inside .mega-dropdown) keep this
+      // listener's target "entered" while hovering either — only the empty
+      // gap between them counts as a leave, which scheduleClose absorbs.
+      dropdown.addEventListener('mouseenter', openMenu);
+      dropdown.addEventListener('mouseleave', scheduleClose);
+    });
+  }
+
   function loadHeader() {
     var mount = document.getElementById('site-header');
     if (!mount || mount.dataset.loaded === 'true') return;
@@ -45,6 +84,7 @@
         mount.innerHTML = html;
         mount.dataset.loaded = 'true';
         initMobileMenu();
+        initMegaMenus();
       })
       .catch(function (err) {
         console.error('[header.js] Unable to load header:', err);
