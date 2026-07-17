@@ -65,3 +65,36 @@ QR Codes provide an efficient method for participants to **access and submit for
 > **Note:** QR Codes for Forms can be generated only when the form status is **Opened**, **Sent**, or **Resent**.
 
 ---
+
+**Demo Video:**
+<!-- Inline HTML in Markdown file -->
+<style>
+.video-wrap {
+  border: 2px solid #000;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  line-height: 0; /* removes iframe gaps */
+}
+
+.video-wrap iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+<div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
+  <iframe
+    src="https://www.youtube.com/embed/W9P50cvZfLY"
+    title="Demo Video"
+    allowfullscreen>
+  </iframe>
+</div>
+
+> The above **Video** represent the how to use the **Generate QR Code for Forms** feature in Doculan.

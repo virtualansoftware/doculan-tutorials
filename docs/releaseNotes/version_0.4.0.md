@@ -37,29 +37,31 @@ This significantly reduces manual field configuration and speeds up document pre
 <!-- Inline HTML in Markdown file -->
 <style>
 .video-wrap {
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 4px;
   width: 100%;
   max-width: 800px;
   overflow: hidden;
   margin-bottom: 1rem;
+  line-height: 0; /* removes iframe gaps */
 }
-.video-wrap video {
+
+.video-wrap iframe {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
-<div class="video-wrap" role="region" aria-label="Demo: AI Field Detection">
-  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="">
-  <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/AI+field+detection.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/AI+field+detection.webm" type="video/webm">
-    <!-- Fallback link if browser can't play video -->
-    Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/AI+field+detection.mp4" target="_blank" rel="noopener">Download / Open video</a>
-  </video>
+<div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
+  <iframe
+    src="https://www.youtube.com/embed/D36cLSM5AK0"
+    title="Demo Video"
+    allowfullscreen>
+  </iframe>
 </div>
 
 > The above **Video** represent how to use the **AI Field Detection** feature in Doculan.
@@ -84,30 +86,33 @@ Doculan’s AI automatically builds the complete form layout with all required f
 <!-- Inline HTML in Markdown file -->
 <style>
 .video-wrap {
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 4px;
   width: 100%;
   max-width: 800px;
   overflow: hidden;
   margin-bottom: 1rem;
+  line-height: 0; /* removes iframe gaps */
 }
-.video-wrap video {
+
+.video-wrap iframe {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
-<div class="video-wrap" role="region" aria-label="Demo: AI Form Generation">
-  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="">
-  <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/Form+Generation+with+AI.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/Form+Generation+with+AI.webm" type="video/webm">
-    <!-- Fallback link if browser can't play video -->
-    Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/Form+Generation+with+AI.mp4" target="_blank" rel="noopener">Download / Open video</a>
-  </video>
+<div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
+  <iframe
+    src="https://www.youtube.com/embed/7IrueMrRXqU"
+    title="Demo Video"
+    allowfullscreen>
+  </iframe>
 </div>
+
 
 > The above **Video** represent how to use **AI Form Generation** feature in Doculan.
 
@@ -135,30 +140,33 @@ Once the document is fully signed, users can compare **all parties’ submitted 
 <!-- Inline HTML in Markdown file -->
 <style>
 .video-wrap {
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 4px;
   width: 100%;
   max-width: 800px;
   overflow: hidden;
   margin-bottom: 1rem;
+  line-height: 0; /* removes iframe gaps */
 }
-.video-wrap video {
+
+.video-wrap iframe {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 </style>
 
-<div class="video-wrap" role="region" aria-label="Demo: PDF Form Comparison">
-  <!-- Use a relative path like ./videos/demo.mp4 or an absolute URL -->
-  <video controls poster="">
-  <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/Form+Comparison.mp4" type="video/mp4">
-    <source src="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_video/Special_Features/Form+Comparison.webm" type="video/webm">
-    <!-- Fallback link if browser can't play video -->
-    Your browser does not support the video tag. 
-    <a href="https://doculan-storage-public.s3.us-east-1.amazonaws.com/demo_videoSpecial_Features//Form+Comparison.mp4" target="_blank" rel="noopener">Download / Open video</a>
-  </video>
+<div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
+  <iframe
+    src="https://www.youtube.com/embed/z8sHYfQJYic"
+    title="Demo Video"
+    allowfullscreen>
+  </iframe>
 </div>
+
 
 > The above **Video** represent the how to use the **PDF Form Comparison** feature in Doculan.
 
