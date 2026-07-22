@@ -26,6 +26,7 @@
     - [How to use Images & Underlines Fields?](E_Sign/Image-and-Underline.md)
     - [How to Use Email Templates?](E_Sign/Email_Template.md)
     - [How to create Custom Labels?](E_Sign/Custom-Label.md)
+    - [How to Use Contract Remainder?](E_Sign/Contract-Remainder.md)
 
 - **Wet Signature**
     - [How to use Wet-Signature?](Wet-Signature/WetSign.md)
