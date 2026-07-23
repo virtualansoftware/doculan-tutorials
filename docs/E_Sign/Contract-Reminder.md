@@ -1,6 +1,6 @@
-# How to use contract Remainder?
+# How to use contract Reminder?
 
-**Contract Lifecycle Management (CLM)** helps organizations create, review, approve, sign, store, and manage contracts throughout their entire lifecycle. It streamlines contract processes, improves visibility, and ensures compliance by keeping all contract-related activities in a centralized system.
+**Contract Reminder** helps you stay informed about important contract renewal and expiration dates. You can set reminder dates, configure notification schedules, and receive timely alerts before a contract expires or requires action. All reminders can be viewed, updated, or canceled from the Contract Renewal Tracking page, helping you manage contract renewals efficiently and avoid missed deadlines.
 
 ---
 <!-- 
@@ -45,7 +45,8 @@ Once the AI completes the contract extraction process, review all generated info
 
 <img src=" screenshots\CLM\CLM-Overview.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-## Review Party Information
+
+## Step 3: Review Party Information
 
 Verify the details of all parties involved in the contract.
 Ensure the following information is accurate:
@@ -153,7 +154,8 @@ Review AI-generated clause analysis and risk indicators to identify contractual 
 
 ---
 
-## Approve and Save the Contract
+
+## Step 4: Approve and Save the Contract
 
 After completing the review and validation process:
 1. Make any necessary updates to the contract information.
@@ -168,7 +170,7 @@ After completing the review and validation process:
 
 ---
 
-## Step 4: Manage Contract Renewals
+## Step 5: Manage Contract Renewals
 
 1. Navigate to the **Contracts Dashboard**.
 
@@ -200,15 +202,13 @@ After completing the review and validation process:
 
 ---
 
-## Key Benefits of CLM
+## Key Benefits of Contract Remainder
 
-- Centralized contract repository
-- Automated data extraction using AI
-- Simplified contract review and approval process
-- Renewal and expiration tracking
-- Automated reminders and alerts
-- Improved compliance and contract visibility
-- Secure storage and lifecycle management
+- Track contract renewal and expiry dates.
+- Receive timely reminder notifications.
+- Avoid missed renewal deadlines.
+- Manage reminders from one place.
+- Improve contract lifecycle management.
 
 ---
 
