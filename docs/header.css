@@ -16,16 +16,17 @@
     box-sizing: border-box;
     z-index: 9999;
     box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
 
 
 .logo img {
-    height: 30px;
+    height: 40px;
 }
 
 .logo {
-    width: 35px;
+    width: 42px;
     height: auto;
     display: block;
 }
@@ -42,11 +43,11 @@
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    margin-left: 60px;
+    margin-left: 42px;
 }
 
 .brand-text {
@@ -57,31 +58,31 @@
 }
 
 .brand-name {
-    font-family: 'Impact', sans-serif; /* Better than Impact */
-    font-size: 20px;
-    font-weight: 200;
+    font-family: "Impact", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
     color: #0B4A8B;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.px;
     margin: 0;
 }
 
 .brand-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-size: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
     font-weight: 800;
     color: #0B4A8B;
     text-align: right;
-    margin-top: 4px;
-    letter-spacing: 0.3px;
+    margin-top: 6px;
+    letter-spacing: 0.2px;
 }
 
 .hero-header nav{
     position: absolute;
-    left: 50%;
+    left: 42%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 29px;
 
     margin-left: 0; /* remove margin */
 }
@@ -89,13 +90,9 @@
 .hero-header nav a {
     text-decoration: none;
     color: #374151;
-    font-family:  ui-sans-serif, system-ui, sans-serif,
-                 "Apple Color Emoji",
-                 "Segoe UI Emoji",
-                 "Segoe UI Symbol",
-                 "Noto Color Emoji";
-    font-size: 16px;
-    font-weight: 600;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     gap: 4px;
@@ -128,8 +125,9 @@
 .header-buttons {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
     margin-left: auto;
+    margin-right: 40px;
 }
 
 /* Common Button Style */
@@ -139,11 +137,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
+    height: 38px;
     padding: 0 18px;
     border-radius: 8px;
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
     text-decoration: none;
     white-space: nowrap;
@@ -304,7 +302,7 @@
 
 .mobile-menu {
     position: fixed;
-    top: 80px;
+    top: 78px;
     left: 0;
     width: 100%;
     background: #fff;
@@ -389,7 +387,7 @@
    ============================================================ */
 
 .sidebar {
-    top: 76px !important;
+    top: 74px !important;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -399,13 +397,50 @@
 }
 
 .markdown-section {
-    padding-top: 96px !important;
+    padding-top: 94px !important;
 }
 
+/* ------------------------------------------------------------------
+   z-index stack (mobile + desktop):
+     .hero-header    9999  – custom fixed header, always on top
+     .mobile-menu    9998  – custom header's own nav dropdown
+     .sidebar-toggle   45  – docsify hamburger, must sit above .sidebar
+     .sidebar          20  – docsify default, unchanged
+   ------------------------------------------------------------------ */
 @media (max-width: 991px) {
-    .sidebar,
+    .sidebar {
+        top: 64px !important;
+    }
+
+    /* Docsify's default .sidebar-toggle is `position:fixed; bottom:0`
+       with no `top`. Pinning `top` here without clearing `bottom`
+       stretches the button into a full-height layer (z-index 30) that
+       sits above .sidebar (z-index 20) and swallows every tap meant
+       for the nav links underneath it. Reset bottom/height so it stays
+       a normal small button anchored just under the fixed header. */
     .sidebar-toggle {
         top: 64px !important;
+        bottom: auto !important;
+        left: 10px !important;
+        width: 44px !important;
+        height: 44px !important;
+        padding: 0 !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff !important;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+        z-index: 45;
+    }
+
+    .sidebar-toggle span:last-child {
+        margin-bottom: 0;
+    }
+
+    body.close .sidebar-toggle {
+        width: 44px !important;
     }
 
     .markdown-section {
