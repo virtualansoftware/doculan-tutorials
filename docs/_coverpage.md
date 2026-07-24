@@ -1,7 +1,7 @@
 <!-- Documentation hero -->
 <div class="doc-hero">
 
-  <div class="doc-hero-badge">&#128214; DOCUMENTATION</div>
+  <div class="doc-hero-badge">&#128218; DOCUMENTATION</div>
 
  <div class="cover-h1">
   <h1>

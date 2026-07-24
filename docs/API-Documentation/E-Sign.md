@@ -882,7 +882,7 @@ This API uses **API Key authentication only (no login required)** and returns a 
 
 ```
 
-GET /api/v1/documents/auth/redirect
+POST /api/v1/documents/auth/redirect
 
 ```
 
@@ -1576,7 +1576,7 @@ This API retrieves a **list of all variable registries** available in the system
 ### **Endpoint**
 
 ```` 
-GET /api/v1/documents/variable-registry
+GET /api/v1/documents/variable-registry/
 ````
 ---
 
@@ -1701,7 +1701,7 @@ The **Get Variable Registry API** is used to retrieve all available variables st
 ### **Endpoint**
 
 ```` 
-POST /api/v1/documents/variable-registry/{variable}
+GET /api/v1/documents/variable-registry/{variable}
 ````
 ---
 
@@ -2566,7 +2566,7 @@ Retrieves a list of all document statuses.
 ### **Endpoint**
 
 ```` 
-GET api/v1/documents/status/
+GET /api/v1/documents/status/
 ````
 ---
 
@@ -3618,11 +3618,87 @@ json
 
 ---
 
+## **Webhook Configuration**
+
+The **Webhook Configuration** feature allows you to configure a callback URL to receive a real-time notification when a document has been successfully signed and completed in Doculan AI. Once all required parties complete the signing process, Doculan automatically sends an HTTP POST request containing the completed document details to the configured webhook endpoint. This enables external applications to automatically update document status, synchronize records, and trigger post-signing workflows without manual intervention.
+
+---
+
+## 🔹Webhook Specification
+
+The Webhook Specification section provides the details of the webhook request that Doculan sends to your server.
+
+#### URL
+
+The **Callback URL** is the endpoint in your application that receives webhook notifications.
+
+#### HTTP Method
+
+````
+POST
+
+````
+Webhook notifications are always sent using the HTTP POST method.
+
+#### Content Type
+
+````
+application/json
+
+````
+
+The webhook payload is sent in JSON format.
 
 
+#### Request Body
 
+The webhook request contains important information about the completed document.
 
+````
+json
 
+{
+  "document_id": "string",
+  "document_name": "string",
+  "tracking_id": "string",
+  "status": "completed",
+  "parties": [
+    {
+      "id": "string",
+      "email": "signer@example.com",
+      "name": "Signer Name"
+    }
+  ]
+}
+
+````
+
+#### Callback URL
+
+The **Callback URL** field is where you enter your server endpoint that will receive webhook notifications.
+
+Example:
+
+````
+http://localhost:8001/webhook/document-completion/
+
+````
+
+Replace this URL with your production webhook endpoint before deploying your application.
+
+#### Auth Token
+
+The **Auth Token** is a secret token configured by your organization.
+
+This token is included in every webhook request through the Authorization header, allowing your application to:
+
+- Verify the request source
+- Prevent unauthorized webhook requests
+- Secure communication between Doculan and your application
+
+<img src="screenshots\releaseNotes\Webhook.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+---
 
 
 
