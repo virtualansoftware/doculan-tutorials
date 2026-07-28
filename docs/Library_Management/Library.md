@@ -134,7 +134,7 @@ You can now access, edit, and use the duplicated document from these locations a
 
 <div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
   <iframe
-    src="https://www.youtube.com/embed/DpmyzMvZmnM"
+    src="https://www.youtube.com/embed/PGh996iBUv8?si=q3te7ILlpC1GRDYf"
     title="Demo Video"
     allowfullscreen>
   </iframe>
