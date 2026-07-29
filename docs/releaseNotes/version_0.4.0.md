@@ -107,7 +107,7 @@ Doculan’s AI automatically builds the complete form layout with all required f
 
 <div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
   <iframe
-    src="https://www.youtube.com/embed/7IrueMrRXqU"
+    src="https://www.youtube.com/embed/mdIRwQ0xLFo?si=2TiSd5j6Y3I9cIjY"
     title="Demo Video"
     allowfullscreen>
   </iframe>
@@ -161,7 +161,7 @@ Once the document is fully signed, users can compare **all parties’ submitted 
 
 <div class="video-wrap" role="region" aria-label="Demo: Creating an E-Sign">
   <iframe
-    src="https://www.youtube.com/embed/z8sHYfQJYic"
+    src="https://www.youtube.com/embed/D9YZWTxH1FE?si=ebl14QSNbmW7Yi8f"
     title="Demo Video"
     allowfullscreen>
   </iframe>

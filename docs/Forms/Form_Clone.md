@@ -18,7 +18,10 @@ This feature streamlines recurring form workflows, saving time while ensuring co
 
 **Screenshot 1:**
 
-<img src="screenshots\Forms\Form-Clone.png" alt="Step 1 — Clone the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+<img src="screenshots\Forms\Form-Clone.png" alt="Step 1 — Clone the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+
+<img src="screenshots\Forms\Form-Clone2.png" alt="Step 1 — Clone the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 > The above **Screenshot** represent that how to **Clone Form.**
 

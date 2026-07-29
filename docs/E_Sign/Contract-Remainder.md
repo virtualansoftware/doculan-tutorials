@@ -1,6 +1,6 @@
-# How to use contract Reminder?
+# How to use contract Remainder?
 
-**Contract Reminder** helps you stay informed about important contract renewal and expiration dates. You can set reminder dates, configure notification schedules, and receive timely alerts before a contract expires or requires action. All reminders can be viewed, updated, or canceled from the Contract Renewal Tracking page, helping you manage contract renewals efficiently and avoid missed deadlines.
+**Contract Remainder** helps you stay informed about important contract renewal and expiration dates. You can set reminder dates, configure notification schedules, and receive timely alerts before a contract expires or requires action. All reminders can be viewed, updated, or canceled from the Contract Renewal Tracking page, helping you manage contract renewals efficiently and avoid missed deadlines.
 
 ---
 <!-- 

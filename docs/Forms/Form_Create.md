@@ -27,6 +27,7 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 - Accepted file types 
 - Maximum file size (MB)
 - Allow multiple files 
+
 **Screenshot 1:**
 
 <img src="screenshots\Forms\CreateForm1.png" alt="Step 1 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
@@ -35,15 +36,15 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 
 <img src="screenshots\Forms\CreateForm2.png" alt="Step 1 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
+<!-- **Screenshot 3:** -->
+
+<!-- <img src="screenshots\Forms\CreateForm.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"> -->
+
 **Screenshot 3:**
-
-<img src="screenshots\Forms\CreateForm.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
-
-**Screenshot 4:**
 
 <img src="screenshots\Forms\CreateForm3.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
-**Screenshot 5:**
+**Screenshot 4:**
 
 <img src="screenshots\Forms\CreateForm4.png" alt="Step 2 — Create the Form" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
@@ -84,6 +85,11 @@ Follow the step-by-step instructions to efficiently create, send, manage, and an
 <img src="screenshots\Forms\RepSub2.png" alt="Step 1 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 **Screenshot 3:**
+
+<img src="screenshots\Forms\RepSub4.png" alt="Step 2 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+**Screenshot 4:**
+
 
 <img src="screenshots\Forms\RepSub3.png" alt="Step 2 — Recipient Submission" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
