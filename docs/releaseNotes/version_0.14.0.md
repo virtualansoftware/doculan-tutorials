@@ -1,6 +1,6 @@
 # 🚀 Version 0.14.0 – New Enhancements
 
-##  **Virtual Data Room (VDR)**
+## 1️⃣ **Virtual Data Room (VDR)**
 
 The **Virtual Data Room (VDR)** is a secure digital workspace for storing, managing, and sharing confidential documents with internal teams and external stakeholders. It provides granular access controls, activity tracking, and secure collaboration features to ensure sensitive information is shared only with authorized users. VDR is ideal for due diligence, mergers and acquisitions, audits, legal transactions, fundraising, and other business processes that require secure document sharing.
 
