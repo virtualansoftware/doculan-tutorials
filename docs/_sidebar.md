@@ -141,6 +141,7 @@
     - [Version 0.13.0](releaseNotes/version_0.13.0.md)
     - [Version 0.14.0](releaseNotes/version_0.14.0.md)
     - [Version 0.14.1](releaseNotes/version_0.14.1.md)
+    - [Version 0.14.2](releaseNotes/version_0.14.2.md)
 
 </div>
 
