@@ -56,7 +56,7 @@
 
 - **Contract**
     - [How to use contract Lifecycle Management?](E_Sign/Contract-Lifecycle.md)
-    - [How to Set a Contract Renewal Reminder?](E_Sign/Contract-Reminder.md)
+    - [How to Set a Contract Renewal Reminder?](E_Sign/Contract-Remainder.md)
 
 
 ---
