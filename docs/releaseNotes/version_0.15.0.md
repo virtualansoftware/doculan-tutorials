@@ -6,6 +6,10 @@ Updated the **Email Layout** feature to support multiple document workflows, inc
 
 Each layout can be managed with **Preview, Edit, and Delete** options, allowing users to easily customize and maintain separate email templates for different document activities. This provides a consistent and professional email experience across all supported modules.
 
+<a href="https://youtu.be/tbs9On8dP1M" target="_blank">
+ Click Here to Watch the Video.
+</a> 
+
 <img src="screenshots/Email_layout/Email_Layout_Customization1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Email Layout Customization"><br>
 
 <img src="screenshots/Email_layout/Email_Layout_Customization2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Email Layout Customization"><br>
@@ -19,6 +23,10 @@ Each layout can be managed with **Preview, Edit, and Delete** options, allowing 
 Added the **Revoke Document** functionality for completed and signed **E-Sign** contracts. Once a document is successfully completed and signed, the sender can revoke the document when required by providing a mandatory revoke reason.
 
 The revoked document is clearly marked as **REVOKED** and is no longer considered valid, while the original signed document and its signing history remain preserved for **audit and tracking purposes**.
+
+<a href="https://youtu.be/O_3rh6lk4YU" target="_blank">
+ Click Here to Watch the Video.
+</a> 
 
 <img src="screenshots/E-Sign_Images/Revoke_Completed_Document1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Revoke Completed Document"><br>
 
