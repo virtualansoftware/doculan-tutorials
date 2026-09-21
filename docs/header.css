@@ -78,7 +78,7 @@
 
 .hero-header nav{
     position: absolute;
-    left: 42%;
+    left: 36%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
@@ -264,6 +264,40 @@
 .mega-column a:hover .menu-icon{
     background: #dbeafe;
     color: #2563eb;
+}
+
+/* Toll Free */
+
+.phone-btn {
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 0 16px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        100deg,
+        #438df5,
+        #1bc6dc
+    );
+
+    box-shadow: 0 5px 20px rgba(42, 153, 225, 0.28);
+
+    white-space: nowrap;
+}
+
+.phone-btn i {
+    font-size: 13px;
 }
 
 /* Login */
