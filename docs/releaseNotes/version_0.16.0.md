@@ -67,3 +67,29 @@ The **Anonymous VDR Tiny URL** allows users to securely share a VDR folder throu
 <img src="screenshots\releaseNotes\VDR Tiny Link2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field">
 
 ---
+
+## 4️⃣ **Payment Field in Form**
+
+### New Feature
+
+The **Payment Field** in Forms allows form creators to collect payments directly from respondents as part of the form submission process. This feature combines data collection and payment processing into a single workflow, making it easier to manage registrations, bookings, applications, and other transactions.
+
+<a href="https://youtu.be/bweFB9LVG5o" target="_blank">
+ Click Here to Watch the Video.
+</a> 
+
+<img src="screenshots\releaseNotes\Payment Setting1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Setting3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Form.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Form1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Form2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Form3.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+<img src="screenshots\releaseNotes\Payment Form4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Form Ticket Field"><br>
+
+---
