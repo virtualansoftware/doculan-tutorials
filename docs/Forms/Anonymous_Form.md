@@ -38,12 +38,18 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 
 ### Configure the following options:
 
-| Option | Description |
-|--------|-------------|
-| Expiry Date | Set the date and time when the form link should expire |
-| Never Expire | Keeps the form link active permanently |
-| Allow Resubmit | Allows the same email address to submit multiple responses |
-| Redirect URL | Redirects users to another page after submission |
+
+| **Option** | **Description**|
+|------------|----------------|
+| **Never Expire**         | Keeps the public form link active indefinitely until it is manually disabled.|
+| **Allow Resubmit**       | Allows the same user to submit the form multiple times using the public link.|
+| **Send Email**           | Sends a copy of the completed form to the submitter’s email address.|
+| **Field Icons**          | Choose whether to display field-type icons next to field labels or hide them.|
+| **Redirect URL**         | Redirects users to the specified URL after they successfully submit the form.|
+| **Enable Tiny URL**      | Creates a shorter, easy-to-share URL instead of using the full form URL.|
+| **Alias**                | Allows you to define a custom name for the Tiny URL. Use lowercase letters and hyphens (`-`) to separate words.            |
+| **Generate Public Link** | Generates the public or anonymous form link based on the configured settings.|
+
 
 <img src="screenshots\Anonymous-form\Anonymous-Form-gnerate-link.png" alt="Step 2 — Configure Public Access" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
@@ -51,7 +57,14 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 
 ---
 
-## Step 3: Generate and Share the Public Link
+## Step 3: Generate and Share the  Form Link.
+
+The Public / Anonymous Form feature provides two options for generating and sharing a form link:
+
+1. Public Link
+2. Tiny URL
+
+ **Public Link**
 
 - Once the link is generated, the system displays:
   - Public Form URL
@@ -67,6 +80,43 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 <img src="screenshots\Anonymous-form\Anonymous-Form-public-link.png" alt="Step 3 — Public Link Management" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
 
 > The above screenshot represents how to manage and share the generated anonymous form link.
+
+---
+
+ **Tiny URL** 
+ 
+**Tiny URL** allows users to generate a shortened link for the public form, making it easier to share and remember.
+
+- Enable Tiny URL: Turn on to use a shortened form link.
+- Alias: Enter a custom name for the shortened URL.
+- Optional: Leave the Alias field blank to generate a random short URL automatically.
+- Generate Public Link: Click to create the shortened public form link.
+
+---
+
+**Tiny URL Configuration Guidelines**
+
+When entering a Short URL, follow these requirements:
+- Use lowercase letters only.
+- Spaces are not allowed.
+- Use the hyphen (-) to separate words.
+- Avoid uppercase letters and special characters.
+- Use a clear and descriptive name that identifies the form.
+
+<img src="screenshots\Anonymous-form\Anonymous-Form-Tiny-URL.png" alt="Step 3 — Public Link Management" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
+---
+
+**Tiny URL Generation**
+
+Once Enable **Tiny URL** is activated, the system successfully generates a shortened URL for the public form.
+
+The generated **Tiny URL** can be copied and shared with recipients, providing a concise and user-friendly alternative to the full form link.
+
+Example: The system displays the generated shortened URL in the Public / Anonymous Form link section.
+
+<img src="screenshots\Anonymous-form\Anonymous-Form-Tiny-URL-Created.png" alt="Step 3 — Public Link Management" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;">
+
 
 ---
 
@@ -162,15 +212,15 @@ Follow the step-by-step instructions below to create, share, manage, and review 
 - Navigate to the **Integration** tab.
 - Developers can integrate anonymous forms into external systems using API support.
 
-### Integration Details
+<!-- ### Integration Details
 
-| Item | Value |
+| Item | Value | -->
 
 ### API Usage
 - Use the **FORM ID** to identify the anonymous form.
 - Submit form responses using the provided API endpoint.
 - Send data through a **POST request**.
-- Submitted responses will appear in the **Submissions** section.\
+- Submitted responses will appear in the **Submissions** section.
 
 <img src="screenshots\Anonymous-form\Anonymous-Form-Intagaration1.png" alt="Step 8 — API Integration" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 

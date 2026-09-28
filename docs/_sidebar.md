@@ -51,6 +51,7 @@
 
 - **VDR**
     - [How to Use Viruala Dotd Room (VDR)?](VDR/virtual_data_room.md)
+    - [How to Use Anonymous VDR?](VDR/Anonymous-VDR.md)
 
 ---
 
@@ -73,6 +74,8 @@
     - [How to Use Anonymous Forms?](Forms/Anonymous_Form.md)
     - [How to use Web Form Integration?](Forms/Form_Integration.md)
     - [How to Send Bulk Form in Doculan?](Forms/Form_Bulk.md)
+    - [How to Use QR Check-In and Check-Out in a Form?](Forms/Form_CheckIn_CheckOut.md)
+    - [How to Use the Payment Field?](Forms/Form_pay_Field.md)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
@@ -94,9 +97,10 @@
 
 ---
 
-- **PDF Editor**
+- **Document Management**
     - [How to Merge PDF Files?](PDF_Editor/Merge_pdf.md)
     - [How to Split PDF Files?](PDF_Editor/Split_pdf.md)
+    <!-- - [How to Manage the File Lifecycle?](Document/File_Lifecycle.md) -->
 
 ---
 
