@@ -1,4 +1,4 @@
-# How to Use the Payment Field in a Form?
+# How to Use the Payment Field?
 
 The **Payment Field** allows form creators to collect payments directly from respondents as part of the form submission process. It can be used for registrations, bookings, service requests, applications, and other transactions that require payment.
 
@@ -21,8 +21,6 @@ After configuring one or both payment providers, return to the form and add the 
 > **Note:** The payment provider must be properly configured before it can be used to process payments through the Payment Field.
 
 ---
-
-Yes. Since **Stripe and PayPal follow the same configuration flow**, you can merge them into one section and avoid repeating the same instructions.
 
 ## Step 2: Configure Payment Providers
 
