@@ -76,6 +76,7 @@
     - [How to Send Bulk Form in Doculan?](Forms/Form_Bulk.md)
     - [How to Use QR Check-In and Check-Out in a Form?](Forms/Form_CheckIn_CheckOut.md)
     - [How to Use the Payment Field?](Forms/Form_pay_Field.md)
+    - [How to Customize the Form Theme?](Forms/Form_Card_Background_Theme)
 
 - **Embedded Esign**
     - [How to use Embedded Esign?](Embedded-Esign/EmbdedEsign.md)
