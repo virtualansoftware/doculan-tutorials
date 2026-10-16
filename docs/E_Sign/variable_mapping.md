@@ -28,7 +28,7 @@ Variable mapping enables dynamic personalization of bulk emails or documents by 
 
 ---
 
-## Step 2: Send Bulk Mail
+## Step 3: Send Bulk Mail
 
 - After configuring the E-Sign document, click Send Mail.
 - Select the Bulk Mail option.
@@ -38,7 +38,7 @@ Variable mapping enables dynamic personalization of bulk emails or documents by 
 
 ---
 
-## Step 3: Configure Recipient Data
+## Step 4: Configure Recipient Data
 
 ###  Option 1: Upload CSV File
 
@@ -98,7 +98,7 @@ For smaller distributions, recipient details can be entered manually.
 
 ---
 
-## Step 3: variable registry
+## Step 5: variable registry
 
 - When using Current Scope, all variable fields are processed per recipient.
 - Values are dynamically populated from the CSV file for each row.
@@ -108,7 +108,7 @@ For smaller distributions, recipient details can be entered manually.
 
 ---
 
-## Step 4: Recipient View
+## Step 6: Recipient View
 
 - Each recipient receives a personalized document.
 - All mapped variables are replaced with corresponding CSV values.

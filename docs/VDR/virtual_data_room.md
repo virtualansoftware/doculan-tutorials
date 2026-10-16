@@ -1,4 +1,4 @@
-# How to Use Viruala Dotd Room (VDR)?
+# How to Use the Virtual Data Room (VDR)?
 
 The **Virtual Data Room (VDR)** provides a secure and centralized environment for storing, organizing, sharing, and managing confidential documents. It enables teams, clients, investors, and stakeholders to collaborate efficiently while maintaining strict access controls and document security. VDR is commonly used for due diligence, mergers and acquisitions, audits, legal reviews, fundraising, and other document-intensive business processes.
 
@@ -7,7 +7,7 @@ The **Virtual Data Room (VDR)** provides a secure and centralized environment fo
 ## Step 1: Select and Add a Folder to the VDR.
 
 - Navigate to the documents and select the appropriate folder.
-- Open the folder action menu and click *Share Folder*.
+- Open the folder action menu and click **Share Folder**.
 
 <img src=" screenshots\VDR\VDR2.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -22,7 +22,7 @@ The **Virtual Data Room (VDR)** provides a secure and centralized environment fo
 ## Step 2: Add the user to the VDR.
 
 - Click the dropdown and select the folder you want to share.
-- Then click the **Add User** button in the top-right corner of the page.
+- Then click the **Add User** button.
 
 <img src=" screenshots\VDR\VDR4.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -37,14 +37,16 @@ Once you click Share, a popup or side panel will appear with fields for:
 
 <img src=" screenshots\VDR\VDR5.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- **Expiry Date:** Specify how long the shared link should remain active.  
+- **Expiry Date:** Specify how long the shared link should remain active.
+- **Never Expire:** Enable this option to keep the link active indefinitely.  
 - **Reminder:** Optionally schedule an email reminder before the link expires.  
 
 <img src=" screenshots\VDR\VDR6.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 - Enable **OTP Verification** to add an extra layer of security for shared folder access.
-- Select the **Access Permission** level. By default, recipients are assigned Viewer access, allowing them to view folder contents only.
-- Enable **Download Permission** if recipients are allowed to download files from the shared folder.
+- Select the **Access Permission** level.
+- **Viewer:** Allows recipients to view files only. Enable Download Permission if recipients also need to download files.
+- **Editor:** Allows recipients to view, edit, and download files.
 
 <img src=" screenshots\VDR\VDR.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
@@ -59,6 +61,16 @@ Once you click Share, a popup or side panel will appear with fields for:
 ---
 
 ## Step 4: Recipient Access via Email
+
+The **Confidentiality Agreement** screen in Doculan VDR requires recipients to review and acknowledge the confidentiality terms before accessing the shared Virtual Data Room.
+
+1. **Review Confidentiality Terms:** Read the agreement carefully to understand the responsibilities associated with accessing sensitive, confidential, and proprietary information.
+2. **Confirm Email Address:** Enter the full email address associated with the shared VDR invitation.
+3. **Accept the Agreement:** Select the checkbox to acknowledge and agree to the **Confidentiality & Data Access** Notice.
+4. **Agree & Continue:** Click **I Agree & Continue**to confirm acceptance and proceed to the VDR.
+5. **Cancel:** Click **Cancel** if you do not wish to accept the agreement or continue.
+
+<img src="screenshots\VDR\VDR_Confidentiality_Agreement.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
 After the folder is shared:
 
@@ -75,12 +87,44 @@ After the folder is shared:
 * Access to the shared folder is governed by the **permissions** and **expiration** settings configured by the sender. Recipients can only perform actions that have been explicitly granted.
 * Recipients can access all files within the shared folder according to the assigned permission level. Download capabilities are available only when explicitly enabled by the sender.
 * If **Download Permission** is enabled, recipients can download the shared files; otherwise, they can only view the documents within the VDR portal.
+* **Create Folders:** Click New Folder to organize documents into subfolders.
+* **Upload Documents:** Click Upload File to add files to the selected folder, subject to your permissions.
 
 <img src=" screenshots\VDR\VDR_View.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-**View** the files within the Folder.
+- **Open the Action Menu:** Click the **three-dot icon** next to the required file to view the available options.
+- **Preview:** Select Preview to open and view the document without downloading it.
+- **Download:** Select Download to save a copy of the document to your device, subject to the assigned permissions.
+- **Comments:** Select Comments to view or add comments to the document, if permitted.
+
+<img src=" screenshots\VDR\VDR_Action_Menu.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Preview** the files within the Folder.
 
 <img src=" screenshots\VDR\VDR13.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+**Click Comments** to open the comments panel, where you can view existing comments, add new comments, and reply to comments from users or administrators.
+
+
+<img src=" screenshots\VDR\VDR_Comments.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+- **Add Comments:** Select the required page or section, enter your comment in the comment field, and click the send icon to submit it.<br>
+- **User Comments:** Users can add comments to share feedback or ask questions about the document.<br>
+- **Admin Replies:** Administrators can view user comments and reply to them through the comments panel.<br>
+- **Review Discussions:** Both users and administrators can view the comment thread and replies to follow up on document-related discussions.
+
+<img src=" screenshots\VDR\VDR_Comments1.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+- **Open AI Assist:** Click the **AI button** in the document preview toolbar to open the AI Assist Bot.
+
+<img src=" screenshots\VDR\VDR_AI.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+- **Ask Questions:** Enter a question about the document in the input field to get relevant information.<br>
+- **Get Quick Summaries:** Request a summary to understand the key points of the document more efficiently.<br>
+- **Review Responses:** Read the **AI-generated answers** and verify important information against the original document.
+
+<img src=" screenshots\VDR\VDR_AI_Generate_Answer.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
 
 **Download** the files within the Folder.
 
@@ -99,19 +143,27 @@ The VDR provides comprehensive activity tracking and analytics, allowing senders
 
 <img src=" screenshots\VDR\VDR16.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
 
-- The **User** page also displays user activities in a detailed format.
-- The **VDR page** tracks detailed user activities, including the number of times each document is viewed and downloaded, providing clear usage insights.
-
-<img src=" screenshots\VDR\VDR17.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
-
 ---
 
-## step 6: Review Detailed Audit Logs
+**Room Explorer (Users Folder)**
+
+**Folder Management:** Create and navigate folders.<br>
+**File Upload:** Upload and organize documents.<br>
+**Sharing Controls:** Locate folders and manage sharing access.<br>
+**Search & Customization:** Search rooms and files and customize the workspace.
+
+
+<img src=" screenshots\VDR\VDR_Room.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document">
+
+
+
+## step 6: Review Detailed Audit Logs 
 
 Use the **Audit** feature to review recipient activity and maintain a complete record of document interactions, ensuring transparency and compliance.
 
 - In the **User** page, open the folder action menu and click **Audit**.
-- Review the recipient's activity and status, including folder access, views, downloads, and other tracked actions.
+<!-- - Review the recipient's activity and status, including folder access, views, downloads, and other tracked actions. -->
+- Review the recipient’s activity, status, assigned roles and permissions, and access expiry date.
 
 <img src=" screenshots\VDR\VDR_Audit.png" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;" alt="Screenshot for Document"><br>
 
