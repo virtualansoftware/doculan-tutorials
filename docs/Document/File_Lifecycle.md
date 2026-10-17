@@ -1,6 +1,6 @@
 # How to Manage the File Lifecycle?
 
-Doculan AI provides **File Lifecycle Management** to help users control how long a file remains active and automatically manage its deletion based on configured rules. This feature helps maintain an organized document repository and ensures files are retained only for the required duration.
+**File Lifecycle Management** allows users to configure file retention periods and automate file deletion based on predefined rules. This feature helps maintain an organized document repository, streamline document management, and ensure files are retained only for the required duration.
 
 ### Accessing Retention Settings
 To configure a retention policy for a specific file:
