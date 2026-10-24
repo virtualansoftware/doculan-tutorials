@@ -47,3 +47,39 @@ The **Full-Screen Viewer** feature allows users to view all supported file types
 <img src="screenshots\releaseNotes\VDR Full Screen2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
 ---
+
+## 3️⃣ **Mandatory 2FA Setup for Initial Login**
+
+The **Mandatory 2FA Setup for Initial Login** enhances account security by requiring users to configure two-factor authentication (2FA) during their first login. This additional verification step helps protect user accounts against unauthorized access by requiring a second authentication factor alongside the standard login credentials. The mandatory setup strengthens account protection and ensures that users establish an additional layer of security before accessing the platform.
+
+<img src="screenshots\releaseNotes\login page.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+1. Log in to Doculan using your registered credentials, install an authenticator app such as Google Authenticator or Microsoft Authenticator, and click Generate QR Code to begin configuring two-factor authentication.
+
+<img src="screenshots\releaseNotes\MFA1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+2. Scan the QR code using your authenticator app, enter the six-digit verification code, and click Verify Code to complete the setup.
+
+<img src="screenshots\releaseNotes\MFA2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+3. Download and securely store your backup codes, then click Continue to complete the 2FA setup.
+
+<img src="screenshots\releaseNotes\MFA3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+4. Access the Doculan dashboard to monitor document and form statuses, use Quick Actions, and review recent documents and activities.
+
+<img src="screenshots\releaseNotes\dashboard.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+---
+
+## 4️⃣ **Form Ticket Field Summary**
+
+The **Form Ticket Field Summary** provides a consolidated overview of ticket registrations, ticket categories, ticket quantities, and payment details. The Ticket Field is available in Doculan Forms, enabling form creators to capture and manage ticket-related information directly within their forms.
+
+This feature helps organizations collect and organize ticket information in a structured format, simplifying the tracking and management of requests, issues, and support-related submissions.
+
+<img src="screenshots\releaseNotes\Ticket Field1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+<img src="screenshots\releaseNotes\Ticket Field2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+---
