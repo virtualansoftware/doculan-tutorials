@@ -70,10 +70,6 @@ The **Mandatory 2FA Setup for Initial Login** enhances account security by requi
 
 <img src="screenshots\releaseNotes\MFA3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-4. Access the Doculan dashboard to monitor document and form statuses, use Quick Actions, and review recent documents and activities.
-
-<img src="screenshots\releaseNotes\dashboard.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
-
 ---
 
 ## 4️⃣ **Form Ticket Field Summary**
