@@ -1,13 +1,13 @@
-# How to Manage the File Lifecycle?
+# How to Manage the Document Lifecycle?
 
-Doculan AI provides **File Lifecycle Management** to help users control how long a file remains active and automatically manage its deletion based on configured rules. This feature helps maintain an organized document repository and ensures files are retained only for the required duration.
+**Document Lifecycle Management** allows users to configure Document retention periods and automate Document deletion based on predefined rules. This feature helps maintain an organized document repository, streamline document management, and ensure Documents are retained only for the required duration.
 
 ### Accessing Retention Settings
-To configure a retention policy for a specific file:
+To configure a retention policy for a specific Document:
 
 - Navigate to the Documents module from the left-hand sidebar.
-- Locate the desired file in the document list.
-- Click the Three-dot menu **(⋮)** under the Actions column on the far right of the file row.
+- Locate the desired document in the document list.
+- Click the Three-dot menu **(⋮)** under the Actions column on the far right of the document row.
 - Select Info from the dropdown menu.
 
 <img src="screenshots\Document\FIle Lifecycle.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
@@ -15,7 +15,7 @@ To configure a retention policy for a specific file:
 ---
 
 ### Configuring a Retention Policy
-Upon selecting **"Info"** a modal window will appear displaying file metadata and retention options.
+Upon selecting **"Info"** a modal window will appear displaying document metadata and retention options.
 
 #### Step 1: Initial Setup
 - If no retention policy is currently active, the modal will display a Retention section with a prompt to update.
@@ -67,7 +67,7 @@ After saving, the Info modal will update to reflect the active policy status:
 ---
 
 ### Disabling a Retention Policy
-If a document no longer requires a retention policy, you can disable it without deleting the file.
+If a document no longer requires a retention policy, you can disable it without deleting the document.
 
 1. Open the Info modal for the document.
 2. Scroll to the bottom of the modal.

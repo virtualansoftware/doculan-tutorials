@@ -101,7 +101,7 @@
 - **Document Management**
     - [How to Merge PDF Files?](PDF_Editor/Merge_pdf.md)
     - [How to Split PDF Files?](PDF_Editor/Split_pdf.md)
-    <!-- - [How to Manage the File Lifecycle?](Document/File_Lifecycle.md) -->
+    - [How to Manage the Document Lifecycle?](Document/Document_Lifecycle.md)
 
 ---
 
@@ -150,6 +150,7 @@
     - [Version 0.14.3](releaseNotes/version_0.14.3.md)
     - [Version 0.15.0](releaseNotes/version_0.15.0.md)
     - [Version 0.16.0](releaseNotes/version_0.16.0.md)
+    - [Version 0.17.0](releaseNotes/version_0.17.0.md)
 
 </div>
 
