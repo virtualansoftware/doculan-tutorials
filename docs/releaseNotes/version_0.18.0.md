@@ -118,7 +118,7 @@ This enhancement makes it easier to search and retrieve relevant submission deta
 
 <img src="screenshots\releaseNotes\Search1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-<img src="screenshots\releaseNotes\Search1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\releaseNotes\Search2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
 ---
 
