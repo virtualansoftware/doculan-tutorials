@@ -1,34 +1,39 @@
 # 🚀 Version 0.18.0 – New Enhancements
 
-## 1️⃣ **E-Sign Embed with Variable Support**
+## 1️⃣ **Import Form Details**
 
-We have enhanced the **E-Sign Embed** functionality with support for variables, allowing users to dynamically populate predefined fields with relevant information when embedding e-signature workflows.
+We have introduced a new **Import Form Details** functionality, allowing users to import existing data into forms, simplifying the process of populating form fields and managing information efficiently.
+This enhancement helps users update existing records and fill in missing user information without requiring them to complete the entire form again.
 
-This enhancement simplifies the document signing process by enabling dynamic data integration and reducing the need for manual data entry.
-
-<a href="https://youtu.be/_dmvGcpYmwY" target="_blank">
+<a href="https://youtu.be/Fwp2znnjAmU" target="_blank">
  Click Here to Watch the Video.
 </a>
 
-<img src="screenshots\releaseNotes\Variable form.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+**1. Navigate to Your Form:** Open your form and select the newly added Import tab.
 
-<img src="screenshots\releaseNotes\Variable form1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\Import Form Data\Form View.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-- **Variable Support:** Dynamically populate embedded e-signature fields using predefined variables.
-- **Improved Integration:** Seamlessly integrate dynamic information into embedded signing workflows.
+**2. Download Excel Template:** Click Download Excel Template to download a customized Excel spreadsheet containing the fields configured in your form.
 
-<img src="screenshots\releaseNotes\Variable form2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\Import Form Data\Exle File.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-- **Reduced Manual Entry:** Minimize repetitive data entry by automatically filling supported fields.
+**3. Enter Response Data:** Open the downloaded Excel template, enter the response details row by row, and save the completed file.
 
-<img src="screenshots\releaseNotes\Variable form3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\Import Form Data\File Update.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-- **Preview Option:** Preview the embedded e-signature content before finalizing the configuration.
-- **Dynamic Data Population:** Automatically populate supported fields with relevant variable values.
+**4. Upload Excel File:** Click Import Excel, select the saved Excel file from your local storage, and review the rows ready for import. The system displays the submission option as Submit.
 
-<img src="screenshots\releaseNotes\Variable form4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\Import Form Data\import file.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-This enhancement provides greater flexibility and improves the overall efficiency of embedded e-signature workflows.
+**5. Submit and Track Responses:** Complete the submission to import the records. Once successfully imported, navigate to the Table tab to view and track the newly added entries.
+
+<img src="screenshots\Import Form Data\File Import.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+<img src="screenshots\Import Form Data\File Submition.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+<img src="screenshots\Import Form Data\File List.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+
+This functionality provides a more convenient and efficient way to import and manage form data.
 
 ---
 
@@ -72,40 +77,36 @@ The **Professional Plus Plan** provides a more flexible and integrated experienc
 
 ---
 
-## 4️⃣ **Import Form Details**
+## 4️⃣ **E-Sign Embed with Variable Support**
 
-We have introduced a new **Import Form Details** functionality, allowing users to import existing data into forms, simplifying the process of populating form fields and managing information efficiently.
-This enhancement helps users update existing records and fill in missing user information without requiring them to complete the entire form again.
+We have enhanced the **E-Sign Embed** functionality with support for variables, allowing users to dynamically populate predefined fields with relevant information when embedding e-signature workflows.
 
-<a href="https://youtu.be/Fwp2znnjAmU" target="_blank">
+This enhancement simplifies the document signing process by enabling dynamic data integration and reducing the need for manual data entry.
+
+<a href="https://youtu.be/_dmvGcpYmwY" target="_blank">
  Click Here to Watch the Video.
 </a>
 
-**1. Navigate to Your Form:** Open your form and select the newly added Import tab.
+<img src="screenshots\releaseNotes\Variable form.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-<img src="screenshots\Import Form Data\Form View.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\releaseNotes\Variable form1.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-**2. Download Excel Template:** Click Download Excel Template to download a customized Excel spreadsheet containing the fields configured in your form.
+- **Variable Support:** Dynamically populate embedded e-signature fields using predefined variables.
+- **Improved Integration:** Seamlessly integrate dynamic information into embedded signing workflows.
 
-<img src="screenshots\Import Form Data\Exle File.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\releaseNotes\Variable form2.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-**3. Enter Response Data:** Open the downloaded Excel template, enter the response details row by row, and save the completed file.
+- **Reduced Manual Entry:** Minimize repetitive data entry by automatically filling supported fields.
 
-<img src="screenshots\Import Form Data\File Update.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\releaseNotes\Variable form3.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-**4. Upload Excel File:** Click Import Excel, select the saved Excel file from your local storage, and review the rows ready for import. The system displays the submission option as Submit.
+- **Preview Option:** Preview the embedded e-signature content before finalizing the configuration.
+- **Dynamic Data Population:** Automatically populate supported fields with relevant variable values.
 
-<img src="screenshots\Import Form Data\import file.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
+<img src="screenshots\releaseNotes\Variable form4.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
 
-**5. Submit and Track Responses:** Complete the submission to import the records. Once successfully imported, navigate to the Table tab to view and track the newly added entries.
+This enhancement provides greater flexibility and improves the overall efficiency of embedded e-signature workflows.
 
-<img src="screenshots\Import Form Data\File Import.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
-
-<img src="screenshots\Import Form Data\File Submition.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
-
-<img src="screenshots\Import Form Data\File List.png" alt="Step 1 — Create a New Document" style="border:2px solid black; border-radius:4px; width:100%; max-width:800px;"><br>
-
-This functionality provides a more convenient and efficient way to import and manage form data.
 
 ---
 
