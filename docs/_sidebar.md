@@ -127,31 +127,49 @@
 
 - **Release Notes**
 
-    **2025**
-    - [Version 0.3.0](releaseNotes/version_0.3.0.md)
-    - [Version 0.4.0](releaseNotes/version_0.4.0.md)
-    - [Version 0.5.0](releaseNotes/version_0.5.0.md)
 
-    **2026**
-    - [Version 0.6.0](releaseNotes/version_0.6.0.md)
-    - [Version 0.7.0](releaseNotes/version_0.7.0.md)
-    - [Version 0.8.0](releaseNotes/version_0.8.0.md)
-    - [Version 0.9.0](releaseNotes/version_0.9.0.md)
-    - [Version 0.9.1](releaseNotes/version_0.9.1.md)
-    - [Version 0.10.0](releaseNotes/version_0.10.0.md)
-    - [Version 0.11.0](releaseNotes/version_0.11.0.md)
-    - [Version 0.11.1](releaseNotes/version_0.11.1.md)
-    - [Version 0.11.2](releaseNotes/version_0.11.2.md)
-    - [Version 0.12.0](releaseNotes/version_0.12.0.md)
-    - [Version 0.13.0](releaseNotes/version_0.13.0.md)
-    - [Version 0.14.0](releaseNotes/version_0.14.0.md)
-    - [Version 0.14.1](releaseNotes/version_0.14.1.md)
-    - [Version 0.14.2](releaseNotes/version_0.14.2.md)
-    - [Version 0.14.3](releaseNotes/version_0.14.3.md)
-    - [Version 0.15.0](releaseNotes/version_0.15.0.md)
-    - [Version 0.16.0](releaseNotes/version_0.16.0.md)
-    - [Version 0.17.0](releaseNotes/version_0.17.0.md)
-    - [Version 0.18.0](releaseNotes/version_0.18.0.md)
+
+<details>
+<summary><b>2025</b></summary>
+
+<div style="padding-Right: 15px;">
+
+<ul>
+    <li><a href="#/releaseNotes/version_0.3.0">Version 0.3.0</a></li>
+    <li><a href="#/releaseNotes/version_0.4.0">Version 0.4.0</a></li>
+    <li><a href="#/releaseNotes/version_0.5.0">Version 0.5.0</a></li>
+</ul>
+    
+</details>
+
+<details>
+<summary><b>2026</b></summary>
+
+<div style="padding-Right: 15px;">
+
+<ul>
+    <li><a href="#/releaseNotes/version_0.6.0">Version 0.6.0</a></li>
+    <li><a href="#/releaseNotes/version_0.7.0">Version 0.7.0</a></li>
+    <li><a href="#/releaseNotes/version_0.8.0">Version 0.8.0</a></li>
+    <li><a href="#/releaseNotes/version_0.9.0">Version 0.9.0</a></li>
+    <li><a href="#/releaseNotes/version_0.9.1">Version 0.9.1</a></li>
+    <li><a href="#/releaseNotes/version_0.10.0">Version 0.10.0</a></li>
+    <li><a href="#/releaseNotes/version_0.11.0">Version 0.11.0</a></li>
+    <li><a href="#/releaseNotes/version_0.11.1">Version 0.11.1</a></li>
+    <li><a href="#/releaseNotes/version_0.11.2">Version 0.11.2</a></li>
+    <li><a href="#/releaseNotes/version_0.12.0">Version 0.12.0</a></li>
+    <li><a href="#/releaseNotes/version_0.13.0">Version 0.13.0</a></li>
+    <li><a href="#/releaseNotes/version_0.14.0">Version 0.14.0</a></li>
+    <li><a href="#/releaseNotes/version_0.14.1">Version 0.14.1</a></li>
+    <li><a href="#/releaseNotes/version_0.14.2">Version 0.14.2</a></li>
+    <li><a href="#/releaseNotes/version_0.14.3">Version 0.14.3</a></li>
+    <li><a href="#/releaseNotes/version_0.15.0">Version 0.15.0</a></li>
+    <li><a href="#/releaseNotes/version_0.16.0">Version 0.16.0</a></li>
+    <li><a href="#/releaseNotes/version_0.17.0">Version 0.17.0</a></li>
+    <li><a href="#/releaseNotes/version_0.18.0">Version 0.18.0</a></li>
+</ul>
+
+</details>
 
 </div>
 
