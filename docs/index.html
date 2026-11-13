@@ -502,6 +502,41 @@
 
 }
 
+/* Align dropdown arrow to the right */
+.sidebar-nav details > summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-right: 25px;
+}
+
+/* Hide default arrow */
+.sidebar-nav details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.sidebar-nav details > summary::marker {
+    content: "";
+}
+
+/* Add custom arrow on right */
+.sidebar-nav details > summary::after {
+    content: "▶";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    transition: transform 0.2s ease;
+}
+
+/* Rotate arrow when dropdown is open */
+.sidebar-nav details[open] > summary::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+
+
 /* Neutralize docsify's default cover sizing so the hero renders at
    natural height instead of being clipped/centered inside a fixed
    100vh flex box. Only override when docsify has applied `.show` —
@@ -690,6 +725,100 @@ html {
 							});
 						});
 					}
+
+					
+
+				(function () {
+
+					const STORAGE_KEY = "docsify-dropdown-states";
+
+					// Get all dropdown elements
+					function getDropdowns() {
+						return document.querySelectorAll(
+							".sidebar-nav details"
+						);
+					}
+
+					// Save dropdown open/close states
+					function saveDropdownStates() {
+						const dropdowns = getDropdowns();
+						const states = {};
+
+						dropdowns.forEach(function (dropdown) {
+							const title = dropdown.querySelector("summary");
+
+							if (title) {
+								const key = title.textContent.trim();
+								states[key] = dropdown.open;
+							}
+						});
+
+						sessionStorage.setItem(
+							STORAGE_KEY,
+							JSON.stringify(states)
+						);
+					}
+
+					// Restore dropdown states after navigation
+					function restoreDropdownStates() {
+						const saved = sessionStorage.getItem(STORAGE_KEY);
+
+						if (!saved) return;
+
+						const states = JSON.parse(saved);
+
+						getDropdowns().forEach(function (dropdown) {
+							const title = dropdown.querySelector("summary");
+
+							if (title) {
+								const key = title.textContent.trim();
+
+								if (Object.prototype.hasOwnProperty.call(states, key)) {
+									dropdown.open = states[key];
+								}
+							}
+						});
+					}
+
+					// Save whenever a dropdown is opened or closed
+					document.addEventListener("toggle", function (event) {
+						if (event.target.matches(".sidebar-nav details")) {
+							saveDropdownStates();
+						}
+					}, true);
+
+					// Restore after Docsify page navigation
+					window.addEventListener("hashchange", function () {
+						setTimeout(restoreDropdownStates, 100);
+						setTimeout(restoreDropdownStates, 300);
+					});
+
+					// Restore when sidebar is initially rendered or recreated
+					const observer = new MutationObserver(function () {
+						restoreDropdownStates();
+					});
+
+					function observeSidebar() {
+						const sidebar = document.querySelector(".sidebar-nav");
+
+						if (sidebar) {
+							observer.observe(sidebar, {
+								childList: true,
+								subtree: true
+							});
+
+							restoreDropdownStates();
+						}
+					}
+
+					observeSidebar();
+
+					// Handle delayed sidebar rendering
+					document.addEventListener("DOMContentLoaded", observeSidebar);
+
+				})();
+
+
 
 					hook.ready(injectTabs);
 					hook.doneEach(function () {
