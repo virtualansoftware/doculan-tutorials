@@ -115,6 +115,12 @@
 
 ---
 
+- **Team Management**
+    
+    -  [ How to Invite and Manage Team Members?](Team_Management/team_management.md)
+
+---
+
 - **Settings**
     - [How to Create a Subdomain?](Settings/Subdomain.md)
 
