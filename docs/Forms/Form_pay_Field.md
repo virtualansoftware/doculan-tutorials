@@ -109,7 +109,7 @@ From the available field types, select the **Payment** field and add it to the f
 
 ---
 
-### Step 6: Configure the Payment Amount
+# Step 6: Configure the Payment Amount
 
 The **Payment Field** supports **two methods** for determining the amount to be paid.
 
@@ -179,7 +179,7 @@ Users can access the form directly through the shared link without requiring an 
 
 ---
 
-### Step 8: Payment Amount Source
+# Step 8: Payment Amount Source
 
 The **Payment Field** provides two options for determining the amount to be collected. Select the appropriate option based on how the payment amount should be calculated.
 
